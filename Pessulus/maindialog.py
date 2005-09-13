@@ -93,6 +93,9 @@ class PessulusMainDialog:
                                  treeview,
                                  self.xml.get_widget ("hboxSafeProtocols"),
                                  safeprotocolremove)
+        self.__on_unsafeprotocols_toggled (unsafeprotocols, treeview,
+                                           self.xml.get_widget ("hboxSafeProtocols"),
+                                           safeprotocolremove)
 
         can_edit_mandatory = gconfutils.can_edit_mandatory ()
         if can_edit_mandatory:

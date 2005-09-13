@@ -1,5 +1,10 @@
 2005-09-13  Vincent Untz  <vuntz@gnome.org>
 
+	* Pessulus/maindialog.py: set sensitivity of the "safe protocols"
+	widgets at startup
+
+2005-09-13  Vincent Untz  <vuntz@gnome.org>
+
 	* configure.ac: post-release bump to 0.2.
 
 ==================== 0.1 ====================
