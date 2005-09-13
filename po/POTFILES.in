@@ -1,0 +1,5 @@
+# List of source files containing translatable strings.
+# Please keep this list in alphabetic order.
+data/pessulus.desktop.in.in
+data/pessulus.glade
+Pessulus/maindialog.py

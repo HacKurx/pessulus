@@ -1,0 +1,27 @@
+TODO
+====
+
+Open problems:
+  * how do we unset a mandatory gconf key in the UI?
+
+Before version 0.2:
+  * HIG compliance :-)
+
+Future:
+  * add more gconf keys
+  * keep the safe protocols that were once enabled somewhere in gconf so they
+    are easy to reenable
+  * write help files
+
+Problems waiting for a solution in another module:
+  * why doesn't gconf immediately pick up the mandatory settings?
+  * add --help, etc. in main.py
+    => waiting for GOption wrapping in pygtk because we want the GTK+ option
+       group
+  * workaround in disabledapplets.py
+    => waiting for bonobo_server_info_prop_lookup () to be wrapped in
+       gnome-python
+  * ugly workaround in disabledapplets.py
+    => waiting for g_get_language_names () to be wrapped in pygtk
+  * ugly workaround in lockdowngconfutils.py
+    => waiting for gconf_engine_get_entry() to be wrapped in gnome-python
