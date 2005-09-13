@@ -17,4 +17,4 @@ missing
 mkinstalldirs
 pessulus
 pessulus-*.tar.gz
-pycompile
+py-compile
