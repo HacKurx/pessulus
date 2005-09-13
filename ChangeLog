@@ -1,5 +1,9 @@
 2005-09-13  Vincent Untz  <vuntz@gnome.org>
 
+	Release 0.1.
+
+2005-09-13  Vincent Untz  <vuntz@gnome.org>
+
 	* .cvsignore:
 	* py-compile: kill py-compile
 
