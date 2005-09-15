@@ -64,7 +64,6 @@ class PessulusMainDialog:
     def __init__ (self):
         self.glade_file = os.path.join (GLADEDIR, "pessulus.glade")
         self.xml = gtk.glade.XML (self.glade_file, "dialogEditor", PACKAGE)
-        self.xml_addsafeprotocol = None
 
         self.gconfcheckbuttons = []
         for key, name in checkbuttons.iteritems ():
@@ -75,28 +74,37 @@ class PessulusMainDialog:
         treeview = self.xml.get_widget ("treeviewDisabledApplets")
         self.disabledapplets = disabledapplets.PessulusDisabledApplets (treeview)
 
-        safeprotocolremove = self.xml.get_widget ("buttonSafeProtocolRemove")
-        safeprotocolremove.connect ("clicked", self.__on_safeprotocols_remove)
-        safeprotocolremove.set_sensitive (False)
+        self.__init_safeprotocols ()
 
-        safeprotocoladd = self.xml.get_widget ("buttonSafeProtocolAdd")
-        safeprotocoladd.connect ("clicked", self.__on_safeprotocols_add)
+        can_edit_mandatory = self.__init_mandatory ()
+        self.client = None
+        self.__change_client (gconfutils.get_client (can_edit_mandatory))
+
+        self.xml.get_widget ("helpbutton").set_sensitive (False)
+
+        self.window = self.xml.get_widget ("dialogEditor")
+        self.window.connect ("response", self.__on_dialog_response)
+        self.window.connect ("destroy", self.__on_dialog_destroy)
+        self.window.show ()
+
+    def __init_safeprotocols (self):
+        checkbutton = self.xml.get_widget ("checkbuttonDisableUnsafeProtocols")
+        hbox = self.xml.get_widget ("hboxSafeProtocols")
 
         treeview = self.xml.get_widget ("treeviewSafeProtocols")
-        self.safeprotocols = safeprotocols.PessulusSafeProtocols (treeview)
-        treeview.get_selection ().connect ("changed",
-                                           self.__on_safeprotocols_selection_changed,
-                                           safeprotocolremove)
+        addbutton = self.xml.get_widget ("buttonSafeProtocolAdd")
+        editbutton = self.xml.get_widget ("buttonSafeProtocolEdit")
+        removebutton = self.xml.get_widget ("buttonSafeProtocolRemove")
 
-        unsafeprotocols = self.xml.get_widget ("checkbuttonDisableUnsafeProtocols")
-        unsafeprotocols.connect ("toggled", self.__on_unsafeprotocols_toggled,
-                                 treeview,
-                                 self.xml.get_widget ("hboxSafeProtocols"),
-                                 safeprotocolremove)
-        self.__on_unsafeprotocols_toggled (unsafeprotocols, treeview,
-                                           self.xml.get_widget ("hboxSafeProtocols"),
-                                           safeprotocolremove)
+        self.safeprotocols = safeprotocols.PessulusSafeProtocols (treeview,
+                                                                  addbutton,
+                                                                  editbutton,
+                                                                  removebutton)
 
+        checkbutton.connect ("toggled", self.__on_unsafeprotocols_toggled, hbox)
+        self.__on_unsafeprotocols_toggled (checkbutton, hbox)
+
+    def __init_mandatory (self):
         can_edit_mandatory = gconfutils.can_edit_mandatory ()
         if can_edit_mandatory:
             administrator = self.xml.get_widget ("hboxSystemAdministrator")
@@ -107,15 +115,7 @@ class PessulusMainDialog:
         mandatory.set_active (can_edit_mandatory)
         mandatory.connect ("toggled", self.__on_mandatory_toggled)
 
-        self.client = None
-        self.__change_client (gconfutils.get_client (can_edit_mandatory))
-
-        self.xml.get_widget ("helpbutton").set_sensitive (False)
-
-        self.window = self.xml.get_widget ("dialogEditor")
-        self.window.connect ("response", self.__on_dialog_response)
-        self.window.connect ("destroy", self.__on_dialog_destroy)
-        self.window.show ()
+        return can_edit_mandatory
 
     def __on_dialog_response (self, dialog, response_id):
         if dialog == self.window and response_id == gtk.RESPONSE_HELP:
@@ -128,52 +128,10 @@ class PessulusMainDialog:
         self.__change_client (None)
         gtk.main_quit ()
 
-    def __on_unsafeprotocols_toggled (self, checkbutton, treeview, hbox, button):
+    def __on_unsafeprotocols_toggled (self, checkbutton, hbox):
         sensitive = checkbutton.get_active ()
-        treeview.set_sensitive (sensitive)
         hbox.set_sensitive (sensitive)
-        button.set_sensitive (treeview.get_selection ().count_selected_rows () > 0)
-
-    def __on_safeprotocols_selection_changed (self, treeselection, button):
-        button.set_sensitive (treeselection.count_selected_rows () > 0)
-
-    def __on_safeprotocols_remove (self, button):
-        self.safeprotocols.remove_selected ()
-
-    def __on_safeprotocols_add (self, button):
-        if not self.xml_addsafeprotocol:
-            self.xml_addsafeprotocol = gtk.glade.XML (self.glade_file,
-                                                      "dialogAddSafeProtocol",
-                                                      PACKAGE)
-            self.dialog_addsafeprotocol = self.xml_addsafeprotocol.get_widget ("dialogAddSafeProtocol")
-            self.dialog_addsafeprotocol.connect ("response",
-                                                 self.__on_dialog_addsafeprotocol_response)
-            self.entry_addsafeprotocol = self.xml_addsafeprotocol.get_widget ("entryAddSafeProtocol")
-            button = self.xml_addsafeprotocol.get_widget ("buttonAddSafeProtocol")
-            self.entry_addsafeprotocol.connect ("activate",
-                                                self.__entry_addsafeprotocol_activate)
-            self.entry_addsafeprotocol.connect ("changed",
-                                                self.__entry_addsafeprotocol_changed,
-                                                button)
-            self.__entry_addsafeprotocol_changed (self.entry_addsafeprotocol,
-                                                  button)
-
-        self.dialog_addsafeprotocol.set_transient_for (self.window)
-        self.entry_addsafeprotocol.set_text ("")
-        self.dialog_addsafeprotocol.set_focus (self.entry_addsafeprotocol)
-        self.dialog_addsafeprotocol.run ()
-
-    def __on_dialog_addsafeprotocol_response (self, dialog, response_id):
-        if response_id == gtk.RESPONSE_OK:
-            self.safeprotocols.add_protocol (self.entry_addsafeprotocol.get_text ().strip ())
-        
-        dialog.hide ()
-
-    def __entry_addsafeprotocol_activate (self, entry):
-        self.dialog_addsafeprotocol.response (gtk.RESPONSE_OK)
-
-    def __entry_addsafeprotocol_changed (self, entry, button):
-        button.set_sensitive (entry.get_text ().strip () != "")
+        self.safeprotocols.set_sensitive (sensitive)
 
     def __on_mandatory_toggled (self, checkbutton):
         try:

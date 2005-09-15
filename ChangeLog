@@ -1,3 +1,24 @@
+2005-09-15  Vincent Untz  <vuntz@gnome.org>
+
+	Simplify the "safe protocols" edition
+
+	* Pessulus/Makefile.am: add simpleeditabletreeview.py
+	* Pessulus/simpleeditabletreeview.py: new generic simple editable
+	treeview object (it's not a widget)
+	* Pessulus/maindialog.py: remove lots of "safe protocols" things,
+	move some code around (to __init_safeprotocols() and
+	__init_mandatory ())
+	* Pessulus/safeprotocols.py: simplify a lot since we're now using
+	simpleeditabletreeview: we just need to connect to this object's
+	"changed" signal
+	* data/pessulus.glade: remove the old "add safe protocol" dialog and
+	add an "edit" button
+
+	* Pessulus/disabledapplets.py: make code more readable,
+	(__on_notified): don't always update (this didn't work as intended, in
+	fact)
+	* Pessulus/gconfcheckbutton.py: add "Warning" to a string
+
 2005-09-13  Vincent Untz  <vuntz@gnome.org>
 
 	* Pessulus/maindialog.py: set sensitivity of the "safe protocols"

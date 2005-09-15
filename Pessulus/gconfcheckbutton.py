@@ -46,7 +46,7 @@ class PessulusGconfCheckbutton:
             if schema:
                 self.tooltips.set_tip (self.checkbutton, schema.get_long_desc ())
         except gobject.GError:
-            print >> sys.stderr, "Could not get schema for %s" % self.key
+            print >> sys.stderr, "Warning: Could not get schema for %s" % self.key
 
     def change_client (self, client):
         if self.notify_id:

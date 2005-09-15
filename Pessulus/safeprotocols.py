@@ -23,24 +23,19 @@
 import gconf
 import gtk
 
-class PessulusSafeProtocols:
-    (
-        COLUMN_PROTOCOL,
-    ) = range (1)
+import simpleeditabletreeview
 
-    def __init__ (self, treeview):
+class PessulusSafeProtocols:
+    def __init__ (self, treeview, addbutton, editbutton, removebutton):
         self.notify_id = None
         self.client = None
         self.key = "/apps/epiphany/lockdown/additional_safe_protocols"
         self.safe_protocols = None
+        self.sensitive = True
 
-        self.liststore = gtk.ListStore (str)
-
-        self.treeview = treeview
-        self.treeview.get_selection ().set_mode (gtk.SELECTION_SINGLE)
-        self.treeview.set_model (self.liststore)
-
-        self.__create_columns ()
+        self.simpleeditabletreeview = simpleeditabletreeview.PessulusSimpleEditableTreeview (treeview, addbutton, editbutton, removebutton)
+        self.simpleeditabletreeview.connect ("changed",
+                                             self.__on_treeview_changed)
 
     def change_client (self, client):
         if self.notify_id:
@@ -53,43 +48,39 @@ class PessulusSafeProtocols:
         self.client = client
         self.notify_id = self.client.notify_add (self.key, self.__on_notified)
 
-        self.safe_protocols = set (self.client.get_list (self.key, gconf.VALUE_STRING))
-        self.__update_model ()
+        self.safe_protocols = set (self.client.get_list (self.key,
+                                                         gconf.VALUE_STRING))
+        self.__update_simpleeditabletreeview ()
 
-    def add_protocol (self, protocol):
-        if protocol in self.safe_protocols:
-            return
-
-        self.safe_protocols.add (protocol)
-        self.client.set_list (self.key, gconf.VALUE_STRING, list (self.safe_protocols))
-
-    def remove_selected (self):
-        (model, iter) = self.treeview.get_selection ().get_selected ()
-        if not iter or model[iter][self.COLUMN_PROTOCOL] not in self.safe_protocols:
-            return
-        
-        self.safe_protocols.remove (model[iter][self.COLUMN_PROTOCOL])
-        self.client.set_list (self.key, gconf.VALUE_STRING, list (self.safe_protocols))
-
-    def __create_columns (self):
-        column = gtk.TreeViewColumn ()
-        self.treeview.append_column (column)
-
-        cell = gtk.CellRendererText ()
-        column.pack_start (cell, True)
-        column.set_attributes (cell, text = self.COLUMN_PROTOCOL)
+    def set_sensitive (self, sensitive):
+        self.sensitive = sensitive
+        self.__update_sensitivity ()
 
     def __on_notified (self, client, cnxn_id, entry, data):
         if entry.value and entry.value.type == gconf.VALUE_LIST:
-            if entry.value.get_list () != self.safe_protocols:
-                self.safe_protocols.clear ()
-                for value in entry.value.get_list ():
-                    if value.type == gconf.VALUE_STRING:
-                        self.safe_protocols.add (value.get_string ())
-                self.__update_model ()
+            gconf_set = set ()
+            for value in entry.value.get_list ():
+                if value.type == gconf.VALUE_STRING:
+                    gconf_set.add (value.get_string ())
 
-    def __update_model (self):
-        self.liststore.clear ()
-        for protocol in self.safe_protocols:
-            iter = self.liststore.append ()
-            self.liststore.set (iter, self.COLUMN_PROTOCOL, protocol)
+            if gconf_set != self.safe_protocols:
+                self.safe_protocols = gconf_set
+                self.__update_simpleeditabletreeview ()
+
+    def __on_treeview_changed (self, simpleeditabletreeview, new_set):
+        if new_set != self.safe_protocols:
+            self.safe_protocols = new_set.copy ()
+            self.client.set_list (self.key, gconf.VALUE_STRING,
+                                  list (self.safe_protocols))
+
+    def __update_sensitivity (self):
+        if self.client:
+            sensitive = self.sensitive and self.client.key_is_writable (self.key)
+        else:
+            sensitive = self.sensitive
+
+        self.simpleeditabletreeview.set_sensitive (sensitive)
+
+    def __update_simpleeditabletreeview (self):
+        self.__update_sensitivity ()
+        self.simpleeditabletreeview.update_set (self.safe_protocols)

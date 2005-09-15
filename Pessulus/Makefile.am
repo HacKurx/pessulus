@@ -8,7 +8,8 @@ app_PYTHON = 			\
 	icons.py		\
 	main.py			\
 	maindialog.py		\
-	safeprotocols.py
+	safeprotocols.py	\
+	simpleeditabletreeview.py
 
 nodist_app_PYTHON = config.py
 

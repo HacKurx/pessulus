@@ -147,7 +147,8 @@ class PessulusDisabledApplets:
         self.client = client
         self.notify_id = self.client.notify_add (self.key, self.__on_notified)
 
-        self.disabled_applets = set (self.client.get_list (self.key, gconf.VALUE_STRING))
+        self.disabled_applets = set (self.client.get_list (self.key,
+                                                           gconf.VALUE_STRING))
         self.__update_toggles ()
 
     def __on_screen_changed (self, widget, screen):
@@ -215,21 +216,26 @@ class PessulusDisabledApplets:
         iter = self.liststore.get_iter (path)
         active = toggle_value (self.liststore, iter, self.COLUMN_DISABLED)
 
+        iid = self.liststore[iter][self.COLUMN_IID]
         if active:
-            if self.liststore[iter][self.COLUMN_IID] not in self.disabled_applets:
-                self.disabled_applets.add (self.liststore[iter][self.COLUMN_IID])
-                self.client.set_list (self.key, gconf.VALUE_STRING, list (self.disabled_applets))
-        elif self.liststore[iter][self.COLUMN_IID] in self.disabled_applets:
-            self.disabled_applets.remove (self.liststore[iter][self.COLUMN_IID])
-            self.client.set_list (self.key, gconf.VALUE_STRING, list (self.disabled_applets))
+            if iid not in self.disabled_applets:
+                self.disabled_applets.add (iid)
+                self.client.set_list (self.key, gconf.VALUE_STRING,
+                                      list (self.disabled_applets))
+        elif iid in self.disabled_applets:
+            self.disabled_applets.remove (iid)
+            self.client.set_list (self.key, gconf.VALUE_STRING,
+                                  list (self.disabled_applets))
 
     def __on_notified (self, client, cnxn_id, entry, data):
         if entry.value and entry.value.type == gconf.VALUE_LIST:
-            if entry.value.get_list () != self.disabled_applets:
-                self.disabled_applets.clear ()
-                for value in entry.value.get_list ():
-                    if value.type == gconf.VALUE_STRING:
-                        self.disabled_applets.add (value.get_string ())
+            gconf_set = set ()
+            for value in entry.value.get_list ():
+                if value.type == gconf.VALUE_STRING:
+                    gconf_set.add (value.get_string ())
+
+            if gconf_set != self.disabled_applets:
+                self.disabled_applets = gconf_set
                 self.__update_toggles ()
 
     def __update_toggles (self):
