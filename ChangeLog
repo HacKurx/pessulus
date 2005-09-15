@@ -1,3 +1,7 @@
+2005-09-15  Danilo Šegan  <danilo@gnome.org>
+
+	* configure.ac (ALL_LINGUAS): Added "sr", "sr@Latn".
+
 2005-09-15  Vincent Untz  <vuntz@gnome.org>
 
 	Simplify the "safe protocols" edition

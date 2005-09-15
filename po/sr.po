@@ -1,0 +1,132 @@
+# Serbian translation of Pessulus
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2005.
+#
+# This file is distributed under the same license as the Pessulus package.
+#
+# Maintainer: Данило Шеган <danilo@gnome.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Песулус\n"
+"PO-Revision-Date: 2005-09-15 21:25+0200\n"
+"Last-Translator: Данило Шеган <danilo@gnome.org>\n"
+"Language-Team: Serbian (sr) <gnom@prevod.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled applets</b>"
+msgstr "<b>Забрањени програмчићи</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe protocols</b>"
+msgstr "<b>Безбедни протоколи</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Configure the _mandatory settings"
+msgstr "Мењај о_бавезна подешавања"
+
+#: ../data/pessulus.glade.h:4
+msgid "Disable _arbitrary URL"
+msgstr "Забрани про_извољне адресе"
+
+#: ../data/pessulus.glade.h:5
+msgid "Disable _bookmark editing"
+msgstr "Забрани _уређивање обележивача"
+
+#: ../data/pessulus.glade.h:6
+msgid "Disable _command line"
+msgstr "Забрани _линију наредби"
+
+#: ../data/pessulus.glade.h:7
+msgid "Disable _history"
+msgstr "Забрани ис_торијат"
+
+# chrome?
+#: ../data/pessulus.glade.h:8
+msgid "Disable _javascript chrome"
+msgstr "Забрани _ЈаваСкрипт"
+
+#: ../data/pessulus.glade.h:9
+msgid "Disable _printing"
+msgstr "Забрани _штампу"
+
+#: ../data/pessulus.glade.h:10
+msgid "Disable _toolbar editing"
+msgstr "Забрани уређивање _алатки"
+
+#: ../data/pessulus.glade.h:11
+msgid "Disable _unsafe protocols"
+msgstr "Забрани _небезбедне протоколе"
+
+#: ../data/pessulus.glade.h:12
+msgid "Disable force _quit"
+msgstr "Забрани присилно _затварање"
+
+#: ../data/pessulus.glade.h:13
+msgid "Disable lock _screen"
+msgstr "Забрани _закључавање екрана"
+
+#: ../data/pessulus.glade.h:14
+msgid "Disable log _out"
+msgstr "Забрани о_дјаву"
+
+#: ../data/pessulus.glade.h:15
+msgid "Disable print _setup"
+msgstr "Забрани _подешавање штампе"
+
+#: ../data/pessulus.glade.h:16
+msgid "Disable save to _disk"
+msgstr "Забрани _чување на диск"
+
+#: ../data/pessulus.glade.h:17
+msgid "General"
+msgstr "Опште"
+
+#: ../data/pessulus.glade.h:18
+msgid "Hide _menubar"
+msgstr "Сакриј _мени"
+
+#: ../data/pessulus.glade.h:19
+msgid "Lockdown Editor"
+msgstr "Уређивач ограничења"
+
+#: ../data/pessulus.glade.h:20
+msgid "Only the system administrator can configure the mandatory settings"
+msgstr "Само администратор система може мењати обавезна подешавања"
+
+#: ../data/pessulus.glade.h:21
+msgid "Panel"
+msgstr "Панел"
+
+#: ../data/pessulus.glade.h:22
+msgid "Web Browser"
+msgstr "Читач веба"
+
+#: ../data/pessulus.glade.h:23
+msgid "_Fullscreen"
+msgstr "_Цео екран"
+
+#: ../data/pessulus.glade.h:24
+msgid "_Lock down the panels"
+msgstr "_Закључај панеле"
+
+#: ../Pessulus/maindialog.py:141
+msgid "Can not configure the mandatory settings"
+msgstr "Не могу да мењам обавезна подешавања"
+
+#: ../Pessulus/maindialog.py:142
+msgid "You might not have the rights to configure the mandatory settings."
+msgstr "Можда нисте овлашћени да мењате обавезна подешавања."
+
+#: ../Pessulus/maindialog.py:144
+msgid "Can not configure the regular settings"
+msgstr "Не могу да мењам обична подешавања"
+
+#: ../Pessulus/maindialog.py:145
+msgid ""
+"As this should never happen, we advise you to close the lockdown editor and "
+"start again."
+msgstr "Пошто ово не треба никад да се догоди, препоручујемо да затворите уређивач ограничења и почнете поново."
