@@ -1,3 +1,7 @@
+2005-09-16  Funda Wang  <fundawang@linux.net.cn>
+
+	* configure.ac (ALL_LINGUAS): Added "zh_CN".
+
 2005-09-15  Danilo Šegan  <danilo@gnome.org>
 
 	* configure.ac (ALL_LINGUAS): Added "sr", "sr@Latn".
