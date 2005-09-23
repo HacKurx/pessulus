@@ -1,3 +1,7 @@
+2005-09-23  Adam Weinberger  <adamw@gnome.org>
+
+	* configure.ac: Added en_CA to ALL_LINGUAS.
+
 2005-09-16  Funda Wang  <fundawang@linux.net.cn>
 
 	* configure.ac (ALL_LINGUAS): Added "zh_CN".
