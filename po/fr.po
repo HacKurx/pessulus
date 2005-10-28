@@ -1,0 +1,132 @@
+# French translation of procman.
+# Copyright (C) 2002-2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pessulus package.
+#
+# Benoît Dejean <benoit@placenet.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: procman 2.11.92\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-10-28 16:33+0200\n"
+"PO-Revision-Date: 2005-10-28 21:16+0200\n"
+"Last-Translator: Benoît Dejean <benoit@placenet.org>, 2005\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled applets</b>"
+msgstr "<b>Applets désactivées</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe protocols</b>"
+msgstr "<b>Protocoles sures</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Configure the _mandatory settings"
+msgstr "Configurer les paramètres _obligatoires"
+
+#: ../data/pessulus.glade.h:4
+msgid "Disable _arbitrary URL"
+msgstr "Désactiver les URL _arbitraires"
+
+#: ../data/pessulus.glade.h:5
+msgid "Disable _bookmark editing"
+msgstr "Désactiver l'édition des _signets"
+
+#: ../data/pessulus.glade.h:6
+msgid "Disable _command line"
+msgstr "Désactiver la ligne de _commande"
+
+#: ../data/pessulus.glade.h:7
+msgid "Disable _history"
+msgstr "Désactiver l'_historique"
+
+#: ../data/pessulus.glade.h:8
+msgid "Disable _javascript chrome"
+msgstr "Désactiver _javascript chrome"
+
+#: ../data/pessulus.glade.h:9
+msgid "Disable _printing"
+msgstr "Désactiver l'im_pression"
+
+#: ../data/pessulus.glade.h:10
+msgid "Disable _toolbar editing"
+msgstr "Désactiver l'édition de la barre d'ou_tils"
+
+#: ../data/pessulus.glade.h:11
+msgid "Disable _unsafe protocols"
+msgstr "Désactiver les protocoles non s_ures."
+
+#: ../data/pessulus.glade.h:12
+msgid "Disable force _quit"
+msgstr "Désactiver « forcer _quitter »"
+
+#: ../data/pessulus.glade.h:13
+msgid "Disable lock _screen"
+msgstr "Désaciver le _verrouillage de l'écran"
+
+#: ../data/pessulus.glade.h:14
+msgid "Disable log _out"
+msgstr "Désactiver la clôture de _session"
+
+#: ../data/pessulus.glade.h:15
+msgid "Disable print _setup"
+msgstr "Désactiver la configuration de l'_impression"
+
+#: ../data/pessulus.glade.h:16
+msgid "Disable save to _disk"
+msgstr "Désactiver la sauvegarde sur _disque"
+
+#: ../data/pessulus.glade.h:17
+msgid "General"
+msgstr "Général"
+
+#: ../data/pessulus.glade.h:18
+msgid "Hide _menubar"
+msgstr "Masquer la barre de _menu"
+
+#: ../data/pessulus.glade.h:19
+msgid "Lockdown Editor"
+msgstr "Éditeur de verrous"
+
+#: ../data/pessulus.glade.h:20
+msgid "Only the system administrator can configure the mandatory settings"
+msgstr "L'administrateur système est le seul à pouvoir configurer les paramètres obligatoires"
+
+#: ../data/pessulus.glade.h:21
+msgid "Panel"
+msgstr "Tableau de bord"
+
+#: ../data/pessulus.glade.h:22
+msgid "Web Browser"
+msgstr "Navigateur web"
+
+#: ../data/pessulus.glade.h:23
+msgid "_Fullscreen"
+msgstr "_Plein écran"
+
+#: ../data/pessulus.glade.h:24
+msgid "_Lock down the panels"
+msgstr "Vérouiller les _tableaux de bords"
+
+#: ../Pessulus/maindialog.py:141
+msgid "Can not configure the mandatory settings"
+msgstr "Impossible de configurer les paramètres obligatoires"
+
+#: ../Pessulus/maindialog.py:142
+msgid "You might not have the rights to configure the mandatory settings."
+msgstr "Il semble que vous n'ayez pas le droit de configurer les paramètres obligatoires."
+
+#: ../Pessulus/maindialog.py:144
+msgid "Can not configure the regular settings"
+msgstr "Impossible de configurer les paramètres habituels"
+
+#: ../Pessulus/maindialog.py:145
+msgid ""
+"As this should never happen, we advise you to close the lockdown editor and "
+"start again."
+msgstr "Ceci ne devrait jamais se produire, nous vous conseillons donc de fermer l'éditeur de verrous et de le redémarrer."
