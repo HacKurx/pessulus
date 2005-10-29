@@ -27,6 +27,13 @@ import gtk
 
 import icons
 
+
+try:
+    set
+except:
+    from sets import Set as set
+
+
 # there's no wrapper for g_get_language_names (). Ugly workaround:
 # Note that we don't handle locale alias...
 def get_language_names ():

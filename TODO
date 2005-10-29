@@ -6,6 +6,7 @@ Open problems:
 
 Before version 0.2:
   * HIG compliance :-)
+  * LockdownApplier, to help integrate pessulus in sabayon
 
 Future:
   * add more gconf keys

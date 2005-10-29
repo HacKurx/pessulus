@@ -23,6 +23,11 @@
 import gconf
 import gtk
 
+try:
+    set
+except:
+    from sets import Set as set
+
 import simpleeditabletreeview
 
 class PessulusSafeProtocols:

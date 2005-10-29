@@ -1,3 +1,13 @@
+2005-10-29  Vincent Untz  <vuntz@gnome.org>
+
+	* Pessulus/disabledapplets.py:
+	* Pessulus/safeprotocols.py:
+	* Pessulus/simpleeditabletreeview.py: make it work in python 2.3 (the
+	'sets' trick)
+	Patch by Benoît Dejean  <benoit@placenet.org>
+
+	* TODO: add note about integration with sabayon
+
 2005-10-29  Dennis Cranston  <dennis_cranston@yahoo.com>
 
 	* data/pessulus.glade:  Basic GNOME HIG fixes.

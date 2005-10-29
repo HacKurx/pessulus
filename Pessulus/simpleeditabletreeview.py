@@ -24,6 +24,11 @@ import gobject
 import gtk
 import sys
 
+try:
+    set
+except:
+    from sets import Set as set
+
 class PessulusSimpleEditableTreeview (gobject.GObject):
     (
         COLUMN_EDITABLE,
