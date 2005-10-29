@@ -11,7 +11,7 @@ PKG_CHECK_MODULES(PESSULUS,
 		  pygtk-2.0 >= 2.6.0		\
 		  gnome-python-2.0 >= 2.6.0)
 
-ALL_LINGUAS="en_CA fr sr sr@Latn zh_CN"
+ALL_LINGUAS="en_CA es fr sr sr@Latn zh_CN"
 GETTEXT_PACKAGE=pessulus
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])

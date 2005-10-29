@@ -1,3 +1,7 @@
+2005-10-29  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
+
+	* configure.ac (ALL_LINGUAS):Added "es". 
+
 2005-10-29  Vincent Untz  <vuntz@gnome.org>
 
 	* Pessulus/disabledapplets.py:
