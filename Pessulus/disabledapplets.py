@@ -121,9 +121,9 @@ class PessulusDisabledApplets:
         COLUMN_DISABLED
     ) = range (5)
 
-    def __init__ (self, treeview):
+    def __init__ (self, applier, treeview):
         self.notify_id = None
-        self.client = None
+        self.applier = applier
         self.key = "/apps/panel/global/disabled_applets"
         self.disabled_applets = None
 
@@ -134,6 +134,7 @@ class PessulusDisabledApplets:
         self.treeview.get_selection ().set_mode (gtk.SELECTION_SINGLE)
         self.treeview.set_model (self.liststore)
         self.treeview.connect ("screen-changed", self.__on_screen_changed)
+        self.treeview.connect ("destroy", self.__on_destroyed)
 
         screen = self.treeview.get_screen ()
         self.icon_theme = gtk.icon_theme_get_for_screen (screen)
@@ -143,20 +144,10 @@ class PessulusDisabledApplets:
         self.__fill_liststore ()
         self.__create_columns ()
 
-    def change_client (self, client):
-        if self.notify_id:
-            if self.client:
-                self.client.notify_remove (self.notify_id)
-
-        if not client:
-            return
-
-        self.client = client
-        self.notify_id = self.client.notify_add (self.key, self.__on_notified)
-
-        self.disabled_applets = set (self.client.get_list (self.key,
-                                                           gconf.VALUE_STRING))
+        (list, mandatory) = self.applier.get_list (self.key, gconf.VALUE_STRING)
+        self.disabled_applets = set (list)
         self.__update_toggles ()
+        self.notify_id = self.applier.notify_add (self.key, self.__on_notified)
 
     def __on_screen_changed (self, widget, screen):
         self.icon_theme = gtk.icon_theme_get_for_screen (screen)
@@ -227,12 +218,14 @@ class PessulusDisabledApplets:
         if active:
             if iid not in self.disabled_applets:
                 self.disabled_applets.add (iid)
-                self.client.set_list (self.key, gconf.VALUE_STRING,
-                                      list (self.disabled_applets))
+    #FIXME
+                self.applier.set_list (self.key, gconf.VALUE_STRING,
+                                       list (self.disabled_applets), False)
         elif iid in self.disabled_applets:
             self.disabled_applets.remove (iid)
-            self.client.set_list (self.key, gconf.VALUE_STRING,
-                                  list (self.disabled_applets))
+    #FIXME
+            self.applier.set_list (self.key, gconf.VALUE_STRING,
+                                   list (self.disabled_applets), False)
 
     def __on_notified (self, client, cnxn_id, entry, data):
         if entry.value and entry.value.type == gconf.VALUE_LIST:
@@ -252,4 +245,13 @@ class PessulusDisabledApplets:
                 model[iter][self.COLUMN_DISABLED] = active
 
         self.liststore.foreach (update_toggle, self)
-        self.treeview.set_sensitive (self.client.key_is_writable (self.key))
+        self.treeview.set_sensitive (self.applier.key_is_writable (self.key))
+
+    def __on_destroyed (self, treeview):
+        if self.notify_id:
+            if self.applier:
+                self.applier.notify_remove (self.notify_id)
+            self.notify_id = None
+
+        if self.applier:
+            self.applier = None

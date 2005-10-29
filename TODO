@@ -1,12 +1,11 @@
 TODO
 ====
 
-Open problems:
-  * how do we unset a mandatory gconf key in the UI?
-
 Before version 0.2:
   * HIG compliance :-)
-  * LockdownApplier, to help integrate pessulus in sabayon
+  * tooltip on lock icon
+  * we don't need multiple Tooltips, but just one
+  * the treeview don't work with mandatory settings anymore
 
 Future:
   * add more gconf keys
@@ -24,5 +23,5 @@ Problems waiting for a solution in another module:
        gnome-python
   * ugly workaround in disabledapplets.py
     => waiting for g_get_language_names () to be wrapped in pygtk
-  * ugly workaround in lockdowngconfutils.py
+  * ugly workaround in lockdownappliergconf.py
     => waiting for gconf_engine_get_entry() to be wrapped in gnome-python

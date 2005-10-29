@@ -1,3 +1,29 @@
+2005-10-30  Vincent Untz  <vuntz@gnome.org>
+
+	Big changes :-) The settings using a treeview doesn't support the
+	mandatory settings for now. I'll fix it soon.
+
+	* TODO: updated
+	* Pessulus/Makefile.am: updated
+
+	* Pessulus/gconfcheckbutton.py: removed
+	* Pessulus/gconfutils.py: removed
+
+	* Pessulus/lockdownapplier.py: new
+	* Pessulus/lockdownappliergconf.py: new
+	* Pessulus/lockdowncheckbutton.py: new, replace gconfcheckbutton.py
+
+	* Pessulus/main.py: create an applier here
+	* Pessulus/maindialog.py: updated to use applier (this also means we
+	don't deal with the mandatory stuff here any more), updated to create
+	the buttons instead of using the ones in the glade file
+	* Pessulus/disabledapplets.py: updated to use applier, also clean
+	things on destroy of the treeview
+	* Pessulus/safeprotocols.py: ditto
+
+	* data/pessulus.glade: remove lots of stuff that will be added in the
+	code (it's easier in the code...)
+
 2005-10-29  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
 
 	* configure.ac (ALL_LINGUAS):Added "es". 

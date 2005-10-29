@@ -31,31 +31,22 @@ except:
 import simpleeditabletreeview
 
 class PessulusSafeProtocols:
-    def __init__ (self, treeview, addbutton, editbutton, removebutton):
+    def __init__ (self, applier, treeview, addbutton, editbutton, removebutton):
         self.notify_id = None
-        self.client = None
+        self.applier = applier
         self.key = "/apps/epiphany/lockdown/additional_safe_protocols"
         self.safe_protocols = None
         self.sensitive = True
 
+        treeview.connect ("destroy", self.__on_destroyed)
         self.simpleeditabletreeview = simpleeditabletreeview.PessulusSimpleEditableTreeview (treeview, addbutton, editbutton, removebutton)
         self.simpleeditabletreeview.connect ("changed",
                                              self.__on_treeview_changed)
 
-    def change_client (self, client):
-        if self.notify_id:
-            if self.client:
-                self.client.notify_remove (self.notify_id)
-
-        if not client:
-            return
-
-        self.client = client
-        self.notify_id = self.client.notify_add (self.key, self.__on_notified)
-
-        self.safe_protocols = set (self.client.get_list (self.key,
-                                                         gconf.VALUE_STRING))
+        (list, mandatory) = self.applier.get_list (self.key, gconf.VALUE_STRING)
+        self.safe_protocols = set (list)
         self.__update_simpleeditabletreeview ()
+        self.notify_id = self.applier.notify_add (self.key, self.__on_notified)
 
     def set_sensitive (self, sensitive):
         self.sensitive = sensitive
@@ -75,12 +66,13 @@ class PessulusSafeProtocols:
     def __on_treeview_changed (self, simpleeditabletreeview, new_set):
         if new_set != self.safe_protocols:
             self.safe_protocols = new_set.copy ()
-            self.client.set_list (self.key, gconf.VALUE_STRING,
-                                  list (self.safe_protocols))
+    #FIXME
+            self.applier.set_list (self.key, gconf.VALUE_STRING,
+                                   list (self.safe_protocols), False)
 
     def __update_sensitivity (self):
-        if self.client:
-            sensitive = self.sensitive and self.client.key_is_writable (self.key)
+        if self.applier:
+            sensitive = self.sensitive and self.applier.key_is_writable (self.key)
         else:
             sensitive = self.sensitive
 
@@ -89,3 +81,12 @@ class PessulusSafeProtocols:
     def __update_simpleeditabletreeview (self):
         self.__update_sensitivity ()
         self.simpleeditabletreeview.update_set (self.safe_protocols)
+
+    def __on_destroyed (self, treeview):
+        if self.notify_id:
+            if self.applier:
+                self.applier.notify_remove (self.notify_id)
+            self.notify_id = None
+
+        if self.applier:
+            self.applier = None

@@ -21,17 +21,19 @@
 #
 
 import os.path
+import gconf
+import gettext
 import gobject
 import gtk
 import gtk.glade
-import gconf
 
 from config import *
 
 import disabledapplets
-import gconfutils
-import gconfcheckbutton
 import safeprotocols
+import lockdowncheckbutton
+
+gettext.install (PACKAGE, LOCALEDIR)
 
 gconfdirs = [
 "/desktop/gnome/lockdown",
@@ -39,46 +41,46 @@ gconfdirs = [
 "/apps/panel/global"
 ]
 
-checkbuttons = {
-    "/desktop/gnome/lockdown/disable_command_line": "checkbuttonDisableCommandLine",
-    "/desktop/gnome/lockdown/disable_printing": "checkbuttonDisablePrinting",
-    "/desktop/gnome/lockdown/disable_print_setup": "checkbuttonDisablePrintSetup",
-    "/desktop/gnome/lockdown/disable_save_to_disk": "checkbuttonDisableSaveToDisk",
+lockdownbuttons = (
+    ( "/desktop/gnome/lockdown/disable_command_line", _("Disable _command line"), "vbox7" ),
+    ( "/desktop/gnome/lockdown/disable_printing", _("Disable _printing"), "vbox7" ),
+    ( "/desktop/gnome/lockdown/disable_print_setup", _("Disable print _setup"), "vbox7" ),
+    ( "/desktop/gnome/lockdown/disable_save_to_disk", _("Disable save to _disk"), "vbox7" ),
 
-    "/apps/panel/global/locked_down": "checkbuttonPanelLockedDown",
-    "/apps/panel/global/disable_force_quit": "checkbuttonDisableForceQuit",
-    "/apps/panel/global/disable_lock_screen": "checkbuttonDisableLockScreen",
-    "/apps/panel/global/disable_log_out": "checkbuttonDisableLogOut",
+    ( "/apps/panel/global/locked_down", _("_Lock down the panels"), "vbox8" ),
+    ( "/apps/panel/global/disable_force_quit", _("Disable force _quit"), "vbox8" ),
+    ( "/apps/panel/global/disable_lock_screen", _("Disable lock _screen"), "vbox8" ),
+    ( "/apps/panel/global/disable_log_out", _("Disable log _out"), "vbox8" ),
 
-    "/apps/epiphany/lockdown/disable_arbitrary_url": "checkbuttonDisableArbitraryURL",
-    "/apps/epiphany/lockdown/disable_bookmark_editing": "checkbuttonDisableBookmarkEditing",
-    "/apps/epiphany/lockdown/disable_history": "checkbuttonDisableHistory",
-    "/apps/epiphany/lockdown/disable_javascript_chrome": "checkbuttonDisableJavascriptChrome",
-    "/apps/epiphany/lockdown/disable_toolbar_editing": "checkbuttonDisableToolbarEditing",
-    "/apps/epiphany/lockdown/fullscreen": "checkbuttonFullscreen",
-    "/apps/epiphany/lockdown/hide_menubar": "checkbuttonHideMenubar",
-    "/apps/epiphany/lockdown/disable_unsafe_protocols": "checkbuttonDisableUnsafeProtocols"
-}
+    ( "/apps/epiphany/lockdown/disable_quit", _("Disable _quit"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/disable_arbitrary_url", _("Disable _arbitrary URL"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/disable_bookmark_editing", _("Disable _bookmark editing"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/disable_history", _("Disable _history"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/disable_javascript_chrome", _("Disable _javascript chrome"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/disable_toolbar_editing", _("Disable _toolbar editing"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/fullscreen", _("_Fullscreen"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/hide_menubar", _("Hide _menubar"), "vbox9" )
+)
 
 class PessulusMainDialog:
-    def __init__ (self):
+    def __init__ (self, applier):
+        self.applier = applier
+        for gconfdir in gconfdirs:
+            self.applier.add_dir (gconfdir, gconf.CLIENT_PRELOAD_NONE)
+
         self.glade_file = os.path.join (GLADEDIR, "pessulus.glade")
         self.xml = gtk.glade.XML (self.glade_file, "dialogEditor", PACKAGE)
 
-        self.gconfcheckbuttons = []
-        for key, name in checkbuttons.iteritems ():
-            self.gconfcheckbuttons.append (
-                gconfcheckbutton.PessulusGconfCheckbutton (
-                    self.xml.get_widget (name), key))
+        for (key, string, box_str) in lockdownbuttons:
+            button = lockdowncheckbutton.PessulusLockdownCheckbutton.new (applier, key, string)
+            box = self.xml.get_widget (box_str)
+            box.pack_start (button.get_hbox (), False)
 
         treeview = self.xml.get_widget ("treeviewDisabledApplets")
-        self.disabledapplets = disabledapplets.PessulusDisabledApplets (treeview)
+        self.disabledapplets = disabledapplets.PessulusDisabledApplets (applier,
+                                                                        treeview)
 
         self.__init_safeprotocols ()
-
-        can_edit_mandatory = self.__init_mandatory ()
-        self.client = None
-        self.__change_client (gconfutils.get_client (can_edit_mandatory))
 
         self.xml.get_widget ("helpbutton").set_sensitive (False)
 
@@ -88,7 +90,14 @@ class PessulusMainDialog:
         self.window.show ()
 
     def __init_safeprotocols (self):
+        button = self.xml.get_widget ("buttonDisableUnsafeProtocols")
         checkbutton = self.xml.get_widget ("checkbuttonDisableUnsafeProtocols")
+
+        lockdowncheckbutton.PessulusLockdownCheckbutton.new_with_widgets (
+                    self.applier,
+                    "/apps/epiphany/lockdown/disable_unsafe_protocols",
+                    button, checkbutton)
+
         hbox = self.xml.get_widget ("hboxSafeProtocols")
 
         treeview = self.xml.get_widget ("treeviewSafeProtocols")
@@ -96,26 +105,14 @@ class PessulusMainDialog:
         editbutton = self.xml.get_widget ("buttonSafeProtocolEdit")
         removebutton = self.xml.get_widget ("buttonSafeProtocolRemove")
 
-        self.safeprotocols = safeprotocols.PessulusSafeProtocols (treeview,
+        self.safeprotocols = safeprotocols.PessulusSafeProtocols (self.applier,
+                                                                  treeview,
                                                                   addbutton,
                                                                   editbutton,
                                                                   removebutton)
 
         checkbutton.connect ("toggled", self.__on_unsafeprotocols_toggled, hbox)
         self.__on_unsafeprotocols_toggled (checkbutton, hbox)
-
-    def __init_mandatory (self):
-        can_edit_mandatory = gconfutils.can_edit_mandatory ()
-        if can_edit_mandatory:
-            administrator = self.xml.get_widget ("hboxSystemAdministrator")
-            administrator.hide ()
-
-        mandatory = self.xml.get_widget ("checkbuttonUseMandatorySettings")
-        mandatory.set_sensitive (can_edit_mandatory)
-        mandatory.set_active (can_edit_mandatory)
-        mandatory.connect ("toggled", self.__on_mandatory_toggled)
-
-        return can_edit_mandatory
 
     def __on_dialog_response (self, dialog, response_id):
         if dialog == self.window and response_id == gtk.RESPONSE_HELP:
@@ -125,51 +122,12 @@ class PessulusMainDialog:
         dialog.destroy ()
 
     def __on_dialog_destroy (self, dialog):
-        self.__change_client (None)
+        for gconfdir in gconfdirs:
+            self.applier.remove_dir (gconfdir)
+
         gtk.main_quit ()
 
     def __on_unsafeprotocols_toggled (self, checkbutton, hbox):
         sensitive = checkbutton.get_active ()
         hbox.set_sensitive (sensitive)
         self.safeprotocols.set_sensitive (sensitive)
-
-    def __on_mandatory_toggled (self, checkbutton):
-        try:
-            client = gconfutils.get_client (checkbutton.get_active ())
-        except gobject.GError:
-            if checkbutton.get_active ():
-                primary_text = _("Can not configure the mandatory settings")
-                secondary_text = _("You might not have the rights to configure the mandatory settings.")
-            else:
-                primary_text = _("Can not configure the regular settings")
-                secondary_text = _("As this should never happen, we advise you to close the lockdown editor and start again.")
-
-            dialog = gtk.MessageDialog (self.window,
-                                        gtk.DIALOG_MODAL|gtk.DIALOG_DESTROY_WITH_PARENT,
-                                        gtk.MESSAGE_ERROR,
-                                        gtk.BUTTONS_OK,
-                                        primary_text)
-            dialog.set_title ("")
-            dialog.format_secondary_text (secondary_text)
-            dialog.connect ("response", self.__on_dialog_response)
-            dialog.run ()
-            return
-        
-        self.__change_client (client)
-
-    def __change_client (self, newclient):
-        if self.client:
-            for gconfdir in gconfdirs:
-                self.client.remove_dir (gconfdir)
-
-        self.client = newclient
-
-        if self.client:
-            for gconfdir in gconfdirs:
-                self.client.add_dir (gconfdir, gconf.CLIENT_PRELOAD_NONE)
-
-        for gconfcheckbutton in self.gconfcheckbuttons:
-            gconfcheckbutton.change_client (self.client)
-
-        self.disabledapplets.change_client (self.client)
-        self.safeprotocols.change_client (self.client)

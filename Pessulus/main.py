@@ -29,6 +29,7 @@ def main (args):
     import gtk.glade
 
     import maindialog
+    import lockdownappliergconf
     import config
 
     try:
@@ -39,7 +40,10 @@ def main (args):
     gtk.glade.bindtextdomain (config.PACKAGE, config.LOCALEDIR)
 
     gtk.window_set_default_icon_name ("stock_lock")
-    dialog = maindialog.PessulusMainDialog ()
+
+    applier = lockdownappliergconf.PessulusLockdownApplierGconf ()
+
+    dialog = maindialog.PessulusMainDialog (applier)
 
     gtk.main ()
 

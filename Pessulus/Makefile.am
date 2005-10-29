@@ -3,9 +3,10 @@ appdir = $(pyexecdir)/Pessulus
 app_PYTHON = 			\
 	__init__.py		\
 	disabledapplets.py	\
-	gconfcheckbutton.py	\
-	gconfutils.py		\
 	icons.py		\
+	lockdownappliergconf.py	\
+	lockdownapplier.py	\
+	lockdowncheckbutton.py	\
 	main.py			\
 	maindialog.py		\
 	safeprotocols.py	\
