@@ -1,0 +1,131 @@
+# translation of es.po to 
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-10-29 16:15+0200\n"
+"PO-Revision-Date: 2005-10-29 16:22+0200\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Miniaplicaciones desactivadas</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Protocolos seguros</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Configure the _mandatory settings"
+msgstr "Configurar los ajustes _obligatorios"
+
+#: ../data/pessulus.glade.h:4
+msgid "Disable _arbitrary URL"
+msgstr "Desactivar URL _arbitraria"
+
+#: ../data/pessulus.glade.h:5
+msgid "Disable _bookmark editing"
+msgstr "Desactivar edición de _marcadores"
+
+#: ../data/pessulus.glade.h:6
+msgid "Disable _command line"
+msgstr "Desactivar línea de _comandos"
+
+#: ../data/pessulus.glade.h:7
+msgid "Disable _history"
+msgstr "Desactivar _histórico"
+
+#: ../data/pessulus.glade.h:8
+msgid "Disable _javascript chrome"
+msgstr "Desactivar chrome _javascript"
+
+#: ../data/pessulus.glade.h:9
+msgid "Disable _printing"
+msgstr "Desactivar _impresión"
+
+#: ../data/pessulus.glade.h:10
+msgid "Disable _toolbar editing"
+msgstr "Desactivar edición de _barra de herramientas"
+
+#: ../data/pessulus.glade.h:11
+msgid "Disable _unsafe protocols"
+msgstr "Desactivar protocolos _inseguros"
+
+#: ../data/pessulus.glade.h:12
+msgid "Disable force _quit"
+msgstr "Desactivar salida _forzada"
+
+#: ../data/pessulus.glade.h:13
+msgid "Disable lock _screen"
+msgstr "Desactivar el _bloquedo de la pantalla"
+
+#: ../data/pessulus.glade.h:14
+msgid "Disable log _out"
+msgstr "Desactivar la _salida de la sesión"
+
+#: ../data/pessulus.glade.h:15
+msgid "Disable print _setup"
+msgstr "Desactivar la _configuración de impresora"
+
+#: ../data/pessulus.glade.h:16
+msgid "Disable save to _disk"
+msgstr "Desactivar guardar a _disco"
+
+#: ../data/pessulus.glade.h:17
+msgid "General"
+msgstr "General"
+
+#: ../data/pessulus.glade.h:18
+msgid "Hide _menubar"
+msgstr "Ocultar barra de _menú"
+
+#: ../data/pessulus.glade.h:19
+msgid "Lockdown Editor"
+msgstr "Editor de bloqueos"
+
+#: ../data/pessulus.glade.h:20
+msgid "Only the system administrator can configure the mandatory settings"
+msgstr "Sólo el administrador del sistema puede configurar los ajustes obligatorios"
+
+#: ../data/pessulus.glade.h:21
+msgid "Panel"
+msgstr "Panel"
+
+#: ../data/pessulus.glade.h:22
+msgid "Web Browser"
+msgstr "Navegador web"
+
+#: ../data/pessulus.glade.h:23
+msgid "_Fullscreen"
+msgstr "_Pantalla completa"
+
+#: ../data/pessulus.glade.h:24
+msgid "_Lock down the panels"
+msgstr "_Bloquear los paneles"
+
+#: ../Pessulus/maindialog.py:141
+msgid "Can not configure the mandatory settings"
+msgstr "No se pueden configurar los ajustes obligatorios"
+
+#: ../Pessulus/maindialog.py:142
+msgid "You might not have the rights to configure the mandatory settings."
+msgstr "Quizá no tiene derechos para configurar los ajustes obligatorios."
+
+#: ../Pessulus/maindialog.py:144
+msgid "Can not configure the regular settings"
+msgstr "No se pueden configurar los ajustes normales"
+
+#: ../Pessulus/maindialog.py:145
+msgid ""
+"As this should never happen, we advise you to close the lockdown editor and "
+"start again."
+msgstr "Debido a que esto no debería ocurrir nunca, le avisamos para que cierre el editor de bloqueos y empiece de nuevo."
+
