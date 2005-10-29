@@ -1,3 +1,7 @@
+2005-10-29  Dennis Cranston  <dennis_cranston@yahoo.com>
+
+	* data/pessulus.glade:  Basic GNOME HIG fixes.
+
 2005-10-28  Benoît Dejean  <benoit@placenet.org>
 
 	* configure.ac:
