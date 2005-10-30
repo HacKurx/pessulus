@@ -1,3 +1,7 @@
+2005-10-30  Takeshi AIHANA <aihana@gnome.gr.jp>
+
+	* configure.ac: Added 'ja' (Japanese) to ALL_LINGUAS.
+
 2005-10-30  Vincent Untz  <vuntz@gnome.org>
 
 	Big changes :-) The settings using a treeview doesn't support the
