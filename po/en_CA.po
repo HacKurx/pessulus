@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-23 09:56-0400\n"
+"POT-Creation-Date: 2005-11-01 12:58-0500\n"
 "PO-Revision-Date: 2005-09-23 09:56-0400\n"
 "Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
 "Language-Team: Canadian English <adamw@gnome.org>\n"
@@ -17,117 +17,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/pessulus.glade.h:1
-msgid "<b>Disabled applets</b>"
-msgstr "<b>Disabled applets</b>"
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Disabled Applets</b>"
 
 #: data/pessulus.glade.h:2
-msgid "<b>Safe protocols</b>"
-msgstr "<b>Safe protocols</b>"
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Safe Protocols</b>"
 
 #: data/pessulus.glade.h:3
-msgid "Configure the _mandatory settings"
-msgstr "Configure the _mandatory settings"
-
-#: data/pessulus.glade.h:4
-msgid "Disable _arbitrary URL"
-msgstr "Disable _arbitrary URL"
-
-#: data/pessulus.glade.h:5
-msgid "Disable _bookmark editing"
-msgstr "Disable _bookmark editing"
-
-#: data/pessulus.glade.h:6
-msgid "Disable _command line"
-msgstr "Disable _command line"
-
-#: data/pessulus.glade.h:7
-msgid "Disable _history"
-msgstr "Disable _history"
-
-#: data/pessulus.glade.h:8
-msgid "Disable _javascript chrome"
-msgstr "Disable _javascript chrome"
-
-#: data/pessulus.glade.h:9
-msgid "Disable _printing"
-msgstr "Disable _printing"
-
-#: data/pessulus.glade.h:10
-msgid "Disable _toolbar editing"
-msgstr "Disable _toolbar editing"
-
-#: data/pessulus.glade.h:11
 msgid "Disable _unsafe protocols"
 msgstr "Disable _unsafe protocols"
 
-#: data/pessulus.glade.h:12
-msgid "Disable force _quit"
-msgstr "Disable force _quit"
-
-#: data/pessulus.glade.h:13
-msgid "Disable lock _screen"
-msgstr "Disable lock _screen"
-
-#: data/pessulus.glade.h:14
-msgid "Disable log _out"
-msgstr "Disable log _out"
-
-#: data/pessulus.glade.h:15
-msgid "Disable print _setup"
-msgstr "Disable print _setup"
-
-#: data/pessulus.glade.h:16
-msgid "Disable save to _disk"
-msgstr "Disable save to _disk"
-
-#: data/pessulus.glade.h:17
+#: data/pessulus.glade.h:4
 msgid "General"
 msgstr "General"
 
-#: data/pessulus.glade.h:18
-msgid "Hide _menubar"
-msgstr "Hide _menubar"
-
-#: data/pessulus.glade.h:19
+#: data/pessulus.glade.h:5
 msgid "Lockdown Editor"
 msgstr "Lockdown Editor"
 
-#: data/pessulus.glade.h:20
-msgid "Only the system administrator can configure the mandatory settings"
-msgstr "Only the system administrator can configure the mandatory settings"
-
-#: data/pessulus.glade.h:21
+#: data/pessulus.glade.h:6
 msgid "Panel"
 msgstr "Panel"
 
-#: data/pessulus.glade.h:22
+#: data/pessulus.glade.h:7
 msgid "Web Browser"
 msgstr "Web Browser"
 
-#: data/pessulus.glade.h:23
-msgid "_Fullscreen"
-msgstr "_Fullscreen"
+#: Pessulus/maindialog.py:45
+msgid "Disable _command line"
+msgstr "Disable _command line"
 
-#: data/pessulus.glade.h:24
+#: Pessulus/maindialog.py:46
+msgid "Disable _printing"
+msgstr "Disable _printing"
+
+#: Pessulus/maindialog.py:47
+msgid "Disable print _setup"
+msgstr "Disable print _setup"
+
+#: Pessulus/maindialog.py:48
+msgid "Disable save to _disk"
+msgstr "Disable save to _disk"
+
+#: Pessulus/maindialog.py:50
 msgid "_Lock down the panels"
 msgstr "_Lock down the panels"
 
-#: Pessulus/maindialog.py:141
-msgid "Can not configure the mandatory settings"
-msgstr "Cannot configure the mandatory settings"
+#: Pessulus/maindialog.py:51
+msgid "Disable force _quit"
+msgstr "Disable force _quit"
 
-#: Pessulus/maindialog.py:142
-msgid "You might not have the rights to configure the mandatory settings."
-msgstr "You might not have the rights to configure the mandatory settings."
+#: Pessulus/maindialog.py:52
+msgid "Disable lock _screen"
+msgstr "Disable lock _screen"
 
-#: Pessulus/maindialog.py:144
-msgid "Can not configure the regular settings"
-msgstr "Cannot configure the regular settings"
+#: Pessulus/maindialog.py:53
+msgid "Disable log _out"
+msgstr "Disable log _out"
 
-#: Pessulus/maindialog.py:145
-msgid ""
-"As this should never happen, we advise you to close the lockdown editor and "
-"start again."
-msgstr ""
-"As this should never happen, we advise you to close the lockdown editor and "
-"start again."
+#: Pessulus/maindialog.py:55
+msgid "Disable _quit"
+msgstr "Disable _quit"
+
+#: Pessulus/maindialog.py:56
+msgid "Disable _arbitrary URL"
+msgstr "Disable _arbitrary URL"
+
+#: Pessulus/maindialog.py:57
+msgid "Disable _bookmark editing"
+msgstr "Disable _bookmark editing"
+
+#: Pessulus/maindialog.py:58
+msgid "Disable _history"
+msgstr "Disable _history"
+
+#: Pessulus/maindialog.py:59
+msgid "Disable _javascript chrome"
+msgstr "Disable _javascript chrome"
+
+#: Pessulus/maindialog.py:60
+msgid "Disable _toolbar editing"
+msgstr "Disable _toolbar editing"
+
+#: Pessulus/maindialog.py:61
+msgid "_Fullscreen"
+msgstr "_Fullscreen"
+
+#: Pessulus/maindialog.py:62
+msgid "Hide _menubar"
+msgstr "Hide _menubar"
