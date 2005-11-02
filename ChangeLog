@@ -1,3 +1,20 @@
+2005-11-02  Alexander Larsson  <alexl@redhat.com>
+
+	* Pessulus/main.py:
+	Work with non-default installations of pygtk
+	
+	* Pessulus/maindialog.py:
+	Optional argument to not quit when the window is closed.
+	This is used for sabayon integration
+	
+	* Pessulus/lockdownappliergconf.py:
+	Make the notifier callback only have the user data argument
+	
+	* Pessulus/lockdowncheckbutton.py:
+	* Pessulus/disabledapplets.py:
+	* Pessulus/safeprotocols.py:
+	Update to the new notifier callback parameter list.
+
 2005-10-30  Takeshi AIHANA <aihana@gnome.gr.jp>
 
 	* configure.ac: Added 'ja' (Japanese) to ALL_LINGUAS.

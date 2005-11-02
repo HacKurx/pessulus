@@ -136,7 +136,12 @@ class PessulusLockdownApplierGconf (lockdownapplier.PessulusLockdownApplier):
         return self.client.key_is_writable (key)
 
     def notify_add (self, key, handler, data = None):
-        return self.client.notify_add (key, handler, data)
+        def __gconf_notify_proxy (client, cnx_id, entry, monitor):
+            handler = monitor[0]
+            user_data = monitor[1]
+            handler (user_data)
+            
+        return self.client.notify_add (key, __gconf_notify_proxy, (handler, data))
 
     def notify_remove (self, monitor):
         self.client.notify_remove (monitor)

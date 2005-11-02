@@ -227,16 +227,12 @@ class PessulusDisabledApplets:
             self.applier.set_list (self.key, gconf.VALUE_STRING,
                                    list (self.disabled_applets), False)
 
-    def __on_notified (self, client, cnxn_id, entry, data):
-        if entry.value and entry.value.type == gconf.VALUE_LIST:
-            gconf_set = set ()
-            for value in entry.value.get_list ():
-                if value.type == gconf.VALUE_STRING:
-                    gconf_set.add (value.get_string ())
-
-            if gconf_set != self.disabled_applets:
-                self.disabled_applets = gconf_set
-                self.__update_toggles ()
+    def __on_notified (self, data):
+        (list, mandatory) = self.applier.get_list (self.key, gconf.VALUE_STRING)
+        gconf_set = set (list)
+        if gconf_set != self.disabled_applets:
+            self.disabled_applets = gconf_set
+            self.__update_toggles ()
 
     def __update_toggles (self):
         def update_toggle (model, path, iter, data):

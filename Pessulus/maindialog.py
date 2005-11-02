@@ -63,8 +63,9 @@ lockdownbuttons = (
 )
 
 class PessulusMainDialog:
-    def __init__ (self, applier):
+    def __init__ (self, applier, quit_on_close = True):
         self.applier = applier
+        self.quit_on_close = quit_on_close
         for gconfdir in gconfdirs:
             self.applier.add_dir (gconfdir, gconf.CLIENT_PRELOAD_NONE)
 
@@ -86,7 +87,11 @@ class PessulusMainDialog:
 
         self.window = self.xml.get_widget ("dialogEditor")
         self.window.connect ("response", self.__on_dialog_response)
-        self.window.connect ("destroy", self.__on_dialog_destroy)
+        if self.quit_on_close:
+            self.window.connect ("destroy", self.__on_dialog_destroy)
+        else:
+            self.window.connect ("delete-event", gtk.Widget.hide_on_delete)
+
         self.window.show ()
 
     def __init_safeprotocols (self):
@@ -119,7 +124,8 @@ class PessulusMainDialog:
             return
         
         dialog.hide ()
-        dialog.destroy ()
+        if self.quit_on_close:
+            dialog.destroy ()
 
     def __on_dialog_destroy (self, dialog):
         for gconfdir in gconfdirs:

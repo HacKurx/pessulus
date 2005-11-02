@@ -52,16 +52,12 @@ class PessulusSafeProtocols:
         self.sensitive = sensitive
         self.__update_sensitivity ()
 
-    def __on_notified (self, client, cnxn_id, entry, data):
-        if entry.value and entry.value.type == gconf.VALUE_LIST:
-            gconf_set = set ()
-            for value in entry.value.get_list ():
-                if value.type == gconf.VALUE_STRING:
-                    gconf_set.add (value.get_string ())
-
-            if gconf_set != self.safe_protocols:
-                self.safe_protocols = gconf_set
-                self.__update_simpleeditabletreeview ()
+    def __on_notified (self, data):
+        (list, mandatory) = self.applier.get_list (self.key, gconf.VALUE_STRING)
+        gconf_set = set (list)
+        if gconf_set != self.safe_protocols:
+            self.safe_protocols = gconf_set
+            self.__update_simpleeditabletreeview ()
 
     def __on_treeview_changed (self, simpleeditabletreeview, new_set):
         if new_set != self.safe_protocols:

@@ -128,10 +128,10 @@ class PessulusLockdownCheckbutton:
             self.button.remove (self.button.get_child ())
             self.button.add (newimage)
 
-    def __on_notified (self, client, cnxn_id, entry, data):
-        if entry.value and entry.value.type == gconf.VALUE_BOOL:
-            if entry.value.get_bool () != self.checkbutton.get_active ():
-                self.__update_toggle ()
+    def __on_notified (self, data):
+        (active, mandatory) = self.applier.get_bool (self.key)
+        if active != self.checkbutton.get_active () or mandatory != self.locked:
+            self.__update_toggle ()
 
     def __on_button_clicked (self, button):
         self.locked = not self.locked
