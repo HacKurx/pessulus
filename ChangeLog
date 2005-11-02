@@ -1,3 +1,8 @@
+2005-11-02  Vincent Untz  <vuntz@gnome.org>
+
+	* data/pessulus.glade: rename Web Browser tab to Epiphany Web Browser
+	Fix bug #320500
+
 2005-11-02  Alexander Larsson  <alexl@redhat.com>
 
 	* Pessulus/main.py:
