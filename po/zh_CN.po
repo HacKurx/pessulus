@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-16 23:28+0800\n"
-"PO-Revision-Date: 2005-09-16 23:32+0800\n"
+"POT-Creation-Date: 2005-11-02 12:14+0100\n"
+"PO-Revision-Date: 2005-11-02 22:59+0800\n"
 "Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "MIME-Version: 1.0\n"
@@ -16,116 +16,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../data/pessulus.glade.h:1
-msgid "<b>Disabled applets</b>"
+msgid "<b>Disabled Applets</b>"
 msgstr "<b>禁用的提醒</b>"
 
 #: ../data/pessulus.glade.h:2
-msgid "<b>Safe protocols</b>"
+msgid "<b>Safe Protocols</b>"
 msgstr "<b>安全协议</b>"
 
 #: ../data/pessulus.glade.h:3
-msgid "Configure the _mandatory settings"
-msgstr "配置强制设置(_M)"
-
-#: ../data/pessulus.glade.h:4
-msgid "Disable _arbitrary URL"
-msgstr "禁止滥用 URL(_A)"
-
-#: ../data/pessulus.glade.h:5
-msgid "Disable _bookmark editing"
-msgstr "禁止编辑书签(_B)"
-
-#: ../data/pessulus.glade.h:6
-msgid "Disable _command line"
-msgstr "禁止使用命令行(_C)"
-
-#: ../data/pessulus.glade.h:7
-msgid "Disable _history"
-msgstr "禁止历史(_H)"
-
-#: ../data/pessulus.glade.h:8
-msgid "Disable _javascript chrome"
-msgstr "禁用 _javascript chrome"
-
-#: ../data/pessulus.glade.h:9
-msgid "Disable _printing"
-msgstr "禁止打印(_P)"
-
-#: ../data/pessulus.glade.h:10
-msgid "Disable _toolbar editing"
-msgstr "禁止编辑工具栏(_T)"
-
-#: ../data/pessulus.glade.h:11
 msgid "Disable _unsafe protocols"
 msgstr "禁止不安全的协议(_U)"
 
-#: ../data/pessulus.glade.h:12
-msgid "Disable force _quit"
-msgstr "禁止强制推出(_Q)"
-
-#: ../data/pessulus.glade.h:13
-msgid "Disable lock _screen"
-msgstr "禁止锁住屏幕(_S)"
-
-#: ../data/pessulus.glade.h:14
-msgid "Disable log _out"
-msgstr "禁止注销(_O)"
-
-#: ../data/pessulus.glade.h:15
-msgid "Disable print _setup"
-msgstr "禁止打印设置(_S)"
-
-#: ../data/pessulus.glade.h:16
-msgid "Disable save to _disk"
-msgstr "禁止保存到磁盘(_D)"
-
-#: ../data/pessulus.glade.h:17
+#: ../data/pessulus.glade.h:4
 msgid "General"
 msgstr "常规"
 
-#: ../data/pessulus.glade.h:18
-msgid "Hide _menubar"
-msgstr "隐藏菜单栏(_M)"
-
-#: ../data/pessulus.glade.h:19
+#: ../data/pessulus.glade.h:5
 msgid "Lockdown Editor"
 msgstr "锁定编辑器"
 
-#: ../data/pessulus.glade.h:20
-msgid "Only the system administrator can configure the mandatory settings"
-msgstr "只有系统管理员可以配置强制设置"
-
-#: ../data/pessulus.glade.h:21
+#: ../data/pessulus.glade.h:6
 msgid "Panel"
 msgstr "面板"
 
-#: ../data/pessulus.glade.h:22
+#: ../data/pessulus.glade.h:7
 msgid "Web Browser"
 msgstr "Web 浏览器"
 
-#: ../data/pessulus.glade.h:23
-msgid "_Fullscreen"
-msgstr "全屏(_F)"
+#: ../Pessulus/maindialog.py:45
+msgid "Disable _command line"
+msgstr "禁止使用命令行(_C)"
 
-#: ../data/pessulus.glade.h:24
+#: ../Pessulus/maindialog.py:46
+msgid "Disable _printing"
+msgstr "禁止打印(_P)"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable print _setup"
+msgstr "禁止打印设置(_S)"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable save to _disk"
+msgstr "禁止保存到磁盘(_D)"
+
+#: ../Pessulus/maindialog.py:50
 msgid "_Lock down the panels"
 msgstr "锁定面板(_L)"
 
-#: ../Pessulus/maindialog.py:141
-msgid "Can not configure the mandatory settings"
-msgstr "无法配置强制设置"
+#: ../Pessulus/maindialog.py:51
+msgid "Disable force _quit"
+msgstr "禁止强制退出(_Q)"
 
-#: ../Pessulus/maindialog.py:142
-msgid "You might not have the rights to configure the mandatory settings."
-msgstr "您可能没有权限配置强制设置。"
+#: ../Pessulus/maindialog.py:52
+msgid "Disable lock _screen"
+msgstr "禁止锁住屏幕(_S)"
 
-#: ../Pessulus/maindialog.py:144
-msgid "Can not configure the regular settings"
-msgstr "无法编辑常规设置"
+#: ../Pessulus/maindialog.py:53
+msgid "Disable log _out"
+msgstr "禁止注销(_O)"
 
-#: ../Pessulus/maindialog.py:145
-msgid ""
-"As this should never happen, we advise you to close the lockdown editor and "
-"start again."
-msgstr ""
-"由于这种情况不应该发生，我们建议您关闭锁定编辑器然后再启动一次。"
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _quit"
+msgstr "禁止退出(_Q)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _arbitrary URL"
+msgstr "禁止滥用 URL(_A)"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _bookmark editing"
+msgstr "禁止编辑书签(_B)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _history"
+msgstr "禁止历史(_H)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _javascript chrome"
+msgstr "禁用 _javascript chrome"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _toolbar editing"
+msgstr "禁止编辑工具栏(_T)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Fullscreen"
+msgstr "全屏(_F)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Hide _menubar"
+msgstr "隐藏菜单栏(_M)"
