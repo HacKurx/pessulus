@@ -4,8 +4,10 @@ app_PYTHON = 			\
 	__init__.py		\
 	disabledapplets.py	\
 	icons.py		\
+	globalvar.py		\
 	lockdownappliergconf.py	\
 	lockdownapplier.py	\
+	lockdownbutton.py	\
 	lockdowncheckbutton.py	\
 	main.py			\
 	maindialog.py		\

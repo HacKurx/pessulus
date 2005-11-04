@@ -1,3 +1,45 @@
+2005-11-04  Vincent Untz  <vuntz@gnome.org>
+
+	Fix mandatory settings for the treeviews.
+	Use global variable for the applier and the Tooltips object.
+
+	* TODO: updated
+	* Pessulus/.cvsignore: ignore pyc files
+	* Pessulus/Makefile.am: add new files
+	* Pessulus/icons.py: formatting fixes
+	* data/pessulus.glade: updated to add buttons
+
+	* Pessulus/lockdowncheckbutton.py: move a lot of code to
+	lockdownbutton and update the rest to use lockdownbutton, use the
+	global applier and Tooltips where needed
+	(get_lockdownbutton): new
+	(get_hbox): renamed to get_widget()
+	(__do_change): have an unique place where we change the settings
+
+	* Pessulus/maindialog.py: (__init__): set the global variables, move
+	some code around and in new methods
+	(__init_checkbuttons): new
+	(__init_disabledapplets): new
+	(__init_safeprotocols): get the lockdownbutton from the checkbutton
+
+	* Pessulus/disabledapplets.py: use the global applier where needed,
+	(__init__): need a lockdownbutton to know if the setting is mandatory
+	or not
+	(__on_lockdownbutton_toggled): new, set the setting mandatory (or not)
+	(__on_toggled): updated for the lockdownbutton
+	(__on_notified): ditto
+
+	* Pessulus/safeprotocols.py: use the global applier where needed,
+	(__init__): need a lockdownbutton to know if the setting is mandatory
+	or not
+	(__on_lockdownbutton_toggled): new, set the setting mandatory (or not)
+	(__on_treeview_changed): updated for the lockdownbutton
+	(__on_notified): ditto
+
+	* Pessulus/lockdownappliergconf.py: (get_list): stop using C functions
+	;-)
+	(notify_add): formatting fix
+
 2005-11-02  Vincent Untz  <vuntz@gnome.org>
 
 	* data/pessulus.glade: rename Web Browser tab to Epiphany Web Browser

@@ -102,17 +102,17 @@ class PessulusLockdownApplierGconf (lockdownapplier.PessulusLockdownApplier):
             if entry != None:
                 is_mandatory = True
                 list = entry.get_list ()
-                type = gconf_value_get_list_type (list)
-                value = ()
+                type = entry.get_list_type ()
+                value = []
                 for element in list:
-                    if type == GCONF_VALUE_STRING:
-                        value.append (gconf_value_get_string (element))
-                    elif type == GCONF_VALUE_BOOL:
-                        value.append (gconf_value_get_bool (element))
-                    elif type == GCONF_VALUE_INT:
-                        value.append (gconf_value_get_int (element))
-                    elif type == GCONF_VALUE_FLOAT:
-                        value.append (gconf_value_get_float (element))
+                    if type == gconf.VALUE_STRING:
+                        value.append (element.get_string ())
+                    elif type == gconf.VALUE_BOOL:
+                        value.append (element.get_bool ())
+                    elif type == gconf.VALUE_INT:
+                        value.append (element.get_int ())
+                    elif type == gconf.VALUE_FLOAT:
+                        value.append (element.get_float ())
             else:
                 value = self.client.get_list (key, list_type)
         else:
@@ -141,7 +141,8 @@ class PessulusLockdownApplierGconf (lockdownapplier.PessulusLockdownApplier):
             user_data = monitor[1]
             handler (user_data)
             
-        return self.client.notify_add (key, __gconf_notify_proxy, (handler, data))
+        return self.client.notify_add (key, __gconf_notify_proxy,
+                                       (handler, data))
 
     def notify_remove (self, monitor):
         self.client.notify_remove (monitor)

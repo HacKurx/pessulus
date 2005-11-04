@@ -3,14 +3,12 @@ TODO
 
 Before version 0.2:
   * HIG compliance :-)
-  * tooltip on lock icon
-  * we don't need multiple Tooltips, but just one
-  * the treeview don't work with mandatory settings anymore
 
 Future:
-  * add more gconf keys
+  * make the strings consistent
+  * add more useful lockdown settings
   * keep the safe protocols that were once enabled somewhere in gconf so they
-    are easy to reenable
+    are easy to reenable (?)
   * write help files
 
 Problems waiting for a solution in another module:

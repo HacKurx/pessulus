@@ -2,4 +2,14 @@
 # Please keep this list in alphabetic order.
 data/pessulus.desktop.in.in
 data/pessulus.glade
+Pessulus/disabledapplets.py
+Pessulus/globalvar.py
+Pessulus/icons.py
+Pessulus/lockdownappliergconf.py
+Pessulus/lockdownapplier.py
+Pessulus/lockdownbutton.py
+Pessulus/lockdowncheckbutton.py
 Pessulus/maindialog.py
+Pessulus/main.py
+Pessulus/safeprotocols.py
+Pessulus/simpleeditabletreeview.py
