@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-03 11:58-0500\n"
+"POT-Creation-Date: 2005-11-05 13:03-0500\n"
 "PO-Revision-Date: 2005-09-23 09:56-0400\n"
 "Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
 "Language-Team: Canadian English <adamw@gnome.org>\n"
@@ -44,66 +44,74 @@ msgstr "Lockdown Editor"
 msgid "Panel"
 msgstr "Panel"
 
-#: Pessulus/maindialog.py:45
+#: Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Click to make this setting optional"
+
+#: Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Click to make this setting mandatory"
+
+#: Pessulus/maindialog.py:47
 msgid "Disable _command line"
 msgstr "Disable _command line"
 
-#: Pessulus/maindialog.py:46
+#: Pessulus/maindialog.py:48
 msgid "Disable _printing"
 msgstr "Disable _printing"
 
-#: Pessulus/maindialog.py:47
+#: Pessulus/maindialog.py:49
 msgid "Disable print _setup"
 msgstr "Disable print _setup"
 
-#: Pessulus/maindialog.py:48
+#: Pessulus/maindialog.py:50
 msgid "Disable save to _disk"
 msgstr "Disable save to _disk"
 
-#: Pessulus/maindialog.py:50
+#: Pessulus/maindialog.py:52
 msgid "_Lock down the panels"
 msgstr "_Lock down the panels"
 
-#: Pessulus/maindialog.py:51
+#: Pessulus/maindialog.py:53
 msgid "Disable force _quit"
 msgstr "Disable force _quit"
 
-#: Pessulus/maindialog.py:52
+#: Pessulus/maindialog.py:54
 msgid "Disable lock _screen"
 msgstr "Disable lock _screen"
 
-#: Pessulus/maindialog.py:53
+#: Pessulus/maindialog.py:55
 msgid "Disable log _out"
 msgstr "Disable log _out"
 
-#: Pessulus/maindialog.py:55
+#: Pessulus/maindialog.py:57
 msgid "Disable _quit"
 msgstr "Disable _quit"
 
-#: Pessulus/maindialog.py:56
+#: Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
 msgstr "Disable _arbitrary URL"
 
-#: Pessulus/maindialog.py:57
+#: Pessulus/maindialog.py:59
 msgid "Disable _bookmark editing"
 msgstr "Disable _bookmark editing"
 
-#: Pessulus/maindialog.py:58
+#: Pessulus/maindialog.py:60
 msgid "Disable _history"
 msgstr "Disable _history"
 
-#: Pessulus/maindialog.py:59
+#: Pessulus/maindialog.py:61
 msgid "Disable _javascript chrome"
 msgstr "Disable _javascript chrome"
 
-#: Pessulus/maindialog.py:60
+#: Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
 msgstr "Disable _toolbar editing"
 
-#: Pessulus/maindialog.py:61
+#: Pessulus/maindialog.py:63
 msgid "_Fullscreen"
 msgstr "_Fullscreen"
 
-#: Pessulus/maindialog.py:62
+#: Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Hide _menubar"
