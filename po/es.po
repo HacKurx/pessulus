@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-10-29 16:15+0200\n"
-"PO-Revision-Date: 2005-10-29 16:22+0200\n"
+"POT-Creation-Date: 2005-11-13 15:59+0100\n"
+"PO-Revision-Date: 2005-11-13 16:00+0100\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,108 +24,117 @@ msgid "<b>Safe Protocols</b>"
 msgstr "<b>Protocolos seguros</b>"
 
 #: ../data/pessulus.glade.h:3
-msgid "Configure the _mandatory settings"
-msgstr "Configurar los ajustes _obligatorios"
-
-#: ../data/pessulus.glade.h:4
-msgid "Disable _arbitrary URL"
-msgstr "Desactivar URL _arbitraria"
-
-#: ../data/pessulus.glade.h:5
-msgid "Disable _bookmark editing"
-msgstr "Desactivar edición de _marcadores"
-
-#: ../data/pessulus.glade.h:6
-msgid "Disable _command line"
-msgstr "Desactivar línea de _comandos"
-
-#: ../data/pessulus.glade.h:7
-msgid "Disable _history"
-msgstr "Desactivar _histórico"
-
-#: ../data/pessulus.glade.h:8
-msgid "Disable _javascript chrome"
-msgstr "Desactivar chrome _javascript"
-
-#: ../data/pessulus.glade.h:9
-msgid "Disable _printing"
-msgstr "Desactivar _impresión"
-
-#: ../data/pessulus.glade.h:10
-msgid "Disable _toolbar editing"
-msgstr "Desactivar edición de _barra de herramientas"
-
-#: ../data/pessulus.glade.h:11
 msgid "Disable _unsafe protocols"
 msgstr "Desactivar protocolos _inseguros"
 
-#: ../data/pessulus.glade.h:12
-msgid "Disable force _quit"
-msgstr "Desactivar salida _forzada"
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Navegador web Epiphany"
 
-#: ../data/pessulus.glade.h:13
-msgid "Disable lock _screen"
-msgstr "Desactivar el _bloquedo de la pantalla"
-
-#: ../data/pessulus.glade.h:14
-msgid "Disable log _out"
-msgstr "Desactivar la _salida de la sesión"
-
-#: ../data/pessulus.glade.h:15
-msgid "Disable print _setup"
-msgstr "Desactivar la _configuración de impresora"
-
-#: ../data/pessulus.glade.h:16
-msgid "Disable save to _disk"
-msgstr "Desactivar guardar a _disco"
-
-#: ../data/pessulus.glade.h:17
+#: ../data/pessulus.glade.h:5
 msgid "General"
 msgstr "General"
 
-#: ../data/pessulus.glade.h:18
-msgid "Hide _menubar"
-msgstr "Ocultar barra de _menú"
-
-#: ../data/pessulus.glade.h:19
+#: ../data/pessulus.glade.h:6
 msgid "Lockdown Editor"
 msgstr "Editor de bloqueos"
 
-#: ../data/pessulus.glade.h:20
-msgid "Only the system administrator can configure the mandatory settings"
-msgstr "Sólo el administrador del sistema puede configurar los ajustes obligatorios"
-
-#: ../data/pessulus.glade.h:21
+#: ../data/pessulus.glade.h:7
 msgid "Panel"
 msgstr "Panel"
 
-#: ../data/pessulus.glade.h:22
-msgid "Web Browser"
-msgstr "Navegador web"
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Pulse para hacer esta configuración no obligatoria"
 
-#: ../data/pessulus.glade.h:23
-msgid "_Fullscreen"
-msgstr "_Pantalla completa"
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "pulse para hacer esta configuración obligatoria"
 
-#: ../data/pessulus.glade.h:24
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Desactivar línea de _comandos"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Desactivar _impresión"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Desactivar la _configuración de impresora"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Desactivar guardar a _disco"
+
+#: ../Pessulus/maindialog.py:52
 msgid "_Lock down the panels"
 msgstr "_Bloquear los paneles"
 
-#: ../Pessulus/maindialog.py:141
-msgid "Can not configure the mandatory settings"
-msgstr "No se pueden configurar los ajustes obligatorios"
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Desactivar salida _forzada"
 
-#: ../Pessulus/maindialog.py:142
-msgid "You might not have the rights to configure the mandatory settings."
-msgstr "Quizá no tiene derechos para configurar los ajustes obligatorios."
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Desactivar el _bloquedo de la pantalla"
 
-#: ../Pessulus/maindialog.py:144
-msgid "Can not configure the regular settings"
-msgstr "No se pueden configurar los ajustes normales"
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Desactivar la _salida de la sesión"
 
-#: ../Pessulus/maindialog.py:145
-msgid ""
-"As this should never happen, we advise you to close the lockdown editor and "
-"start again."
-msgstr "Debido a que esto no debería ocurrir nunca, le avisamos para que cierre el editor de bloqueos y empiece de nuevo."
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Desactivar _salida"
 
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Desactivar URL _arbitraria"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Desactivar edición de _marcadores"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Desactivar _histórico"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Desactivar chrome _javascript"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Desactivar edición de _barra de herramientas"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Pantalla completa"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Ocultar barra de _menú"
+
+#~ msgid "Configure the _mandatory settings"
+#~ msgstr "Configurar los ajustes _obligatorios"
+
+#~ msgid "Only the system administrator can configure the mandatory settings"
+#~ msgstr ""
+#~ "Sólo el administrador del sistema puede configurar los ajustes "
+#~ "obligatorios"
+
+#~ msgid "Can not configure the mandatory settings"
+#~ msgstr "No se pueden configurar los ajustes obligatorios"
+
+#~ msgid "You might not have the rights to configure the mandatory settings."
+#~ msgstr "Quizá no tiene derechos para configurar los ajustes obligatorios."
+
+#~ msgid "Can not configure the regular settings"
+#~ msgstr "No se pueden configurar los ajustes normales"
+
+#~ msgid ""
+#~ "As this should never happen, we advise you to close the lockdown editor "
+#~ "and start again."
+#~ msgstr ""
+#~ "Debido a que esto no debería ocurrir nunca, le avisamos para que cierre "
+#~ "el editor de bloqueos y empiece de nuevo."
