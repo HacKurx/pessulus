@@ -1,3 +1,29 @@
+pessulus 0.2
+============
+
+  Features
+
+	* simplify the "safe protocols" edition (Vincent)
+	* new UI for fine-grained lockdown
+	* integration with sabayon (Vincent, Alexander Larsson)
+
+  Fixes
+
+	* set sensitivity of the "safe protocols" widgets at startup (Vincent)
+	* HIG fixes (Dennis Cranston)
+	* works with python 2.3 (Benoît Dejean)
+	* rename Web Browser tab to Epiphany Web Browser (Vincent)
+	* code fixes (Vincent)
+
+  Translators
+
+	* Adam Weinberger (en_CA)
+	* Francisco Javier F. Serrador (es)
+	* Takeshi AIHANA (ja)
+	* Guilherme de S. Pastore (pt_BR)
+	* Данило Шеган (sr)
+	* Funda Wang (zh_CN)
+
 pessulus 0.1
 ============
 

@@ -1,4 +1,4 @@
-pessulus 0.1
+pessulus 0.2
 ============
 
 pessulus is a lockdown editor for GNOME, written in python.
@@ -10,7 +10,7 @@ Use of pessulus can be useful on computers that are open to use by
 everyone, e.g. in an internet cafe.
 
 You may download updates to the package from:
-   http://www.gnome.org/~vuntz/pessulus/releases/
+   http://ftp.gnome.org/pub/GNOME/sources/pessulus/
 
 Installation
 ============

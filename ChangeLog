@@ -1,3 +1,8 @@
+2005-11-14  Vincent Untz  <vuntz@gnome.org>
+
+	* NEWS:
+	* README: Release 0.2.
+
 2005-11-13  Guilherme de S. Pastore  <gpastore@gnome.org>
 
 	* configure.ac: added pt_BR (Brazilian Portuguese) to ALL_LINGUAS.
