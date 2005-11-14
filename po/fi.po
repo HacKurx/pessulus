@@ -1,0 +1,118 @@
+# Finnish translation for pessulus
+# Copyright (C) Ilkka Tuohela 2005.
+# This file is distributed under the same license as the pessulus package.
+# Ilkka Tuohela <hile@iki.fi>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-14 17:11+0200\n"
+"PO-Revision-Date: 2005-11-14 17:19+0200\n"
+"Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Estetyt sovelmat</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Turvalliset protokollat</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Estä _turvattomat protokollat"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Epiphany WWW-selain"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Yleiset"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Estoasetusten muokkain"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Paneeli"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Valitse salliaksesi tämän asetuksen muuttaminen"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Valitse pakottaaksesi tämä asetus"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Estä _komentorivi"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Estä _tulostus"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Estä _tulostuksen asetukset"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Estä _tallennus levylle"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Lukitse paneelit"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Estä pakotettu _sulkeminen"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Estä _näytön lukitus"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Estä _uloskirjautuminen"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Estä _sulkeminen"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Estä _määrittelemättömt URL:it"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Estä _kirjanmerkkien muokkaus"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Estä _historia"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Estä _javascriptin chromet"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Estä _työkalupalkkien muokkaus"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Kokoruutu"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Piilota _valikkopalkki"
+
