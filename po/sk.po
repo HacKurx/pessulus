@@ -1,0 +1,118 @@
+# Slovak translations for pessulus package.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pessulus package.
+# Marcel Telka <marcel@telka.sk>, 2005.
+#
+# $Id$
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-14 22:55+0100\n"
+"PO-Revision-Date: 2005-11-14 23:08+0100\n"
+"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Zakázať aplety</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Bezpečné protokoly</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Zakázať _nie bezpečné protokoly"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "WWW prehliadač Zjavenie"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Všeobecné"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Editor uzamykania"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Kliknite, aby ste urobili toto nastavenie nepovinným"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Kliknite, aby ste urobili toto nastavenie povinným"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Zakázať _príkazový riadok"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Zakázať _tlač"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Zakázať na_stavenie tlače"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Zakázať uloženie na _disk"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Uzamknúť panely"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Zakázať vynútené _ukončenie"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Zakázať uzamknutie _obrazovky"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Zakázať _odhlásenie"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Zakázať u_končenie"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Zakázať ľu_bovoľné URL"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Zakázať úpravu _záložiek"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Zakázať _históriu"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Zakázať chróm _javascript"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Zakázať úpravu lišty _nástrojov"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Celá obrazovka"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Skryť lištu _menu"
