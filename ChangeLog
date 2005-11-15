@@ -1,3 +1,7 @@
+2005-11-14  Dennis Cranston  <dennis_cranston@yahoo.com>
+
+	* data/pessulus.glade: Fix a recent border width regression.
+
 2005-11-14  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
 
 	* configure.ac: Added 'gl' to ALL_LINGUAS.
