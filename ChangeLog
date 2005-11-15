@@ -1,3 +1,7 @@
+2005-11-15  Žygimantas Beručka  <zygis@gnome.org>
+
+	* configure.in: Added Lithuanian to ALL_LINGUAS.
+
 2005-11-14  Dennis Cranston  <dennis_cranston@yahoo.com>
 
 	* data/pessulus.glade: Fix a recent border width regression.

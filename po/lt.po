@@ -1,0 +1,119 @@
+# Lithuanian translation of pessulus.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pessulus package.
+# Žygimantas Beručka <zygis@gnome.org>, 2005.
+# 
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-15 02:20+0200\n"
+"PO-Revision-Date: 2005-11-15 02:30+0200\n"
+"Last-Translator: Žygimantas Beručka <zygis@gnome.org>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Išjungti įtaisai</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Saugūs protokolai</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Išjungti _nesaugius protokolus"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Epiphany web naršyklė"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Bendri"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Užrakinimo redaktorius"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Skydelis"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Spragtelėkite norėdami padaryti šį nustatymą neprivalomu"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Spragtelėkite norėdami padaryti šį nustatymą privalomu"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Išjungti _komandų eilutę"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Išjungti _spausdinimą"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Išjungti spausdinimo _nustatymus"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Išjungti išsaugojimą į _diską"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Užrakinti skydelius"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Išjungti priverstinį _uždarymą"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Išjungti _ekrano užrakinimą"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Išjungti _atsijungimą"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Išjungti _išėjimą"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Išjungti ž_ymelių redagavimą"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Išjungti _istoriją"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Išjungti _javascript chromą"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Išjungti į_rankinių redagavimą"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Visas ekranas"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Paslėpti _meniu juostą"
+
