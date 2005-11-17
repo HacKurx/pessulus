@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-02 12:14+0100\n"
-"PO-Revision-Date: 2005-11-02 22:59+0800\n"
+"POT-Creation-Date: 2005-11-17 14:50+0100\n"
+"PO-Revision-Date: 2005-11-17 22:45+0800\n"
 "Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "MIME-Version: 1.0\n"
@@ -28,81 +28,89 @@ msgid "Disable _unsafe protocols"
 msgstr "禁止不安全的协议(_U)"
 
 #: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Epiphany 浏览器"
+
+#: ../data/pessulus.glade.h:5
 msgid "General"
 msgstr "常规"
 
-#: ../data/pessulus.glade.h:5
+#: ../data/pessulus.glade.h:6
 msgid "Lockdown Editor"
 msgstr "锁定编辑器"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Panel"
 msgstr "面板"
 
-#: ../data/pessulus.glade.h:7
-msgid "Web Browser"
-msgstr "Web 浏览器"
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "单击可将此设置设定为非强制值"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "单击可将此设置设定为强制值"
+
+#: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
 msgstr "禁止使用命令行(_C)"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:48
 msgid "Disable _printing"
 msgstr "禁止打印(_P)"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:49
 msgid "Disable print _setup"
 msgstr "禁止打印设置(_S)"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:50
 msgid "Disable save to _disk"
 msgstr "禁止保存到磁盘(_D)"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:52
 msgid "_Lock down the panels"
 msgstr "锁定面板(_L)"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:53
 msgid "Disable force _quit"
 msgstr "禁止强制退出(_Q)"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:54
 msgid "Disable lock _screen"
 msgstr "禁止锁住屏幕(_S)"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:55
 msgid "Disable log _out"
 msgstr "禁止注销(_O)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _quit"
 msgstr "禁止退出(_Q)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
 msgstr "禁止滥用 URL(_A)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:59
 msgid "Disable _bookmark editing"
 msgstr "禁止编辑书签(_B)"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:60
 msgid "Disable _history"
 msgstr "禁止历史(_H)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:61
 msgid "Disable _javascript chrome"
 msgstr "禁用 _javascript chrome"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
 msgstr "禁止编辑工具栏(_T)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:63
 msgid "_Fullscreen"
 msgstr "全屏(_F)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "隐藏菜单栏(_M)"
