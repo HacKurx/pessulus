@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-10-30 23:20+0900\n"
-"PO-Revision-Date: 2005-10-30 23:17+0900\n"
+"POT-Creation-Date: 2005-11-19 23:58+0900\n"
+"PO-Revision-Date: 2005-11-19 23:57+0900\n"
 "Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>利用不可のアプレット</b>"
+msgstr "<b>利用不可にするアプレット</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -28,81 +28,89 @@ msgid "Disable _unsafe protocols"
 msgstr "安全ではないプロトコルを無効にする(_U)"
 
 #: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Epiphany ウェブ・ブラウザ"
+
+#: ../data/pessulus.glade.h:5
 msgid "General"
 msgstr "全般"
 
-#: ../data/pessulus.glade.h:5
+#: ../data/pessulus.glade.h:6
 msgid "Lockdown Editor"
 msgstr "Lockdown エディタ"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Panel"
 msgstr "パネル"
 
-#: ../data/pessulus.glade.h:7
-msgid "Web Browser"
-msgstr "ウェブ・ブラウザ"
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "クリックすると、この設定を強制しません"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "クリックすると、この設定を強制します"
+
+#: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
 msgstr "コマンドラインを無効にする(_C)"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:48
 msgid "Disable _printing"
 msgstr "印刷を無効にする(_P)"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:49
 msgid "Disable print _setup"
 msgstr "印刷設定を無効にする(_S)"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:50
 msgid "Disable save to _disk"
 msgstr "ディスクへの保存を無効にする(_D)"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:52
 msgid "_Lock down the panels"
 msgstr "パネル操作を利用不可にする(_L)"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:53
 msgid "Disable force _quit"
 msgstr "強制終了を無効にする(_Q)"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:54
 msgid "Disable lock _screen"
 msgstr "画面のロックを無効にする(_S)"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:55
 msgid "Disable log _out"
 msgstr "ログアウトを無効にする(_O)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _quit"
 msgstr "終了を無効にする(_Q)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
 msgstr "URL の入力を無効にする(_A)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:59
 msgid "Disable _bookmark editing"
 msgstr "ブックマークの編集を無効にする(_B)"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:60
 msgid "Disable _history"
 msgstr "履歴の操作を無効にする(_H)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:61
 msgid "Disable _javascript chrome"
 msgstr "JavaScript 処理を無効にする(_J)"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
 msgstr "ツールバーの編集を無効にする(_T)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:63
 msgid "_Fullscreen"
 msgstr "フルスクリーンを無効にする(_F)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "メニューバーを隠す(_M)"
