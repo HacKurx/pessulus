@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-14 17:11+0200\n"
-"PO-Revision-Date: 2005-11-14 17:19+0200\n"
+"POT-Creation-Date: 2005-11-20 09:04+0200\n"
+"PO-Revision-Date: 2005-11-20 09:10+0200\n"
 "Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgstr "Paneeli"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr "Valitse salliaksesi tämän asetuksen muuttaminen"
+msgstr "Tee asetuksesta vapaaehtoinen napsauttamalla tästä"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr "Valitse pakottaaksesi tämä asetus"
+msgstr "Tee asetuksesta vaadittu napsauttamalla tästä"
 
 #: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
@@ -90,7 +90,7 @@ msgstr "Estä _sulkeminen"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
-msgstr "Estä _määrittelemättömt URL:it"
+msgstr "Estä _määrittelemättömät URL:it"
 
 #: ../Pessulus/maindialog.py:59
 msgid "Disable _bookmark editing"
@@ -115,4 +115,3 @@ msgstr "_Kokoruutu"
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Piilota _valikkopalkki"
-
