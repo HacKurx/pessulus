@@ -1,3 +1,7 @@
+2005-11-20  Amanpreet Singh Alam <amanpreetalam@yahoo.com>
+
+	* configure.ac: pa (Punjabi) is added to ALL_LINGUAS
+
 2005-11-17  Alexander Shopov  <ash@contact.bg>
 
 	* configure.ac: Added "bg" (Bulgarian) to ALL_LINGUAS

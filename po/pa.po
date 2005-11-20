@@ -1,0 +1,119 @@
+# translation of pa.po to Punjabi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-20 20:34+0530\n"
+"PO-Revision-Date: 2005-11-20 20:39+0530\n"
+"Last-Translator: Amanpreet Singh Alam <amanpreetalam@yahoo.com>\n"
+"Language-Team: Punjabi <fedora-trans-pa@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>ਆਯੋਗ ਹੋਇਆ ਐਪਲਿਟ</b>"
+
+#: data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>ਸੁਰੱਖਿਅਤ ਪਰੋਟੋਕਾਲ</b>"
+
+#: data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "ਨਾ-ਸੁਰੱਖਿਅਤ ਪਰੋਟੋਕਾਲ ਅਯੋਗ(_u)"
+
+#: data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "ਏਪਾਫਨੀ ਵੈੱਬ ਝਲਕਾਰਾ"
+
+#: data/pessulus.glade.h:5
+msgid "General"
+msgstr "ਸਧਾਰਨ"
+
+#: data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "ਤਾਲਾਬੰਦ ਸੰਪਾਦਕ"
+
+#: data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "ਪੈਨਲ"
+
+#: Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "ਇਹ ਸਥਾਪਨ ਨੂੰ ਨਾ-ਲਾਜ਼ਮੀ ਕਰਨ ਲਈ ਦਬਾਉ"
+
+#: Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "ਇਹ ਸਥਾਪਨ ਨੂੰ ਲਾਜ਼ਮੀ ਕਰਨ ਲਈ ਦਬਾਉ"
+
+#: Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "ਕਮਾਂਡ ਲਾਇਨ ਆਯੋਗ(_c)"
+
+#: Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "ਛਪਾਈ ਆਯੋਗ(_p)"
+
+#: Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "ਪਰਿੰਟਰ ਸੈੱਟਅੱਪ ਆਯੋਗ(_s)"
+
+#: Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "ਡਿਸਕ ਉੱਤੇ ਸੰਭਾਲਣ ਆਯੋਗ (_d)"
+
+#: Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "ਪੈਨਲ ਤਾਲਾਬੰਦ (_L)"
+
+#: Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "ਧੱਕੇ ਨਾਲ ਬੰਦ ਆਯੋਗ(_q)"
+
+#: Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "ਪਰਦਾ ਤਾਲਾਬੰਦ ਆਯੋਗ(_s)"
+
+#: Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "ਬਾਹਰੀ ਦਰ (ਲਾਗਆਉਟ) ਆਯੋਗ(_o)"
+
+#: Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "ਬਾਹਰ ਆਯੋਗ(_q)"
+
+#: Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "ਆਪ-ਹੁਦਰਾ URL ਆਯੋਗ(_a)"
+
+#: Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "ਬੁੱਕਮਾਰਕ ਸੋਧ ਆਯੋਗ(_b)"
+
+#: Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "ਅਤੀਤ ਆਯੋਗ(_h)"
+
+#: Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "ਜਾਵਾਸਕਰਿਪਟ ਚਰੋਮੀ ਆਯੋਗ(_j)"
+
+#: Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "ਸੰਦ-ਪੱਟੀ ਸੋਧ ਆਯੋਗ(_t)"
+
+#: Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "ਪੂਰੇ ਪਰਦੇ 'ਤੇ(_F)"
+
+#: Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "ਮੇਨੂ-ਪੱਟੀ ਓਹਲੇ(_m)"
+
