@@ -1,0 +1,119 @@
+# Hungarian translation of pessulus.
+# This file is distributed under the same license as the pessulus package.
+# Copyright (C) 2005, Free Software Foundation, Inc.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-17 14:50+0100\n"
+"PO-Revision-Date: 2005-11-21 23:36+0100\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Letiltott kisalkalmazások</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Biztonságos protokollok</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Nem _biztonságos protokollok letiltása"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Epiphany webböngésző"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Általános"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Zárolásszerkesztő"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Ide kattintva ezt a beállítást nem teszi kötelezővé"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Ide kattintva ezt a beállítást kötelezővé teszi"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "_Parancssor letiltása"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "_Nyomtatás letiltása"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Nyomtatás _beállításának letiltása"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "_Lemezre mentés letiltása"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "Panelek _zárolása"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "_Erőltetett kilépés letiltása"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "_Képernyő zárolásának letiltása"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Ki_jelentkezés letiltása"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Ki_lépés letiltása"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Tetszőleges _URL letiltása"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Köny_vjelzők szerkesztésének letiltása"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Előz_mények letiltása"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "_Javascript chrome letiltása"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Eszköztár s_zerkesztésének letiltása"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Teljes képernyő"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "_Menüsor elrejtése"
+
