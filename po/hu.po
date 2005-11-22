@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-17 14:50+0100\n"
-"PO-Revision-Date: 2005-11-21 23:36+0100\n"
+"POT-Creation-Date: 2005-11-22 06:51+0100\n"
+"PO-Revision-Date: 2005-11-22 12:51+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <gnome@gnome.hu>\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr "_Nyomtatás letiltása"
 
 #: ../Pessulus/maindialog.py:49
 msgid "Disable print _setup"
-msgstr "Nyomtatás _beállításának letiltása"
+msgstr "Ny_omtatás beállításának letiltása"
 
 #: ../Pessulus/maindialog.py:50
 msgid "Disable save to _disk"
@@ -83,11 +83,11 @@ msgstr "_Képernyő zárolásának letiltása"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable log _out"
-msgstr "Ki_jelentkezés letiltása"
+msgstr "Kijele_ntkezés letiltása"
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _quit"
-msgstr "Ki_lépés letiltása"
+msgstr "_Kilépés letiltása"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
@@ -107,7 +107,7 @@ msgstr "_Javascript chrome letiltása"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
-msgstr "Eszköztár s_zerkesztésének letiltása"
+msgstr "Eszköztár szerkesztésé_nek letiltása"
 
 #: ../Pessulus/maindialog.py:63
 msgid "_Fullscreen"
