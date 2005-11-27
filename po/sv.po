@@ -1,0 +1,157 @@
+# Swedish messages for pessulus.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2005.
+#
+# $Id$
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-27 10:50+0100\n"
+"PO-Revision-Date: 2005-11-27 10:50+0100\n"
+"Last-Translator: Christian Rose <menthos@menthos.com>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Inaktiverade panelprogram</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Säkra protokoll</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Inaktivera _osäkra protokoll"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Webbläsaren Epiphany"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Allmänt"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Nedlåsningsredigerare"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Klicka för att göra denna inställning inte obligatorisk"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Klicka för att göra denna inställning obligatorisk"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Inaktivera _kommandorad"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Inaktivera _utskrifter"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Inaktivera utskrifts_konfiguration"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Inaktivera sparande till _disk"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Lås ned panelerna"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Inaktivera tvingande _avslutande"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Inaktivera lås _skärmen"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Inaktivera logga _ut"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Inaktivera _avslutande"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Inaktivera _godtycklig URL"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Inaktivera _bokmärkesredigering"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Inaktivera _historik"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Inaktivera _javascript-krom"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Inaktivera _verktygsradsredigering"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Helskärm"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Dölj _menyrad"
+
+#~ msgid "Disabled Applets"
+#~ msgstr "Inaktiverade panelprogram"
+
+#~ msgid "Safe Protocols"
+#~ msgstr "Säkra protokoll"
+
+#~ msgid "Disable unsafe protocols"
+#~ msgstr "Inaktivera osäkra protokoll"
+
+#~ msgid "Disable command line"
+#~ msgstr "Inaktivera kommandorad"
+
+#~ msgid "Disable printing"
+#~ msgstr "Inaktivera utskrifter"
+
+#~ msgid "Disable print setup"
+#~ msgstr "Inaktivera utskriftskonfiguration"
+
+#~ msgid "Disable save to disk"
+#~ msgstr "Inaktivera sparande till disk"
+
+#~ msgid "Disable force quit"
+#~ msgstr "Inaktivera tvingande avslutande"
+
+#~ msgid "Disable arbitrary URL"
+#~ msgstr "Inaktivera godtycklig URL"
+
+#~ msgid "Disable bookmark editing"
+#~ msgstr "Inaktivera bokmärkesredigering"
+
+#~ msgid "Disable history"
+#~ msgstr "Inaktivera historik"
+
+#~ msgid "Disable javascript chrome"
+#~ msgstr "Inaktivera javascript-krom"
+
+#~ msgid "Disable toolbar editing"
+#~ msgstr "Inaktivera verktygsradsredigering"
