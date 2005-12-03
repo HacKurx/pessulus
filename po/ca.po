@@ -1,0 +1,119 @@
+# Catalan translations for pessulus package
+# Traduccions al català del paquet «pessulus».
+# Copyright (C) 2005 The Free Software Foundation, Inc.
+# This file is distributed under the same license as the pessulus package.
+# Josep Puigdemont <josep.puigdemont@gmail.com>, 2005.
+#
+# Use sabayon/po/ca.po as a compendium for updating this file.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-03 12:13+0100\n"
+"PO-Revision-Date: 2005-12-03 12:17+0100\n"
+"Last-Translator: josep <josep.puigdemont@gmail.com>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Miniaplicacions inhabilitades</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Protocols segurs</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Inhabilita els protocols inseg_urs"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Navegador web Epiphany"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "General"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr ""
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Quadre"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Feu clic per fer que quest paràmetre no sigui obligatori"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Feu clic per fer que aquest paràmetre sigui obligatori"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Inhabilita la línia d'_ordres"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Inhabilita l'_historial"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Pantalla completa"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Oculta la barra de _menú"
