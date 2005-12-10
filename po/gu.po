@@ -1,0 +1,119 @@
+# translation of pessulus.HEAD.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ankit Patel <ankit644@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-09 06:57+0100\n"
+"PO-Revision-Date: 2005-12-10 15:48+0530\n"
+"Last-Translator: Ankit Patel <ankit644@yahoo.com>\n"
+"Language-Team: Gujarati <indianoss-gujarati@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>નિષ્ક્રિય એપ્લેટો</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>સુરક્ષિત પ્રોટોકોલો</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "અસુરક્ષિત પ્રોટોકોલો નિષ્ક્રિય કરો (_u)"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "એપીફની વેબ બ્રાઉઝર"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "સામાન્ય"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "લોકડાઉન સંપાદક"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "પેનલ"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "આ સુયોજનોને ફરજિયાત નહિં બનાવવા માટે ક્લિક કરો"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "આ સુયોજનોને ફરજિયાત બનાવવા માટે ક્લિક કરો"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "આદેશ વાક્ય નિષ્ક્રિય કરો (_c)"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "છાપવાનું નિષ્ક્રિય કરો (_p)"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "છાપન સુયોજન નિષ્ક્રિય કરો (_s)"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "ડિસ્કમાં સંગ્રહો નિષ્ક્રિય કરો (_d)"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "પેનલોને તાળું મારો (_L)"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "બહાર નીકળવા માટે દબાણ કરો નિષ્ક્રિય કરો (_q)"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "સ્ક્રીનને તાળું મારો નિષ્ક્રિય કરો (_s)"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "બહાર નીકળો નિષ્ક્રિય કરો (_o)"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "બહાર નીકળો નિષ્ક્રિય કરો (_q)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "આર્બીટરી URL નિષ્ક્રિય કરો (_a)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "બુકમાર્ક સંપાદન નિષ્ક્રિય કરો (_b)"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "ઈતિહાસ નિષ્ક્રિય કરો (_h)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "જાવાસ્ક્રિપ્ટ ક્રોમ નિષ્ક્રિય કરો (_j)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "સાધનપટ્ટી સંપાદન નિષ્ક્રિય કરો (_t)"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "પૂર્ણ સ્ક્રીન (_F)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "મેનુપટ્ટી છુપાવો (_m)"
+
