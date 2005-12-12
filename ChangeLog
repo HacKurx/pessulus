@@ -1,5 +1,9 @@
 2005-12-12  Vincent Untz  <vuntz@gnome.org>
 
+	* configure.ac: use brackets in AC_INIT
+
+2005-12-12  Vincent Untz  <vuntz@gnome.org>
+
 	* configure.ac: post-release bump to 0.4.
 
 ==================== 0.3 ====================

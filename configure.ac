@@ -1,5 +1,6 @@
 AC_PREREQ(2.53)
-AC_INIT(pessulus, 0.4, http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus)
+AC_INIT([pessulus], [0.4],
+        [http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus])
 AC_CONFIG_SRCDIR(pessulus.in)
 AM_INIT_AUTOMAKE([1.7])
 AM_MAINTAINER_MODE
