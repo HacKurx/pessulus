@@ -1,0 +1,118 @@
+# translation of mk.po to Macedonian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Arangel Angov <ufo@linux.net.mk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-19 23:00+0100\n"
+"PO-Revision-Date: 2005-12-20 02:04+0100\n"
+"Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Исклучени аплети</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Безбедни протоколи</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Исклучи _небезбедни протоколи"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Епифани веб прелистувач"
+
+#: ../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Општо"
+
+#: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Уредувач за заклучување"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Панел"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Кликнете за да го направите ова незадолжително"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Кликнете за да го направите ова задолжително"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Исклучи ја _командната линија"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Исклучи _печатење"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Исклучи поставување за _ печатење"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Исклучи зачувај на _диск"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Заклучи ги панелите"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Исклучи присилен _излез"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Исклучи заклучување на _екран"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Исклучи _одјава"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Исклучи _излез"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Исклучи _произволни адреси"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Исклучи _уредување на обележувачи"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Исклучи _историја"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Исклучи _javascript chrome"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Исклучи _уредување на лента со алатки"
+
+#: ../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "_Цел екран"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Скриј _лента со алатки"
+
