@@ -1,0 +1,117 @@
+# Vietnamese translation for Pessulus.
+# Copyright © 2005 Gnome i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2005.
+# 
+msgid ""
+""
+msgstr "Project-Id-Version: pessulus 0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-20 06:59+0100\n"
+"PO-Revision-Date: 2005-12-20 19:53+1030\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.5.1b\n"
+
+#:../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Tiểu dụng bị tắt</b>"
+
+#:../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Giao thức an toàn</b>"
+
+#:../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Tắt các giao thức _bất an"
+
+#:../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Trình Duyệt Mạng Epiphany"
+
+#:../data/pessulus.glade.h:5
+msgid "General"
+msgstr "Chung"
+
+#:../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Bộ hiệu chỉnh khóa xuống"
+
+#:../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Bảng điều khiển"
+
+#:../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Nhắp chuột để làm cho thiết lập này không phải bắt buộc."
+
+#:../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Nhắp chuột để làm cho thiết lập này bắt buộc."
+
+#:../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Tắt dòng _lệnh"
+
+#:../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Tắt khả năng _in"
+
+#:../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Tắt _thiết lập in"
+
+#:../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Tắt khả năng lưu vào _đĩa"
+
+#:../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Khóa xuống các Bảng điều khiển"
+
+#:../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Tắt khả năng buộc t_hoát"
+
+#:../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Tắt khả năng khóa _màn hình"
+
+#:../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Tắt khả năng đăng _xuất"
+
+#:../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Tắt khả năng t_hoát"
+
+#:../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Tắt địa chỉ Mạng tù_y ý"
+
+#:../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Tắt hiệu chỉnh đánh _dấu"
+
+#:../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Tắt _lược sử"
+
+#:../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Tắt crom _JavaScript"
+
+#:../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Tắt hiệu chỉnh thanh _công cụ"
+
+#:../Pessulus/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "Toàn _màn hình"
+
+#:../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Ẩn thanh trình đơ_n"
