@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>禁用的提醒</b>"
+msgstr "<b>禁用的小程序</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -29,7 +29,7 @@ msgstr "禁止不安全的协议(_U)"
 
 #: ../data/pessulus.glade.h:4
 msgid "Epiphany Web Browser"
-msgstr "Epiphany 浏览器"
+msgstr "Epiphany Web 浏览器"
 
 #: ../data/pessulus.glade.h:5
 msgid "General"
