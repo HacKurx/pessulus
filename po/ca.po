@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-03 12:13+0100\n"
-"PO-Revision-Date: 2005-12-03 12:17+0100\n"
+"POT-Creation-Date: 2006-01-02 16:33+0100\n"
+"PO-Revision-Date: 2006-01-02 16:37+0100\n"
 "Last-Translator: josep <josep.puigdemont@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -60,43 +60,43 @@ msgstr "Inhabilita la línia d'_ordres"
 
 #: ../Pessulus/maindialog.py:48
 msgid "Disable _printing"
-msgstr ""
+msgstr "Inhabilita l'im_pressió"
 
 #: ../Pessulus/maindialog.py:49
 msgid "Disable print _setup"
-msgstr ""
+msgstr "Inhabilita la _configuració de la impressora"
 
 #: ../Pessulus/maindialog.py:50
 msgid "Disable save to _disk"
-msgstr ""
+msgstr "Inhabilita desar al _disc"
 
 #: ../Pessulus/maindialog.py:52
 msgid "_Lock down the panels"
-msgstr ""
+msgstr "B_loca els quadres"
 
 #: ../Pessulus/maindialog.py:53
 msgid "Disable force _quit"
-msgstr ""
+msgstr "Inhabilita la sortida _forçada de programes"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable lock _screen"
-msgstr ""
+msgstr "Inhabilita el _blocat de la pantalla"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable log _out"
-msgstr ""
+msgstr "Inhabilita la _sortida"
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _quit"
-msgstr ""
+msgstr "Inhabilita la sortida de _programes"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
-msgstr ""
+msgstr "Inhabilita URL arbitràries"
 
 #: ../Pessulus/maindialog.py:59
 msgid "Disable _bookmark editing"
-msgstr ""
+msgstr "Inhabilita l'_edició d'adreces d'interès"
 
 #: ../Pessulus/maindialog.py:60
 msgid "Disable _history"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
-msgstr ""
+msgstr "Inhabili_ta l'edició de barres d'eines"
 
 #: ../Pessulus/maindialog.py:63
 msgid "_Fullscreen"
