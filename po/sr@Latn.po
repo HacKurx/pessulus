@@ -8,125 +8,136 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pesulus\n"
-"PO-Revision-Date: 2005-09-15 21:25+0200\n"
-"Last-Translator: Danilo Šegan <danilo@gnome.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-01-04 17:13+0000\n"
+"PO-Revision-Date: 2006-01-04 17:15+0100\n"
+"Last-Translator: Slobodan D. Sredojević <ssl@uns.ns.ac.yu>\n"
 "Language-Team: Serbian (sr) <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: ../data/pessulus.glade.h:1
-msgid "<b>Disabled applets</b>"
+msgid "<b>Disabled Applets</b>"
 msgstr "<b>Zabranjeni programčići</b>"
 
 #: ../data/pessulus.glade.h:2
-msgid "<b>Safe protocols</b>"
+msgid "<b>Safe Protocols</b>"
 msgstr "<b>Bezbedni protokoli</b>"
 
 #: ../data/pessulus.glade.h:3
-msgid "Configure the _mandatory settings"
-msgstr "Menjaj o_bavezna podešavanja"
+msgid "Disable _unsafe protocols"
+msgstr "Zabrani _nebezbedne protokole"
 
 #: ../data/pessulus.glade.h:4
-msgid "Disable _arbitrary URL"
-msgstr "Zabrani pro_izvoljne adrese"
+msgid "Epiphany Web Browser"
+msgstr "Čitač veba — Spoznaja"
 
 #: ../data/pessulus.glade.h:5
-msgid "Disable _bookmark editing"
-msgstr "Zabrani _uređivanje obeleživača"
+msgid "General"
+msgstr "Opšte"
 
 #: ../data/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "Uređivač ograničenja"
+
+#: ../data/pessulus.glade.h:7
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Pritisnite da bi ovo podešavanje postalo neobavezno"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Pritisnite da bi ovo podešavanje postalo obavezno"
+
+#: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
 msgstr "Zabrani _liniju naredbi"
 
-#: ../data/pessulus.glade.h:7
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Zabrani _štampu"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Zabrani _podešavanje štampe"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Zabrani _čuvanje na disk"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Zaključaj panele"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Zabrani prisilno _zatvaranje"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Zabrani _zaključavanje ekrana"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Zabrani o_djavu"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Zabrani _izlaz iz programa"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Zabrani pro_izvoljne adrese"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Zabrani _uređivanje obeleživača"
+
+#: ../Pessulus/maindialog.py:60
 msgid "Disable _history"
 msgstr "Zabrani is_torijat"
 
 # chrome?
-#: ../data/pessulus.glade.h:8
+#: ../Pessulus/maindialog.py:61
 msgid "Disable _javascript chrome"
 msgstr "Zabrani _JavaSkript"
 
-#: ../data/pessulus.glade.h:9
-msgid "Disable _printing"
-msgstr "Zabrani _štampu"
-
-#: ../data/pessulus.glade.h:10
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
-msgstr "Zabrani uređivanje _alatki"
+msgstr "Zabrani preslaganje _palete alatki"
 
-#: ../data/pessulus.glade.h:11
-msgid "Disable _unsafe protocols"
-msgstr "Zabrani _nebezbedne protokole"
-
-#: ../data/pessulus.glade.h:12
-msgid "Disable force _quit"
-msgstr "Zabrani prisilno _zatvaranje"
-
-#: ../data/pessulus.glade.h:13
-msgid "Disable lock _screen"
-msgstr "Zabrani _zaključavanje ekrana"
-
-#: ../data/pessulus.glade.h:14
-msgid "Disable log _out"
-msgstr "Zabrani o_djavu"
-
-#: ../data/pessulus.glade.h:15
-msgid "Disable print _setup"
-msgstr "Zabrani _podešavanje štampe"
-
-#: ../data/pessulus.glade.h:16
-msgid "Disable save to _disk"
-msgstr "Zabrani _čuvanje na disk"
-
-#: ../data/pessulus.glade.h:17
-msgid "General"
-msgstr "Opšte"
-
-#: ../data/pessulus.glade.h:18
-msgid "Hide _menubar"
-msgstr "Sakrij _meni"
-
-#: ../data/pessulus.glade.h:19
-msgid "Lockdown Editor"
-msgstr "Uređivač ograničenja"
-
-#: ../data/pessulus.glade.h:20
-msgid "Only the system administrator can configure the mandatory settings"
-msgstr "Samo administrator sistema može menjati obavezna podešavanja"
-
-#: ../data/pessulus.glade.h:21
-msgid "Panel"
-msgstr "Panel"
-
-#: ../data/pessulus.glade.h:22
-msgid "Web Browser"
-msgstr "Čitač veba"
-
-#: ../data/pessulus.glade.h:23
+#: ../Pessulus/maindialog.py:63
 msgid "_Fullscreen"
 msgstr "_Ceo ekran"
 
-#: ../data/pessulus.glade.h:24
-msgid "_Lock down the panels"
-msgstr "_Zaključaj panele"
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Sakrij _meni"
 
-#: ../Pessulus/maindialog.py:141
-msgid "Can not configure the mandatory settings"
-msgstr "Ne mogu da menjam obavezna podešavanja"
+#~ msgid "Configure the _mandatory settings"
+#~ msgstr "Menjaj o_bavezna podešavanja"
 
-#: ../Pessulus/maindialog.py:142
-msgid "You might not have the rights to configure the mandatory settings."
-msgstr "Možda niste ovlašćeni da menjate obavezna podešavanja."
+#~ msgid "Only the system administrator can configure the mandatory settings"
+#~ msgstr "Samo administrator sistema može menjati obavezna podešavanja"
 
-#: ../Pessulus/maindialog.py:144
-msgid "Can not configure the regular settings"
-msgstr "Ne mogu da menjam obična podešavanja"
+#~ msgid "Can not configure the mandatory settings"
+#~ msgstr "Ne mogu da menjam obavezna podešavanja"
 
-#: ../Pessulus/maindialog.py:145
-msgid ""
-"As this should never happen, we advise you to close the lockdown editor and "
-"start again."
-msgstr "Pošto ovo ne treba nikad da se dogodi, preporučujemo da zatvorite uređivač ograničenja i počnete ponovo."
+#~ msgid "You might not have the rights to configure the mandatory settings."
+#~ msgstr "Možda niste ovlašćeni da menjate obavezna podešavanja."
+
+#~ msgid "Can not configure the regular settings"
+#~ msgstr "Ne mogu da menjam obična podešavanja"
+
+#~ msgid ""
+#~ "As this should never happen, we advise you to close the lockdown editor "
+#~ "and start again."
+#~ msgstr ""
+#~ "Pošto ovo ne treba nikad da se dogodi, preporučujemo da zatvorite "
+#~ "uređivač ograničenja i počnete ponovo."
