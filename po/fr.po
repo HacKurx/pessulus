@@ -4,14 +4,15 @@
 #
 # Benoît Dejean <benoit@placenet.org>, 2005.
 # Jérôme Warnier <jwarnier@beeznest.net>, 2006.
+# Vincent Untz <vuntz@gnome.org>, 2006.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: procman 2.11.92\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-10-28 16:33+0200\n"
+"POT-Creation-Date: 2006-01-07 12:35+0100\n"
 "PO-Revision-Date: 2006-01-07 11:15+0100\n"
-"Last-Translator: Jérôme Warnier <jwarnier@beeznest.net>, 2006\n"
+"Last-Translator: Vincent Untz <vuntz@gnome.org>, 2006\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,115 +20,127 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
 #: ../data/pessulus.glade.h:1
-msgid "<b>Disabled applets</b>"
+msgid "<b>Disabled Applets</b>"
 msgstr "<b>Applets désactivées</b>"
 
 #: ../data/pessulus.glade.h:2
-msgid "<b>Safe protocols</b>"
+msgid "<b>Safe Protocols</b>"
 msgstr "<b>Protocoles sécurisés</b>"
 
 #: ../data/pessulus.glade.h:3
-msgid "Configure the _mandatory settings"
-msgstr "Configurer les paramètres _obligatoires"
-
-#: ../data/pessulus.glade.h:4
-msgid "Disable _arbitrary URL"
-msgstr "Désactiver les URL _arbitraires"
-
-#: ../data/pessulus.glade.h:5
-msgid "Disable _bookmark editing"
-msgstr "Désactiver l'édition des _signets"
-
-#: ../data/pessulus.glade.h:6
-msgid "Disable _command line"
-msgstr "Désactiver la ligne de _commande"
-
-#: ../data/pessulus.glade.h:7
-msgid "Disable _history"
-msgstr "Désactiver l'_historique"
-
-#: ../data/pessulus.glade.h:8
-msgid "Disable _javascript chrome"
-msgstr "Désactiver _javascript chrome"
-
-#: ../data/pessulus.glade.h:9
-msgid "Disable _printing"
-msgstr "Désactiver l'im_pression"
-
-#: ../data/pessulus.glade.h:10
-msgid "Disable _toolbar editing"
-msgstr "Désactiver l'édition de la barre d'ou_tils"
-
-#: ../data/pessulus.glade.h:11
 msgid "Disable _unsafe protocols"
 msgstr "Désactiver les protocoles non séc_urisés."
 
-#: ../data/pessulus.glade.h:12
-msgid "Disable force _quit"
-msgstr "Désactiver « forcer _quitter »"
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Navigateur web Epiphany"
 
-#: ../data/pessulus.glade.h:13
-msgid "Disable lock _screen"
-msgstr "Désactiver le _verrouillage de l'écran"
-
-#: ../data/pessulus.glade.h:14
-msgid "Disable log _out"
-msgstr "Désactiver la clôture de _session"
-
-#: ../data/pessulus.glade.h:15
-msgid "Disable print _setup"
-msgstr "Désactiver la configuration de l'_impression"
-
-#: ../data/pessulus.glade.h:16
-msgid "Disable save to _disk"
-msgstr "Désactiver la sauvegarde sur _disque"
-
-#: ../data/pessulus.glade.h:17
+#: ../data/pessulus.glade.h:5
 msgid "General"
 msgstr "Général"
 
-#: ../data/pessulus.glade.h:18
-msgid "Hide _menubar"
-msgstr "Masquer la barre de _menu"
-
-#: ../data/pessulus.glade.h:19
+#: ../data/pessulus.glade.h:6
 msgid "Lockdown Editor"
 msgstr "Éditeur de verrous"
 
-#: ../data/pessulus.glade.h:20
-msgid "Only the system administrator can configure the mandatory settings"
-msgstr "L'administrateur système est le seul à pouvoir configurer les paramètres obligatoires"
-
-#: ../data/pessulus.glade.h:21
+#: ../data/pessulus.glade.h:7
 msgid "Panel"
 msgstr "Tableau de bord"
 
-#: ../data/pessulus.glade.h:22
-msgid "Web Browser"
-msgstr "Navigateur web"
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Cliquer pour rendre ce paramètre non obligatoire"
 
-#: ../data/pessulus.glade.h:23
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Cliquer pour rendre ce paramètre obligatoire"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Désactiver la ligne de _commande"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Désactiver l'im_pression"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Désactiver la configuration de l'_impression"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Désactiver la sauvegarde sur _disque"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "Verrouiller les _tableaux de bord"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Désactiver « forcer _quitter »"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Désactiver le _verrouillage de l'écran"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Désactiver la clôture de _session"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Désactiver la _fermeture du programme"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Désactiver les URL _arbitraires"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Désactiver l'édition des _signets"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Désactiver l'_historique"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Désactiver _javascript chrome"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Désactiver l'édition de la barre d'ou_tils"
+
+#: ../Pessulus/maindialog.py:63
 msgid "_Fullscreen"
 msgstr "_Plein écran"
 
-#: ../data/pessulus.glade.h:24
-msgid "_Lock down the panels"
-msgstr "Vérouiller les _tableaux de bords"
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Masquer la barre de _menu"
 
-#: ../Pessulus/maindialog.py:141
-msgid "Can not configure the mandatory settings"
-msgstr "Impossible de configurer les paramètres obligatoires"
+#~ msgid "Configure the _mandatory settings"
+#~ msgstr "Configurer les paramètres _obligatoires"
 
-#: ../Pessulus/maindialog.py:142
-msgid "You might not have the rights to configure the mandatory settings."
-msgstr "Il semble que vous n'ayez pas le droit de configurer les paramètres obligatoires."
+#~ msgid "Only the system administrator can configure the mandatory settings"
+#~ msgstr ""
+#~ "L'administrateur système est le seul à pouvoir configurer les paramètres "
+#~ "obligatoires"
 
-#: ../Pessulus/maindialog.py:144
-msgid "Can not configure the regular settings"
-msgstr "Impossible de configurer les paramètres habituels"
+#~ msgid "Can not configure the mandatory settings"
+#~ msgstr "Impossible de configurer les paramètres obligatoires"
 
-#: ../Pessulus/maindialog.py:145
-msgid ""
-"As this should never happen, we advise you to close the lockdown editor and "
-"start again."
-msgstr "Ceci ne devrait jamais se produire, nous vous conseillons donc de fermer l'éditeur de verrous et de le redémarrer."
+#~ msgid "You might not have the rights to configure the mandatory settings."
+#~ msgstr ""
+#~ "Il semble que vous n'ayez pas le droit de configurer les paramètres "
+#~ "obligatoires."
+
+#~ msgid "Can not configure the regular settings"
+#~ msgstr "Impossible de configurer les paramètres habituels"
+
+#~ msgid ""
+#~ "As this should never happen, we advise you to close the lockdown editor "
+#~ "and start again."
+#~ msgstr ""
+#~ "Ceci ne devrait jamais se produire, nous vous conseillons donc de fermer "
+#~ "l'éditeur de verrous et de le redémarrer."
