@@ -1,3 +1,9 @@
+2006-01-16  Vincent Untz  <vuntz@gnome.org>
+	
+	* Pessulus/maindialog.py: s/_Fullscreen/Force _fullscreen mode/,
+	add some keys for gnome-screensaver
+	* pessulus.glade: add a tab for gnome-screensaver
+
 2006-01-02  Vincent Untz  <vuntz@gnome.org>
 
 	* configure.ac: post-release bump to 0.5.

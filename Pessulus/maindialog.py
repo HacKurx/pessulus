@@ -60,8 +60,11 @@ lockdownbuttons = (
     ( "/apps/epiphany/lockdown/disable_history", _("Disable _history"), "vbox9" ),
     ( "/apps/epiphany/lockdown/disable_javascript_chrome", _("Disable _javascript chrome"), "vbox9" ),
     ( "/apps/epiphany/lockdown/disable_toolbar_editing", _("Disable _toolbar editing"), "vbox9" ),
-    ( "/apps/epiphany/lockdown/fullscreen", _("_Fullscreen"), "vbox9" ),
-    ( "/apps/epiphany/lockdown/hide_menubar", _("Hide _menubar"), "vbox9" )
+    ( "/apps/epiphany/lockdown/fullscreen", _("Force _fullscreen mode"), "vbox9" ),
+    ( "/apps/epiphany/lockdown/hide_menubar", _("Hide _menubar"), "vbox9" ),
+    ( "/apps/gnome-screensaver/lock_enabled", _("_Lock on activation"), "vbox15" ),
+    ( "/apps/gnome-screensaver/logout_enabled", _("Allow log _out"), "vbox15" ),
+    ( "/apps/gnome-screensaver/user_switch_enabled", _("Allow user _switching"), "vbox15" )
 )
 
 class PessulusMainDialog:
