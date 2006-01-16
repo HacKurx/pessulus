@@ -1,4 +1,9 @@
 2006-01-16  Vincent Untz  <vuntz@gnome.org>
+
+	* NEWS:
+	* README: Release 0.5.
+
+2006-01-16  Vincent Untz  <vuntz@gnome.org>
 	
 	* Pessulus/maindialog.py: s/_Fullscreen/Force _fullscreen mode/,
 	add some keys for gnome-screensaver

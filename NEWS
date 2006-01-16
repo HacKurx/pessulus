@@ -1,3 +1,19 @@
+pessulus 0.5
+============
+
+  Features
+
+	* Add lockdown for some gnome-screensaver settings (Vincent)
+
+  Fixes
+
+	* Use a better string for the fullscreen epiphany key (Vincent)
+
+  Translators
+
+	* Vincent Untz (fr)
+	* Слободан Д. Средојевић (sr)
+
 pessulus 0.4
 ============
 
