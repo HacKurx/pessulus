@@ -1,20 +1,20 @@
 # Vietnamese translation for Pessulus.
-# Copyright © 2005 Gnome i18n Project for Vietnamese.
-# Clytie Siddall <clytie@riverland.net.au>, 2005.
+# Copyright © 2005-2006 Gnome i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
 # 
 msgid ""
 ""
 msgstr "Project-Id-Version: pessulus 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-20 06:59+0100\n"
-"PO-Revision-Date: 2005-12-20 19:53+1030\n"
+"POT-Creation-Date: 2006-01-19 07:23+0100\n"
+"PO-Revision-Date: 2006-01-19 22:26+1030\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: LocFactoryEditor 1.5.1b\n"
+"X-Generator: LocFactoryEditor 1.6b30\n"
 
 #:../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -33,14 +33,18 @@ msgid "Epiphany Web Browser"
 msgstr "Trình Duyệt Mạng Epiphany"
 
 #:../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Bộ bảo vậ màn hình Gnome"
+
+#:../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Chung"
 
-#:../data/pessulus.glade.h:6
+#:../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Bộ hiệu chỉnh khóa xuống"
 
-#:../data/pessulus.glade.h:7
+#:../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Bảng điều khiển"
 
@@ -109,9 +113,21 @@ msgid "Disable _toolbar editing"
 msgstr "Tắt hiệu chỉnh thanh _công cụ"
 
 #:../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "Toàn _màn hình"
+msgid "Force _fullscreen mode"
+msgstr "Buộc chế độ t_oàn màn hình"
 
 #:../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Ẩn thanh trình đơ_n"
+
+#:../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Khóa khi hoạt hóa"
+
+#:../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Cho phép đăng _xuất"
+
+#:../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Cho phép chuyển _đổi người dùng"
