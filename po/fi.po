@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-20 09:04+0200\n"
-"PO-Revision-Date: 2005-11-20 09:10+0200\n"
+"POT-Creation-Date: 2006-01-21 21:50+0200\n"
+"PO-Revision-Date: 2006-01-21 21:52+0200\n"
 "Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -33,14 +33,18 @@ msgid "Epiphany Web Browser"
 msgstr "Epiphany WWW-selain"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Gnomen näytönsäästäjä"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Yleiset"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Estoasetusten muokkain"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Paneeli"
 
@@ -109,9 +113,22 @@ msgid "Disable _toolbar editing"
 msgstr "Estä _työkalupalkkien muokkaus"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Kokoruutu"
+msgid "Force _fullscreen mode"
+msgstr "Pakota _kokoruututila"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Piilota _valikkopalkki"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Lukitse käynnistettäessä"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Salli _uloskirjautuminen"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Salli _käyttäjänvaihto"
+
