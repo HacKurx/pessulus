@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-17 14:50+0100\n"
-"PO-Revision-Date: 2005-11-17 22:45+0800\n"
+"POT-Creation-Date: 2006-01-21 15:27+0100\n"
+"PO-Revision-Date: 2006-01-21 22:43+0800\n"
 "Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "MIME-Version: 1.0\n"
@@ -32,14 +32,18 @@ msgid "Epiphany Web Browser"
 msgstr "Epiphany Web 浏览器"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "GNOME 屏幕保护程序"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "常规"
 
-#: ../data/pessulus.glade.h:6
-msgid "Lockdown Editor"
-msgstr "锁定编辑器"
-
 #: ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "锁闭编辑器"
+
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "面板"
 
@@ -108,9 +112,21 @@ msgid "Disable _toolbar editing"
 msgstr "禁止编辑工具栏(_T)"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "全屏(_F)"
+msgid "Force _fullscreen mode"
+msgstr "强制全屏模式(_F)"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "隐藏菜单栏(_M)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "激活时锁定(_L)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "允许注销(_O)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "允许用户切换(_S)"
