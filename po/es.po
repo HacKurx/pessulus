@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-13 15:59+0100\n"
-"PO-Revision-Date: 2005-11-13 16:00+0100\n"
+"POT-Creation-Date: 2006-01-22 12:07+0100\n"
+"PO-Revision-Date: 2006-01-22 12:09+0100\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,14 +32,18 @@ msgid "Epiphany Web Browser"
 msgstr "Navegador web Epiphany"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Salvapantallas de Gnome"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "General"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Editor de bloqueos"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Panel"
 
@@ -108,12 +112,24 @@ msgid "Disable _toolbar editing"
 msgstr "Desactivar edición de _barra de herramientas"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Pantalla completa"
+msgid "Force _fullscreen mode"
+msgstr "Forzar modo a _pantalla completa"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Ocultar barra de _menú"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Bloquear en la activación"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Permitir la _salida de la sesión"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Permitir _cambiar de usuario"
 
 #~ msgid "Configure the _mandatory settings"
 #~ msgstr "Configurar los ajustes _obligatorios"
