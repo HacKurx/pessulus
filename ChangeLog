@@ -1,4 +1,8 @@
-2006-01-20  Stanislav Brabec  <sbrabec@suse.cz>
+2006-01-24  Clytie Siddall <clytie@riverland.net.au>
+
+	* configure.in	Added vi in ALL_LINGUAS line.
+	
+	2006-01-20  Stanislav Brabec  <sbrabec@suse.cz>
 
 	* configure.ac: Added cs to ALL_LINGUAS.
 
