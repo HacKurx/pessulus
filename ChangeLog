@@ -1,3 +1,15 @@
+2006-01-27  Vincent Untz  <vuntz@gnome.org>
+
+	* configure.ac: post-release bump to 0.7.
+	(Note: I forgot to commit before tagging PESSULUS_0_6)
+
+==================== 0.6 ====================
+
+2006-01-27  Vincent Untz  <vuntz@gnome.org>
+
+	* NEWS:
+	* README: Release 0.6.
+
 2006-01-24  Clytie Siddall <clytie@riverland.net.au>
 
 	* configure.in	Added vi in ALL_LINGUAS line.
