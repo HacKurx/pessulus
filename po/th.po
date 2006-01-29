@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-05 13:58+0700\n"
-"PO-Revision-Date: 2005-12-05 14:27+0700\n"
+"POT-Creation-Date: 2006-01-29 22:01+0700\n"
+"PO-Revision-Date: 2006-01-29 22:04+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <l10n@opentle.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,14 +33,18 @@ msgid "Epiphany Web Browser"
 msgstr "เว็บเบราว์เซอร์ Epiphany"
 
 #: data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "โปรแกรมรักษาหน้าจอของ GNOME"
+
+#: data/pessulus.glade.h:6
 msgid "General"
 msgstr "ทั่วไป"
 
-#: data/pessulus.glade.h:6
+#: data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "แก้ไขการจำกัดการใช้งาน"
 
-#: data/pessulus.glade.h:7
+#: data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "พาเนล"
 
@@ -109,10 +113,21 @@ msgid "Disable _toolbar editing"
 msgstr "ห้ามแก้ไขแถบเ_ครื่องมือ"
 
 #: Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "เ_ต็มจอ"
+msgid "Force _fullscreen mode"
+msgstr "บังคับใช้โหมดเ_ต็มจอ"
 
 #: Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "ซ่อนแถบเ_มนู"
 
+#: Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_ล็อคเมื่อเริ่มทำงาน"
+
+#: Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "ให้_ออกจากระบบได้"
+
+#: Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "ให้_สลับผู้ใช้ได้"
