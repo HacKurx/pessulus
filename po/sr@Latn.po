@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pesulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-04 17:13+0000\n"
-"PO-Revision-Date: 2006-01-04 17:15+0100\n"
+"POT-Creation-Date: 2006-01-28 22:06+0100\n"
+"PO-Revision-Date: 2006-01-29 00:30+0100\n"
 "Last-Translator: Slobodan D. Sredojević <ssl@uns.ns.ac.yu>\n"
 "Language-Team: Serbian (sr) <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,14 +36,18 @@ msgid "Epiphany Web Browser"
 msgstr "Čitač veba — Spoznaja"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Gnomov čuvar ekrana"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Opšte"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Uređivač ograničenja"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Panel"
 
@@ -113,12 +117,24 @@ msgid "Disable _toolbar editing"
 msgstr "Zabrani preslaganje _palete alatki"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Ceo ekran"
+msgid "Force _fullscreen mode"
+msgstr "Nametni prikaz preko _celog ekrana"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Sakrij _meni"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Zaključaj pri pokretanju"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Dozvoli odjav_u"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Dozvoli prebacivanje između korisničkih _naloga"
 
 #~ msgid "Configure the _mandatory settings"
 #~ msgstr "Menjaj o_bavezna podešavanja"
