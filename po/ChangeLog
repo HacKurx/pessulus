@@ -1,3 +1,7 @@
+2006-01-30  Hendrik Brandt  <heb@gnome-de.org>
+
+	* de.po: Added German translation.
+
 2006-01-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* th.po: Updated Thai translation.
@@ -66,7 +70,7 @@
 
 2006-01-07  Vincent Untz  <vuntz@gnome.org>
 
-	* fr.po: Updated French translation, patch by Jérôme Warnier
+	* fr.po: Updated French translation, patch by JÃ©rÃ´me Warnier
 
 2006-01-04  Slobodan D. Sredojevic  <ssl@uns.ns.ac.yu>
 
@@ -74,7 +78,7 @@
 
 ==================== 0.4 ====================
 
-2006-01-02  Josep Puigdemont  i Casamajó <josep.puigdemont@gmail.com>
+2006-01-02  Josep Puigdemont  i CasamajÃ³ <josep.puigdemont@gmail.com>
 
         * ca.po: Updated Catalan translation.
 
@@ -137,7 +141,7 @@
 	* bg.po: Added Bulgarian translation by
 	Alexander Shopov <ash@contact.bg>
 
-2005-11-15  Žygimantas Beručka  <zygis@gnome.org>
+2005-11-15  Å½ygimantas BeruÄka  <zygis@gnome.org>
 
 	* lt.po: Added Lithuanian translation.
 
@@ -199,7 +203,7 @@
 
 	* zh_CN.po: Added Simplified Chinese translation.
 
-2005-09-15  Danilo Šegan  <danilo@gnome.org>
+2005-09-15  Danilo Å egan  <danilo@gnome.org>
 
 	* sr.po, sr@Latn.po: Added Serbian translations.
 

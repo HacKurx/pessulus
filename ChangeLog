@@ -1,3 +1,7 @@
+2006-01-30  Hendrik Brandt  <heb@gnome-de.org>
+
+	* configure.ac: add "de" to ALL_LINGUAS..
+
 2006-01-29  Chao-Hsiung Liao  <j_h_liau@yahoo.com.tw>
 
 	* configure.ac: add "zh_TW" "zh_HK" to ALL_LINGUAS..
@@ -93,7 +97,7 @@
 
 	* configure.ac: Added "bg" (Bulgarian) to ALL_LINGUAS
 
-2005-11-15  Žygimantas Beručka  <zygis@gnome.org>
+2005-11-15  Å½ygimantas BeruÄka  <zygis@gnome.org>
 
 	* configure.in: Added Lithuanian to ALL_LINGUAS.
 
@@ -232,7 +236,7 @@
 	* Pessulus/safeprotocols.py:
 	* Pessulus/simpleeditabletreeview.py: make it work in python 2.3 (the
 	'sets' trick)
-	Patch by Benoît Dejean  <benoit@placenet.org>
+	Patch by BenoÃ®t Dejean  <benoit@placenet.org>
 
 	* TODO: add note about integration with sabayon
 
@@ -240,7 +244,7 @@
 
 	* data/pessulus.glade:  Basic GNOME HIG fixes.
 
-2005-10-28  Benoît Dejean  <benoit@placenet.org>
+2005-10-28  BenoÃ®t Dejean  <benoit@placenet.org>
 
 	* configure.ac:
 	* po/fr.po: Added French translation.
@@ -253,7 +257,7 @@
 
 	* configure.ac (ALL_LINGUAS): Added "zh_CN".
 
-2005-09-15  Danilo Šegan  <danilo@gnome.org>
+2005-09-15  Danilo Å egan  <danilo@gnome.org>
 
 	* configure.ac (ALL_LINGUAS): Added "sr", "sr@Latn".
 
