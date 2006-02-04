@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-22 12:07+0100\n"
-"PO-Revision-Date: 2006-01-22 12:09+0100\n"
+"POT-Creation-Date: 2006-02-04 16:46+0100\n"
+"PO-Revision-Date: 2006-02-04 16:47+0100\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "General"
 
 #: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
-msgstr "Editor de bloqueos"
+msgstr "Editor de restricciones"
 
 #: ../data/pessulus.glade.h:8
 msgid "Panel"
@@ -49,11 +49,11 @@ msgstr "Panel"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr "Pulse para hacer esta configuración no obligatoria"
+msgstr "Pulse para hacer este ajuste no obligatorio"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr "pulse para hacer esta configuración obligatoria"
+msgstr "Pulse para hacer este ajuste obligatorio"
 
 #: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
