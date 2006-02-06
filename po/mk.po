@@ -1,14 +1,14 @@
 # translation of mk.po to Macedonian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Arangel Angov <ufo@linux.net.mk>, 2005.
+# Arangel Angov <ufo@linux.net.mk>, 2005, 2006.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-19 23:00+0100\n"
-"PO-Revision-Date: 2005-12-20 02:04+0100\n"
+"POT-Creation-Date: 2006-02-06 07:29+0100\n"
+"PO-Revision-Date: 2006-02-06 11:01+0100\n"
 "Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
 "MIME-Version: 1.0\n"
@@ -33,14 +33,18 @@ msgid "Epiphany Web Browser"
 msgstr "Епифани веб прелистувач"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Затишје за Гном"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Општо"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Уредувач за заклучување"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Панел"
 
@@ -109,10 +113,22 @@ msgid "Disable _toolbar editing"
 msgstr "Исклучи _уредување на лента со алатки"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Цел екран"
+msgid "Force _fullscreen mode"
+msgstr "Наметни _цел екран"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Скриј _лента со алатки"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Заклучи при активирање"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Дозволи _одјава"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Дозволи менување на _корисник"
 
