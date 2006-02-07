@@ -1,3 +1,7 @@
+2006-02-07  Kostas Papadimas  <pkst@gnome.org>
+
+        * configure.ac: add "el" to ALL_LINGUAS.. 
+
 2006-01-30  Hendrik Brandt  <heb@gnome-de.org>
 
 	* configure.ac: add "de" to ALL_LINGUAS..
