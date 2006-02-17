@@ -2,14 +2,15 @@
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the 'pessulus' package.
 # Takeshi AIHANA <aihana@gnome.gr.jp>, 2005.
+# Satoru SATOH <ss@gnome.gr.jp>, 2006.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-19 23:58+0900\n"
-"PO-Revision-Date: 2005-11-19 23:57+0900\n"
-"Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+"POT-Creation-Date: 2006-02-17 13:09+0900\n"
+"PO-Revision-Date: 2006-02-17 13:17+0900\n"
+"Last-Translator: Satoru SATOH <ss@gnome.gr.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,14 +33,18 @@ msgid "Epiphany Web Browser"
 msgstr "Epiphany ウェブ・ブラウザ"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "GNOME スクリーンセーバー"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "全般"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Lockdown エディタ"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "パネル"
 
@@ -108,9 +113,21 @@ msgid "Disable _toolbar editing"
 msgstr "ツールバーの編集を無効にする(_T)"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "フルスクリーンを無効にする(_F)"
+msgid "Force _fullscreen mode"
+msgstr "全画面モードを強制(_F)"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "メニューバーを隠す(_M)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "起動時にロック(_L)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "ログアウトを許可(_O)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "ユーザーによる切り替えを許可(_S)"
