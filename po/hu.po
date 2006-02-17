@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-22 06:51+0100\n"
+"POT-Creation-Date: 2006-02-16 09:15+0100\n"
 "PO-Revision-Date: 2005-11-22 12:51+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <gnome@gnome.hu>\n"
@@ -34,14 +34,18 @@ msgid "Epiphany Web Browser"
 msgstr "Epiphany webböngésző"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "GNOME képernyővédő"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Általános"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Zárolásszerkesztő"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Panel"
 
@@ -110,10 +114,22 @@ msgid "Disable _toolbar editing"
 msgstr "Eszköztár szerkesztésé_nek letiltása"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Teljes képernyő"
+msgid "Force _fullscreen mode"
+msgstr "_Teljes képernyős mód kényszerítése"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "_Menüsor elrejtése"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Zárolás aktiváláskor"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Kijele_ntkezés engedélyezése"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "_Felhasználóváltás engedélyezése"
 
