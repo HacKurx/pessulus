@@ -1,14 +1,14 @@
 # Brazilian Portuguese translation of pessulus.
-# Copyright (C) 2005 Free Software Foundation, Inc.
+# Copyright (C) 2005-2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
-# Guilherme de S. Pastore <gpastore@gnome.org>, 2005.
+# Guilherme de S. Pastore <gpastore@gnome.org>, 2005, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus 0.1\n"
+"Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-13 21:38-0200\n"
-"PO-Revision-Date: 2005-11-13 22:04-0200\n"
+"POT-Creation-Date: 2006-02-14 09:10+0100\n"
+"PO-Revision-Date: 2006-02-16 12:01-0200\n"
 "Last-Translator: Guilherme de S. Pastore <gpastore@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipgsa.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -32,14 +32,18 @@ msgid "Epiphany Web Browser"
 msgstr "Navegador Web Epiphany"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Proteção de Tela do GNOME"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Geral"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Editor de Travas"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Painel"
 
@@ -53,7 +57,7 @@ msgstr "Clique para tornar esta configuração obrigatória"
 
 #: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
-msgstr "Desabilitar _linha de comando"
+msgstr "Desabilitar linha de _comando"
 
 #: ../Pessulus/maindialog.py:48
 msgid "Disable _printing"
@@ -81,11 +85,11 @@ msgstr "Desabilitar t_rava de tela"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable log _out"
-msgstr "Desabilitar _saída"
+msgstr "Desabilitar _encerramento de sessão"
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _quit"
-msgstr ""
+msgstr "Desabilitar _sair"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
@@ -99,18 +103,31 @@ msgstr "Desabilitar edição de _marcadores"
 msgid "Disable _history"
 msgstr "Desabilitar _histórico"
 
+# Talvez fosse melhor 'Desabilitar chrome de _javascript'
 #: ../Pessulus/maindialog.py:61
 msgid "Disable _javascript chrome"
 msgstr "Desabilitar _javascript do chrome"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
-msgstr "Desabilitar edição da barra de _ferramentas"
+msgstr "Desabilitar edição de barra de _ferramentas"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "Tela _cheia"
+msgid "Force _fullscreen mode"
+msgstr "Forçar modo de tela _cheia"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
-msgstr "Esconder barra de _menu"
+msgstr "Ocultar barra de _menus"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Travar ao ativar"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Permitir _encerramento de sessão"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "_Permitir alternar usuário"
