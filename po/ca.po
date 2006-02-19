@@ -2,7 +2,7 @@
 # Traduccions al català del paquet «pessulus».
 # Copyright (C) 2005 The Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
-# Josep Puigdemont <josep.puigdemont@gmail.com>, 2005.
+# Josep Puigdemont <josep.puigdemont@gmail.com>, 2005, 2006.
 #
 # Use sabayon/po/ca.po as a compendium for updating this file.
 #
@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-02 16:33+0100\n"
-"PO-Revision-Date: 2006-01-02 16:37+0100\n"
+"POT-Creation-Date: 2006-02-19 19:27+0100\n"
+"PO-Revision-Date: 2006-02-19 19:28+0100\n"
 "Last-Translator: josep <josep.puigdemont@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,14 +35,18 @@ msgid "Epiphany Web Browser"
 msgstr "Navegador web Epiphany"
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Estalvi de pantalles del GNOME"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "General"
 
-#: ../data/pessulus.glade.h:6
-msgid "Lockdown Editor"
-msgstr ""
-
 #: ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "Editor de restriccions"
+
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Quadre"
 
@@ -104,16 +108,28 @@ msgstr "Inhabilita l'_historial"
 
 #: ../Pessulus/maindialog.py:61
 msgid "Disable _javascript chrome"
-msgstr ""
+msgstr "Inhabilita el _javascript chrome"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
 msgstr "Inhabili_ta l'edició de barres d'eines"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Pantalla completa"
+msgid "Force _fullscreen mode"
+msgstr "_Foça el mode de pantalla completa"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Oculta la barra de _menú"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "B_loca quan s'activi"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Permet _sortir"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Permet commutar d'u_suari"
