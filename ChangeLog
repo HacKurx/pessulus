@@ -1,3 +1,7 @@
+2006-02-19  Josep Puigdemont i Casamajó  <josep.puigdemont@gmail.com>
+
+	* configure.ac: added 'ca' to ALL_LINGUAS (this time for real =)
+
 2006-02-16  Kang Jeong-Hee  <keizie@gmail.com>
 
         * configure.ac: add "ko" to ALL_LINGUAS.. 
