@@ -1,20 +1,21 @@
 # translation of el.po to Greek
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER.
-# Kostas Papadimas <pkst@gnome.org>, 2006.
 #
+# Kostas Papadimas <pkst@gnome.org>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-07 11:08+0200\n"
-"PO-Revision-Date: 2006-02-07 11:08+0200\n"
+"POT-Creation-Date: 2006-02-20 11:46+0200\n"
+"PO-Revision-Date: 2006-02-20 11:46+0200\n"
 "Last-Translator: Kostas Papadimas <pkst@gnome.org>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.1\n"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -33,14 +34,18 @@ msgid "Epiphany Web Browser"
 msgstr "Περιηγητής Epiphany "
 
 #: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "GNOME Screensaver"
+
+#: ../data/pessulus.glade.h:6
 msgid "General"
 msgstr "Γενικά"
 
-#: ../data/pessulus.glade.h:6
+#: ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
 msgstr "Επεξεργαστής κλειδώματος"
 
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Πίνακας εφαρμογών"
 
@@ -109,9 +114,21 @@ msgid "Disable _toolbar editing"
 msgstr "Απενεργοποίηση επεξεργασίας ερ_γαλειοθηκών"
 
 #: ../Pessulus/maindialog.py:63
-msgid "_Fullscreen"
-msgstr "_Πλήρης οθόνη"
+msgid "Force _fullscreen mode"
+msgstr "Εξαναγκασμός _πλήρους οθόνης"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Hide _menubar"
 msgstr "Απόκρυψη γραμμής _μενού"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Κλείδωμα στην ενεργοποίηση"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Να επιτρέπεται η απο_σύνδεση"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Να επιτρέπεται η αλλαγή _χρήστη"
