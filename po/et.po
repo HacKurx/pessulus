@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-02-10 00:23+0100\n"
-"PO-Revision-Date: 2006-02-11 10:06+0200\n"
+"PO-Revision-Date: 2006-02-25 19:32+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgstr "_Väljalogimine on keelatud"
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _quit"
-msgstr ""
+msgstr "_Lõpetamine on keelatud"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable _arbitrary URL"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _toolbar editing"
-msgstr ""
+msgstr "_Tööriistariba redigeerimine keelatud"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Force _fullscreen mode"
@@ -128,8 +128,8 @@ msgstr ""
 
 #: ../Pessulus/maindialog.py:66
 msgid "Allow log _out"
-msgstr ""
+msgstr "_Väljalogimine lubatud"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Allow user _switching"
-msgstr ""
+msgstr "Kasutajate vahel _lülitumine lubatud"
