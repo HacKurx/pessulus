@@ -1,5 +1,11 @@
 2006-02-27  Vincent Untz  <vuntz@gnome.org>
 
+	* configure.ac: post-release bump to 0.9.
+
+==================== 0.8 ====================
+
+2006-02-27  Vincent Untz  <vuntz@gnome.org>
+
 	* NEWS:
 	* README: Release 0.8.
 
