@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-20 11:46+0200\n"
+"POT-Creation-Date: 2006-02-27 13:22+0200\n"
 "PO-Revision-Date: 2006-02-20 11:46+0200\n"
 "Last-Translator: Kostas Papadimas <pkst@gnome.org>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
@@ -23,7 +23,7 @@ msgstr "<b>Απενεργοποιημένες μικροεφαρμογές</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
-msgstr "<b>Αφαλή πρωτόκολλα</b>"
+msgstr "<b>Ασφαλή πρωτόκολλα</b>"
 
 #: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
