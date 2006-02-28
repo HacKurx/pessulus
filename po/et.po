@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../Pessulus/maindialog.py:47
 msgid "Disable _command line"
-msgstr "Käsu_rida on keelatur"
+msgstr "Käsu_rida on keelatud"
 
 #: ../Pessulus/maindialog.py:48
 msgid "Disable _printing"
