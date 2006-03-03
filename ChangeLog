@@ -1,3 +1,7 @@
+2006-03-03  Maxim Dziumanenko <mvd@mylinux.ua>
+
+	* configure.ac: added 'uk' to ALL_LINGUAS
+
 2006-02-27  Vincent Untz  <vuntz@gnome.org>
 
 	* configure.ac: post-release bump to 0.9.
