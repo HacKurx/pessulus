@@ -1,0 +1,134 @@
+# Indonesian translation of pessulus.
+# Copyright (C) 2006 THE pessulus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
+# ahmad riza h nst <rizahnst@id.gnome.org>, 2006.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-08 13:39+0700\n"
+"PO-Revision-Date: 2006-03-08 13:15+0700\n"
+"Last-Translator: ahmad riza h nst <rizahnst@id.gnome.org>\n"
+"Language-Team: Indonesian <kontak@id.gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Tidak boleh Aplet</b>"
+
+#: data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Protokol Aman</b>"
+
+#: data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Tidak boleh protokol _tidak aman"
+
+#: data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Penjelajah Web Epiphany"
+
+#: data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Screensaver GNOME"
+
+#: data/pessulus.glade.h:6
+msgid "General"
+msgstr "Umum"
+
+#: data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr ""
+
+#: data/pessulus.glade.h:8
+msgid "Panel"
+msgstr "Panel"
+
+#: Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Klik untuk membuat setingan ini tidak wajib"
+
+#: Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Klik untuk membuat setingan ini menjadi wajib"
+
+#: Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Tidak boleh baris _perintah"
+
+#: Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Tidak boleh _pencetakan"
+
+#: Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Tidak boleh _setup pencetak"
+
+#: Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Tidak boleh simpan ke _disk"
+
+#: Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "Kunci pane_l"
+
+#: Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Tidak boleh paksa _keluar"
+
+#: Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Tidak boleh kunci _layar"
+
+#: Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Tidak boleh log _out"
+
+#: Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Tidak boleh _keluar"
+
+#: Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr ""
+
+#: Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Tidak boleh penyuntingan _bookmark"
+
+#: Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Tidak boleh _riwayat"
+
+#: Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr ""
+
+#: Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Tidak boleh penyuntingan _toolbar"
+
+#: Pessulus/maindialog.py:63
+msgid "Force _fullscreen mode"
+msgstr "Paksa mode _layar penuh"
+
+#: Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Sembunyikan _menubar"
+
+#: Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Kunci pada aktivasi"
+
+#: Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Bolehkan log _out"
+
+#: Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Bolehkan _pergantian pengguna"
