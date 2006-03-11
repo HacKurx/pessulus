@@ -1,0 +1,132 @@
+# pessulus' Portuguese translation.
+# Copyright © 2006 pessulus
+# This file is distributed under the same license as the pessulus package.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-11 00:55+0000\n"
+"PO-Revision-Date: 2006-03-11 01:00+0000\n"
+"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
+"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Applets Inactivas</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Protocolos Seguros</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Desactivar protocolos _inseguros"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "Navegador Web Epiphany"
+
+#: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "Protector de Ecrã GNOME"
+
+#: ../data/pessulus.glade.h:6
+msgid "General"
+msgstr "Geral"
+
+#: ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "Trancar o Editor"
+
+#: ../data/pessulus.glade.h:8
+msgid "Panel"
+msgstr "Painel"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Clicar para tornar esta definição opcional"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Clicar para tornar esta definição obrigatória"
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr "Desactivar a linha de _comando"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "Desactivar a im_pressão"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "Desactivar a _configuração de impressora"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "Desactivar a gravação de ficheiros em _disco"
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "_Trancar os paineis"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "Desavtivar a saída _forçada"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "Desactivar o trancar de _ecrã"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr "Desactivar o terminar _sessão"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr "Desactivar o _sair"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "Desactivar URLs _arbitrários"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "Desactivar a edição de _marcadores"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr "Desactivar o _histórico"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "Desactivar controlo de cor _javascript"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "Desactivar a edição da barra de ferramen_tas"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Force _fullscreen mode"
+msgstr "Forçar o modo de _ecrã completo"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "Esconder a barra de _menu"
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr "_Trancar ao activar"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr "Permitit _terminar sessão"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr "Permitir trocar de _utilizador"
