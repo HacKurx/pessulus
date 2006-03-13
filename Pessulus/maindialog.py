@@ -26,6 +26,7 @@ import gettext
 import gobject
 import gtk
 import gtk.glade
+import gnome
 
 from config import *
 
@@ -68,7 +69,7 @@ lockdownbuttons = (
 )
 
 class PessulusMainDialog:
-    def __init__ (self, applier, quit_on_close = True):
+    def __init__ (self, applier, quit_on_close = True, gnome_program = None):
         globalvar.applier = applier
         globalvar.tooltips = gtk.Tooltips ()
 
@@ -84,7 +85,10 @@ class PessulusMainDialog:
         self.__init_disabledapplets ()
         self.__init_safeprotocols ()
 
-        self.xml.get_widget ("helpbutton").set_sensitive (False)
+        if gnome_program:
+            self.gnome_program = gnome_program
+        else:
+            self.xml.get_widget ("helpbutton").hide ()
 
         self.window = self.xml.get_widget ("dialogEditor")
         self.window.connect ("response", self.__on_dialog_response)
@@ -141,6 +145,10 @@ class PessulusMainDialog:
 
     def __on_dialog_response (self, dialog, response_id):
         if dialog == self.window and response_id == gtk.RESPONSE_HELP:
+            gnome.help_display_desktop (self.gnome_program,
+                                        "system-admin-guide",
+                                        "system-admin-guide",
+                                        "lockdown")
             return
         
         dialog.hide ()

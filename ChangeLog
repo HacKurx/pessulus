@@ -1,5 +1,13 @@
 2006-03-13  Vincent Untz  <vuntz@gnome.org>
 
+	* Pessulus/main.py: pass a GnomeProgram to the PessulusMainDialog
+	* Pessulus/maindialog.py: (__init__): hide the help button if no
+	GnomeProgram has been passed in argument
+	(__on_dialog_response): open the pessulus section in the System Admin
+	Guide for help
+
+2006-03-13  Vincent Untz  <vuntz@gnome.org>
+
 	* configure.ac: post-release bump to 0.10.
 
 ==================== 0.9 ====================
