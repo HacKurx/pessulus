@@ -1,3 +1,7 @@
+2006-03-13  Runa Bhattacharjee <runa@bengalinux.org>
+
+	* configure.ac: Added "bn" (Bengali) to ALL_LINGUAS.
+
 2006-03-12  Ole Laursen  <olau@hardworking.dk>
 
 	* configure.ac: Added "da" (Danish) to ALL_LINGUAS.
