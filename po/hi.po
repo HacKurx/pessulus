@@ -1,0 +1,134 @@
+# translation of pessulus.HEAD.hi.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# G Karunakar <karunakar@indlinux.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD.hi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-13 07:13+0100\n"
+"PO-Revision-Date: 2006-03-13 18:11+0530\n"
+"Last-Translator: G Karunakar <karunakar@indlinux.org>\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>अक्षम एप्पलेट</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr ""
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr ""
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "एपीफेनी वेब ब्राउसर"
+
+#: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "गनोम स्क्रीनसेवर"
+
+#: ../data/pessulus.glade.h:6
+msgid "General"
+msgstr "सामान्य"
+
+#: ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr ""
+
+#: ../data/pessulus.glade.h:8
+msgid "Panel"
+msgstr "पटल"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr ""
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:47
+msgid "Disable _command line"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _printing"
+msgstr "छपाई अक्षम (_p)"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable print _setup"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable force _quit"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable log _out"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _quit"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _history"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:63
+msgid "Force _fullscreen mode"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:64
+msgid "Hide _menubar"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:65
+msgid "_Lock on activation"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:66
+msgid "Allow log _out"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow user _switching"
+msgstr ""
+

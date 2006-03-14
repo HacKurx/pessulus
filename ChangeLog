@@ -1,3 +1,7 @@
+2006-03-14  Rajesh Ranjan <rajeshkajha@yahoo.com>
+
+	* configure.ac: Added "hi" (Bengali) to ALL_LINGUAS.
+
 2006-03-13  Vincent Untz  <vuntz@gnome.org>
 
 	* Pessulus/main.py: pass a GnomeProgram to the PessulusMainDialog
