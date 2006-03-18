@@ -8,13 +8,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-29 22:01+0700\n"
-"PO-Revision-Date: 2006-01-29 22:04+0700\n"
+"POT-Creation-Date: 2006-03-18 16:16+0700\n"
+"PO-Revision-Date: 2006-03-18 16:18+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <l10n@opentle.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
+
+#: data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "ตั้งค่านโยบายการจำกัดการใช้งาน"
+
+#: data/pessulus.desktop.in.in.h:2 data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "เครื่องมือแก้ไขการจำกัดการใช้งาน"
 
 #: data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -40,10 +48,6 @@ msgstr "โปรแกรมรักษาหน้าจอของ GNOME"
 msgid "General"
 msgstr "ทั่วไป"
 
-#: data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "แก้ไขการจำกัดการใช้งาน"
-
 #: data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "พาเนล"
@@ -56,78 +60,78 @@ msgstr "คลิกเพื่อให้ค่าตั้งนี้ไม
 msgid "Click to make this setting mandatory"
 msgstr "คลิกเพื่อให้ค่าตั้งนี้เป็นค่าบังคับ"
 
-#: Pessulus/maindialog.py:47
+#: Pessulus/maindialog.py:48
 msgid "Disable _command line"
 msgstr "ห้ามใช้_บรรทัดคำสั่ง"
 
-#: Pessulus/maindialog.py:48
+#: Pessulus/maindialog.py:49
 msgid "Disable _printing"
 msgstr "ห้าม_พิมพ์"
 
-#: Pessulus/maindialog.py:49
+#: Pessulus/maindialog.py:50
 msgid "Disable print _setup"
 msgstr "ห้าม_ตั้งค่าการพิมพ์"
 
-#: Pessulus/maindialog.py:50
+#: Pessulus/maindialog.py:51
 msgid "Disable save to _disk"
 msgstr "ห้าม_บันทึกลงดิสก์"
 
-#: Pessulus/maindialog.py:52
+#: Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
 msgstr "_ล็อคพาเนล"
 
-#: Pessulus/maindialog.py:53
+#: Pessulus/maindialog.py:54
 msgid "Disable force _quit"
 msgstr "ห้าม_บังคับออก"
 
-#: Pessulus/maindialog.py:54
+#: Pessulus/maindialog.py:55
 msgid "Disable lock _screen"
 msgstr "ห้ามล็อคหน้า_จอ"
 
-#: Pessulus/maindialog.py:55
+#: Pessulus/maindialog.py:56
 msgid "Disable log _out"
 msgstr "ห้าม_ออกจากระบบ"
 
-#: Pessulus/maindialog.py:57
+#: Pessulus/maindialog.py:58
 msgid "Disable _quit"
 msgstr "ห้าม_ออก"
 
-#: Pessulus/maindialog.py:58
+#: Pessulus/maindialog.py:59
 msgid "Disable _arbitrary URL"
 msgstr "ห้ามป้อน URL อิ_สระ"
 
-#: Pessulus/maindialog.py:59
+#: Pessulus/maindialog.py:60
 msgid "Disable _bookmark editing"
 msgstr "ห้ามแก้ไข_ที่คั่นหน้า"
 
-#: Pessulus/maindialog.py:60
+#: Pessulus/maindialog.py:61
 msgid "Disable _history"
 msgstr "ห้ามใช้_ประวัติการท่องเว็บ"
 
-#: Pessulus/maindialog.py:61
+#: Pessulus/maindialog.py:62
 msgid "Disable _javascript chrome"
 msgstr "ห้าม_จาวาสคริปต์ดัดแปลงหน้าตาโปรแกรม"
 
-#: Pessulus/maindialog.py:62
+#: Pessulus/maindialog.py:63
 msgid "Disable _toolbar editing"
 msgstr "ห้ามแก้ไขแถบเ_ครื่องมือ"
 
-#: Pessulus/maindialog.py:63
+#: Pessulus/maindialog.py:64
 msgid "Force _fullscreen mode"
 msgstr "บังคับใช้โหมดเ_ต็มจอ"
 
-#: Pessulus/maindialog.py:64
+#: Pessulus/maindialog.py:65
 msgid "Hide _menubar"
 msgstr "ซ่อนแถบเ_มนู"
 
-#: Pessulus/maindialog.py:65
+#: Pessulus/maindialog.py:66
 msgid "_Lock on activation"
 msgstr "_ล็อคเมื่อเริ่มทำงาน"
 
-#: Pessulus/maindialog.py:66
+#: Pessulus/maindialog.py:67
 msgid "Allow log _out"
 msgstr "ให้_ออกจากระบบได้"
 
-#: Pessulus/maindialog.py:67
+#: Pessulus/maindialog.py:68
 msgid "Allow user _switching"
 msgstr "ให้_สลับผู้ใช้ได้"
