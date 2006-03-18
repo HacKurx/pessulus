@@ -1,3 +1,8 @@
+2006-03-18  Vincent Untz  <vuntz@gnome.org>
+
+	* data/pessulus.desktop.in.in: mark the name and comments as
+	translatable
+
 2006-03-14  Rajesh Ranjan <rajeshkajha@yahoo.com>
 
 	* configure.ac: Added "hi" (Bengali) to ALL_LINGUAS.

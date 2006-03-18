@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Name=Lockdown Editor
-Comment=Configure the lockdown policy
+_Name=Lockdown Editor
+_Comment=Configure the lockdown policy
 Icon=stock_lock
 Exec=pessulus
 StartupNotify=true
