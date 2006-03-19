@@ -7,13 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-17 07:29+0100\n"
-"PO-Revision-Date: 2006-01-17 15:40+0100\n"
+"POT-Creation-Date: 2006-03-18 23:17+0100\n"
+"PO-Revision-Date: 2006-03-19 04:40+0100\n"
 "Last-Translator: Tino Meinen <a.t.meinen@chelo.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Het lockdown-beleid configureren"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "Lockdown-editor"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -39,10 +47,6 @@ msgstr "GNOME schermbeveiliging"
 msgid "General"
 msgstr "Algemeen"
 
-#: ../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "Lockdown-editor"
-
 #: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Paneel"
@@ -55,79 +59,79 @@ msgstr "Klik om deze instelling niet verplicht te maken"
 msgid "Click to make this setting mandatory"
 msgstr "Klik om deze instelling verplicht te maken"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:48
 msgid "Disable _command line"
 msgstr "_Opdrachtregel uitschakelen"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:49
 msgid "Disable _printing"
 msgstr "_Afdrukken uitschakelen"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:50
 msgid "Disable print _setup"
 msgstr "Af_drukinstellingen uitschakelen"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:51
 msgid "Disable save to _disk"
 msgstr "Opslaan op _schijf uitschakelen"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
 msgstr "De _panelen vastzetten"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:54
 msgid "Disable force _quit"
 msgstr "_Afsluiten forceren uitschakelen"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:55
 msgid "Disable lock _screen"
 msgstr "_Schermvergrendeling uitschakelen"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:56
 msgid "Disable log _out"
 msgstr "Af_melden uitschakelen"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:58
 msgid "Disable _quit"
 msgstr "Af_sluiten uitschakelen"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:59
 msgid "Disable _arbitrary URL"
 msgstr "_Willekeurige URL uitschakelen"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:60
 msgid "Disable _bookmark editing"
 msgstr "Bewerken van _bladwijzers uitschakelen"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:61
 msgid "Disable _history"
 msgstr "_Geschiedenis uitschakelen"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _javascript chrome"
 msgstr "_Javascript chrome uitschakelen"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _toolbar editing"
 msgstr "Bewerken van wer_kbalken uitschakelen"
 
 # volledig scherm behouden/vastzetten/forceren/opleggen
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:64
 msgid "Force _fullscreen mode"
 msgstr "_Volledig scherm vastzetten"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:65
 msgid "Hide _menubar"
 msgstr "_Menubalk verbergen"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:66
 msgid "_Lock on activation"
 msgstr "_Vastzetten bij activeren"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:67
 msgid "Allow log _out"
 msgstr "Af_melden toestaan"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:68
 msgid "Allow user _switching"
 msgstr "_Wisselen van gebruiker toestaan"
