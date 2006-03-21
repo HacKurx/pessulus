@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-16 09:15+0100\n"
+"POT-Creation-Date: 2006-03-20 08:56+0100\n"
 "PO-Revision-Date: 2005-11-22 12:51+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <gnome@gnome.hu>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms:  nplurals=1; plural=0;\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "A zárolási irányelv beállítása"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "Zárolásszerkesztő"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -41,10 +49,6 @@ msgstr "GNOME képernyővédő"
 msgid "General"
 msgstr "Általános"
 
-#: ../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "Zárolásszerkesztő"
-
 #: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Panel"
@@ -57,79 +61,79 @@ msgstr "Ide kattintva ezt a beállítást nem teszi kötelezővé"
 msgid "Click to make this setting mandatory"
 msgstr "Ide kattintva ezt a beállítást kötelezővé teszi"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:48
 msgid "Disable _command line"
 msgstr "_Parancssor letiltása"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:49
 msgid "Disable _printing"
 msgstr "_Nyomtatás letiltása"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:50
 msgid "Disable print _setup"
 msgstr "Ny_omtatás beállításának letiltása"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:51
 msgid "Disable save to _disk"
 msgstr "_Lemezre mentés letiltása"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
 msgstr "Panelek _zárolása"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:54
 msgid "Disable force _quit"
 msgstr "_Erőltetett kilépés letiltása"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:55
 msgid "Disable lock _screen"
 msgstr "_Képernyő zárolásának letiltása"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:56
 msgid "Disable log _out"
 msgstr "Kijele_ntkezés letiltása"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:58
 msgid "Disable _quit"
 msgstr "_Kilépés letiltása"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:59
 msgid "Disable _arbitrary URL"
 msgstr "Tetszőleges _URL letiltása"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:60
 msgid "Disable _bookmark editing"
 msgstr "Köny_vjelzők szerkesztésének letiltása"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:61
 msgid "Disable _history"
 msgstr "Előz_mények letiltása"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _javascript chrome"
 msgstr "_Javascript chrome letiltása"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _toolbar editing"
 msgstr "Eszköztár szerkesztésé_nek letiltása"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:64
 msgid "Force _fullscreen mode"
 msgstr "_Teljes képernyős mód kényszerítése"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:65
 msgid "Hide _menubar"
 msgstr "_Menüsor elrejtése"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:66
 msgid "_Lock on activation"
 msgstr "_Zárolás aktiváláskor"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:67
 msgid "Allow log _out"
 msgstr "Kijele_ntkezés engedélyezése"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:68
 msgid "Allow user _switching"
 msgstr "_Felhasználóváltás engedélyezése"
 
