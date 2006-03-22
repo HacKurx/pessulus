@@ -9,16 +9,24 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus 0.9\n"
+"Project-Id-Version: pessulus 0.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-13 19:04+0100\n"
-"PO-Revision-Date: 2006-03-13 09:15+0100\n"
+"POT-Creation-Date: 2006-03-22 22:46+0100\n"
+"PO-Revision-Date: 2006-03-22 22:15+0100\n"
 "Last-Translator: Laurent Richard <laurent.richard@ael.be>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Configure la politique de verrouillage"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "Éditeur de verrous"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -44,10 +52,6 @@ msgstr "Economiseur d'écran GNOME"
 msgid "General"
 msgstr "Général"
 
-#: ../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "Éditeur de verrous"
-
 #: ../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Tableau de bord"
@@ -60,79 +64,79 @@ msgstr "Cliquer pour rendre ce paramètre non obligatoire"
 msgid "Click to make this setting mandatory"
 msgstr "Cliquer pour rendre ce paramètre obligatoire"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:48
 msgid "Disable _command line"
 msgstr "Désactiver la ligne de _commande"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:49
 msgid "Disable _printing"
 msgstr "Désactiver l'im_pression"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:50
 msgid "Disable print _setup"
 msgstr "Désactiver la configuration de l'_impression"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:51
 msgid "Disable save to _disk"
 msgstr "Désactiver la sauvegarde sur _disque"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
 msgstr "Verrouiller les _tableaux de bord"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:54
 msgid "Disable force _quit"
 msgstr "Désactiver « forcer _quitter »"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:55
 msgid "Disable lock _screen"
 msgstr "Désactiver le _verrouillage de l'écran"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:56
 msgid "Disable log _out"
 msgstr "Désactiver la clôture de _session"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:58
 msgid "Disable _quit"
 msgstr "Désactiver la _fermeture du programme"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:59
 msgid "Disable _arbitrary URL"
 msgstr "Désactiver les URL _arbitraires"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:60
 msgid "Disable _bookmark editing"
 msgstr "Désactiver l'édition des _signets"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:61
 msgid "Disable _history"
 msgstr "Désactiver l'_historique"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _javascript chrome"
 msgstr "Désactiver _javascript chrome"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _toolbar editing"
 msgstr "Désactiver l'édition de la barre d'ou_tils"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:64
 msgid "Force _fullscreen mode"
 msgstr "Forcer le _plein écran"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:65
 msgid "Hide _menubar"
 msgstr "Masquer la barre de _menu"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:66
 msgid "_Lock on activation"
 msgstr "_Verrouiller lors de l'activation"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:67
 msgid "Allow log _out"
 msgstr "Autoriser la clôture de _session"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:68
 msgid "Allow user _switching"
 msgstr "Autoriser le _changement d'utilisateur"
 
