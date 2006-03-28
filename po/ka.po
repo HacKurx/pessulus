@@ -1,0 +1,139 @@
+# translation of pessulus.HEAD.po to Georgian
+# translation of PACKAGE.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# <>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-28 06:46+0200\n"
+"PO-Revision-Date: 2006-03-28 14:31+0200\n"
+"Last-Translator: Vladimer Sichinava <alinux@siena.linux.it>\n"
+"Language-Team: Georgian <gnome@inet.ge>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "დაბლოკვის პარამეტრების გამართვა"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "დაბლოკვის რედაქტორი"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>ამორთული აპლეტები</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>უსაფრთხო ოქმები</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "_უსაფრთხო ოქმების ამორთვა"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "ეპიფანია ვებ ბრაუზერი"
+
+#: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "გნომის ეკრანმზოგი"
+
+#: ../data/pessulus.glade.h:6
+msgid "General"
+msgstr "საერთო"
+
+#: ../data/pessulus.glade.h:8
+msgid "Panel"
+msgstr "პანელი"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "დაწკაპეთ ამ პარამეტრის არააუცილებლად მისათითებლად"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "დაწკაპეთ ამ პარამეტრის აუცილებლად მისათითებლად"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _command line"
+msgstr "_ბრძანების ხაზის ამორთვა"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable _printing"
+msgstr "_ბეჭდვის ამორთვა"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable print _setup"
+msgstr "ბეჭდვის _გამართვის ამორთვა"
+
+#: ../Pessulus/maindialog.py:51
+msgid "Disable save to _disk"
+msgstr "_დისკზე შენახვის ამორთვა"
+
+#: ../Pessulus/maindialog.py:53
+msgid "_Lock down the panels"
+msgstr "_პანელების დაბლოკვა"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable force _quit"
+msgstr "_იძულებითი დასრულების ამორთვა"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable lock _screen"
+msgstr "_ეკრანის დაბლოკვის ამორთვა"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable log _out"
+msgstr "_გასვლის ამორთვა"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _quit"
+msgstr "_დასრულების ამორთვა"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _arbitrary URL"
+msgstr "_ნებისმიერი მისამართის ამორთვა"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _bookmark editing"
+msgstr "_სანიშნეების რედაქტირების ამორთვა"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _history"
+msgstr "_ისტორიის ამორთვა"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _javascript chrome"
+msgstr "_javascript-ის ქრომოს ამორთვა"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _toolbar editing"
+msgstr "_პულტის რედაქტირების ამორთვა"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Force _fullscreen mode"
+msgstr "_სრული ეკრანის რეჟიმის იძულება"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Hide _menubar"
+msgstr "_მენიუს ზოლის დამალვა"
+
+#: ../Pessulus/maindialog.py:66
+msgid "_Lock on activation"
+msgstr "ბლოკირება _გააქტივებისას"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow log _out"
+msgstr "გასვლის _ნებადართვა"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Allow user _switching"
+msgstr "_მონაწილეთა გადართვის ნებადართვა"
+

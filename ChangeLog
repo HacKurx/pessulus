@@ -1,3 +1,7 @@
+2006-03-28 Vladimer Sichinava  <vlsichinava@gmail.com>
+
+        * configure.ac: Added "ka" (Georgian) to ALL_LINGUAS
+
 2006-03-28  Rhys Jones  <rhys@sucs.org>
 
 	* configure.ac: Added "cy" (Welsh) to ALL_LINGUAS.
