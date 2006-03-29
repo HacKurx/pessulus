@@ -1,3 +1,10 @@
+2006-03-29  Dennis Cranston  <dennis_cranston@yahoo.com>
+
+	* Pessulus/lockdowncheckbutton.py:  Remove line feeds and
+	extra spacing from tooltips generated from the schemas.
+	* data/pessulus.glade:  Do not set initial visibility of dialog 
+	to true, so the dialog will open centered properly.
+
 2006-03-28 Vladimer Sichinava  <vlsichinava@gmail.com>
 
         * configure.ac: Added "ka" (Georgian) to ALL_LINGUAS
