@@ -6,15 +6,23 @@ msgid ""
 ""
 msgstr "Project-Id-Version: pessulus 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-19 07:23+0100\n"
-"PO-Revision-Date: 2006-01-19 22:26+1030\n"
+"POT-Creation-Date: 2006-03-30 06:41+0200\n"
+"PO-Revision-Date: 2006-03-30 21:30+1030\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: LocFactoryEditor 1.6b30\n"
+"X-Generator: LocFactoryEditor 1.6b36\n"
+
+#:../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Cấu hình chính sách khoá cứng"
+
+#:../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "Bộ hiệu chỉnh khoá cứng"
 
 #:../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -40,10 +48,6 @@ msgstr "Bộ bảo vậ màn hình Gnome"
 msgid "General"
 msgstr "Chung"
 
-#:../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "Bộ hiệu chỉnh khóa xuống"
-
 #:../data/pessulus.glade.h:8
 msgid "Panel"
 msgstr "Bảng điều khiển"
@@ -56,78 +60,78 @@ msgstr "Nhắp chuột để làm cho thiết lập này không phải bắt bu�
 msgid "Click to make this setting mandatory"
 msgstr "Nhắp chuột để làm cho thiết lập này bắt buộc."
 
-#:../Pessulus/maindialog.py:47
+#:../Pessulus/maindialog.py:48
 msgid "Disable _command line"
 msgstr "Tắt dòng _lệnh"
 
-#:../Pessulus/maindialog.py:48
+#:../Pessulus/maindialog.py:49
 msgid "Disable _printing"
 msgstr "Tắt khả năng _in"
 
-#:../Pessulus/maindialog.py:49
+#:../Pessulus/maindialog.py:50
 msgid "Disable print _setup"
 msgstr "Tắt _thiết lập in"
 
-#:../Pessulus/maindialog.py:50
+#:../Pessulus/maindialog.py:51
 msgid "Disable save to _disk"
 msgstr "Tắt khả năng lưu vào _đĩa"
 
-#:../Pessulus/maindialog.py:52
+#:../Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
 msgstr "_Khóa xuống các Bảng điều khiển"
 
-#:../Pessulus/maindialog.py:53
+#:../Pessulus/maindialog.py:54
 msgid "Disable force _quit"
 msgstr "Tắt khả năng buộc t_hoát"
 
-#:../Pessulus/maindialog.py:54
+#:../Pessulus/maindialog.py:55
 msgid "Disable lock _screen"
 msgstr "Tắt khả năng khóa _màn hình"
 
-#:../Pessulus/maindialog.py:55
+#:../Pessulus/maindialog.py:56
 msgid "Disable log _out"
 msgstr "Tắt khả năng đăng _xuất"
 
-#:../Pessulus/maindialog.py:57
+#:../Pessulus/maindialog.py:58
 msgid "Disable _quit"
 msgstr "Tắt khả năng t_hoát"
 
-#:../Pessulus/maindialog.py:58
+#:../Pessulus/maindialog.py:59
 msgid "Disable _arbitrary URL"
 msgstr "Tắt địa chỉ Mạng tù_y ý"
 
-#:../Pessulus/maindialog.py:59
+#:../Pessulus/maindialog.py:60
 msgid "Disable _bookmark editing"
 msgstr "Tắt hiệu chỉnh đánh _dấu"
 
-#:../Pessulus/maindialog.py:60
+#:../Pessulus/maindialog.py:61
 msgid "Disable _history"
 msgstr "Tắt _lược sử"
 
-#:../Pessulus/maindialog.py:61
+#:../Pessulus/maindialog.py:62
 msgid "Disable _javascript chrome"
 msgstr "Tắt crom _JavaScript"
 
-#:../Pessulus/maindialog.py:62
+#:../Pessulus/maindialog.py:63
 msgid "Disable _toolbar editing"
 msgstr "Tắt hiệu chỉnh thanh _công cụ"
 
-#:../Pessulus/maindialog.py:63
+#:../Pessulus/maindialog.py:64
 msgid "Force _fullscreen mode"
 msgstr "Buộc chế độ t_oàn màn hình"
 
-#:../Pessulus/maindialog.py:64
+#:../Pessulus/maindialog.py:65
 msgid "Hide _menubar"
 msgstr "Ẩn thanh trình đơ_n"
 
-#:../Pessulus/maindialog.py:65
+#:../Pessulus/maindialog.py:66
 msgid "_Lock on activation"
 msgstr "_Khóa khi hoạt hóa"
 
-#:../Pessulus/maindialog.py:66
+#:../Pessulus/maindialog.py:67
 msgid "Allow log _out"
 msgstr "Cho phép đăng _xuất"
 
-#:../Pessulus/maindialog.py:67
+#:../Pessulus/maindialog.py:68
 msgid "Allow user _switching"
 msgstr "Cho phép chuyển _đổi người dùng"
