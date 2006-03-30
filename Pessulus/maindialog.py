@@ -31,12 +31,20 @@ import gnome
 from config import *
 
 import disabledapplets
+import icons
 import lockdownbutton
 import lockdowncheckbutton
 import globalvar
 import safeprotocols
 
 gettext.install (PACKAGE, LOCALEDIR)
+
+pages = (
+    ( _('General'), "gnome-logo-icon-transparent", "vbox7" ),
+    ( _('Panel'), "gnome-panel", "vbox12" ),
+    ( _('Epiphany Web Browser'), "web-browser", "vboxEpiphany" ),
+    ( _('GNOME Screensaver'), "screensaver", "vbox15" )
+)
 
 gconfdirs = [
 "/desktop/gnome/lockdown",
@@ -69,6 +77,12 @@ lockdownbuttons = (
 )
 
 class PessulusMainDialog:
+    (
+        COLUMN_NAME,
+        COLUMN_ICON,
+        COLUMN_PAGENUMBER
+    ) = range (3)
+
     def __init__ (self, applier, quit_on_close = True, gnome_program = None):
         globalvar.applier = applier
         globalvar.tooltips = gtk.Tooltips ()
@@ -80,10 +94,6 @@ class PessulusMainDialog:
 
         self.glade_file = os.path.join (GLADEDIR, "pessulus.glade")
         self.xml = gtk.glade.XML (self.glade_file, "dialogEditor", PACKAGE)
-
-        self.__init_checkbuttons ()
-        self.__init_disabledapplets ()
-        self.__init_safeprotocols ()
 
         if gnome_program:
             self.gnome_program = gnome_program
@@ -97,6 +107,11 @@ class PessulusMainDialog:
             self.window.connect ("destroy", self.__on_dialog_destroy)
         else:
             self.window.connect ("delete-event", gtk.Widget.hide_on_delete)
+
+        self.__init_checkbuttons ()
+        self.__init_disabledapplets ()
+        self.__init_safeprotocols ()
+        self.__init_pageselector ()
 
         self.window.show ()
 
@@ -138,10 +153,68 @@ class PessulusMainDialog:
         checkbutton.connect ("toggled", self.__on_unsafeprotocols_toggled, hbox)
         self.__on_unsafeprotocols_toggled (checkbutton, hbox)
 
+    def __init_pageselector (self):
+        #FIXME: need to update icons on icon theme change/screen change
+        icon_theme = gtk.icon_theme_get_for_screen (self.window.get_screen ())
+
+        use_tree = False
+        if use_tree:
+            store = gtk.TreeStore (str, gtk.gdk.Pixbuf, int)
+        else:
+            store = gtk.ListStore (str, gtk.gdk.Pixbuf, int)
+
+        notebook = self.xml.get_widget ("notebook2")
+        children = notebook.get_children ()
+
+        for (name, icon, widgetname) in pages:
+            i = 0
+            found = False
+            for child in children:
+                if child == self.xml.get_widget (widgetname):
+                    found = True
+                    break
+                i += 1
+
+            if not found:
+                continue
+
+            if use_tree:
+                iter = store.append (None)
+            else:
+                iter = store.append ()
+
+            store.set (iter,
+                       self.COLUMN_ICON, icons.load_icon (icon_theme, icon),
+                       self.COLUMN_NAME, name,
+                       self.COLUMN_PAGENUMBER, i)
+
+        pageselector = self.xml.get_widget ("pageselector")
+        pageselector.set_model (store)
+
+        col = gtk.TreeViewColumn ()
+        pageselector.append_column (col)
+
+        cell = gtk.CellRendererPixbuf ()
+        col.pack_start (cell, True)
+        col.add_attribute (cell, 'pixbuf', self.COLUMN_ICON)
+
+        cell = gtk.CellRendererText ()
+        col.pack_start (cell, True)
+        col.add_attribute (cell, 'text', self.COLUMN_NAME)
+ 
+        pageselector.connect ("cursor-changed", self.__on_page_select,
+                              notebook)
+        pageselector.set_cursor ((0,))
+
     def __on_unsafeprotocols_toggled (self, checkbutton, hbox):
         sensitive = checkbutton.get_active ()
         hbox.set_sensitive (sensitive)
         self.safeprotocols.set_sensitive (sensitive)
+
+    def __on_page_select (self, selector, notebook):
+        model = selector.get_model()
+        iter = model.get_iter (selector.get_cursor ()[0])
+        notebook.set_current_page (model[iter][self.COLUMN_PAGENUMBER])
 
     def __on_dialog_response (self, dialog, response_id):
         if dialog == self.window and response_id == gtk.RESPONSE_HELP:

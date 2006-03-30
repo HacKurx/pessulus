@@ -1,3 +1,17 @@
+2006-03-30  Vincent Untz  <vuntz@gnome.org>
+
+	* TODO: updated
+
+	New UI that uses a treeview to select the current page.
+	Based on patch by Rob Bradford <robster@debian.org>
+	Fix bug #334283
+
+	* Pessulus/maindialog.py: (__init_pageselector): new, to init the page
+	selector
+	(__on_page_select): new
+	(__init__): init the page selector
+	* data/pessulus.glade: updated for the UI change
+
 2006-03-29  Dennis Cranston  <dennis_cranston@yahoo.com>
 
 	* Pessulus/lockdowncheckbutton.py:  Remove line feeds and

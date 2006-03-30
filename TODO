@@ -1,15 +1,11 @@
 TODO
 ====
 
-Before version 0.2:
-  * HIG compliance :-)
-
 Future:
   * make the strings consistent
   * add more useful lockdown settings
   * keep the safe protocols that were once enabled somewhere in gconf so they
     are easy to reenable (?)
-  * write help files
 
 Problems waiting for a solution in another module:
   * why doesn't gconf immediately pick up the mandatory settings?
