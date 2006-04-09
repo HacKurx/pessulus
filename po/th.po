@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-18 16:16+0700\n"
-"PO-Revision-Date: 2006-03-18 16:18+0700\n"
+"POT-Creation-Date: 2006-04-09 15:54+0700\n"
+"PO-Revision-Date: 2006-04-09 15:50+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <l10n@opentle.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "ตั้งค่านโยบายการจำกัดการใช้งาน"
 
-#: data/pessulus.desktop.in.in.h:2 data/pessulus.glade.h:7
+#: data/pessulus.desktop.in.in.h:2 data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "เครื่องมือแก้ไขการจำกัดการใช้งาน"
 
@@ -34,23 +34,7 @@ msgstr "<b>โพรโทคอลที่ปลอดภัย</b>"
 
 #: data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr "ห้ามใช้โพรโทคอลที่ไ_ม่ปลอดภัย"
-
-#: data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "เว็บเบราว์เซอร์ Epiphany"
-
-#: data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "โปรแกรมรักษาหน้าจอของ GNOME"
-
-#: data/pessulus.glade.h:6
-msgid "General"
-msgstr "ทั่วไป"
-
-#: data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "พาเนล"
+msgstr "ห้ามใช้โพรโทคอลที่ไม่ป_ลอดภัย"
 
 #: Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
@@ -60,78 +44,94 @@ msgstr "คลิกเพื่อให้ค่าตั้งนี้ไม
 msgid "Click to make this setting mandatory"
 msgstr "คลิกเพื่อให้ค่าตั้งนี้เป็นค่าบังคับ"
 
-#: Pessulus/maindialog.py:48
-msgid "Disable _command line"
-msgstr "ห้ามใช้_บรรทัดคำสั่ง"
+#: Pessulus/maindialog.py:43
+msgid "General"
+msgstr "ทั่วไป"
 
-#: Pessulus/maindialog.py:49
+#: Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "พาเนล"
+
+#: Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "เว็บเบราว์เซอร์ Epiphany"
+
+#: Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "โปรแกรมรักษาหน้าจอของ GNOME"
+
+#: Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "ห้ามใช้บรรทัดคำ_สั่ง"
+
+#: Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "ห้าม_พิมพ์"
 
-#: Pessulus/maindialog.py:50
+#: Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "ห้าม_ตั้งค่าการพิมพ์"
 
-#: Pessulus/maindialog.py:51
+#: Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "ห้าม_บันทึกลงดิสก์"
 
-#: Pessulus/maindialog.py:53
+#: Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "_ล็อคพาเนล"
 
-#: Pessulus/maindialog.py:54
+#: Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "ห้าม_บังคับออก"
 
-#: Pessulus/maindialog.py:55
+#: Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "ห้ามล็อคหน้า_จอ"
 
-#: Pessulus/maindialog.py:56
+#: Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "ห้าม_ออกจากระบบ"
 
-#: Pessulus/maindialog.py:58
+#: Pessulus/maindialog.py:66
 msgid "Disable _quit"
-msgstr "ห้าม_ออก"
+msgstr "_ห้ามออก"
 
-#: Pessulus/maindialog.py:59
+#: Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
 msgstr "ห้ามป้อน URL อิ_สระ"
 
-#: Pessulus/maindialog.py:60
+#: Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "ห้ามแก้ไข_ที่คั่นหน้า"
 
-#: Pessulus/maindialog.py:61
+#: Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "ห้ามใช้_ประวัติการท่องเว็บ"
 
-#: Pessulus/maindialog.py:62
+#: Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "ห้าม_จาวาสคริปต์ดัดแปลงหน้าตาโปรแกรม"
 
-#: Pessulus/maindialog.py:63
+#: Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "ห้ามแก้ไขแถบเ_ครื่องมือ"
 
-#: Pessulus/maindialog.py:64
+#: Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "บังคับใช้โหมดเ_ต็มจอ"
 
-#: Pessulus/maindialog.py:65
+#: Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "ซ่อนแถบเ_มนู"
 
-#: Pessulus/maindialog.py:66
+#: Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "_ล็อคเมื่อเริ่มทำงาน"
 
-#: Pessulus/maindialog.py:67
+#: Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "ให้_ออกจากระบบได้"
 
-#: Pessulus/maindialog.py:68
+#: Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "ให้_สลับผู้ใช้ได้"
