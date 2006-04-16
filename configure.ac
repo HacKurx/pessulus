@@ -12,12 +12,11 @@ PKG_CHECK_MODULES(PESSULUS,
 		  pygtk-2.0 >= 2.6.0		\
 		  gnome-python-2.0 >= 2.6.0)
 
-ALL_LINGUAS="bg bn ca cs cy da de el en_CA es et eu fi fr gl gu hi hu id it lt mk nb nl pt pt_BR ja ka ko pa sk sq sr sr@Latn sv th uk vi zh_CN zh_HK zh_TW"
 GETTEXT_PACKAGE=pessulus
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
 AM_GLIB_GNU_GETTEXT
-AC_PROG_INTLTOOL
+IT_PROG_INTLTOOL([0.34.90])
 AM_PATH_PYTHON
 AC_PATH_PROG(GCONFTOOL, gconftool-2)
 

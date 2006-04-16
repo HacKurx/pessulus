@@ -1,3 +1,9 @@
+2006-04-15  Brian Pepple  <bdpepple@gmail.com>
+
+	* configure.in: Use po/LINGUAS instead of including all languages
+	directly in this file. See the wiki for more information:
+	http://live.gnome.org/GnomeGoals/PoLinguas
+
 2006-03-30  Dennis Cranston  <dennis_cranston@yahoo.com>
 
 	* data/pessulus.glade:  HIG spacing fixes.
