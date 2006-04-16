@@ -1,3 +1,7 @@
+2006-04-15  Brian Pepple  <bdpepple@gmail.com>
+
+	* LINGUAS: New file listing all supported languages.
+
 2006-04-16  Funda Wang  <fundawang@linux.net.cn>
 
 	* zh_CN.po: Updated Simplified Chinese translation.
