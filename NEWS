@@ -1,3 +1,48 @@
+pessulus 0.10.1
+===============
+
+  Features
+
+	* New UI that uses a treeview to select the current page (Rob Bradford,
+	  Vincent)
+
+  Fixes
+
+	* Open the new help with the help button (not for Sabayon) (Vincent)
+	* Mark name and comment of the .desktop file as translatable (Vincent)
+	* Remove line feeds and extra spacing from tooltips generated from the
+	  schemas (Dennis Cranston)
+	* Do not set initial visibility of dialog to true, so the dialog will
+	  open centered properly (Dennis Cranston)
+	* HIG fixes (Dennis Cranston)
+	* Use po/LINGUAS (Brian Pepple)
+
+  Translators
+
+	* Alexander Shopov (bg)
+	* josep (ca)
+	* Lukáš Novotný (cs)
+	* Rhys Jones (cy)
+	* Kostas Papadimas (el)
+	* Francisco Javier F. Serrador (es)
+	* Ivar Smolin (et)
+	* Ilkka Tuohela (fi)
+	* Laurent Richard (fr)
+	* Ignacio Casal Quinteiro (gl)
+	* Ankit Patel (gu)
+	* G Karunakar (hi)
+	* Gabor Kelemen (hu)
+	* Vladimer Sichinava (ka)
+	* Žygimantas Beručka (lt)
+	* Kjartan Maraas (nb)
+	* Tino Meinen (nl)
+	* Guilherme de S. Pastore (pt_BR)
+	* Laurent Dhima (sq)
+	* Daniel Nylander (sv)
+	* Theppitak Karoonboonyanan (th)
+	* Clytie Siddall (vi)
+	* Funda Wang (zh_CN)
+
 pessulus 0.9
 ============
 

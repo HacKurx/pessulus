@@ -1,5 +1,10 @@
 2006-04-24  Vincent Untz  <vuntz@gnome.org>
 
+	* NEWS:
+	* README: Release 0.10.1.
+
+2006-04-24  Vincent Untz  <vuntz@gnome.org>
+
 	* README: mention autogen.sh in installation
 
 2006-04-15  Brian Pepple  <bdpepple@gmail.com>
