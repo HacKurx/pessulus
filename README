@@ -15,7 +15,9 @@ You may download updates to the package from:
 Installation
 ============
 
-See the file 'INSTALL'
+See the file 'INSTALL'. If you are not using a released version of
+pessulus (for example, if you checked out the code from CVS), you
+first need to run './autogen.sh'.
 
 How to report bugs
 ==================
