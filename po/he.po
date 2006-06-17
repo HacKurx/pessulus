@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz <yairhr@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-09 13:49+0200\n"
+"PO-Revision-Date: 2006-06-09 13:49+0200\n"
+"Last-Translator: Nevo <nevo.iz@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "הגדר את מדיניות הנעילות"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "עורך הנעילות"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>יישומונים מנוטרלים</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>פרוטוקולים בטוחים</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "נטרל _פרוטוקולים לא בטוחים"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "דפדפן האינטרנט Epiphany"
+
+#: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "שומר המסך של GNOME"
+
+#: ../data/pessulus.glade.h:6
+msgid "General"
+msgstr "כללי"
+
+#: ../data/pessulus.glade.h:8
+msgid "Panel"
+msgstr "לוח"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "לחץ כדי להפוך את הגדרות אלו ללא הכרחיות"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "לחץ כדי להפוך את הגדרות אלו להכרחיות"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _command line"
+msgstr "נטרל _שורת פקודה"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable _printing"
+msgstr "נטרל ה_דפסה"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable print _setup"
+msgstr "נטרל ה_גדרות הדפסה"
+
+#: ../Pessulus/maindialog.py:51
+msgid "Disable save to _disk"
+msgstr "בטל _שמירה בדיסק"
+
+#: ../Pessulus/maindialog.py:53
+msgid "_Lock down the panels"
+msgstr "_נעל את הלוחות"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable force _quit"
+msgstr "נטרל ה_כרח יציאה"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable lock _screen"
+msgstr "נטרל נעילת _מסך"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable log _out"
+msgstr "_נטרל התנתקות"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _quit"
+msgstr "נטרל _יציאה"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _arbitrary URL"
+msgstr "נטרל _הקשת כתובות אינטרנט"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _bookmark editing"
+msgstr "נטרל_ עריכת סימניות"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _history"
+msgstr "נטרל הי_סטוריה"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _javascript chrome"
+msgstr ""
+"נטרל את השליטה של JavaScript על צבע החלון"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _toolbar editing"
+msgstr "נטרל עריכת _סרגל הכלים"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Force _fullscreen mode"
+msgstr "הכרח _מצב מסך מלא "
+
+#: ../Pessulus/maindialog.py:65
+msgid "Hide _menubar"
+msgstr "הסתר _תפריט"
+
+#: ../Pessulus/maindialog.py:66
+msgid "_Lock on activation"
+msgstr "_נעל בהפעלה"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow log _out"
+msgstr "אפשר ה_תנתקות"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Allow user _switching"
+msgstr "אפשר ה_חלפת משתמש"
