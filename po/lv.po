@@ -1,0 +1,140 @@
+# translation of pessulus.gnome-2-14.po to Latvian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Linux Centrs <info@linux.edu.lv>, 2006.
+# Raivis Dejus <orvils@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.gnome-2-14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-20 14:13+0300\n"
+"PO-Revision-Date: 2006-06-13 13:19+0300\n"
+"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Konfigurēt noslēgšanas noteikumus"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Noslēgšanas redaktors"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Deaktivētie apleti</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Droši protokoli</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Atslēgt nedroš_us protokolus"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Spiediet lai padarītu šos uzstādījumus neobligātus"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Spiediet lai padarītu šos uzstādījumus neobligātus"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Vispārējs"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Panelis "
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany tīmekļa pārlūks"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME ekrānsaudzētājs"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "Atslēgt _komandrindu"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "Atslēgt _drukāšanu"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "Atslēgt drukāšanas ie_statīšanu"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "Atslēgt glabāšanu uz _diska"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr "Nos_lēgt paneļus"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "Atslēgt piespiedu i_ziešanu"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "At_slēgt ekrāna noslēgšanu"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "Atslēgt izlog_ošanos"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "Atslēgt i_ziešanu"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "Atslēgt p_atvaļīgu URL"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "Atslēgt grāmatzīmju la_bošanu"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "Atslēgt _vēsturi"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "Atslēgt _javascript hromu"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "Atslēg_t Rīkjoslas labošanu"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "Uzspiest pilnekrāna _režīmu"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "Noslēpt _izvēlnes joslu"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "Sākumā nos_lēgts"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "Atļaut izl_ogoties"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "Atļaut _mainīt lietotājus"
