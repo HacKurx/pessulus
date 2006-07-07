@@ -1,0 +1,138 @@
+# translation of pessulus.HEAD.po to Marathi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-07-07 11:59-0700\n"
+"PO-Revision-Date: 2006-05-24 00:49+0530\n"
+"Last-Translator: Rahul Bhalerao <b.rahul.pm@gmail.com>\n"
+"Language-Team: Marathi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr ""
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr ""
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>अकार्यक्षम एप्लेट्स</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>सुरक्षित शिष्टाचार(प्रोटोकॉल्स)</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "सुरक्षित शिष्टाचार(प्रोटोकॉल्स) अकार्यक्षम करा(_u)"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "ही रचना सक्तीची न करण्यायाठी क्लिक करा"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "ही रचना सक्तीची करण्यायाठी क्लिक करा"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "सामान्य"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "तावदान"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany वेब ब्राउझर"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME पटलरक्षक"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "आदेश पंक्ती अकार्यक्षम करा(_c)"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "मुद्रण अकार्यक्षम करा(_p)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "मुद्रण व्यवस्था अकार्यक्षम करा(_s)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "डिस्कवर सुरक्षित करणे अकार्यक्षम करा(_d)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "बळाने सोडून देणे अकार्यक्षम करा(_q)"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "पटलास कुलुप अकार्यक्षम करा(_s)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "लॉग आउट अकार्यक्षम करा(_o)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "सोडून देणे अकार्यक्षम करा(_q)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "अनियमित URL अकार्यक्षम करा(_a)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "ओळखीची खूण(बुकमार्क) संपादणे अकार्यक्षम करा(_b)"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "इतिहास अकार्यक्षम करा(_h)"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "जावास्क्रिप्ट क्रोम अकार्यक्षम करा(_j)"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "उपकरण पट्टी संपादणे अकार्यक्षम करा(_t)"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "आग्रहाने पूर्णपटल(फुलस्क्रीन) रीत लागू करा(_f)"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "मेनू पट्टी लपवा(_m)"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "लॉग आउट करू द्या(_o)"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "उपयोगकर्ता अदलाबदल होऊ द्या"
