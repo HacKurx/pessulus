@@ -1,3 +1,25 @@
+pessulus 0.10.4
+===============
+
+  Misc
+
+	* Require intltool 0.35.0 (Vincent)
+
+  Translators
+
+	* Mahay Alam Khan (মাহে আলম খান) (bn_IN)
+	* Mindu Dorji (dz)
+	* Iñaki Larrañaga Murgoitio (eu)
+	* Nevo (he)
+	* Rajesh Ranjan (hi)
+	* Raivis Dejus (lv)
+	* Rahul Bhalerao (mr)
+	* Mahesh Subedi (ne)
+	* Marcel Telka (sk)
+	* Felix (ta)
+	* Chao-Hsiung Liao (zh_HK)
+	* Chao-Hsiung Liao (zh_TW)
+
 pessulus 0.10.1
 ===============
 
