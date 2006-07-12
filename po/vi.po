@@ -42,7 +42,7 @@ msgstr "Trình Duyệt Mạng Epiphany"
 
 #:../data/pessulus.glade.h:5
 msgid "GNOME Screensaver"
-msgstr "Bộ bảo vậ màn hình Gnome"
+msgstr "Bộ bảo vệ màn hình Gnome"
 
 #:../data/pessulus.glade.h:6
 msgid "General"
