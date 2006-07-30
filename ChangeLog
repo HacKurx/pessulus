@@ -1,3 +1,10 @@
+2006-07-30  Vincent Untz  <vuntz@gnome.org>
+
+	* Makefile.am:
+	* pessulus.in: use the python runtime detected by AM_PATH_PYTHON
+	Patch by Loïc Minier <lool+gnome@via.ecp.fr>
+	Fix bug #349210
+
 2006-07-24  Vincent Untz  <vuntz@gnome.org>
 
 	* configure.ac: post-release bump to 2.15.90.
