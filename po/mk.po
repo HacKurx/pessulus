@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-04-09 13:40+0200\n"
+"POT-Creation-Date: 2006-07-31 10:23+0200\n"
 "PO-Revision-Date: 2006-04-09 20:45+0200\n"
 "Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Конфигурирај политика за заклучување"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "Уредувач за заклучување"
 
@@ -36,22 +36,6 @@ msgstr "<b>Безбедни протоколи</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Исклучи _небезбедни протоколи"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Епифани веб прелистувач"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "Затишје за Гном"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Општо"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Панел"
-
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
 msgstr "Кликнете за да го направите ова незадолжително"
@@ -60,79 +44,94 @@ msgstr "Кликнете за да го направите ова незадол
 msgid "Click to make this setting mandatory"
 msgstr "Кликнете за да го направите ова задолжително"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Општо"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Панел"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany веб прелистувач"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "Затишје за GNOME"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
 msgstr "Исклучи ја _командната линија"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "Исклучи _печатење"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "Исклучи поставување за _ печатење"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "Исклучи зачувај на _диск"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "_Заклучи ги панелите"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "Исклучи присилен _излез"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "Исклучи заклучување на _екран"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "Исклучи _одјава"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
 msgstr "Исклучи _излез"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
 msgstr "Исклучи _произволни адреси"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "Исклучи _уредување на обележувачи"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "Исклучи _историја"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "Исклучи _javascript chrome"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "Исклучи _уредување на лента со алатки"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "Наметни _цел екран"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "Скриј _лента со алатки"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "_Заклучи при активирање"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "Дозволи _одјава"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Дозволи менување на _корисник"
-
