@@ -1,0 +1,139 @@
+# translation of pessulus.HEAD.po to Malayalam
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ani Peter <apeter@redhat.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-04 07:52+0200\n"
+"PO-Revision-Date: 2006-08-05 01:46+0530\n"
+"Last-Translator: Ani Peter <apeter@redhat.com>\n"
+"Language-Team: Malayalam\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "ലോക്ക് ഡൌണ്‍ നയം ക്രമീകരിക്കുക"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "ലോക്ക് ഡൌണ്‍ എഡിറ്റര്‍"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>പ്രവര്‍ത്തന രഹിതമായ ആപ്പ-ലെറ്റുകള്‍</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>സുരക്ഷിത സന്പ്രദായങ്ങള്‍</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "സുരക്ഷിതമല്ലാത്ത സന്പ്രദായങ്ങള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക (_u)"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "നിര്‍ബന്ധമില്ലാത്ത സെറ്റിങ് ആക്കുന്നതിനായി ക്ളിക്ക് ചെയ്യുക"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "നിര്‍ബന്ധമുളള സെറ്റിങ് ആക്കുന്നതിനായി ക്ളിക്ക് ചെയ്യുക"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "സാധാരണമായ"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "പാനല്‍"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "എപ്പിഫണി വെബ് ബ്രൌസര്‍"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME സ്ക്രീന്‍ സേവര്‍"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "കമാന്‍ഡ് ലൈന്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക (_c)"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "പ്രിന്‍റ് ചെയ്യുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_p)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "പ്രിന്‍റ് സെറ്റപ്പ് പ്രവര്‍ത്തന രഹിതമാക്കുക (_s)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "ഡിസ്ക്കിലേക്ക് സംരക്ഷിക്കുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_d)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr "പാനലുകള്‍ ലോക്ക് ഡൌണ്‍ ചെയ്യുക (_L)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "നിര്‍ബന്ധപൂര്‍വ്വം പുറത്ത് കടത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_q)"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "സ്ക്രീന്‍ പൂട്ടുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_s)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "ലോഗൌട്ട് ചെയ്യുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_o)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "പുറത്ത് കടക്കുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_q)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "സ്വന്തം ഇഷ്ടത്തിലുളള URL പ്രവര്‍ത്തന രഹിതമാക്കുക (_a)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "ബുക്ക് മാര്‍ക്കില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_b)"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "ഹിസ്റ്ററി പ്രവര്‍ത്തന രഹിതമാക്കുക (_h)"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "ജാവാസ്ക്രിപ്റ്റ് ക്രോം പ്രവര്‍ത്തന രഹിതമാക്കുക (_j)"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "ടൂള്‍ ബാറില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_t)"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "നിര്‍ബന്ധപൂര്‍വ്വം സ്ക്രീന്‍ പരമാവധി വലിപ്പമുളള രീതിയിലാക്കുക (_f)"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "മെനു ബാര്‍ ഒളിച്ചു വയ്ക്കുക (_m)"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "പ്രവര്‍ത്തിലാകുന്പോള്‍ പൂട്ടുക (_L)"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "ലോഗൌട്ട് അനുവദിക്കുക (_o)"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "ഒരു ഉപയോക്താവില്‍ നിന്നും മറ്റൊന്നിലേക്ക് മാറുന്നത് അനുവദിക്കുക (_s)"
+
