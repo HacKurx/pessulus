@@ -1,5 +1,11 @@
 2006-08-08  Vincent Untz  <vuntz@gnome.org>
 
+	* configure.ac: post-release bump to 2.15.90.
+
+==================== 2.15.92 ====================
+
+2006-08-08  Vincent Untz  <vuntz@gnome.org>
+
 	* NEWS:
 	* README: Release 2.15.91.
 
