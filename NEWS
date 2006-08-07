@@ -1,3 +1,18 @@
+pessulus 2.15.91
+================
+
+  Misc
+
+	* Use the python runtime detected by AM_PATH_PYTHON (Loïc Minier)
+
+  Translators
+
+	* Runa Bhattacharjee (bn_IN)
+	* Iñaki Larrañaga Murgoitio (eu)
+	* Arangel Angov (mk)
+	* Ani Peter (ml)
+	* Matic Žgur (sl)
+
 pessulus 2.15.90
 ================
 
