@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-05-24 19:34+0000\n"
+"POT-Creation-Date: 2006-08-07 18:03+0000\n"
 "PO-Revision-Date: 2006-05-24 19:36+0000\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
-"Plural-Forms: Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
@@ -137,4 +137,3 @@ msgstr "Baimendu saioa _amaitzea"
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Baimendu erabiltzaile-al_daketa"
-
