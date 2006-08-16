@@ -1,0 +1,135 @@
+# Baris Cicek <baris@teamforce.name.tr>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-16 19:28+0300\n"
+"PO-Revision-Date: 2006-08-16 19:43+0300\n"
+"Last-Translator: Deniz Kocak <lenduha@gmail.com>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Kilitleme kurallarını yapılandır"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Kilitleme Düzenleyicisi"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Kapalı Uygulamacıklar</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Güvenli Protokoller</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "_Güvensiz protokolleri etkisizleştir"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Bu ayarı zorunlu yapmamak için tıklayın"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Bu ayarı zorunlu yapmak için tıklayın"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Genel"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Web Tarayıcı"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME Ekran Koruyucu"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "_Komut satırını etkisizleştir"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "_Yazdırmayı etkisizleştir"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "Yazıcı _kurmayı etkisizleştir"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "_Diske kaydetmeyi etkisizleştir"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr "Panelleri _kilitle"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "Çıkmaya _zorlamayı etkisizleştir "
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "_Ekranı kilitlemeyi etkisizleştir"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "_Çıkışı etkisizleştir"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "Çı_kı etkisizleştir"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "İsteğe _bağlı URL'yi etkisizleştir"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "Ye_r imi düzenlemeyi etkisizleştir"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "_Geçmişi etkisizleştir"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "_Javascript chrome'u etkisizleştir"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "_Araç çubuğu düzenlemeyi etkisizleştir"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "_Tam ekran kipine zorla"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "_Menü çubuğunu gizle"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "_Ekinleşince ki_litle"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "Çı_kışa izin ver"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "Kullanıcı _değiştirmeye izin ver"
+
