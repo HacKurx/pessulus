@@ -1,18 +1,25 @@
-# translation of pessulus.HEAD.po to Russian
 # Leonid Kanter <leon@asplinux.ru>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-25 09:00+0100\n"
-"PO-Revision-Date: 2006-02-25 23:09+0200\n"
+"POT-Creation-Date: 2006-08-21 09:58+0200\n"
+"PO-Revision-Date: 2006-08-21 19:06+0300\n"
 "Last-Translator: Leonid Kanter <leon@asplinux.ru>\n"
-"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language-Team:  <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.1\n"
+"X-Generator: KBabel 1.11.2\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Настройка политики изоляции"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Редактор изоляции"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -26,26 +33,6 @@ msgstr "<b>Защищенные протоколы</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Запретить _незащищенные протоколы"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Веб-браузер Epiphany"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "Хранитель экрана GNOME"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Общие"
-
-#: ../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "Редактор изоляции"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Панель"
-
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
 msgstr "Нажмите, чтобы сделать этот параметр не принудительным"
@@ -54,79 +41,95 @@ msgstr "Нажмите, чтобы сделать этот параметр не
 msgid "Click to make this setting mandatory"
 msgstr "Нажмите, чтобы сделать этот параметр принудительным"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Общие"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Панель"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Веб-браузер Epiphany"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "Хранитель экрана GNOME"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
 msgstr "Запретить _командную строку"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "Запретить _печать"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "Запретить _настройку печати"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "Запретить сохранение на _диск"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "_Заблокировать панели"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "Запретить принудительный _выход"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "Запретить блокирование _экрана"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "Запретить в_ыход из сеанса"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
 msgstr "Запретить _выход"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
 msgstr "Запретить произвольные _URL"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "Запретить _редактирование закладок"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "Запретить _историю"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "Запретить _javascript chrome"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "Запретить редактирование _панели инструментов"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "При_нудительный полноэкранный режим"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "Скрыть _меню"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "_Блокировать при активации"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "Разрешить в_ыход из сеанса"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Разрешить переключение пользователей"
 
