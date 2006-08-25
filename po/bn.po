@@ -7,14 +7,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-12 23:33+0100\n"
-"PO-Revision-Date: 2006-03-09 03:06+0600\n"
-"Last-Translator: Mahay Alam Khan (মাহে আলম খান) <makl10n@yahoo.com>\n"
+"POT-Creation-Date: 2006-08-25 19:18+0600\n"
+"PO-Revision-Date: 2006-08-25 19:17+0600\n"
+"Last-Translator: Khandakar Mujahidul Islam <suzan@bengalinux.org>\n"
 "Language-Team: Bangla <core@bengalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "লক-ডাউনের নিয়মনীতি কনফিগার করুন"
+
+# Fix Me - mak
+# lockdown editor is a kind of application and pessulus is one of them
+# it sort of provides an interface to manipulate the restriction of resource usage
+# better to just transliterate it
+# http://www.gnomejournal.org/article/27/gnome-deployment-pangea -- just brief overview here to understand the concept
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "লকডাউন এডিটর"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -28,32 +41,6 @@ msgstr "<b>নিরাপদ প্রোটোকল</b>"
 msgid "Disable _unsafe protocols"
 msgstr "অনিরাপদ প্রোটোকল নিস্ক্রিয় করো (_u)"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "এপিফেনি ওয়েব ব্রাউজার"
-
-# GNOME has been translated into a variety of bn spellings. this is a new one. pls use the appropriate one after consulting progga or someone else or use the en form, which i normally do.
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "GNOME স্ক্রীনসেভার"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "সাধারণ"
-
-# Fix Me - mak
-# lockdown editor is a kind of application and pessulus is one of them
-# it sort of provides an interface to manipulate the restriction of resource usage
-# better to just transliterate it
-# http://www.gnomejournal.org/article/27/gnome-deployment-pangea -- just brief overview here to understand the concept
-#: ../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "লকডাউন এডিটর"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "প্যানেল"
-
 # Fix Me - mak
 # [suggested rephrase] চিহ্নিত বৈশিষ্ট্য আবশ্যকরূপে প্রয়োগ না করার জন্য ক্লিক করুন
 #: ../Pessulus/lockdownbutton.py:99
@@ -66,97 +53,114 @@ msgstr "চিহ্নিত বৈশিষ্ট্য আবশ্যকর�
 msgid "Click to make this setting mandatory"
 msgstr "চিহ্নিত বৈশিষ্ট্য আবশ্যকরূপে প্রয়োগ করার জন্য ক্লিক করুন"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "সাধারণ"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "প্যানেল"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "এপিফেনি ওয়েব ব্রাউজার"
+
+# GNOME has been translated into a variety of bn spellings. this is a new one. pls use the appropriate one after consulting progga or someone else or use the en form, which i normally do.
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME স্ক্রীনসেভার"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
 msgstr "কমান্ড লাইন নিষ্ক্রিয় করুন (_c)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "মুদ্রণ নিষ্ক্রিয় করুন (_p)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "মুদ্রণ ব্যবস্থাপনা নিষ্ক্রিয় করুন (_s)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "ডিস্কে সংরক্ষণ নিষ্ক্রিয় করুন (_d)"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "প্যানেল লক ডাউন করুন (_L)"
 
 # Fix Me - mak
 # [spelling] আবশ্যিক?
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "আবশ্যক প্রস্থান বন্ধ করুন (_q)"
 
 # [spelling] স্ক্রিন / পর্দা
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "স্ক্রিন লক নিষ্ক্রিয় করুন (_s)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "লগ আউট নিষ্ক্রিয় করুন (_o)"
 
 # [suggestion] প্রস্থান
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
 msgstr "প্রস্থান নিষ্ক্রিয় করুন (_q)"
 
 # Fix Me - mak
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
 msgstr "আরবিটরেরি ইউ.আর.এল. নিষ্ক্রিয় করুন (_a)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "বুকমার্ক সম্পাদনা নিষ্ক্রিয় করুন (_b)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "ব্রাউজের ইতিহাস নিষ্ক্রিয় করুন (_h)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "জাভাস্ক্রিপ্ট ক্রোম নিষ্ক্রিয় করুন (_j)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "টুলবার সম্পাদনা নিষ্ক্রিয় করুন (_t)"
 
 # Fix Me - mak
 # [suggestion] full screen= সম্পূর্ণ পর্দা জুড়ে প্রদর্শন
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন, প্রয়োগ করুন (_f)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "মেনুবার লুকোও (_m)"
 
 # Fix Me - mak
 # [suggested rephrase] সক্রিয় করা হলে লক করা হবে
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "সক্রিয় করা হলে লক করা হবে (_L)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "লগ আউট অনুমোদন করুন (_o)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "ব্যবহারকারী পরিবর্তন অনুমোদন করুন (_s)"
