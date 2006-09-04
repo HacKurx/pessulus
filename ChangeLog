@@ -1,5 +1,11 @@
 2006-09-04  Vincent Untz  <vuntz@gnome.org>
 
+	* configure.ac: post-release bump to 2.16.1.
+
+==================== 2.16.0 ====================
+
+2006-09-04  Vincent Untz  <vuntz@gnome.org>
+
 	* NEWS:
 	* README:
 	* configure.ac: Release 2.16.0.
