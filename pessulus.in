@@ -22,6 +22,27 @@
 
 import sys
 
+# Shamelessly stolen from /gnome-python/examples/bug-buddy-integration.py
+# Original credit to Fernando Herrera
+def bug_catcher(exctype, value, tb):
+    import traceback
+    import tempfile
+    import os
+    if exctype is not KeyboardInterrupt:
+        msg = "".join(traceback.format_exception(exctype, value, tb))
+        print >> sys.stderr, msg
+        fd, name = tempfile.mkstemp()
+        try:
+            os.write(fd,msg)
+            os.system("bug-buddy --include=\"%s\" --appname=\"%s\"" % (name, sys.argv[0]))
+        finally:
+            os.unlink(name)
+    raise SystemExit
+
+
+sys.excepthook = bug_catcher
+# End bug-buddy integration theft.
+
 if not "@pyexecdir@" in sys.path:
     sys.path.insert (0, "@pyexecdir@")
 

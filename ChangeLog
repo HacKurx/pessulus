@@ -1,3 +1,10 @@
+2006-09-11  Rob Bradford  <rob@robster.org.uk>
+
+	* pessulus.in: bug-buddy integration (bug #350578)
+	Code stolen from gnome-python/examples/bug-buddy-integration.py
+
+==================== 2.16.1 ====================
+
 2006-09-04  Vincent Untz  <vuntz@gnome.org>
 
 	* configure.ac: post-release bump to 2.16.1.
