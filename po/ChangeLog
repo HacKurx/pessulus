@@ -1,3 +1,8 @@
+2006-09-11  David Lodge <dave@cirt.net>
+
+	* en_GB.po: Updated British (English) translation.
+	* LINGUAS: Added British (English) translation.
+
 2006-09-04  Vincent Untz  <vuntz@gnome.org>
 
 	* .cvsignore: add stamp-it

@@ -1,0 +1,138 @@
+# British (English) translation for pessulus
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
+# David Lodge <dave@cirt.net>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-11 22:22+0100\n"
+"PO-Revision-Date: 2006-09-11 22:23-0000\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: en_GB <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Configure the lockdown policy"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Lockdown Editor"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Disabled Applets</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Safe Protocols</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Disable _unsafe protocols"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Click to make this setting not mandatory"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Click to make this setting mandatory"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "General"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Web Browser"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME Screensaver"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "Disable _command line"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "Disable _printing"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "Disable print _setup"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "Disable save to _disk"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr "_Lock down the panels"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "Disable force _quit"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "Disable lock _screen"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "Disable log _out"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "Disable _quit"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "Disable _arbitrary URL"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "Disable _bookmark editing"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "Disable _history"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "Disable _javascript chrome"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "Disable _toolbar editing"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "Force _fullscreen mode"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "Hide _menubar"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "_Lock on activation"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "Allow log _out"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "Allow user _switching"
+
