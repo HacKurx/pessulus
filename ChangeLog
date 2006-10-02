@@ -1,6 +1,11 @@
+2006-10-02  Rob Bradford <rob@robster.org.uk>
+
+	* configure.ac: post-release bump to 2.16.2
+
 ==================== 2.16.1 ====================
 
 2006-10-02 Rob Bradford <rob@robster.org.uk>
+
 	* NEWS:
 	* README:
 	* configure.ac: Release 2.16.1.
