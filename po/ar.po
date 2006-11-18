@@ -1,25 +1,26 @@
-# translation of pessulus.HEAD.po to Arabic
+# translation of pessulus.HEAD.ar.po to Arabic
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Yousef Raffah <yousef@raffah.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.HEAD\n"
+"Project-Id-Version: pessulus.HEAD.ar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-07-23 08:55+0200\n"
-"PO-Revision-Date: 2006-10-05 21:07-0000\n"
-"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
+"PO-Revision-Date: 2006-11-16 17:34+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <support@arabeyes.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.2\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : 3\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : 3\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "تعديل بوليصة القفل"
+msgstr "إعداد سياسة القفل"
 
 #: ../data/pessulus.desktop.in.in.h:2
 #: ../data/pessulus.glade.h:4
@@ -36,15 +37,15 @@ msgstr "<b>بروتوكولات آمنة</b>"
 
 #: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr "تعطيل البروتوكولات ال_غير آمنة"
+msgstr "عطّل البروتوكولات ال_غير آمنة"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr "اضغط لجعل التغييرات غير إلزامية"
+msgstr "اضغط لجعل هذا الإعداد غير إلزامي"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr "اضغط لجعل التغييرات إلزامية"
+msgstr "اضغط لجعل هذا الإعداد إلزامي"
 
 #: ../Pessulus/maindialog.py:43
 msgid "General"
@@ -52,11 +53,11 @@ msgstr "عام"
 
 #: ../Pessulus/maindialog.py:44
 msgid "Panel"
-msgstr "لوحة المهام"
+msgstr "اللوحة"
 
 #: ../Pessulus/maindialog.py:45
 msgid "Epiphany Web Browser"
-msgstr "متصفح الإنترنت إبيفني"
+msgstr "متصفح الويب إبيفني"
 
 #: ../Pessulus/maindialog.py:46
 msgid "GNOME Screensaver"
@@ -64,77 +65,77 @@ msgstr "حافظة شاشة جنوم"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
-msgstr "تعطيل _سطر الأوامر"
+msgstr "عطّل _سطر الأوامر"
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
-msgstr "تعطيل ال_طباعة"
+msgstr "عطّل ال_طباعة"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
-msgstr "تعطيل ت_عديل الطباعة"
+msgstr "عطّل إ_عداد الطباعة"
 
 #: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
-msgstr "تعطيل الحف_ظ للقرص"
+msgstr "عطّل الحف_ظ للقرص"
 
 #: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
-msgstr "_قفل شريط المهام"
+msgstr "ا_قفل شريط المهام"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
-msgstr "تعطيل _إجبار الإنتهاء"
+msgstr "عطّل _إجبار الإنهاء"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
-msgstr "تعطيل قف_ل الشاشة"
+msgstr "عطّل قف_ل الشاشة"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
-msgstr "تعطيل ال_خروج"
+msgstr "عطّل تسجيل ال_خروج"
 
 #: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
-msgstr "تعطيل الإن_هاء"
+msgstr "عطّل الإن_هاء"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
-msgstr "تعطيل عناو_ين الإنترنت التّعسّفيّة"
+msgstr "عطّل عناو_ين الإنترنت التّعسّفيّة"
 
 #: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
-msgstr "تعطيل تعديل علامة المو_قع"
+msgstr "عطّل تحرير علامة المو_قع"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
-msgstr "تعطيل المواق_ع التي تم زيارتها مؤخرا"
+msgstr "عطّل ال_تاريخ"
 
 #: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
-msgstr "تعطيل _كروم جافا سكريبت"
+msgstr "عطّل _كروم جافا سكريبت"
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
-msgstr "تعطيل تعديل شريط الأدوات"
+msgstr "عطّل تحرير شريط الأدوات"
 
 #: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
-msgstr "إجبار نمط كامل الشاشة"
+msgstr "إجبر نمط ملأ الشاشة"
 
 #: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
-msgstr "إخفاء شريط القوائم"
+msgstr "إخفي شريط ال_قوائم"
 
 #: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
-msgstr "ال_قفل أثناء التنشيط"
+msgstr "ا_قفل أثناء التنشيط"
 
 #: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
-msgstr "السماح بال_خروج"
+msgstr "اسمح بتسجيل ال_خروج"
 
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
-msgstr "السماح بال_تحويل بين المستخدمين"
+msgstr "اسمح ب_تبديل المستخدم"
 
