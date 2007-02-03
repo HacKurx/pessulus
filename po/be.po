@@ -1,0 +1,138 @@
+# Pessulus Belarusian translation
+# Copyright (C) 2007 FSF
+# This file is distributed under the same license as the pessulus package.
+# Ihar Hrachyshka <iharh@gnome.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-03 14:14+0200\n"
+"PO-Revision-Date: 2007-02-03 14:20+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Language Team <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Наладка палітыкі блякаваньня"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Рэдактар палітыкі блякаваньня"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Адключаныя аплеты</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Бясьпечныя пратаколы</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Адключыць _небясьпечныя пратаколы"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Пстрыкніце, каб зрабіць гэтую наладку неабавязковай"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Пстрыкніце, каб зрабіць гэтую наладку абавязковай"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Агульныя"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Панэль"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Гартач Сеціва Эпіфані"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "Ахоўнік экрану GNOME"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "Адключыць _загадны радок"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "Адключыць _друк"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "Адключыць _наладкі друку"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "Адключыць _запіс на дыск"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr "_Адключыць панэлі"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "Адключыць _прымусовае выйсьце"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "Адключыць _блякаваньне экрану"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "Адключыць _сканчэньне сэансу"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "Адключыць _выйсьце"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "Адключыць _адвольныя спасылкі"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "Адключыць _рэдагаваньне закладак"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "Адключыць _гісторыю"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "Адключыць _Javascript"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "Адключыць _рэдагаваньне панэлі інструмэнтаў"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "Прымусіць _ужываньне поўнаэкраннага рэжыму"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "Схаваць _мэню"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "_Заблякаваць пры актывізацыі"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "Дазволіць _сканчэньне сэансу"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "Дазволіць _пераключэньне карыстальнікаў"
+
