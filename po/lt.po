@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-20 13:44+0200\n"
+"POT-Creation-Date: 2007-02-27 15:48+0200\n"
 "PO-Revision-Date: 2006-03-20 13:45+0200\n"
 "Last-Translator: Žygimantas Beručka <zygis@gnome.org>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Užrakinimų politikos konfigūracija"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "Užrakinimo redaktorius"
 
@@ -37,22 +37,6 @@ msgstr "<b>Saugūs protokolai</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Išjungti _nesaugius protokolus"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Epiphany žiniatinklio naršyklė"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "GNOME ekrano užsklanda"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Bendri"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Skydelis"
-
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
 msgstr "Spragtelėkite norėdami padaryti šį nustatymą neprivalomu"
@@ -61,78 +45,94 @@ msgstr "Spragtelėkite norėdami padaryti šį nustatymą neprivalomu"
 msgid "Click to make this setting mandatory"
 msgstr "Spragtelėkite norėdami padaryti šį nustatymą privalomu"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Bendri"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Skydelis"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany žiniatinklio naršyklė"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "GNOME ekrano užsklanda"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
 msgstr "Išjungti _komandų eilutę"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "Išjungti _spausdinimą"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "Išjungti spausdinimo _nustatymus"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "Išjungti išsaugojimą į _diską"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "_Užrakinti skydelius"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "Išjungti priverstinį _uždarymą"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "Išjungti _ekrano užrakinimą"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "Išjungti _atsijungimą"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
 msgstr "Išjungti _išėjimą"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
 msgstr "Išjungti _atsitiktinius URL"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "Išjungti ž_ymelių redagavimą"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "Išjungti _istoriją"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "Išjungti _javascript chromą"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "Išjungti į_rankinių redagavimą"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "Priverstinai naudoti _viso ekrano režimą"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "Paslėpti _meniu juostą"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "_Užrakinti aktyvavus"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "Leisti _atsijungti"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Leisti perjungti _naudotoją"
