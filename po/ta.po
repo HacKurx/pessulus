@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-06-21 07:35+0200\n"
+"POT-Creation-Date: 2007-01-02 02:30+0000\n"
 "PO-Revision-Date: 2006-06-22 14:27+0530\n"
 "Last-Translator: Felix <ifelix@redhat.com>\n"
 "Language-Team: Tamil <ta@li.org>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
@@ -136,4 +137,3 @@ msgstr "வெளிச்செல்லுதலுக்கு அனும�
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "பயனர் மாற்றத்திற்கு அனுமதி (_s)"
-
