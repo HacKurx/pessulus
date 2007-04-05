@@ -1,0 +1,139 @@
+# Biełaruski pierakład pessulus.
+# Copyright (C) 2007 THE pessulus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the metacity.gnome package.
+# Alaksandar Navicki <zolak@lacinka.org>, 2007. Łacinka.org
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: atk.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-05 21:26+0300\n"
+"PO-Revision-Date: 2007-04-05 23:10+0100\n"
+"Last-Translator: Alaksandar Navicki <zolak@lacinka.org>\n"
+"Language-Team: i18n@mova.org <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian latin\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Kanfihuruje blakavańnie funkcyjaŭ systemy"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Redaktar blakavańnia"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Zablakavanyja aplety</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Biaśpiečnyja pratakoły</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Blakavańnie niebiaspiečnych pr_atakołaŭ"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "Kali kliknuć, hetaja nałada nia budzie abaviazkovaj"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "Kali kliknuć, hetaja nałada budzie abaviazkovaj"
+
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Ahulnaje"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Hartač WWW Epiphany"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "Źbierahalnik ekranu GNOME"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable _command line"
+msgstr "Blakuj za_hadny radok"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable _printing"
+msgstr "Blakuj _drukavańnie"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable print _setup"
+msgstr "Blakuj kanfihuracyju _vydruku"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable save to _disk"
+msgstr "Blakuj _zapis na dysk"
+
+#: ../Pessulus/maindialog.py:61
+msgid "_Lock down the panels"
+msgstr "Zablakuj p_aneli"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable force _quit"
+msgstr "Blakuj gvałtoŭny _vychad"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable lock _screen"
+msgstr "Blakuj blakavańnie _ekranu"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable log _out"
+msgstr "Blakuj mahčymaści _vychadu"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _quit"
+msgstr "Blakuj mahčymaści za_kančeńnia prahramy"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _arbitrary URL"
+msgstr "Blakuj ŭviadzieńnie _adrasoŭ URL"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "Blakuj madyfikacyju _zakładak"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "Blakuj dostup da _historyi"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "Blakuj ja_vascript chrome"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "Blakuj madyfikacyju paneli _pryładździa"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "Gvałtoŭny _poŭnaekranny režym"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "Chavaj pa_nel menu"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "_Blakuj ekran pry aktyvacyi"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "Dazvol _vychodzić"
+
+#: ../Pessulus/maindialog.py:76
+msgid "Allow user _switching"
+msgstr "Dazvol pieraklučać _karystalnikaŭ"
