@@ -1,3 +1,8 @@
+2007-05-08  Amitakhya Phukan <amitakhya@cvs.gnome.org>
+
+        * as.po: Added and updated Assamese translation.
+        * LINGUAS: Added as for Assamese.
+
 2007-04-05  Ihar Hrachyshka <iharh@gnome.org>
 
 	* be@latin.po: Added Belarusian Latin translation by Ales Navicki.
