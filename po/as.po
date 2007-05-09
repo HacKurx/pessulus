@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: as\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-05-09 03:17+0100\n"
-"PO-Revision-Date: 2007-05-09 17:43+0530\n"
+"PO-Revision-Date: 2007-05-09 18:09+0530\n"
 "Last-Translator: Amitakhya Phukan <aphukan@redhat.com>\n"
 "Language-Team: Assamese <assam@mm.assam-glug.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,31 +19,31 @@ msgstr ""
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr ""
+msgstr "আবদ্ধকৰণৰ নীতি বিন্যাস কৰক"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
-msgstr ""
+msgstr "আবদ্ধকৰণৰ সম্পাদক"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr ""
+msgstr "<b>নিষ্ক্ৰীয় এপ্লেটসমূহ</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
-msgstr ""
+msgstr "<b>সুৰক্ষিত আচাৰবিধি</b>"
 
 #: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr ""
+msgstr "অসুৰক্ষিত আচাৰবিধি নিষ্ক্ৰীয় কৰক (_u)"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr ""
+msgstr "এই পছন্দ আৱশ্যকীয় নকৰিবলৈ টিপক"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr ""
+msgstr "এই পছন্দ আৱশ্যকীয় হ'বলৈ টিপক"
 
 #: ../Pessulus/maindialog.py:43
 msgid "General"
@@ -59,81 +59,81 @@ msgstr "Epiphany ওৱেব চৰক"
 
 #: ../Pessulus/maindialog.py:46
 msgid "GNOME Screensaver"
-msgstr ""
+msgstr "GNOME স্ক্ৰীনছেভাৰ (পৰ্দ্দাসংৰক্ষক)"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
-msgstr ""
+msgstr "আদেশ শাৰী নিষ্ক্ৰীয় কৰক (_c)"
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
-msgstr ""
+msgstr "মূদ্ৰণ কাৰ্য্য নিষ্ক্ৰীয় কৰক (_p)"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
-msgstr ""
+msgstr "মূদ্ৰণ কাৰ্য্যৰ প্ৰতিষ্ঠা নিষ্ক্ৰীয় কৰক (_s)"
 
 #: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
-msgstr ""
+msgstr "ডিষ্কলৈ ৰক্ষা কৰা নিষ্ক্ৰীয় কৰক (_d)"
 
 #: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
-msgstr ""
+msgstr "পেনেলসমূহ বন্ধ কৰক (_L)"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
-msgstr ""
+msgstr "বলবৎভাবে ত্যাগ কৰা নিষ্ক্ৰীয় কৰক (_q)"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
-msgstr ""
+msgstr "পৰ্দ্দা বন্ধ কৰা নিষ্ক্ৰীয় কৰক (_s)"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
-msgstr ""
+msgstr "প্ৰস্থান কৰা নিষ্ক্ৰীয় কৰক (_o)"
 
 #: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
-msgstr ""
+msgstr "ত্যাগ কৰা নিষ্ক্ৰীয় কৰক (_q)"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
-msgstr ""
+msgstr "স্বৈৰ URL নিষ্ক্ৰীয় কৰক (_a)"
 
 #: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
-msgstr ""
+msgstr "পত্ৰচিহ্নৰ সম্পাদন নিষ্ক্ৰীয় কৰক (_b)"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
-msgstr ""
+msgstr "ইতিহাস নিষ্ক্ৰীয় কৰক (_h)"
 
 #: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
-msgstr ""
+msgstr "javascript chrome নিষ্ক্ৰীয় কৰক (_j)"
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
-msgstr ""
+msgstr "সৰঞ্জাম দণ্ডৰ সম্পাদন নিষ্ক্ৰীয় কৰক (_t)"
 
 #: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
-msgstr ""
+msgstr "সম্পূৰ্ণ পৰ্দ্দাৰ ধৰণ বলবৎ কৰক (_f)"
 
 #: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
-msgstr ""
+msgstr "তালিকাৰ দণ্ড লুকাই ৰাখক (_m)"
 
 #: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
-msgstr ""
+msgstr "সক্ৰীয় হওঁতে তলা মাৰক (_L)"
 
 #: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
-msgstr ""
+msgstr "প্ৰস্থান কৰাৰ অনুমতি দিয়ক (_o)"
 
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
-msgstr ""
+msgstr "ব্যৱহাৰকৰোঁতা সলনি কৰাৰ অনুমতি দিয়ক (_s)"
 
