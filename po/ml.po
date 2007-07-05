@@ -1,49 +1,50 @@
-# translation of pessulus.HEAD.po to Malayalam
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Ani Peter <apeter@redhat.com>, 2006.
-#
+# translation of pessulus.HEAD.ml.po to Malayalam
+# Ani Peter <apeter@redhat.com>, 2006, 2007.
+# This file is distributed under the same license as the pessulus package.
+# Copyright (C) 2006 THE pessulus' COPYRIGHT HOLDER.
+# Reviewed by Praveen|പ്രവീണ്‍ A|എ <pravi.a@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.HEAD\n"
+"Project-Id-Version: pessulus.HEAD.ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-04 07:52+0200\n"
-"PO-Revision-Date: 2006-08-05 01:46+0530\n"
+"POT-Creation-Date: 2007-01-02 02:30+0000\n"
+"PO-Revision-Date: 2007-06-27 19:07+0530\n"
 "Last-Translator: Ani Peter <apeter@redhat.com>\n"
-"Language-Team: Malayalam\n"
+"Language-Team: Malayalam <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "ലോക്ക് ഡൌണ്‍ നയം ക്രമീകരിക്കുക"
+msgstr "ലോക്ക്ഡൌണ്‍ നയം ക്രമീകരിയ്ക്കുക"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
-msgstr "ലോക്ക് ഡൌണ്‍ എഡിറ്റര്‍"
+msgstr "ലോക്ക്ഡൌണ്‍ എഡിറ്റര്‍"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>പ്രവര്‍ത്തന രഹിതമായ ആപ്പ-ലെറ്റുകള്‍</b>"
+msgstr "<b>പ്രവര്‍ത്തന രഹിതമായ ലഘുപ്രയോഗങ്ങള്‍</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
-msgstr "<b>സുരക്ഷിത സന്പ്രദായങ്ങള്‍</b>"
+msgstr "<b>സുരക്ഷിത കീഴ്‌വഴക്കങ്ങള്‍</b>"
 
 #: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr "സുരക്ഷിതമല്ലാത്ത സന്പ്രദായങ്ങള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക (_u)"
+msgstr "സുരക്ഷിതമല്ലാത്ത കീഴ്‌വഴക്കങ്ങള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക (_u)"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr "നിര്‍ബന്ധമില്ലാത്ത സെറ്റിങ് ആക്കുന്നതിനായി ക്ളിക്ക് ചെയ്യുക"
+msgstr "ഈ സജ്ജീകരണം നിര്‍ബന്ധമില്ലാത്തതാക്കുന്നതിനായി ക്ളിക്ക് ചെയ്യുക"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr "നിര്‍ബന്ധമുളള സെറ്റിങ് ആക്കുന്നതിനായി ക്ളിക്ക് ചെയ്യുക"
+msgstr "ഈ സജ്ജീകരണം നിര്‍ബന്ധമുളളതാക്കുന്നതിനായി ക്ളിക്ക് ചെയ്യുക"
 
 #: ../Pessulus/maindialog.py:43
 msgid "General"
@@ -55,11 +56,11 @@ msgstr "പാനല്‍"
 
 #: ../Pessulus/maindialog.py:45
 msgid "Epiphany Web Browser"
-msgstr "എപ്പിഫണി വെബ് ബ്രൌസര്‍"
+msgstr "എപ്പിഫാനി വെബ് ബ്രൌസര്‍"
 
 #: ../Pessulus/maindialog.py:46
 msgid "GNOME Screensaver"
-msgstr "GNOME സ്ക്രീന്‍ സേവര്‍"
+msgstr "ഗ്നോം സ്ക്രീന്‍സേവര്‍"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
@@ -67,11 +68,11 @@ msgstr "കമാന്‍ഡ് ലൈന്‍ പ്രവര്‍ത്ത�
 
 #: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
-msgstr "പ്രിന്‍റ് ചെയ്യുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_p)"
+msgstr "അച്ചടിയ്ക്കുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_p)"
 
 #: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
-msgstr "പ്രിന്‍റ് സെറ്റപ്പ് പ്രവര്‍ത്തന രഹിതമാക്കുക (_s)"
+msgstr "അച്ചടി ഒരുക്കം പ്രവര്‍ത്തന രഹിതമാക്കുക (_s)"
 
 #: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
@@ -79,7 +80,7 @@ msgstr "ഡിസ്ക്കിലേക്ക് സംരക്ഷിക്�
 
 #: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
-msgstr "പാനലുകള്‍ ലോക്ക് ഡൌണ്‍ ചെയ്യുക (_L)"
+msgstr "പാനലുകള്‍ ലോക്ക്ഡൌണ്‍ ചെയ്യുക (_L)"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
@@ -103,7 +104,7 @@ msgstr "സ്വന്തം ഇഷ്ടത്തിലുളള URL പ്ര
 
 #: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
-msgstr "ബുക്ക് മാര്‍ക്കില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_b)"
+msgstr "ബുക്ക്മാര്‍ക്കില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_b)"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
@@ -115,7 +116,7 @@ msgstr "ജാവാസ്ക്രിപ്റ്റ് ക്രോം പ്�
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
-msgstr "ടൂള്‍ ബാറില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_t)"
+msgstr "ടൂള്‍ബാറില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക (_t)"
 
 #: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
@@ -123,11 +124,11 @@ msgstr "നിര്‍ബന്ധപൂര്‍വ്വം സ്ക്ര�
 
 #: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
-msgstr "മെനു ബാര്‍ ഒളിച്ചു വയ്ക്കുക (_m)"
+msgstr "മെനുബാര്‍ മറയ്ക്കുക (_m)"
 
 #: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
-msgstr "പ്രവര്‍ത്തിലാകുന്പോള്‍ പൂട്ടുക (_L)"
+msgstr "പ്രാവര്‍ത്തികമാകുന്പോള്‍ പൂട്ടുക (_L)"
 
 #: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
