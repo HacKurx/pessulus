@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-18 19:53+0200\n"
+"POT-Creation-Date: 2007-08-09 07:51+0300\n"
 "PO-Revision-Date: 2006-03-18 19:55+0200\n"
 "Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Määrittele lukitussäännöt"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "Estoasetusten muokkain"
 
@@ -36,22 +36,6 @@ msgstr "<b>Turvalliset protokollat</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Estä _turvattomat protokollat"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Epiphany WWW-selain"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "Gnomen näytönsäästäjä"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Yleiset"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Paneeli"
-
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
 msgstr "Tee asetuksesta vapaaehtoinen napsauttamalla tästä"
@@ -60,78 +44,94 @@ msgstr "Tee asetuksesta vapaaehtoinen napsauttamalla tästä"
 msgid "Click to make this setting mandatory"
 msgstr "Tee asetuksesta vaadittu napsauttamalla tästä"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Yleiset"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Paneeli"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Epiphany WWW-selain"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "Gnomen näytönsäästäjä"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
 msgstr "Estä _komentorivi"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "Estä _tulostus"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "Estä _tulostuksen asetukset"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "Estä _tallennus levylle"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "_Lukitse paneelit"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "Estä pakotettu _sulkeminen"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "Estä _näytön lukitus"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "Estä _uloskirjautuminen"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
 msgstr "Estä _sulkeminen"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
-msgstr "Estä _määrittelemättömät URL:it"
+msgstr "Estä _mielivaltaiset URL:it"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "Estä _kirjanmerkkien muokkaus"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "Estä _historia"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "Estä _javascriptin chromet"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "Estä _työkalupalkkien muokkaus"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "Pakota _kokoruututila"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "Piilota _valikkopalkki"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "_Lukitse käynnistettäessä"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "Salli _uloskirjautuminen"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Salli _käyttäjänvaihto"
