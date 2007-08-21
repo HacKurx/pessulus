@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus 0.9.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-11-02 11:57+0100\n"
-"PO-Revision-Date: 2007-08-20 19:35+0200\n"
+"POT-Creation-Date: 2007-08-20 18:38+0100\n"
+"PO-Revision-Date: 2007-08-21 11:19+0200\n"
 "Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
-msgstr ""
+msgstr "Desactivar l'_istoric"
 
 #: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
