@@ -1,14 +1,14 @@
 # pessulus' Portuguese translation.
-# Copyright © 2006 pessulus
+# Copyright © 2006, 2007 pessulus
 # This file is distributed under the same license as the pessulus package.
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2006.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2006, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.16\n"
+"Project-Id-Version: 2.20\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-28 01:22+0000\n"
-"PO-Revision-Date: 2006-08-28 01:25+0000\n"
+"POT-Creation-Date: 2007-08-26 13:00+0100\n"
+"PO-Revision-Date: 2007-08-26 13:05+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,11 @@ msgstr "Configurar a política de trancar"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
-msgstr "Trancar o Editor"
+msgstr "Editor de Restrições"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>Applets Inactivas</b>"
+msgstr "<b>Applets Desactivadas</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -81,7 +81,7 @@ msgstr "_Trancar os paineis"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
-msgstr "Desavtivar a saída _forçada"
+msgstr "Desactivar a saída _forçada"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
@@ -129,7 +129,7 @@ msgstr "_Trancar ao activar"
 
 #: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
-msgstr "Permitit _terminar sessão"
+msgstr "Permitir _terminar sessão"
 
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
