@@ -1,3 +1,5 @@
+==================== 2.16.3 ====================
+
 2007-09-17  Vincent Untz  <vuntz@gnome.org>
 
 	* POTFILES.skip: add file to fix distcheck
