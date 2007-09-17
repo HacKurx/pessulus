@@ -1,3 +1,30 @@
+pessulus 2.16.3
+===============
+
+  Misc
+
+	* Update categories in .desktop file (Christian Kirbach)
+
+  Translations
+
+        * Khaled Hosny (ar)
+        * Amitakhya Phukan (as)
+        * Ihar Hrachyshka (be)
+        * Alaksandar Navicki (be@latin)
+        * Alexander Shopov (bg)
+        * Peter Bach (da)
+        * Adam Weinberger (en_CA)
+        * Ilkka Tuohela (fi)
+        * Ignacio Casal Quinteiro (gl)
+        * Erdal Ronahi (ku)
+        * Žygimantas Beručka (lt)
+        * Ani Peter (ml)
+        * Duarte Loreto (pt)
+        * Laurent Dhima (sq)
+        * Felix (ta)
+        * Bharat Kumar (te)
+        * Pham Thanh Long (vi)
+
 pessulus 2.16.2
 ===============
 

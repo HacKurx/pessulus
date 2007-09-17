@@ -1,3 +1,8 @@
+2007-09-17  Vincent Untz  <vuntz@gnome.org>
+
+	* NEWS:
+	* README: Release 2.20.0.
+
 2007-03-15  Christian Kirbach  <Christian.Kirbach@googlemail.com>
 
 	* data/pessulus.desktop.in.in:
