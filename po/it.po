@@ -1,20 +1,30 @@
 # Italian translation of pessulus.
-# Copyright (C) 2006 THE pessulus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as pessulus package
+# Copyright (C) 2006-2007 Free Software Foundation, Inc.
 # Giacomo Margarito <giacomomargarito@gmail.com>, 2006.
+# Luca Ferretti <elle.uca@libero.it>, 2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-06 22:23+0100\n"
-"PO-Revision-Date: 2006-03-06 22:23+0100\n"
-"Last-Translator: Giacomo Margarito <giacomomargarito@gmail.com>\n"
+"POT-Creation-Date: 2007-10-11 10:13+0200\n"
+"PO-Revision-Date: 2007-10-11 10:12+0200\n"
+"Last-Translator: Luca Ferretti <elle.uca@libero.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Configura la politica di lockdown"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Editor di lockdown"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -26,113 +36,105 @@ msgstr "<b>Protocolli sicuri</b>"
 
 #: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr "Disabilita protocolli _non sicuri"
-
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Browser Web Epiphany"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "Screensaver di GNOME"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Generali"
-
-#: ../data/pessulus.glade.h:7
-#, fuzzy
-msgid "Lockdown Editor"
-msgstr "Blocca editor"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Pannello"
+msgstr "Disabilitare i protocolli _non sicuri"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr "Clicca per rendere questa impostazione non obbligatoria"
+msgstr "Fare clic per rendere questa impostazione non obbligatoria"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr "Clicca per rendere questa impostazione obbligatoria"
+msgstr "Fare clic per rendere questa impostazione obbligatoria"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "Generali"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "Pannello"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "Browser Web Epiphany"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "Salvaschermo di GNOME"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
-msgstr "Disabilita _riga di comando"
-
-#: ../Pessulus/maindialog.py:48
-msgid "Disable _printing"
-msgstr "Disabilita _stampa"
-
-#: ../Pessulus/maindialog.py:49
-msgid "Disable print _setup"
-msgstr "Disabilita i_mpostazione della stampa"
-
-#: ../Pessulus/maindialog.py:50
-msgid "Disable save to _disk"
-msgstr "Disabilita salva su _disco"
-
-#: ../Pessulus/maindialog.py:52
-msgid "_Lock down the panels"
-msgstr "_Blocca i pannelli"
-
-#: ../Pessulus/maindialog.py:53
-msgid "Disable force _quit"
-msgstr "Disabilita uscita _forzata"
-
-#: ../Pessulus/maindialog.py:54
-msgid "Disable lock _screen"
-msgstr "Disabilita blocco _dello schermo"
-
-#: ../Pessulus/maindialog.py:55
-#, fuzzy
-msgid "Disable log _out"
-msgstr "Disabilita disconnessione"
+msgstr "Disabilitare la _riga di comando"
 
 #: ../Pessulus/maindialog.py:57
-msgid "Disable _quit"
-msgstr "Disabilita _uscita"
+msgid "Disable _printing"
+msgstr "Disabilitare la _stampa"
 
 #: ../Pessulus/maindialog.py:58
-msgid "Disable _arbitrary URL"
-msgstr "Disabilita URL _arbitrario"
+msgid "Disable print _setup"
+msgstr "Disabilitare l'i_mpostazione di pagina"
 
 #: ../Pessulus/maindialog.py:59
-msgid "Disable _bookmark editing"
-msgstr "Disabilita _modifica dei segnalibri"
-
-#: ../Pessulus/maindialog.py:60
-msgid "Disable _history"
-msgstr "Disabilita la _cronologia"
+msgid "Disable save to _disk"
+msgstr "Disabilitare il salvataggio su _disco"
 
 #: ../Pessulus/maindialog.py:61
-msgid "Disable _javascript chrome"
-msgstr "Disabilita _javascript chrome"
+msgid "_Lock down the panels"
+msgstr "_Applicare il lockdown sui pannelli"
 
 #: ../Pessulus/maindialog.py:62
-msgid "Disable _toolbar editing"
-msgstr "Disabilita _modifica della barra degli strumenti"
+msgid "Disable force _quit"
+msgstr "Disabilitare l'uscita _forzata"
 
 #: ../Pessulus/maindialog.py:63
-msgid "Force _fullscreen mode"
-msgstr "Forza modalità sc_hermo intero"
+msgid "Disable lock _screen"
+msgstr "Disabilitare il _blocco dello schermo"
 
 #: ../Pessulus/maindialog.py:64
-msgid "Hide _menubar"
-msgstr "Nascondi la barra dei _menu"
-
-#: ../Pessulus/maindialog.py:65
-#, fuzzy
-msgid "_Lock on activation"
-msgstr "_Blocca l'attivazione"
+msgid "Disable log _out"
+msgstr "Disabilitare la _terminazione della sessione"
 
 #: ../Pessulus/maindialog.py:66
-#, fuzzy
-msgid "Allow log _out"
-msgstr "Consenti la disconnessione"
+msgid "Disable _quit"
+msgstr "Disabilitare l' _uscita"
 
+# messo al plurare
 #: ../Pessulus/maindialog.py:67
-#, fuzzy
+msgid "Disable _arbitrary URL"
+msgstr "Disabilitare gli URL _arbitrari"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _bookmark editing"
+msgstr "Disabilitare la _modifica dei segnalibri"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _history"
+msgstr "Disabilitare la _cronologia"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Disable _javascript chrome"
+msgstr "Disabilita il chrome _javascript"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable _toolbar editing"
+msgstr "Disabilitare modifica della _barra degli strumenti"
+
+#: ../Pessulus/maindialog.py:72
+msgid "Force _fullscreen mode"
+msgstr "Forzare la modalità sc_hermo intero"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Hide _menubar"
+msgstr "Nascondere la b_arra dei menù"
+
+#: ../Pessulus/maindialog.py:74
+msgid "_Lock on activation"
+msgstr "_Bloccare all'attivazione"
+
+#: ../Pessulus/maindialog.py:75
+msgid "Allow log _out"
+msgstr "Consentire la _terminazione della sessione"
+
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
-msgstr "Consenti la modifica_dell'utente"
+msgstr "Consentire il cambio di _utente"
