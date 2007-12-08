@@ -1,3 +1,9 @@
+2007-12-08  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* LINGUAS: Add nn
+	* nn.po: Add Norwegian nynorsk translation from
+	Eskild Hustvedt <eskild at zerodogg org>
+
 2007-11-27  Sunil Mohan Adapa  <sunil@atc.tcs.com>
 
 	* te.po: Updated Telugu translation done by
