@@ -1,20 +1,21 @@
 # translation of eu.po to Basque
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006.
 #
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-07 18:03+0000\n"
-"PO-Revision-Date: 2006-05-24 19:36+0000\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"POT-Creation-Date: 2007-12-27 15:59+0100\n"
+"PO-Revision-Date: 2007-12-27 16:00+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "\n"
 
@@ -137,3 +138,4 @@ msgstr "Baimendu saioa _amaitzea"
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Baimendu erabiltzaile-al_daketa"
+
