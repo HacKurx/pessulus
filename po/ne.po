@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.gnome-2-14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-04-02 07:25+0200\n"
+"POT-Creation-Date: 2007-01-02 02:30+0000\n"
 "PO-Revision-Date: 2006-05-12 20:42+0545\n"
 "Last-Translator: Mahesh Subedi <submanesh@hotmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "लक डाउन निति कन्फिगर गर्नुहोस्"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "लक डाउन सम्पादक"
 
@@ -38,22 +38,6 @@ msgstr "<b>सुरक्षित प्रोटोकलहरू</b>"
 msgid "Disable _unsafe protocols"
 msgstr "असुरक्षित प्रोटोकलहरू अक्षम पार्नुहोस्"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "इपिफ्यानी वेब ब्राउजर"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "जिनोम स्क्रिनसेभर"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "साधारण"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "प्यानल"
-
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
 msgstr "यस सेटिङ्लाई म्यान्डाटोरि बनाउन क्लिक गर्नुहोस्"
@@ -62,79 +46,94 @@ msgstr "यस सेटिङ्लाई म्यान्डाटोरि 
 msgid "Click to make this setting mandatory"
 msgstr "यो सेटिङ् म्यान्डाटोरि बनाउन क्लिक गर्नुहोस्"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:43
+msgid "General"
+msgstr "साधारण"
+
+#: ../Pessulus/maindialog.py:44
+msgid "Panel"
+msgstr "प्यानल"
+
+#: ../Pessulus/maindialog.py:45
+msgid "Epiphany Web Browser"
+msgstr "इपिफ्यानी वेब ब्राउजर"
+
+#: ../Pessulus/maindialog.py:46
+msgid "GNOME Screensaver"
+msgstr "जिनोम स्क्रिनसेभर"
+
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _command line"
 msgstr "आदेश रेखा अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:57
 msgid "Disable _printing"
 msgstr "मुद्रण अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:58
 msgid "Disable print _setup"
 msgstr "मुद्रण सेटअप अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:59
 msgid "Disable save to _disk"
 msgstr "डिस्कमा बचत गर्नुहोस् अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "प्यानलहरू लक डाउन गर्नुहोस्"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
 msgstr "बलपुर्वक अन्त्य गर्नुहोस् अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:63
 msgid "Disable lock _screen"
 msgstr "पर्दा लक अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:64
 msgid "Disable log _out"
 msgstr "लग आउट अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _quit"
 msgstr "अन्त्य गर्नुहोस् अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _arbitrary URL"
 msgstr "स्वेच्छाचारी URL अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _bookmark editing"
 msgstr "पुस्तिका चिनो सम्पादन गर्ने अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _history"
 msgstr "इतिहास अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _javascript chrome"
 msgstr "जाभा स्क्रिप्ट क्रोम अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
 msgstr "उपकरणपट्टी सम्पादन गर्ने अक्षम पार्नुहोस्"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
 msgstr "बल पूरा पर्दा मोड"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:73
 msgid "Hide _menubar"
 msgstr "मेनुपट्टी लुकाउनुहोस्"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
 msgstr "उत्प्रेरणमा ताल्चा लगाउनुहोस्"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "लग आउट अनुमति दिनुहोस्"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "प्रयोगकर्ता स्विच गर्नेलाई अनुमति दिनुहोस्"
-
