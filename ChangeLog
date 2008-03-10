@@ -1,3 +1,8 @@
+2008-03-10  Vincent Untz  <vuntz@gnome.org>
+
+	* NEWS:
+	* README: Release 2.16.4.
+
 2008-01-05  Josh Triplett  <josh@freedesktop.org>
 
 	* Pessulus/lockdownapplier.py:
