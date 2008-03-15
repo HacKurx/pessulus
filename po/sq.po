@@ -1,14 +1,14 @@
 # Përkthimi i mesazheve të pessulus në shqip
-# Copyright (C) 2006, 2007, Free Software Foundation, Inc.
+# Copyright (C) 2006, 2007, 2008, Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
 #
-# Laurent Dhima <laurenti@alblinux.net>, 2006, 2007.
+# Laurent Dhima <laurenti@alblinux.net>, 2006, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-22 12:12+0100\n"
-"PO-Revision-Date: 2007-03-22 12:09+0100\n"
+"POT-Creation-Date: 2007-03-22 11:10+0000\n"
+"PO-Revision-Date: 2008-03-15 12:37+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -38,11 +38,11 @@ msgstr "Çaktivo protokollët e _pasigurtë"
 
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting not mandatory"
-msgstr "Kliko për t'a bërë këtë konfigurim jo të detyrueshëm"
+msgstr "Kliko për ta bërë këtë konfigurim jo të detyrueshëm"
 
 #: ../Pessulus/lockdownbutton.py:101
 msgid "Click to make this setting mandatory"
-msgstr "Kliko për t'a bërë këtë konfigurim të detyrueshëm"
+msgstr "Kliko për ta bërë këtë konfigurim të detyrueshëm"
 
 #: ../Pessulus/maindialog.py:43
 msgid "General"
@@ -78,7 +78,7 @@ msgstr "Çaktivo ruajtjen në _disk"
 
 #: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
-msgstr "_Blloko panelët"
+msgstr "B_lloko panelët"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
@@ -114,7 +114,7 @@ msgstr "Çaktivo chrome _javascript"
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
-msgstr "Ç'ak_tivo ndryshimin e panelit të instrumentëve"
+msgstr "Çaktivo ndryshimin e panelit të ins_trumentëve"
 
 #: ../Pessulus/maindialog.py:72
 msgid "Force _fullscreen mode"
@@ -135,3 +135,4 @@ msgstr "Lej_o daljen nga seanca"
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "Lejo ndry_shimin e përdoruesit"
+
