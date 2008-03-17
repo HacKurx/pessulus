@@ -177,14 +177,22 @@ class PessulusDisabledApplets:
                 if prop.name[:5] == "name-" and prop.name[5:] in languages:
                     if bestname > languages.index (prop.name[5:]) or bestname == -1:
                         name = prop.v.value_string
+                        bestname = languages.index (prop.name[5:])
                 elif prop.name == "name" and bestname == -1:
                     name = prop.v.value_string
                 elif prop.name == "panel:icon":
                     icon = prop.v.value_string
+
+            if name == None:
+                name = applet.iid
+            else:
+                #FIXME needs to be translated
+                name = name + " (" + applet.iid + ")"
+
             iter = self.liststore.append ()
             self.liststore.set (iter,
                                 self.COLUMN_IID, applet.iid,
-                                self.COLUMN_NAME, name + " (" + applet.iid + ")",
+                                self.COLUMN_NAME, name,
                                 self.COLUMN_ICON_NAME, icon,
                                 self.COLUMN_ICON, icons.load_icon (self.icon_theme, icon))
 

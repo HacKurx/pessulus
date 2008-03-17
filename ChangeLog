@@ -1,3 +1,12 @@
+2008-03-17  Vincent Untz  <vuntz@gnome.org>
+
+	* Pessulus/disabledapplets.py: (__fill_liststore): fix exception raised
+	when there's no name for an applet.
+	Also really try to get the best translation by remembering we've found
+	one, instead of just replacing the name whenever there's a new one.
+	* Pessulus/icons.py: (load_icon): explicitly return None instead of
+	nothing in case of error
+
 2008-03-10  Vincent Untz  <vuntz@gnome.org>
 
 	* configure.ac: post-release bump to 2.16.5.

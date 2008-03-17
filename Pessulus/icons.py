@@ -47,12 +47,12 @@ def load_icon_from_data_dirs (icon_value):
                                                     icon_value))
         if retval:
             return retval
-    
+
     return None
 
 def load_icon (icon_theme, icon_value):
     if not icon_value:
-        return
+        return None
 
     if os.path.isabs (icon_value):
         icon = load_icon_from_path (icon_value)
