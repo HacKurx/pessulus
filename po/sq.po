@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-22 11:10+0000\n"
-"PO-Revision-Date: 2008-03-15 12:37+0100\n"
+"POT-Creation-Date: 2008-03-17 10:54+0100\n"
+"PO-Revision-Date: 2008-03-18 16:53+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -36,103 +36,103 @@ msgstr "<b>Protokollë të sigurt</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Çaktivo protokollët e _pasigurtë"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "Kliko për ta bërë këtë konfigurim jo të detyrueshëm"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "Kliko për ta bërë këtë konfigurim të detyrueshëm"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:41
 msgid "General"
 msgstr "Të përgjithshme"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:42
 msgid "Panel"
 msgstr "Paneli"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:43
 msgid "Epiphany Web Browser"
 msgstr "Shfletuesi Web Epiphany"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
 msgstr "Ruajtësi ekranit i GNOME"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "Çaktivo rreshtin e _komandës"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "Çaktivo _printimin"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "Çaktivo _konfigurimin e printimit"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "Çaktivo ruajtjen në _disk"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "B_lloko panelët"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "Çaktivo _daljen e detyrueshme"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "Çaktivo bllokimin e _ekranit"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "Çaktiv_o shkëputjen"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "Çaktivo _daljen"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "Çaktivo URL _arbitrare"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "Çaktivo ndryshimin e li_bërshënuesve"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "Çaktivo _historikun"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "Çaktivo chrome _javascript"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "Çaktivo ndryshimin e panelit të ins_trumentëve"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "Detyro modalitetin me ekran të _plotë"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "Fshih panelin e _menusë"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_Blloko në aktivim"
 
-#: ../Pessulus/maindialog.py:75
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Lej_o daljen nga seanca"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Lejo ndry_shimin e përdoruesit"
 
