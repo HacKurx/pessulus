@@ -1,3 +1,9 @@
+2008-04-15  Andre Klapper  <a9016009@gmx.de>
+
+	* bal.po: 
+	* LINGUAS: Added Balochi translation on behalf of Mostafa 
+	Daneshvar. Fixes bug #528248.
+
 2008-03-20  Laurent Dhima  <laurenti@alblinux.net>
 
 	* sq.po: Updated Albanian Translation.

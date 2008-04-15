@@ -1,0 +1,137 @@
+# translation of pessulus.HEAD.po to bal
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mostafa Daneshvar <mostafa@daneshvar.org.uk>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-15 19:57+0200\n"
+"PO-Revision-Date: 2008-04-15 19:33+0430\n"
+"Last-Translator: Mostafa Daneshvar <mostafa@daneshvar.org.uk>\n"
+"Language-Team: Balochi <mostafa@daneshvar.org.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "تنظیم کتن سیاست کبل"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "اصلاح کنوک کبل"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>اپلتان غیر فعال</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>پروتوکلان امن</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "غیر فعال کتن پروتوکلان ـناامن"
+
+#: ../Pessulus/lockdownbutton.py:97
+msgid "Click to make this setting not mandatory"
+msgstr "کلیک کنیت تا ای تنظیماتا اجباری مکنیت"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting mandatory"
+msgstr "کلیک کنیت تا ای تنظیماتا اجباری کنیت"
+
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "کلی"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "پنل"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "وب گرودک Epiphany "
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "محافظ صفحه گنوم"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _command line"
+msgstr "غیر فعال کتن ـخط دستور"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "غیر فعال کتن ـچهاب کنگ"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "غیر فعال کتن تنظیم ـچهاپ"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable save to _disk"
+msgstr "غیر فعال کتن ذخیره په ـدیسک"
+
+#: ../Pessulus/maindialog.py:59
+msgid "_Lock down the panels"
+msgstr "ـکبل کتن پنل"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "غیر فعال کتن اجبار ـدربیگ"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "غیر فعال کتن کبل ـصفحه"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable log _out"
+msgstr "غیر فعال کتن ـبندگ"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _quit"
+msgstr "غیر فعال کتن ـدربیگ"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _arbitrary URL"
+msgstr "غیر فعال کتن ـاختیاری URL"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _bookmark editing"
+msgstr "غیر فعال کتن ـاصلاح نشان هلگ"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _history"
+msgstr "غیر فعال کتن ـتاریح"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _javascript chrome"
+msgstr "غیر فعال کتن javascript chromeـ"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _toolbar editing"
+msgstr "غیر فعال کتن ـمیله ابزار اصلاح"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Force _fullscreen mode"
+msgstr "مجبور کتن حالت ـکل صفحه "
+
+#: ../Pessulus/maindialog.py:71
+msgid "Hide _menubar"
+msgstr "پناه کتن ـشماره"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "ـکبل اور کار"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "اجازت داتن په ـدر بیگ"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "اجازت داتن کاربر په ـعوض کتن"
