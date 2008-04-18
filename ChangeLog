@@ -1,3 +1,11 @@
+2008-04-18  Rob Bradford  <rob@robster.org.uk>
+
+	* pessulus.in:
+	Switch to using python-gnome-desktop's bugbuddy integration. Patch
+	from AMAZIGH Aneglus, bug #394529.)
+	* configure.ac:
+	We now need gnome-python-desktop 2.17.2 (at least.)
+
 2008-03-17  Vincent Untz  <vuntz@gnome.org>
 
 	* Pessulus/disabledapplets.py: (__fill_liststore): fix exception raised

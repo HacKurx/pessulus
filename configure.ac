@@ -10,7 +10,8 @@ AC_SUBST(ACLOCAL_AMFLAGS, "$ACLOCAL_FLAGS")
 
 PKG_CHECK_MODULES(PESSULUS,
 		  pygtk-2.0 >= 2.6.0		\
-		  gnome-python-2.0 >= 2.6.0)
+		  gnome-python-2.0 >= 2.6.0	\
+		  gnome-python-desktop-2.0 >= 2.17.2)
 
 GETTEXT_PACKAGE=pessulus
 AC_SUBST(GETTEXT_PACKAGE)
