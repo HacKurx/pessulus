@@ -1,5 +1,13 @@
 2008-04-18  Rob Bradford  <rob@robster.org.uk>
 
+	* data/Makefile.am:
+	* data/pessulus.desktop.in.in:
+	* data/pessulus.svg:
+	* date/pessulus-{16,22,24,32,48}.png:
+	Add funky icon from Jakub Steiner (bug #466252.)
+
+2008-04-18  Rob Bradford  <rob@robster.org.uk>
+
 	* pessulus.in:
 	Switch to using python-gnome-desktop's bugbuddy integration. Patch
 	from AMAZIGH Aneglus, bug #394529.)
