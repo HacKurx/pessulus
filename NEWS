@@ -1,3 +1,22 @@
+pessulus 2.23.1
+===============
+
+  Misc
+
+        * New icon from Jakub Steiner.
+        * Use new bugbuddy module from python-gnome-desktop.
+
+  Fixes
+
+        * Fix exception raised when applets have no name and user the best
+          translation where possible. (Vincent Untz)
+
+  Translations
+
+        * Mostafa Daneshvar (bal)
+        * Laurent Dhima (sq)
+        * Yannig Marchegay (oc)
+
 pessulus 2.16.4
 ===============
 
