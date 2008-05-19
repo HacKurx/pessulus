@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD.ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-07-23 08:55+0200\n"
+"POT-Creation-Date: 2007-01-02 02:30+0000\n"
 "PO-Revision-Date: 2006-11-16 17:34+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <support@arabeyes.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : 3\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && "
+"n<=10 ? 2 : 3\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "إعداد سياسة القفل"
 
-#: ../data/pessulus.desktop.in.in.h:2
-#: ../data/pessulus.glade.h:4
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "محرر القفل"
 
@@ -138,4 +138,3 @@ msgstr "اسمح بتسجيل ال_خروج"
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
 msgstr "اسمح ب_تبديل المستخدم"
-
