@@ -1,0 +1,140 @@
+# translation of kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vikram Vincent <vincentvikram@swatantra.org>, 2008.
+# Shankar Prasad <svenkate@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kn\n"
+"Report-Msgid-Bugs-To: debian-l10n-kannada@lists.debian.org \n"
+"POT-Creation-Date: 2008-01-23 03:22+0000\n"
+"PO-Revision-Date: 2008-06-03 15:33+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "ಲಾಕ್‍ಡೌನ್ ಪಾಲಿಸಿಯನ್ನು ರೂಪಿಸಿ"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "ಸಂಪಾದಕವನ್ನು ಲಾಕ್‍ಡೌನ್ ಮಾಡು"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>ಅಶಕ್ತಗೊಳಿಸಲಾದ ಉಪಅನ್ವಯಗಳು</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>ಸುರಕ್ಷಿತ ಪ್ರೋಟೋಕಾಲ್‍ಗಳು</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "ಸುರಕ್ಷಿತವಲ್ಲದ ಪ್ರೋಟೋಕಾಲ್‍ಗಳನ್ನು ದುರ್ಬಲಗೊಳಿಸು(_u)"
+
+#: ../Pessulus/lockdownbutton.py:97
+msgid "Click to make this setting not mandatory"
+msgstr "ಈ ಸಂಯೋಜನೆಯನ್ನು ಕಡ್ಡಾಯಗೊಳಿಸದೆ ಇರಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting mandatory"
+msgstr "ಈ ಸಂಯೋಜನೆಯನ್ನು ಕಡ್ಡಾಯಗೊಳಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "ಸಾಮಾನ್ಯ"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "ಫಲಕ"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "ಎಪಿಫೆನಿ ಅಂತರ್ಜಾಲ ವೀಕ್ಷಕ"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "GNOME ಸ್ಕ್ರೀನ್‍ಸೇವರ್"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _command line"
+msgstr "ಆಜ್ಞಾ ಸಾಲನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_c)"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "ಮುದ್ರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_p)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "ಮುದ್ರಕದ ಸಂಯೋಜನೆಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_s)"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable save to _disk"
+msgstr "ಡಿಸ್ಕ್‍ಗೆ ಉಳಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_d)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "_Lock down the panels"
+msgstr "ಫಲಕಗಳನ್ನು ಲಾಕ್ ಡೌನ್ ಮಾಡು(_L)"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "ಬಲವಂತವಾಗಿ ಮುಚ್ಚುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_Q)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_s)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable log _out"
+msgstr "ಹೊರ ತೆರಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_o)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _quit"
+msgstr "ನಿರ್ಗಮಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_q)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _arbitrary URL"
+msgstr "ಇಚ್ಛಾನುಸಾರಿ URL ಅನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_a)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _bookmark editing"
+msgstr "ಬುಕ್‍ಮಾರ್ಕ್ ಸಂಪಾದಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_b)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _history"
+msgstr "ಚರಿತ್ರೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸುವುದನ್ನು(_h)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _javascript chrome"
+msgstr "ಜಾವಸ್ಕ್ರಿಪ್ಟ್ ಕ್ರೋಮ್(_j) ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _toolbar editing"
+msgstr "ಉಪಕರಣ ಪಟ್ಟಿಯನ್ನು ಸಂಪಾದಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_T)"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Force _fullscreen mode"
+msgstr "ಪೂರ್ಣತೆರೆ ವಿಧಾನಕ್ಕಾಗಿ ಒತ್ತಾಯಿಸು(_F)"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Hide _menubar"
+msgstr "ಅಂಶ ಪಟ್ಟಿಯನ್ನು ಅಡಗಿಸು(_m)"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "ಸಕ್ರಿಯಗೊಂಡಾಗ ಲಾಕ್ ಮಾಡು(_L)"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "ಹೊರ ತೆರಳುವುದನ್ನು ಅನುಮತಿಸು(_o)"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "ಬಳಕೆದಾರರ ಬದಲಾವಣೆಯನ್ನು ಅನುಮತಿಸು(_s)"
+
