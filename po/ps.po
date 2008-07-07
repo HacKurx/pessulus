@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.head\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-03 03:24+0000\n"
+"PO-Revision-Date: 2008-07-03 14:30-0800\n"
+"Last-Translator: Zabeeh Khan <zabeehkhan@gmail.com>\n"
+"Language-Team: Pashto <pathanisation@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Pashto, Pushto\n"
+"X-Poedit-Country: AFGHANISTAN\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "د کولپونې تګلاره سازول"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "سمونګر کولپول"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>ناتوانول شوي څېرمه کړنلارې</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>خوندي باندرې</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "ناخوندي باندرې ناتوانول"
+
+#: ../Pessulus/lockdownbutton.py:97
+msgid "Click to make this setting not mandatory"
+msgstr "د دې امستنو د نه اړينولو لپاره دلته کېکاږﺉ"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting mandatory"
+msgstr "د دې امستنو د اړينولو لپاره دلته کېکاږﺉ"
+
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "ټولګړي"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "چوکاټ"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "اېپېفېني ګورت لټوونی"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "جنومي پرده ساتونکی"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _command line"
+msgstr "بولۍ _ليکه ناتوانول"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "چاپونه _ناتوانول"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "د چاپونې امسته ناتوانول"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable save to _disk"
+msgstr "ټيکلي کې ساتل ناتوانول"
+
+#: ../Pessulus/maindialog.py:59
+msgid "_Lock down the panels"
+msgstr "چوکاټونه کولپول_"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "ځواکيزه _بندونه ناتوانول"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "پرده کولپول ناتوانول"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable log _out"
+msgstr "وتون ناتوانول"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _quit"
+msgstr "بندول ناتوانول"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _arbitrary URL"
+msgstr "ناتوانول URL خپلسری"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _bookmark editing"
+msgstr "د ليکنښې سمونه ناتوانول"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _history"
+msgstr "مخينه ناتوانول_"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _javascript chrome"
+msgstr "جاواسکرېپټ کروم ناتوانول"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _toolbar editing"
+msgstr "د توکپټې سمونه ناتوانول"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Force _fullscreen mode"
+msgstr "د _ټولې پردې اکر ځواکيزول"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Hide _menubar"
+msgstr "غورنۍ پټه پټول_"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "د چارندولو پر مهال کولپول_"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "وتون توانول"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "کارن ونجونه توانول"
+
