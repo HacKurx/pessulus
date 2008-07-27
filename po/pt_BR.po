@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-03-18 11:44-0300\n"
-"PO-Revision-Date: 2008-07-22 12:34-0300\n"
+"PO-Revision-Date: 2008-07-26 21:02-0300\n"
 "Last-Translator: Vladimir Melo <vladimirmelo.psi@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipgsa.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "Desabilitar gravação no _disco"
 
 #: ../Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
-msgstr "_Travar os painéis"
+msgstr "Blo_quear os painéis"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable force _quit"
@@ -85,7 +85,7 @@ msgstr "Desabilitar saída _forçada"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable lock _screen"
-msgstr "Desabilitar t_rava de tela"
+msgstr "Desabilitar bloq_ueio de tela"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable log _out"
@@ -126,7 +126,7 @@ msgstr "Ocultar barra de _menus"
 
 #: ../Pessulus/maindialog.py:66
 msgid "_Lock on activation"
-msgstr "_Travar ao ativar"
+msgstr "Blo_quear ao ativar"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Allow log _out"
