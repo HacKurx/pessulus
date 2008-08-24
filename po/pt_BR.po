@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-03-18 11:44-0300\n"
-"PO-Revision-Date: 2008-07-26 21:02-0300\n"
+"PO-Revision-Date: 2008-08-24 01:18-0300\n"
 "Last-Translator: Vladimir Melo <vladimirmelo.psi@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipgsa.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -17,15 +17,15 @@ msgstr ""
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "Configure a política de travas"
+msgstr "Configure a política de bloqueios"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
 msgid "Lockdown Editor"
-msgstr "Editor de Travas"
+msgstr "Editor de Bloqueios"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>Applets Desabilitados</b>"
+msgstr "<b>Miniaplicativos Desabilitados</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -37,11 +37,11 @@ msgstr "Desabilitar protocolos _inseguros"
 
 #: ../data/pessulus.glade.h:4
 msgid "Epiphany Web Browser"
-msgstr "Navegador Web Epiphany"
+msgstr "Navegador da web Epiphany"
 
 #: ../data/pessulus.glade.h:5
 msgid "GNOME Screensaver"
-msgstr "Proteção de Tela do GNOME"
+msgstr "Proteção de tela do GNOME"
 
 #: ../data/pessulus.glade.h:6
 msgid "General"
@@ -77,7 +77,7 @@ msgstr "Desabilitar gravação no _disco"
 
 #: ../Pessulus/maindialog.py:53
 msgid "_Lock down the panels"
-msgstr "Blo_quear os painéis"
+msgstr "_Bloquear os painéis"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable force _quit"
@@ -110,7 +110,7 @@ msgstr "Desabilitar _histórico"
 # Talvez fosse melhor 'Desabilitar chrome de _javascript'
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _javascript chrome"
-msgstr "Desabilitar _javascript do chrome"
+msgstr "Desabilitar interface gráfica _javascript"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Disable _toolbar editing"
