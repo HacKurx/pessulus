@@ -1,4 +1,4 @@
-appdir = $(pyexecdir)/Pessulus
+appdir = $(pythondir)/Pessulus
 
 app_PYTHON = 			\
 	__init__.py		\

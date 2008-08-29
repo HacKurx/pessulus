@@ -24,8 +24,8 @@ import bugbuddy
 
 bugbuddy.install()
 
-if not "@pyexecdir@" in sys.path:
-    sys.path.insert (0, "@pyexecdir@")
+if not "@pythondir@" in sys.path:
+    sys.path.insert (0, "@pythondir@")
 
 
 import Pessulus.main

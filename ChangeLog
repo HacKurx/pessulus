@@ -1,3 +1,11 @@
+2008-08-29  Vincent Untz  <vuntz@gnome.org>
+
+	* Makefile.am:
+	* Pessulus/Makefile.am:
+	* pessulus.in: install in $pythondir instead of $pyexecdir
+	Fix bug #549728
+	Patch by Tom Callaway <tcallawa@redhat.com>
+
 2008-04-18  Rob Bradford  <rob@robster.org.uk>
 
 	* configure.ac:

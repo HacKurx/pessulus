@@ -5,7 +5,7 @@ SUBDIRS = data po Pessulus
 bin_SCRIPTS = pessulus
 
 pessulus: pessulus.in Makefile
-	sed -e s!\@pyexecdir\@!@pyexecdir@! -e s!\@PYTHON\@!@PYTHON@! < $< > $@
+	sed -e s!\@pythondir\@!@pythondir@! -e s!\@PYTHON\@!@PYTHON@! < $< > $@
 	chmod a+x $@
 
 EXTRA_DIST =			\
