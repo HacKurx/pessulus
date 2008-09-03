@@ -44,7 +44,7 @@ def main (args):
 
     prog = gnome.program_init (config.PACKAGE, config.VERSION)
 
-    gtk.window_set_default_icon_name ("stock_lock")
+    gtk.window_set_default_icon_name ("pessulus")
 
     applier = lockdownappliergconf.PessulusLockdownApplierGconf ()
 

@@ -1,3 +1,9 @@
+2008-09-03  Vincent Untz  <vuntz@gnome.org>
+
+	* Pessulus/main.py: use the right window icon
+	* Pessulus/maindialog.py: use the right icon for the screensaver
+	settings.
+
 2008-08-29  Vincent Untz  <vuntz@gnome.org>
 
 	* Makefile.am:

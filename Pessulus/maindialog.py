@@ -41,7 +41,7 @@ pages = (
     ( _('General'), "gnome-logo-icon-transparent", "vbox7" ),
     ( _('Panel'), "gnome-panel", "vbox12" ),
     ( _('Epiphany Web Browser'), "web-browser", "vboxEpiphany" ),
-    ( _('GNOME Screensaver'), "screensaver", "vbox15" )
+    ( _('GNOME Screensaver'), "preferences-desktop-screensaver", "vbox15" )
 )
 
 gconfdirs = [
