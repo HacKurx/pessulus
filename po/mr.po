@@ -1,29 +1,30 @@
-# translation of pessulus.HEAD.po to Marathi
+# translation of mr.po to marathi
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
 #
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.HEAD\n"
+"Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-07-07 11:59-0700\n"
-"PO-Revision-Date: 2006-05-24 00:49+0530\n"
-"Last-Translator: Rahul Bhalerao <b.rahul.pm@gmail.com>\n"
-"Language-Team: Marathi\n"
+"POT-Creation-Date: 2007-01-02 02:30+0000\n"
+"PO-Revision-Date: 2008-09-16 15:14+0530\n"
+"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+"Language-Team: marathi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr ""
+msgstr "कुलूपबंद करार संयोजीत करा"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
-msgstr ""
+msgstr "संपादक कुलूपबंद करा"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -79,7 +80,7 @@ msgstr "डिस्कवर सुरक्षित करणे अकार
 
 #: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
-msgstr ""
+msgstr "पटल कुलूपबंद करा (_L)"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable force _quit"
@@ -127,7 +128,7 @@ msgstr "मेनू पट्टी लपवा(_m)"
 
 #: ../Pessulus/maindialog.py:74
 msgid "_Lock on activation"
-msgstr ""
+msgstr "सक्रीय झाल्यावर कुलूपबंद करा (_L)"
 
 #: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
@@ -135,4 +136,5 @@ msgstr "लॉग आउट करू द्या(_o)"
 
 #: ../Pessulus/maindialog.py:76
 msgid "Allow user _switching"
-msgstr "उपयोगकर्ता अदलाबदल होऊ द्या"
+msgstr "वापरकर्ता बदलविणे करीता परवानगी द्या (_s)"
+
