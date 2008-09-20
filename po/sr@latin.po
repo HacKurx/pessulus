@@ -9,15 +9,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pesulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-28 22:06+0100\n"
-"PO-Revision-Date: 2006-01-29 00:30+0100\n"
-"Last-Translator: Slobodan D. Sredojević <ssl@uns.ns.ac.yu>\n"
+"POT-Creation-Date: 2008-09-20 03:32+0200\n"
+"PO-Revision-Date: 2008-09-20 03:33+0100\n"
+"Last-Translator: Goran Rakić <grakic@devbase.net>\n"
 "Language-Team: Serbian (sr) <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Podesi politiku ograničenja"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:4
+msgid "Lockdown Editor"
+msgstr "Uređivač ograničenja"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
@@ -31,129 +39,121 @@ msgstr "<b>Bezbedni protokoli</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Zabrani _nebezbedne protokole"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Čitač veba — Spoznaja"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "Gnomov čuvar ekrana"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Opšte"
-
-#: ../data/pessulus.glade.h:7
-msgid "Lockdown Editor"
-msgstr "Uređivač ograničenja"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Panel"
-
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "Pritisnite da bi ovo podešavanje postalo neobavezno"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "Pritisnite da bi ovo podešavanje postalo obavezno"
 
-#: ../Pessulus/maindialog.py:47
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "Opšte"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Čitač veba — Spoznaja"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "Gnomov čuvar ekrana"
+
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "Zabrani _liniju naredbi"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "Zabrani _štampu"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "Zabrani _podešavanje štampe"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "Zabrani _čuvanje na disk"
 
-#: ../Pessulus/maindialog.py:52
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "_Zaključaj panele"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "Zabrani prisilno _zatvaranje"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "Zabrani _zaključavanje ekrana"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "Zabrani o_djavu"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "Zabrani _izlaz iz programa"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "Zabrani pro_izvoljne adrese"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "Zabrani _uređivanje obeleživača"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "Zabrani is_torijat"
 
 # chrome?
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "Zabrani _JavaSkript"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "Zabrani preslaganje _palete alatki"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "Nametni prikaz preko _celog ekrana"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "Sakrij _meni"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_Zaključaj pri pokretanju"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Dozvoli odjav_u"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Dozvoli prebacivanje između korisničkih _naloga"
 
 #~ msgid "Configure the _mandatory settings"
 #~ msgstr "Menjaj o_bavezna podešavanja"
-
 #~ msgid "Only the system administrator can configure the mandatory settings"
 #~ msgstr "Samo administrator sistema može menjati obavezna podešavanja"
-
 #~ msgid "Can not configure the mandatory settings"
 #~ msgstr "Ne mogu da menjam obavezna podešavanja"
-
 #~ msgid "You might not have the rights to configure the mandatory settings."
 #~ msgstr "Možda niste ovlašćeni da menjate obavezna podešavanja."
-
 #~ msgid "Can not configure the regular settings"
 #~ msgstr "Ne mogu da menjam obična podešavanja"
-
 #~ msgid ""
 #~ "As this should never happen, we advise you to close the lockdown editor "
 #~ "and start again."
 #~ msgstr ""
 #~ "Pošto ovo ne treba nikad da se dogodi, preporučujemo da zatvorite "
 #~ "uređivač ograničenja i počnete ponovo."
+
