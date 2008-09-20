@@ -1,3 +1,25 @@
+pessulus 2.24.0
+===============
+
+  Fixes
+
+        * Use correct icon in main window (Vincent Untz)
+        * Use currect icon in screensaver settings. (Vincent Untz)
+        * Install into Python directory. (Tom Callaway)
+
+  Translations
+
+        * Djihed Afifi (ar)
+        * Shankar Prasad (kn)
+        * Praveen Arimbrathodiyil (ml)
+        * Sandeep Shedmake (mr)
+        * Yannig Marchegay (oc)
+        * Zabeeh Khan (ps)
+        * Leonardo Ferreira Fontenelle (pt_BR)
+        * Laurent Dhima (sq)
+        * Goran Rakić (sr)
+        * Adi Roiban (ro)
+
 pessulus 2.23.1
 ===============
 

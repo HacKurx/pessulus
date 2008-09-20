@@ -1,3 +1,10 @@
+2008-09-20  Rob Bradford  <rob@robster.org.uk>
+
+	* NEWS:
+	* README:
+	* configure.ac:
+	Release 2.24.0
+
 2008-09-03  Vincent Untz  <vuntz@gnome.org>
 
 	* Pessulus/main.py: use the right window icon
