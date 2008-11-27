@@ -1,16 +1,16 @@
 # Swedish messages for pessulus.
-# Copyright (C) 2005-2006 Free Software Foundation, Inc.
+# Copyright (C) 2005-2008 Free Software Foundation, Inc.
 # Christian Rose <menthos@menthos.com>, 2005.
-# Daniel Nylander <po@danielnylander.se>, 2006.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2008.
 #
-# $Id$
+# $Id: sv.po,v 1.3 2006/03/19 10:45:23 dnylande Exp $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-19 07:15+0100\n"
-"PO-Revision-Date: 2006-03-19 11:42+0100\n"
+"POT-Creation-Date: 2008-11-27 17:56+0100\n"
+"PO-Revision-Date: 2008-11-27 17:56+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgid "Configure the lockdown policy"
 msgstr "Konfigurera nedlåsningspolicyn"
 
 #: ../data/pessulus.desktop.in.in.h:2
-#: ../data/pessulus.glade.h:7
+#: ../data/pessulus.glade.h:4
 msgid "Lockdown Editor"
 msgstr "Nedlåsningsredigerare"
 
@@ -39,103 +39,103 @@ msgstr "<b>Säkra protokoll</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Inaktivera _osäkra protokoll"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Webbläsaren Epiphany"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "GNOME-skärmsläckaren"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Allmänt"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Panel"
-
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "Klicka för att göra denna inställning inte obligatorisk"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "Klicka för att göra denna inställning obligatorisk"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "Allmänt"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Webbläsaren Epiphany"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "GNOME-skärmsläckaren"
+
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "Inaktivera _kommandorad"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "Inaktivera _utskrifter"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "Inaktivera utskrifts_konfiguration"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "Inaktivera sparande till _disk"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "_Lås ned panelerna"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
-msgstr "Inaktivera tvingande _avslutande"
+msgstr "Inaktivera tvingande _avslut"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "Inaktivera lås _skärmen"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "Inaktivera logga _ut"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
-msgstr "Inaktivera _avslutande"
+msgstr "Inaktivera _avslut"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "Inaktivera _godtycklig URL"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "Inaktivera _bokmärkesredigering"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "Inaktivera _historik"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "Inaktivera _javascript-krom"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "Inaktivera _verktygsradsredigering"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "Tvinga _helskärmsläge"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "Dölj _menyrad"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_Lås vid aktivering"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Tillåt logga _ut"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Tillåt _byte av användare"
 
