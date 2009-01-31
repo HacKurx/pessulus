@@ -51,6 +51,73 @@ def can_edit_mandatory ():
 
     return False
 
+# We have this safe class to be able to use gconf methods even if we don't have
+# any gconf access. In the future, we might have non-gconf sources, so it's
+# important to keep the gconf applier working (by being effectively disabled),
+# even when gconf is not working.
+class SafeGConfClient:
+    def __init__ (self):
+        self.client = gconf.client_get_default ()
+
+        try:
+            self.client.get_bool ("/apps/gconf-editor/can_edit_source")
+            self.can_use = True
+        except gobject.GError:
+            self.can_use = False
+
+    def really_works (self):
+        return self.can_use
+
+    def get_schema (self, key):
+        if not self.can_use:
+            return None
+        return self.client.get_schema (key)
+
+    def get_bool (self, key):
+        if not self.can_use:
+            return False
+        return self.client.get_bool (key)
+
+    def set_bool (self, key, value):
+        if not self.can_use:
+            return
+        self.client.set_bool (key, value)
+
+    def get_list (self, key, list_type):
+        if not self.can_use:
+            return []
+        return self.client.get_list (key, list_type)
+
+    def set_list (self, key, list_type, value):
+        if not self.can_use:
+            return
+        self.client.set_list (key, list_type, value)
+
+    def key_is_writable (self, key):
+        if not self.can_use:
+            return False
+        return self.client.key_is_writable (key)
+
+    def notify_add (self, key, handler, data = None):
+        if not self.can_use:
+            return None
+        return self.client.notify_add (key, handler, data)
+
+    def notify_remove (self, monitor):
+        if not self.can_use:
+            return
+        self.client.notify_remove (monitor)
+
+    def add_dir (self, dir, preloadtype):
+        if not self.can_use:
+            return
+        self.client.add_dir (dir, preloadtype)
+
+    def remove_dir (self, dir):
+        if not self.can_use:
+            return
+        self.client.remove_dir (dir)
+
 class PessulusLockdownApplierGconf (lockdownapplier.PessulusLockdownApplier):
     def __init__ (self):
         self.can_edit_mandatory = can_edit_mandatory ()
@@ -60,7 +127,10 @@ class PessulusLockdownApplierGconf (lockdownapplier.PessulusLockdownApplier):
             engine = gconf.engine_get_for_address (GCONF_MANDATORY_SOURCE)
             self.client_mandatory = gconf.client_get_for_engine (engine)
 
-        self.client = gconf.client_get_default ()
+        self.client = SafeGConfClient ()
+
+    def supports_normal_settings (self):
+        return self.client.really_works ()
 
     def supports_mandatory_settings (self):
         return self.can_edit_mandatory

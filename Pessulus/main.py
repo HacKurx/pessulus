@@ -48,6 +48,15 @@ def main (args):
 
     applier = lockdownappliergconf.PessulusLockdownApplierGconf ()
 
+    if not applier.supports_normal_settings () and not applier.supports_mandatory_settings ():
+        dialog = gtk.MessageDialog (flags = gtk.MESSAGE_ERROR, buttons = gtk.BUTTONS_CLOSE, message_format = _("Cannot contact the GConf server"))
+        dialog.format_secondary_text (_("This usually happens when running this application with 'su' instead of 'su -'.\nIf this is not the case, you can look at the output of the application to get more details."))
+        # this is a dialog with no parent
+        dialog.set_skip_taskbar_hint (False)
+        dialog.set_title (_("Lockdown Editor"))
+        dialog.run ()
+        return
+
     dialog = maindialog.PessulusMainDialog (applier, gnome_program = prog)
 
     gtk.main ()

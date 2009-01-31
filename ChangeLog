@@ -1,3 +1,18 @@
+2009-01-31  Vincent Untz  <vuntz@gnome.org>
+
+	Handle the case where pessulus fails under "su" because gconf doesn't
+	work (you now need to use "su -" because of its dbus usage)
+	See http://bugs.freedesktop.org/show_bug.cgi?id=17970 for some
+	background.
+	Fixes https://bugzilla.novell.com/show_bug.cgi?id=468319
+
+	* Pessulus/lockdownapplier.py: add a supports_normal_settings method
+	* Pessulus/lockdownappliergconf.py: implement this method, and add a
+	SafeGConfClient class that will simulate a working gconf use when
+	there's no gconf access. It might be useful in the future.
+	* Pessulus/main.py: display an error dialog with clear instructions
+	when the application cannot be used because we have no access to gconf
+
 2008-09-20  Rob Bradford  <rob@robster.org.uk>
 
 	* NEWS:
