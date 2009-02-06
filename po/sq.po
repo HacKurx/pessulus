@@ -1,14 +1,14 @@
 # Përkthimi i mesazheve të pessulus në shqip
-# Copyright (C) 2006, 2007, 2008, Free Software Foundation, Inc.
+# Copyright (C) 2006 - 2009, Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
 #
-# Laurent Dhima <laurenti@alblinux.net>, 2006, 2007, 2008.
+# Laurent Dhima <laurenti@alblinux.net>, 2006 - 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus HEAD\n"
+"Project-Id-Version: pessulus.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-07-16 12:06+0200\n"
-"PO-Revision-Date: 2008-03-20 11:54+0100\n"
+"POT-Creation-Date: 2009-02-06 17:21+0100\n"
+"PO-Revision-Date: 2009-02-06 11:57+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +21,13 @@ msgid "Configure the lockdown policy"
 msgstr "Konfiguro politikën e bllokimeve"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "Editori i bllokimeve"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>Ndihmues jo aktivë</b>"
+msgstr "<b>Ndihmues të çaktivizuar</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -58,7 +59,7 @@ msgstr "Shfletuesi Web Epiphany"
 
 #: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
-msgstr "Ruajtësi ekranit i GNOME"
+msgstr "Ruajtës ekrani i GNOME"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
@@ -126,7 +127,7 @@ msgstr "Fshih panelin e _menusë"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
-msgstr "_Blloko në aktivim"
+msgstr "_Blloko në aktivizim"
 
 #: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
@@ -134,4 +135,19 @@ msgstr "Lej_o daljen nga seanca"
 
 #: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
-msgstr "Lejo ndry_shimin e përdoruesit"
+msgstr "Lejo _shkëmbimin e përdoruesit"
+
+#: ../Pessulus/main.py:52
+msgid "Cannot contact the GConf server"
+msgstr "E pamundur vënia në kontakt me server-in GConf"
+
+#: ../Pessulus/main.py:53
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Zakonisht ndeshet kur ekzekutohet ky aplikativ me 'su' në vend të 'su -'.\n"
+"Nëse nuk është ky rasti juaj, mund të lexohen mesazhet e output të "
+"aplikativit për detaje më të hollësishëm."
