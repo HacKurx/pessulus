@@ -1,8 +1,12 @@
-# translation of pessulus.HEAD.po to Polish
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Artur Flinta <aflinta@at.kernel.pl>, 2006.
+# translation of pessulus to Polish
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Artur Flinta <aflinta@gmail.com>, 2006.
+# Aviary.pl <gnomepl@aviary.pl>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
