@@ -6,23 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD.ml\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 02:30+0000\n"
-"PO-Revision-Date: 2007-06-27 19:07+0530\n"
-"Last-Translator: Ani Peter <apeter@redhat.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-02-21 13:59+0000\n"
+"PO-Revision-Date: 2009-02-22 17:42-0800\n"
+"Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "പൂട്ടിയിടുന്ന നയം ക്രമീകരിയ്ക്കുക"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "പൂട്ടിയിടുന്നവയെ ചിട്ടപ്പെടുത്തിന്നിടം"
 
@@ -36,104 +37,117 @@ msgstr "<b>സുരക്ഷിത കീഴ്‌വഴക്കങ്ങള�
 
 #: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr "_സുരക്ഷിതമല്ലാത്ത കീഴ്‌വഴക്കങ്ങള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക"
+msgstr "_സുരക്ഷിതമല്ലാത്ത നിയമാവലികള്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "ഈ സജ്ജീകരണം നിര്‍ബന്ധമില്ലാത്തതാക്കുന്നതിനായി ഞെക്കുക"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "ഈ സജ്ജീകരണം നിര്‍ബന്ധമുളളതാക്കുന്നതിനായി ഞെക്കുക"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:41
 msgid "General"
 msgstr "സാധാരണമായ"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:42
 msgid "Panel"
 msgstr "പാളി"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:43
 msgid "Epiphany Web Browser"
 msgstr "എപ്പിഫാനി വെബ് ബ്രൌസര്‍"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
 msgstr "ഗ്നോം സ്ക്രീന്‍സേവര്‍"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "_ആജ്ഞാസ്ഥാനം പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "_അച്ചടിയ്ക്കുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "അച്ചടി _ഒരുക്കുന്നതു് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "_ഡിസ്ക്കിലേക്ക് സൂക്ഷിക്കുന്നതു് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "പാളികള്‍ _പൂട്ടിയിടുക"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "നിര്‍ബന്ധപൂര്‍വ്വം _പുറത്ത് കടത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "_സ്ക്രീന്‍ പൂട്ടുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "_പുറത്തിറങ്ങുന്നതു് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "_പുറത്ത് കടക്കുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "_സ്വന്തം ഇഷ്ടത്തിലുളള യുആര്‍എല്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "_ഓര്‍മ്മക്കുറിപ്പില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "_ചരിത്രം പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "_ജാവാസ്ക്രിപ്റ്റ് ക്രോം പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "_ടൂള്‍ബാറില്‍ മാറ്റം വരുത്തുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "നിര്‍ബന്ധപൂര്‍വ്വം സ്ക്രീന്‍ _പരമാവധി വലിപ്പത്തിലാക്കുക"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "_മെനുപ്പട്ട മറയ്ക്കുക"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_സജീവമാകുമ്പോള്‍ പൂട്ടുക"
 
-#: ../Pessulus/maindialog.py:75
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "പു_റത്തിറങ്ങുന്നതു് അനുവദിക്കുക"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "ഒരു ഉപയോക്താവില്‍ നിന്നും _മറ്റൊന്നിലേക്ക് മാറുന്നത് അനുവദിക്കുക"
+
+#: ../Pessulus/main.py:52
+msgid "Cannot contact the GConf server"
+msgstr "GConf സേവകനുമായി ബന്ധപ്പെടാന്‍ സാധിച്ചില്ല"
+
+#: ../Pessulus/main.py:53
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su -'.\n"
+"If this is not the case, you can look at the output of the application to get more details."
+msgstr ""
+"ഇതു് സാധാരണയായി സംഭവിയ്ക്കുന്നതു് 'su -' നു് പകരം 'su' ഉപയോഗിയ്ക്കുമ്പോഴാണു്.\n"
+"ഇതല്ല കാരണമെങ്കില്‍ നിങ്ങള്‍ക്കു് പ്രയോഗത്തിന്റെ ഫലം നോക്കി കൂടുതല്‍ വിവരങ്ങള്‍ അറിയാം."
+
