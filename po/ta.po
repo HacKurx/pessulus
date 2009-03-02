@@ -1,20 +1,21 @@
 # translation of pessulus.HEAD.po to Tamil
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Felix <ifelix@redhat.com>, 2006.
 #
+# Felix <ifelix@redhat.com>, 2006.
+# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 02:30+0000\n"
-"PO-Revision-Date: 2006-06-22 14:27+0530\n"
-"Last-Translator: Felix <ifelix@redhat.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-01-31 07:36+0000\n"
+"PO-Revision-Date: 2009-02-21 11:50+0530\n"
+"Last-Translator: Dr.T.vasudevan <agnihot3@gmail.com>\n"
+"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "\n"
 
@@ -23,6 +24,7 @@ msgid "Configure the lockdown policy"
 msgstr "பூட்டும் கொள்கையை கட்டமை"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "பூட்டு தொகுப்பி"
 
@@ -38,102 +40,117 @@ msgstr "<b>பாதுகாப்பான நெறிமுறைகள்</
 msgid "Disable _unsafe protocols"
 msgstr "பாதுகாப்பில்லாத நெறிமுறைகள் செயல்நீக்கு (_u)"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "சொடுக்கி இந்த அமைவினை அவசியம் இல்லை என ஆக்கவும்"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "சொடுக்கி இந்த அமைவினை அவசியம் என ஆக்கவும்"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:41
 msgid "General"
 msgstr "பொது"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:42
 msgid "Panel"
 msgstr "பலகை"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:43
 msgid "Epiphany Web Browser"
 msgstr "Epiphany இணைய உலாவி"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
 msgstr "GNOME திரை சேமிப்பி"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "கட்டளை வரியை செயல்நீக்கு (_c)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "அச்சிடுதலை செயல்நீக்கு (_p)"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "அச்சிடும் அமைவினை செயல்நீக்கு (_s)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "வட்டுக்கு சேமித்தலை செயல்நீக்கு (_d)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "பலகைகளை பூட்டு (_L)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "வலியுறுத்தல் வெளியேறுதலை செயல்நீக்கு(_q)"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "திரை பூட்டினை செயல்நீக்கு (_s)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "வெளிச்செல்லுதலை செயல்நீக்கு"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "வெளியேறுதலை செயல்நீக்கு"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "arbitrary URLஐ செயல்நீக்கு (_a)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "புத்தகக்குறி தொகுத்தலை செயல்நீக்கு (_b)"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "வரலாற்றை செயல்நீக்கு (_h)"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "javascript chromeஐ செயல்நீக்கு (_j)"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "கருவிப்பட்டை தொகுத்தலை செயல்நீக்கு (_t)"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "முழுத்திரை முறைக்கு வலியுறுத்து (_f)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "பட்டிப்பட்டையை மறை (_m)"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "செயல்படுத்தலில் பூட்டு (_L)"
 
-#: ../Pessulus/maindialog.py:75
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "வெளிச்செல்லுதலுக்கு அனுமதி (_o)"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "பயனர் மாற்றத்திற்கு அனுமதி (_s)"
+
+#: ../Pessulus/main.py:52
+msgid "Cannot contact the GConf server"
+msgstr "ஜிகான்ஃப் சேவயகத்துடன் தொடர்பு கொள்ள முடியவில்லை"
+
+#: ../Pessulus/main.py:53
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"இது வழக்கமாக 'su -' ஐ பயன்படுத்தாமல் 'su' பயன்படுத்தி பயன்பாட்டை இயக்குவதால் \n"
+"நடக்கிறது. இப்படி இல்லை எனில் பயன்பாட்டின் வெளியீட்டில் மேலும் தகவல்களை அறியலாம்."
+
