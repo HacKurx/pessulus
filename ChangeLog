@@ -1,3 +1,7 @@
+2009-03-03  Vincent Untz  <vuntz@gnome.org>
+
+	* Pessulus/main.py: fix wrong usage of gtk.MessageDialog()
+
 2009-01-31  Vincent Untz  <vuntz@gnome.org>
 
 	Handle the case where pessulus fails under "su" because gconf doesn't
