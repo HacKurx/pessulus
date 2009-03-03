@@ -1,5 +1,11 @@
 2009-03-03  Vincent Untz  <vuntz@gnome.org>
 
+	* NEWS:
+	* README:
+	* configure.in: Release 2.25.92.
+
+2009-03-03  Vincent Untz  <vuntz@gnome.org>
+
 	* Pessulus/main.py: fix wrong usage of gtk.MessageDialog()
 
 2009-01-31  Vincent Untz  <vuntz@gnome.org>

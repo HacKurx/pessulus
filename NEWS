@@ -1,3 +1,45 @@
+pessulus 2.25.92
+================
+
+  Fixes
+
+	* Handle the case where pessulus fails under "su" because gconf doesn't
+	  work (you now need to use "su -" because of its dbus usage) (Vincent)
+
+  Translations
+
+        * Khaled Hosny (ar)
+        * Alexander Shopov (bg)
+        * josep (ca)
+        * Kenneth Nielsen (da)
+        * Christian Kirbach (de)
+        * David Lodge (en_GB)
+        * Jorge González (es)
+        * Iñaki Larrañaga Murgoitio (eu)
+        * Ilkka Tuohela (fi)
+        * Claude Paroz (fr)
+        * Gabor Kelemen (hu)
+        * Changwoo Ryu (ko)
+        * Žygimantas Beručka (lt)
+        * Raivis Dejus (lv)
+        * Praveen Arimbrathodiyil (ml)
+        * Kjartan Maraas (nb)
+        * Wouter Bolsterlee (nl)
+        * Manoj Kumar Giri (or)
+        * Tomasz Dominikowski (pl)
+        * Jonh Wendell (pt_BR)
+        * Duarte Loreto (pt)
+        * Adi Roiban (ro)
+        * Leonid Kanter (ru)
+        * Laurent Dhima (sq)
+        * Daniel Nylander (sv)
+        * Dr.T.vasudevan (ta)
+        * Theppitak Karoonboonyanan (th)
+        * Baris Cicek (tr)
+        * Clytie Siddall (vi)
+        * Chao-Hsiung Liao (zh_HK)
+        * Chao-Hsiung Liao (zh_TW)
+
 pessulus 2.24.0
 ===============
 
