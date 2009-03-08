@@ -1,33 +1,37 @@
-# Czech translation of gnome-2.14.
-# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distsributed under the same license as the PACKAGE package.
+# Czech translation of pessulus.
+# Copyright (C) 2006, 2009 the author(s) of pessulus.
+# This file is distsributed under the same license as the pessulus package.
 # Lukáš Novotný <lukasnov@cvs.gnome.org>, 2006.
 # Petr Tomeš <ptomes@gmail.com>, 2006.
-# 
-# 
+# Lucas Lommer <llommer@svn.gnome.org>, 2009. (just fixes for 2.26)
+# Petr Kovar <pknbe@volny.cz>, 2009. (ditto)
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus VERSION\n"
+"Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-30 14:43+0200\n"
-"PO-Revision-Date: 2006-03-30 21:09+0200\n"
-"Last-Translator: Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
-"Language-Team: Czech <cs@li.org>\n"
+"POT-Creation-Date: 2009-03-08 03:49+0100\n"
+"PO-Revision-Date: 2009-03-08 03:48+0100\n"
+"Last-Translator: Petr Kovar <pknbe@volny.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "Konfigurace omezení práv"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "Editor pro omezení práv uživatele"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>Zakázat aplety</b>"
+msgstr "<b>Zakázat applety</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -37,103 +41,117 @@ msgstr "<b>Bezpečné protokoly</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Zakázat _nebezpečné protokoly"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Webový prohlížeč Epiphany"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "GNOME spořič obrazovky"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Obecné"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Panel"
-
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "Klikněte pro vytvoření nepovinného nastavení"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "Klikněte pro vytvoření povinného nastavení"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "Obecné"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Webový prohlížeč Epiphany"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "GNOME spořič obrazovky"
+
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "Zakázat přístup k _příkazové řádce"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "Zakázat _tisknout"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "Zakázat _nastavení tisku"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "Zakázat ukládat na _disk"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "Uzamčení _panelů"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "Zakázat vynucení _ukončení aplikace"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "Zakázat uzamčení _obrazovky"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "Zakázat _odhlásit se"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "Zakázat jeho _ukončení"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "Zakázat _vepsání URL"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "Zakázat úpravu _záložek"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "Zakázat jakoukoliv _historii"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "Zakázat _javascript chrome"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "Zakázat editaci _lišty nástrojů"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
-msgstr "Přimět k režimu přes celou obrazovku"
+msgstr "_Přimět k režimu přes celou obrazovku"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "Skrýt panel _nabídky"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_Zamknout po spuštění spořiče"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Povolit _odhlášení z systému"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
-msgstr "Povolit přepnutí na jiného uživatele"
+msgstr "Po_volit přepnutí na jiného uživatele"
 
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr "Nelze kontaktovat server GConf"
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"To se obvykle stane, pokud spustíte tuto aplikaci se 'su' namísto 'su -'.\n"
+"Pokud to není ten případ, můžete se zkusit podívat na výstup aplikace kvůli "
+"dalším podrobnostem."
