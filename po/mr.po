@@ -3,13 +3,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
 # Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
-# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 02:30+0000\n"
-"PO-Revision-Date: 2008-09-16 15:14+0530\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-01-31 07:36+0000\n"
+"PO-Revision-Date: 2009-03-09 10:04+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgid "Configure the lockdown policy"
 msgstr "कुलूपबंद करार संयोजीत करा"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "संपादक कुलूपबंद करा"
 
@@ -38,103 +39,118 @@ msgstr "<b>सुरक्षित शिष्टाचार(प्रोट�
 msgid "Disable _unsafe protocols"
 msgstr "सुरक्षित शिष्टाचार(प्रोटोकॉल्स) अकार्यक्षम करा(_u)"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "ही रचना सक्तीची न करण्यायाठी क्लिक करा"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "ही रचना सक्तीची करण्यायाठी क्लिक करा"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:41
 msgid "General"
 msgstr "सामान्य"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:42
 msgid "Panel"
 msgstr "तावदान"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:43
 msgid "Epiphany Web Browser"
 msgstr "Epiphany वेब ब्राउझर"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
 msgstr "GNOME पटलरक्षक"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "आदेश पंक्ती अकार्यक्षम करा(_c)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "मुद्रण अकार्यक्षम करा(_p)"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "मुद्रण व्यवस्था अकार्यक्षम करा(_s)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "डिस्कवर सुरक्षित करणे अकार्यक्षम करा(_d)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "पटल कुलूपबंद करा (_L)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "बळाने सोडून देणे अकार्यक्षम करा(_q)"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "पटलास कुलुप अकार्यक्षम करा(_s)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "लॉग आउट अकार्यक्षम करा(_o)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "सोडून देणे अकार्यक्षम करा(_q)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "अनियमित URL अकार्यक्षम करा(_a)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "ओळखीची खूण(बुकमार्क) संपादणे अकार्यक्षम करा(_b)"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "इतिहास अकार्यक्षम करा(_h)"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "जावास्क्रिप्ट क्रोम अकार्यक्षम करा(_j)"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "उपकरण पट्टी संपादणे अकार्यक्षम करा(_t)"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "आग्रहाने पूर्णपटल(फुलस्क्रीन) रीत लागू करा(_f)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
-msgstr "मेनू पट्टी लपवा(_m)"
+msgstr "मेनू पट्टी लपवा (_m)"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "सक्रीय झाल्यावर कुलूपबंद करा (_L)"
 
-#: ../Pessulus/maindialog.py:75
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "लॉग आउट करू द्या(_o)"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "वापरकर्ता बदलविणे करीता परवानगी द्या (_s)"
+
+#: ../Pessulus/main.py:52
+msgid "Cannot contact the GConf server"
+msgstr "GConf सर्वरशी संपर्क साधण्यास अशक्य"
+
+#: ../Pessulus/main.py:53
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"हे सहसा अनुप्रयोगास 'su "
+"-' ऐवजी 'su' या नुरूप सुरू केल्यास होते.\n"
+"असे नसल्यास, अघिक माहिती प्राप्त करण्याकरीता तुम्ही अनुप्रयोगाचे आऊटपुट पाहू शकता."
 
