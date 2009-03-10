@@ -1,19 +1,21 @@
 # Italian translation of pessulus.
 # This file is distributed under the same license as pessulus package
-# Copyright (C) 2006-2007 Free Software Foundation, Inc.
+# Copyright (C) 2006-2009 Free Software Foundation, Inc.
 # Giacomo Margarito <giacomomargarito@gmail.com>, 2006.
 # Luca Ferretti <elle.uca@libero.it>, 2007.
+# Flavia Weisghizzi <flavia@weisghizzi.it>, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Pessulus\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-06 10:15+0100\n"
-"PO-Revision-Date: 2008-03-06 10:17+0100\n"
-"Last-Translator: Luca Ferretti <elle.uca@libero.it>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-03-09 18:28+0000\n"
+"PO-Revision-Date: 2009-03-10 22:55+0100\n"
+"Last-Translator: Flavia Weisghizzi <flavia@weisghizzi.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
@@ -23,6 +25,7 @@ msgid "Configure the lockdown policy"
 msgstr "Configura la politica di lockdown"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "Editor di lockdown"
 
@@ -38,12 +41,10 @@ msgstr "<b>Protocolli sicuri</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Disabilitare i protocolli _non sicuri"
 
-# GNOME-2-22
 #: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "Fare clic per rendere questa impostazione non vincolante"
 
-# GNOME-2-22
 #: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "Fare clic per rendere questa impostazione vincolante"
@@ -92,9 +93,10 @@ msgstr "Disabilitare l'uscita _forzata"
 msgid "Disable lock _screen"
 msgstr "Disabilitare il _blocco dello schermo"
 
+# lo so che la voce è "Termina sessione" ma terminazione secondo me è orribile
 #: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
-msgstr "Disabilitare la _terminazione della sessione"
+msgstr "Disabilitare la _chiusura della sessione"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
@@ -140,3 +142,19 @@ msgstr "Consentire la _terminazione della sessione"
 #: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Consentire il cambio di _utente"
+
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr "Impossibile contattare il server GConf"
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Ciò può accadere se si esegue questa applicazione attraverso «su» e non «su "
+"-».\n"
+"Se non fosse questo il caso, è possibile analizzare l'output "
+"dell'applicazione per avere maggiori dettagli. "
