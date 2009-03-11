@@ -1,16 +1,16 @@
 # pessulus ja.po.
-# Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the 'pessulus' package.
-# Takeshi AIHANA <aihana@gnome.gr.jp>, 2005.
+# Copyright (C) 2005,2006,2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pessulus package.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2005,2006,2009.
 # Satoru SATOH <ss@gnome.gr.jp>, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus HEAD\n"
+"Project-Id-Version: pessulus trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-18 00:53+0900\n"
-"PO-Revision-Date: 2006-08-18 00:54+0900\n"
-"Last-Translator: Satoru SATOH <ss@gnome.gr.jp>\n"
+"POT-Creation-Date: 2009-03-11 23:43+0900\n"
+"PO-Revision-Date: 2009-03-11 23:42+0900\n"
+"Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,9 +18,10 @@ msgstr ""
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "ロックダウンポリシーを設定"
+msgstr "ロックダウンのポリシーを設定します"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "ロックダウン・エディタ"
 
@@ -36,102 +37,118 @@ msgstr "<b>安全なプロトコル</b>"
 msgid "Disable _unsafe protocols"
 msgstr "安全ではないプロトコルを無効にする(_U)"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "クリックすると、この設定を強制しません"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "クリックすると、この設定を強制します"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:41
 msgid "General"
 msgstr "全般"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:42
 msgid "Panel"
 msgstr "パネル"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:43
 msgid "Epiphany Web Browser"
 msgstr "Epiphany ウェブ・ブラウザ"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
 msgstr "GNOME スクリーンセーバー"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
-msgstr "コマンドラインを無効にする(_C)"
+msgstr "コマンドラインを利用不可にする(_C)"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "印刷を利用不可にする(_P)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "印刷を設定不可にする(_S)"
 
 #: ../Pessulus/maindialog.py:57
-msgid "Disable _printing"
-msgstr "印刷を無効にする(_P)"
-
-#: ../Pessulus/maindialog.py:58
-msgid "Disable print _setup"
-msgstr "印刷設定を無効にする(_S)"
+msgid "Disable save to _disk"
+msgstr "ディスクへの保存を不可にする(_D)"
 
 #: ../Pessulus/maindialog.py:59
-msgid "Disable save to _disk"
-msgstr "ディスクへの保存を無効にする(_D)"
-
-#: ../Pessulus/maindialog.py:61
 msgid "_Lock down the panels"
 msgstr "パネル操作を利用不可にする(_L)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "強制終了を無効にする(_Q)"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "画面のロックを無効にする(_S)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "ログアウトを無効にする(_O)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "終了を無効にする(_Q)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "URL の入力を無効にする(_A)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "ブックマークの編集を無効にする(_B)"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "履歴の操作を無効にする(_H)"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "JavaScript 処理を無効にする(_J)"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "ツールバーの編集を無効にする(_T)"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
-msgstr "全画面モードを強制(_F)"
+msgstr "強制的にフルスクリーン・モードにする(_F)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "メニューバーを隠す(_M)"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
-msgstr "起動時にロック(_L)"
+msgstr "起動時に画面をロックする(_L)"
 
-#: ../Pessulus/maindialog.py:75
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
-msgstr "ログアウトを許可(_O)"
+msgstr "ログアウトを許可する(_O)"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
-msgstr "ユーザーによる切り替えを許可(_S)"
+msgstr "ユーザの切り替えを許可する(_S)"
+
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr "GConf サーバに接続できませんでした"
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"一般的に、この現象は Pessulus を 'su -' ではなく 'su' で起動した場合に発生し"
+"ます。\n"
+"もしこれに該当しない場合は、このアプリケーションのログから問題の詳細を調査し"
+"てみて下さい。"
