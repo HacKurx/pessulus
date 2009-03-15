@@ -1,0 +1,154 @@
+# Qırımtatarca pessulus.
+# This file is distributed under the same license as the pessulus package.
+#
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-03-15 07:05-0500\n"
+"PO-Revision-Date: 2009-03-15 07:58-0500\n"
+"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
+"Language-Team: Qırımtatarca (Qırım Türkçesi) <tilde-birlik-tercime@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+# tüklü
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Kilitleme siyasetini ayarla"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
+msgid "Lockdown Editor"
+msgstr "Kilitleme Muarriri"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Ğayrı Qabilleştirilgen Uyğulamaçıqlar</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Emin Protokollar</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "_Emniyetsiz protokollarnı ğayrı qabilleştir"
+
+#: ../Pessulus/lockdownbutton.py:97
+msgid "Click to make this setting not mandatory"
+msgstr "Bu tesbitni ğayrı mecburiy yapmaq içün çertiñiz"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting mandatory"
+msgstr "Bu tesbitni mecburiy yapmaq içün çertiñiz"
+
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "Umumiy"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Ağ Kezicisi"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "GNOME Ekran-Saqlayıcını"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _command line"
+msgstr "_Emir satrını ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "_Bastıruvnı ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "Bastıruv _tesbitini ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable save to _disk"
+msgstr "_Diskke saqlavnı ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:59
+msgid "_Lock down the panels"
+msgstr "Panellerni _kilitle"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "Çıqışnı _cebir etüv ğayrı qabilleştirilsin"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "Ekrannı _kilitlevni ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable log _out"
+msgstr "Tışarı _imzalanuvnı ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _quit"
+msgstr "_Terk etüv ğayrı qabilleştirilsin"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _arbitrary URL"
+msgstr "Keyfiy _URL ğayrı qabilleştirilsin"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _bookmark editing"
+msgstr "_Saife-imi taririni ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _history"
+msgstr "Keçmiş_ni ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _javascript chrome"
+msgstr "_Javascript chrome'nı ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _toolbar editing"
+msgstr "_Alet çubuğı taririni ğayrı qabilleştir"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Force _fullscreen mode"
+msgstr "Tam ek_ran kelişini cebir et"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Hide _menubar"
+msgstr "_Menü çubuğını gizle"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "_Faalleşüv üzerine kilitle"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "Tışarı imza_lanuvğa izin ber"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "Qullanıcı _almaştıruvına izin ber"
+
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr "GConf sunucısına temas qurulamay"
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Bu, ekseriyetle, bu uyğulamanı 'su -' yerine 'su' ile çaptırğanda rastkelir.\n"
+"Eger böyle bir durum söz mevzusı degil ise, daa çoq tafsilât içün uyğulamanıñ çıqtısına baqa bilirsiñiz."
+
