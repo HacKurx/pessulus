@@ -1,15 +1,15 @@
-# translation of kn.po to Kannada
+# translation of pessulus.HEAD.kn.po to Kannada
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Vikram Vincent <vincentvikram@swatantra.org>, 2008.
-# Shankar Prasad <svenkate@redhat.com>, 2008.
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: kn\n"
-"Report-Msgid-Bugs-To: debian-l10n-kannada@lists.debian.org \n"
-"POT-Creation-Date: 2008-01-23 03:22+0000\n"
-"PO-Revision-Date: 2008-06-03 15:33+0530\n"
+"Project-Id-Version: pessulus.HEAD.kn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-01-31 07:36+0000\n"
+"PO-Revision-Date: 2009-03-16 15:27+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgid "Configure the lockdown policy"
 msgstr "ಲಾಕ್‍ಡೌನ್ ಪಾಲಿಸಿಯನ್ನು ರೂಪಿಸಿ"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "ಸಂಪಾದಕವನ್ನು ಲಾಕ್‍ಡೌನ್ ಮಾಡು"
 
@@ -56,11 +57,11 @@ msgstr "ಫಲಕ"
 
 #: ../Pessulus/maindialog.py:43
 msgid "Epiphany Web Browser"
-msgstr "ಎಪಿಫೆನಿ ಅಂತರ್ಜಾಲ ವೀಕ್ಷಕ"
+msgstr "Epiphany ಅಂತರ್ಜಾಲ ವೀಕ್ಷಕ"
 
 #: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
-msgstr "GNOME ಸ್ಕ್ರೀನ್‍ಸೇವರ್"
+msgstr "GNOME Screensaver"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
@@ -112,7 +113,7 @@ msgstr "ಚರಿತ್ರೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸು�
 
 #: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
-msgstr "ಜಾವಸ್ಕ್ರಿಪ್ಟ್ ಕ್ರೋಮ್(_j) ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
+msgstr "_javascript ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
@@ -137,4 +138,18 @@ msgstr "ಹೊರ ತೆರಳುವುದನ್ನು ಅನುಮತಿಸು(
 #: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "ಬಳಕೆದಾರರ ಬದಲಾವಣೆಯನ್ನು ಅನುಮತಿಸು(_s)"
+
+#: ../Pessulus/main.py:52
+msgid "Cannot contact the GConf server"
+msgstr "GConf ಪರಿಚಾರಕದೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲಾಗಲಿಲ್ಲ"
+
+#: ../Pessulus/main.py:53
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"'su -' ಬದಲಿಗೆ 'su' ಅನ್ನು ಬಳಸಿಕೊಂಡು ಈ ಅನ್ವಯವನ್ನು ಚಲಾಯಿಸಿದಾಗ ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಸಂಭವಿಸುತ್ತದೆ.\n"
+"ಹಾಗಾಗಿರದ ಸಂದರ್ಭದಲ್ಲಿ, ನೀವು ಈ ಅನ್ವಯದ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೋಡುವ ಮೂಲಕ ಹೆಚ್ಚಿನ ಮಾಹಿತಿನ್ನು ಪಡೆಯಬಹುದಾಗಿದೆ."
 
