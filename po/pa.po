@@ -2,27 +2,28 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
-# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <apbrar@gmail.com>, 2006.
+# A S Alam <aalam@users.sf.net>, 2005, 2006, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-25 14:50+0100\n"
-"PO-Revision-Date: 2006-03-25 19:47+0530\n"
-"Last-Translator: A S Alam <apbrar@gmail.com>\n"
-"Language-Team: Punjabi <fedora-trans-pa@redhat.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-01-31 07:36+0000\n"
+"PO-Revision-Date: 2009-03-16 07:28+0000\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjab-l10n@list.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.1\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "ਤਾਲਾਬੰਦ ਨੀਤੀ ਸੰਰਚਨਾ"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "ਤਾਲਾਬੰਦ ਸੰਪਾਦਕ"
 
@@ -38,103 +39,119 @@ msgstr "<b>ਸੁਰੱਖਿਅਤ ਪਰੋਟੋਕਾਲ</b>"
 msgid "Disable _unsafe protocols"
 msgstr "ਨਾ-ਸੁਰੱਖਿਅਤ ਪਰੋਟੋਕਾਲ ਅਯੋਗ(_u)"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "ਏਪਾਫਨੀ ਵੈੱਬ ਝਲਕਾਰਾ"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "ਗਨੋਮ ਸਕਰੀਨ-ਸੇਵਰ"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "ਸਧਾਰਨ"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "ਪੈਨਲ"
-
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "ਇਹ ਸਥਾਪਨ ਨੂੰ ਨਾ-ਲਾਜ਼ਮੀ ਕਰਨ ਲਈ ਦਬਾਓ"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "ਇਹ ਸਥਾਪਨ ਨੂੰ ਲਾਜ਼ਮੀ ਕਰਨ ਲਈ ਦਬਾਓ"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "ਸਧਾਰਨ"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "ਪੈਨਲ"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "ਏਪਾਫਨੀ ਵੈੱਬ ਝਲਕਾਰਾ"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "ਗਨੋਮ ਸਕਰੀਨ-ਸੇਵਰ"
+
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "ਕਮਾਂਡ ਲਾਇਨ ਆਯੋਗ(_c)"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "ਛਪਾਈ ਆਯੋਗ(_p)"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "ਪਰਿੰਟਰ ਸੈੱਟਅੱਪ ਆਯੋਗ(_s)"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "ਡਿਸਕ ਉੱਤੇ ਸੰਭਾਲਣ ਆਯੋਗ (_d)"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "ਪੈਨਲ ਤਾਲਾਬੰਦ (_L)"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "ਧੱਕੇ ਨਾਲ ਬੰਦ ਆਯੋਗ(_q)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "ਪਰਦਾ ਤਾਲਾਬੰਦ ਆਯੋਗ(_s)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "ਲਾਗਆਉਟ ਆਯੋਗ(_o)"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "ਬਾਹਰ ਆਯੋਗ(_q)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "ਆਪ-ਹੁਦਰਾ URL ਆਯੋਗ(_a)"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "ਬੁੱਕਮਾਰਕ ਸੋਧ ਆਯੋਗ(_b)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "ਅਤੀਤ ਆਯੋਗ(_h)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "ਜਾਵਾਸਕਰਿਪਟ ਚਰੋਮੀ ਆਯੋਗ(_j)"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "ਸੰਦ-ਪੱਟੀ ਸੋਧ ਆਯੋਗ(_t)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "ਪੂਰੇ ਪਰਦੇ 'ਤੇ ਢੰਗ(_F)"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "ਮੇਨੂ-ਪੱਟੀ ਓਹਲੇ(_m)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "ਸਰਗਰਮ ਹੋਣ ਉੱਤੇ ਤਾਲਾਬੰਦ (_L)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "ਲਾਗਆਉਟ ਮਨਜ਼ੂਰ(_o)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "ਉਪਭੋਗੀ ਤਬਦੀਲ ਮਨਜ਼ੂਰ(_s)"
+
+#: ../Pessulus/main.py:52
+msgid "Cannot contact the GConf server"
+msgstr "GConf ਸਰਵਰ ਨਾਲ ਸੰਪਰਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
+
+#: ../Pessulus/main.py:53
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"ਇਹ ਅਕਸਰ ਤਾਂ ਹੁੰਦਾ ਹੈ, ਜਦੋਂ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ  'su -' ਦੀ ਬਜਾਏ 'su' ਨਾਲ ਚਲਾਇਆ "
+"ਜਾਂਦਾ ਹੈ।\n"
+"ਜੇ ਇਹ ਨਹੀਂ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਹੋਰ ਜਾਣਕਾਰੀ ਵਾਸਤੇ ਐਪਲੀਕੇਸ਼ਨ ਆਉਟਪੁੱਟ ਨੂੰ ਵੇਖਣ ਦੀ "
+"ਲੋੜ ਹੈ।"
 
