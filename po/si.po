@@ -1,0 +1,151 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Danishka Navin <danishka@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.gnome-2-24\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-03-18 09:22+0000\n"
+"PO-Revision-Date: 2009-03-19 15:54+0530\n"
+"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
+"Language-Team: Sinhalese <danishka@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr ""
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
+msgid "Lockdown Editor"
+msgstr ""
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>යෙදුම් පත අවලංගු කරන්න</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>ආරක්‍ෂිත ප්‍රොටොකෝලය</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "අනතුරුදායක ප්‍රොටොකෝල අවලංගු කරන්න (_U)"
+
+#: ../Pessulus/lockdownbutton.py:97
+msgid "Click to make this setting not mandatory"
+msgstr ""
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting mandatory"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "සාමාන්‍ය"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "පුවරුව"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Web Browser"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "ග්නෝම් තිර රක්නය"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _command line"
+msgstr "විධාන රේඛාව අක්‍රීය කරන්න (_C)"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "මුද්‍රණය කිරීම අක්‍රීය කරන්න (_P)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "මුද්‍රණය සැකසුම් අක්‍රීය කරන්න (_S)"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable save to _disk"
+msgstr "තැටියට සුරකීම අක්‍රීය කරන්න (_D)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "_Lock down the panels"
+msgstr "පුවරු වසා දමන්න (_L)"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "බලපැමෙන් ඉවත් වීම අක්‍රීය කරන්න (_q)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "තිරය වැසීම අක්‍රීය කරන්න (_S)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable log _out"
+msgstr "ඉවත් වීම අක්‍රීය කරන්න (_O)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _quit"
+msgstr "ඉවත්ව යාම අක්‍රීය කරන්න (_Q)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _arbitrary URL"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _bookmark editing"
+msgstr "පිටු සලකුණු සංස්කරණය අක්‍රීය කරන්න (_B)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _history"
+msgstr "අතීතය අක්‍රීය කරන්න (_H)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _javascript chrome"
+msgstr "_javascript ක්‍රෝම් අක්‍රීය කරන්න"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _toolbar editing"
+msgstr "මෙවලම් තීරුව සැකසීම අක්‍රීය කරන්න (_T)"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Force _fullscreen mode"
+msgstr "සම්පූර්ණ තිරය ලබා ගැනීම සක්‍රීය කරන්න (_F)"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Hide _menubar"
+msgstr "මෙනු තීරුව සඟවන්න (_M)"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "ක්‍රියාත්මක වීම අවහිර කරන්න (_L)"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "ඉවත් වීමට අවසර දෙන්න (_O)"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "පරිශීලක මාරුව අනුමත කරන්න (_s)"
+
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr ""
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
