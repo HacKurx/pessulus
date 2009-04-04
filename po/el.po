@@ -7,8 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-01-31 07:36+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-03-08 17:14+0000\n"
 "PO-Revision-Date: 2009-02-28 14:35+0100\n"
 "Last-Translator: Jennie Petoumenou <epetoumenou@gmail.com>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
@@ -23,7 +24,7 @@ msgid "Configure the lockdown policy"
 msgstr "Ρύθμιση της πολιτικής κλειδώματος"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "Επεξεργαστής κλειδώματος"
 
@@ -139,11 +140,11 @@ msgstr "Να επιτρέπεται η απο_σύνδεση"
 msgid "Allow user _switching"
 msgstr "Να επιτρέπεται η αλλαγή _χρήστη"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/main.py:54
 msgid "Cannot contact the GConf server"
 msgstr "Αδυναμία επικοινωνίας με τον εξυπηρετητή GConf"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:55
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
@@ -152,5 +153,5 @@ msgid ""
 msgstr ""
 "Συνήθως, αυτό οφείλεται στην εκτέλεση της εφαρμογής με 'su' αντί για 'su "
 "-'.\n"
-"Αν το πρόβλημά σας δεν είναι αυτό, μπορείτε να ανατρέξετε στην καταγραφή της εφαρμογής για περισσότερες λεπτομέρειες."
-
+"Αν το πρόβλημά σας δεν είναι αυτό, μπορείτε να ανατρέξετε στην καταγραφή της "
+"εφαρμογής για περισσότερες λεπτομέρειες."
