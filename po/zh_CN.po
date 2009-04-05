@@ -1,16 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# zh_CN translation of pessulus.
+# Copyright (C) 2009 THE pessulus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
 # Funda Wang <fundawang@linux.net.cn>, 2004, 2005.
+#
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-04-16 05:38+0200\n"
-"PO-Revision-Date: 2006-04-16 12:49+0800\n"
-"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
-"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-04-04 16:57+0000\n"
+"PO-Revision-Date: 2009-04-06 00:34+0800\n"
+"Last-Translator: Ray Wang <wanglei1123@gmail.com>\n"
+"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +21,8 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "配置锁闭策略"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "锁闭编辑器"
 
@@ -35,102 +38,116 @@ msgstr "<b>安全协议</b>"
 msgid "Disable _unsafe protocols"
 msgstr "禁止不安全的协议(_U)"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Epiphany Web 浏览器"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "GNOME 屏幕保护程序"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "常规"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "面板"
-
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "单击可将此设置设定为非强制值"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "单击可将此设置设定为强制值"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "常规"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "面板"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Web 浏览器"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "GNOME 屏幕保护程序"
+
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "禁止使用命令行(_C)"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "禁止打印(_P)"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "禁止打印设置(_S)"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "禁止保存到磁盘(_D)"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "锁定面板(_L)"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "禁止强制退出(_Q)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "禁止锁住屏幕(_S)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "禁止注销(_O)"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "禁止退出(_Q)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "禁止滥用 URL(_A)"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "禁止编辑书签(_B)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "禁止历史(_H)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "禁用 _javascript chrome"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "禁止编辑工具栏(_T)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "强制全屏模式(_F)"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "隐藏菜单栏(_M)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "激活时锁定(_L)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "允许注销(_O)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "允许用户切换(_S)"
+
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr "无法联系 GConf 服务器"
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"当使用“su”而不是“su -”运行这个应用程序时，这通常不会发生。\n"
+"如果不是这种情况，你可以查看应用程序的输出来获得更多信息。"
