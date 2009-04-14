@@ -1,3 +1,7 @@
+2009-04-14  Shankar Prasad  <svenkate@redhat.com>
+
+        * kn.po: Changed the Language-Team name as requested in the bug 518577.
+
 ==================== 2.26.1 ====================
 
 2009-04-09  Krishnababu K  <kkrothap@redhat.com>

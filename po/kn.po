@@ -7,11 +7,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD.kn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-01-31 07:36+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-03-16 10:00+0000\n"
 "PO-Revision-Date: 2009-03-16 15:27+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"Language-Team: Swatantra Kannada <debian-10n-kannada@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +24,7 @@ msgid "Configure the lockdown policy"
 msgstr "ಲಾಕ್‍ಡೌನ್ ಪಾಲಿಸಿಯನ್ನು ರೂಪಿಸಿ"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "ಸಂಪಾದಕವನ್ನು ಲಾಕ್‍ಡೌನ್ ಮಾಡು"
 
@@ -139,17 +140,18 @@ msgstr "ಹೊರ ತೆರಳುವುದನ್ನು ಅನುಮತಿಸು(
 msgid "Allow user _switching"
 msgstr "ಬಳಕೆದಾರರ ಬದಲಾವಣೆಯನ್ನು ಅನುಮತಿಸು(_s)"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/main.py:54
 msgid "Cannot contact the GConf server"
 msgstr "GConf ಪರಿಚಾರಕದೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲಾಗಲಿಲ್ಲ"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:55
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
 "If this is not the case, you can look at the output of the application to "
 "get more details."
 msgstr ""
-"'su -' ಬದಲಿಗೆ 'su' ಅನ್ನು ಬಳಸಿಕೊಂಡು ಈ ಅನ್ವಯವನ್ನು ಚಲಾಯಿಸಿದಾಗ ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಸಂಭವಿಸುತ್ತದೆ.\n"
-"ಹಾಗಾಗಿರದ ಸಂದರ್ಭದಲ್ಲಿ, ನೀವು ಈ ಅನ್ವಯದ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೋಡುವ ಮೂಲಕ ಹೆಚ್ಚಿನ ಮಾಹಿತಿನ್ನು ಪಡೆಯಬಹುದಾಗಿದೆ."
-
+"'su -' ಬದಲಿಗೆ 'su' ಅನ್ನು ಬಳಸಿಕೊಂಡು ಈ ಅನ್ವಯವನ್ನು ಚಲಾಯಿಸಿದಾಗ ಇದು ಸಾಮಾನ್ಯವಾಗಿ "
+"ಸಂಭವಿಸುತ್ತದೆ.\n"
+"ಹಾಗಾಗಿರದ ಸಂದರ್ಭದಲ್ಲಿ, ನೀವು ಈ ಅನ್ವಯದ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೋಡುವ ಮೂಲಕ ಹೆಚ್ಚಿನ ಮಾಹಿತಿನ್ನು "
+"ಪಡೆಯಬಹುದಾಗಿದೆ."
