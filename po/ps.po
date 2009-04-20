@@ -6,10 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.head\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-07-03 03:24+0000\n"
-"PO-Revision-Date: 2008-07-03 14:30-0800\n"
-"Last-Translator: Zabeeh Khan <zabeehkhan@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-04-09 14:49+0000\n"
+"PO-Revision-Date: 2009-04-12 17:00-0800\n"
+"Last-Translator: \n"
 "Language-Team: Pashto <pathanisation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,8 +22,8 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "د کولپونې تګلاره سازول"
 
-#: ../data/pessulus.desktop.in.in.h:2
-#: ../data/pessulus.glade.h:4
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "سمونګر کولپول"
 
@@ -60,7 +61,7 @@ msgstr "اېپېفېني ګورت لټوونی"
 
 #: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
-msgstr "جنومي پرده ساتونکی"
+msgstr "د ګنوم پرده ساتونکی"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
@@ -138,3 +139,14 @@ msgstr "وتون توانول"
 msgid "Allow user _switching"
 msgstr "کارن ونجونه توانول"
 
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr ""
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
