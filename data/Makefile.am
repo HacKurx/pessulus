@@ -51,3 +51,5 @@ uninstall-local: uninstall-icons
 
 CLEANFILES =			\
 	$(desktop_DATA)
+
+-include $(top_srcdir)/git.mk

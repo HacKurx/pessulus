@@ -30,3 +30,5 @@ config.py: config.py.in Makefile
 		-e s!\@PACKAGE_NAME\@!$(PACKAGE_NAME)!			\
 		-e s!\@PACKAGE_VERSION\@!$(PACKAGE_VERSION)!		\
 		< $< > $@
+
+-include $(top_srcdir)/git.mk

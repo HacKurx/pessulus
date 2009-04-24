@@ -25,3 +25,20 @@ DISTCLEANFILES =		\
         intltool-merge		\
         intltool-update		\
 	$(NULL)
+
+MAINTAINERCLEANFILES = \
+	$(srcdir)/INSTALL \
+	$(srcdir)/aclocal.m4 \
+	$(srcdir)/config.guess \
+	$(srcdir)/config.sub \
+	$(srcdir)/install-sh \
+	$(srcdir)/missing \
+	$(srcdir)/mkinstalldirs \
+	$(srcdir)/py-compile \
+	`find "$(srcdir)" -type f -name Makefile.in -print` \
+	intltool-extract.in \
+	intltool-merge.in \
+	intltool-update.in \
+	`find "$(srcdir)" -type f -name .gitignore -print`
+
+-include $(top_srcdir)/git.mk
