@@ -5,8 +5,7 @@ srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
 PKG_NAME="pessulus"
-REQUIRED_AUTOCONF_VERSION=2.53
-REQUIRED_AUTOMAKE_VERSION=1.7.2
+REQUIRED_AUTOMAKE_VERSION=1.9
 
 (test -f $srcdir/configure.ac \
   && test -d $srcdir/Pessulus) || {
@@ -16,9 +15,8 @@ REQUIRED_AUTOMAKE_VERSION=1.7.2
 }
 
 which gnome-autogen.sh || {
-    echo "You need to install the gnome-common module and make"
-    echo "sure the gnome-autogen.sh script is in your \$PATH."
+    echo "You need to install gnome-common."
     exit 1
 }
 
-USE_GNOME2_MACROS=1 . gnome-autogen.sh
+. gnome-autogen.sh
