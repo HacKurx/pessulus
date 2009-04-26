@@ -36,9 +36,6 @@ MAINTAINERCLEANFILES = \
 	$(srcdir)/mkinstalldirs \
 	$(srcdir)/py-compile \
 	`find "$(srcdir)" -type f -name Makefile.in -print` \
-	intltool-extract.in \
-	intltool-merge.in \
-	intltool-update.in \
-	`find "$(srcdir)" -type f -name .gitignore -print`
+	$(srcdir)/configure
 
 -include $(top_srcdir)/git.mk
