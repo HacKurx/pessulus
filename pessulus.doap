@@ -33,12 +33,12 @@
   <maintainer>
     <foaf:Person>
       <foaf:name>Vincent Untz</foaf:name>
-      <foaf:mbox rdf:resource="vuntz@gnome.org" />
+      <foaf:mbox rdf:resource="mailto:vuntz@gnome.org" />
       <gnome:userid>vuntz</gnome:userid>
     </foaf:Person>
     <foaf:Person>
       <foaf:name>Rob Bradford</foaf:name>
-      <foaf:mbox rdf:resource="rob@robster.org.uk" />
+      <foaf:mbox rdf:resource="mailto:rob@robster.org.uk" />
       <gnome:userid>rbradford</gnome:userid>
     </foaf:Person>
   </maintainer>
