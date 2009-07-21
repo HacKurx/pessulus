@@ -3,6 +3,7 @@ AC_INIT([pessulus], [2.26.3],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus])
 AC_CONFIG_SRCDIR(pessulus.in)
 AM_INIT_AUTOMAKE([1.7])
+m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AM_MAINTAINER_MODE
 
 dnl make sure we keep ACLOCAL_FLAGS around for maintainer builds to work

@@ -22,7 +22,7 @@ EXTRA_DIST = config.py.in
 all-local: config.py
 
 config.py: config.py.in Makefile
-	sed								\
+	$(AM_V_GEN)sed								\
 		-e s!\@LOCALEDIR\@!$(datadir)/locale!			\
 		-e s!\@DATADIR\@!$(datadir)!				\
 		-e s!\@GLADEDIR\@!$(pkgdatadir)/glade!			\
