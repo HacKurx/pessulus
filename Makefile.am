@@ -2,6 +2,8 @@ NULL =
 
 SUBDIRS = data po Pessulus
 
+ACLOCAL_AMFLAGS = -I m4
+
 bin_SCRIPTS = pessulus
 
 pessulus: pessulus.in Makefile
