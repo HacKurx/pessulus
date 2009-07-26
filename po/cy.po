@@ -1,26 +1,28 @@
 # Pessulus in Welsh.
 # This file is distributed under the same license as the Pessulus package.
 # Rhys Jones <rhys@sucs.org>, 2006.
+# Iestyn Pryce <dylunio@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-volume-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-28 13:31+0100\n"
-"PO-Revision-Date: 2006-03-22 23:01-0000\n"
-"Last-Translator: Rhys Jones <rhys@sucs.org>\n"
+"POT-Creation-Date: 2009-07-24 21:59+0100\n"
+"PO-Revision-Date: 2009-07-24 22:07+0100\n"
+"Last-Translator: Iestyn Pryce <dylunio@gmail.com>\n"
 "Language-Team: Welsh <gnome-cy@lists.linux.org.uk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
-"11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "Cyflunio'r polisi cloi i lawr"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:7
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:59
 msgid "Lockdown Editor"
 msgstr "Golygydd Cloi"
 
@@ -36,102 +38,116 @@ msgstr "<b>Protocolau Diogel</b>"
 msgid "Disable _unsafe protocols"
 msgstr "Analluogi _protocolau anniogel"
 
-#: ../data/pessulus.glade.h:4
-msgid "Epiphany Web Browser"
-msgstr "Porwr Gwe Epiphany"
-
-#: ../data/pessulus.glade.h:5
-msgid "GNOME Screensaver"
-msgstr "Arbedwr sgrin GNOME"
-
-#: ../data/pessulus.glade.h:6
-msgid "General"
-msgstr "Cyffredinol"
-
-#: ../data/pessulus.glade.h:8
-msgid "Panel"
-msgstr "Panel"
-
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
 msgstr "Cliciwch i wneud y gosodiad hwn yn opsiynol"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
 msgstr "Cliciwch i wneud y gosodiad hwn yn orfodol"
 
-#: ../Pessulus/maindialog.py:48
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "Cyffredinol"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Porwr Gwe Epiphany"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "Arbedwr sgrin GNOME"
+
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "Analluogi'r _llinell orchymyn"
 
-#: ../Pessulus/maindialog.py:49
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "Analluogi _argraffu"
 
-#: ../Pessulus/maindialog.py:50
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "Analluogi _newid gosodiadau argraffu"
 
-#: ../Pessulus/maindialog.py:51
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "Analluogi cadw at _ddisg"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:59
 msgid "_Lock down the panels"
 msgstr "_Cloi'r paneli i lawr"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:60
 msgid "Disable force _quit"
 msgstr "Analluogi g_orfodi gorffen"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:61
 msgid "Disable lock _screen"
 msgstr "Analluogi _cloi'r sgrin"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "Analluogi _allgofnodi"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
 msgstr "Analluogi _gadael"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "Analluogi medru rhoi unrhyw _LAU"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "Analluogi golygu _llyfrnodau"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "Analluogi _hanes"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
 msgstr "Analluogi crôm _Javascript"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "Analluogi golygu _bar offer"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "Gorfodi'r _modd sgrin lawn"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "Cuddio'r _bar dewis"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_Cloi ar ôl rhoi ar waith"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Caniatáu _allgofnodi"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Caniatáu _newid defnyddwyr"
+
+#: ../Pessulus/main.py:54
+msgid "Cannot contact the GConf server"
+msgstr "Methu cysylltu gyda'r gweinydd GConf"
+
+#: ../Pessulus/main.py:55
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su -'.\n"
+"If this is not the case, you can look at the output of the application to get more details."
+msgstr ""
+"Mae hyn fel arfer yn digwydd pan yn rhedeg y rhaglen hon gyda 'su' yn lle 'su -'.\n"
+"Os nad yw hyn y sefyllfa, gallwch edrych ar allbwn y rhaglen er mwyn cael rhagor o fanylion."
+
+
