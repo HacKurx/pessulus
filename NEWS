@@ -1,3 +1,22 @@
+pessulus 2.27.5
+===============
+
+  Fixes
+
+	* Use gtk.show_uri() and do not crash if yelp is not present (Vincent)
+
+  Misc
+
+	* Use silent-rules with automake 1.11 (Vincent)
+	* Do not require gnome-python anymore (Vincent)
+
+  Translations
+
+	* Khaled Hosny (ar)
+	* Alexander Nyakhaychyk (be)
+	* Iestyn Pryce (cy)
+	* wanderlust (uk)
+
 pessulus 2.26.2
 ===============
 
