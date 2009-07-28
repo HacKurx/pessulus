@@ -29,7 +29,6 @@ def main (args):
     
     import gtk
     import gtk.glade
-    import gnome
 
     import maindialog
     import lockdownappliergconf
@@ -41,8 +40,6 @@ def main (args):
         print >> sys.stderr, "Warning: unsupported locale"
     gettext.install (config.PACKAGE, config.LOCALEDIR)
     gtk.glade.bindtextdomain (config.PACKAGE, config.LOCALEDIR)
-
-    prog = gnome.program_init (config.PACKAGE, config.VERSION)
 
     gtk.window_set_default_icon_name ("pessulus")
 
@@ -60,7 +57,7 @@ def main (args):
         dialog.run ()
         return
 
-    dialog = maindialog.PessulusMainDialog (applier, gnome_program = prog)
+    dialog = maindialog.PessulusMainDialog (applier)
 
     gtk.main ()
 

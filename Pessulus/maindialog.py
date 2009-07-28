@@ -24,7 +24,8 @@ import gettext
 import gobject
 import gtk
 import gtk.glade
-import gnome
+
+from xml.sax.saxutils import escape as escape_pango
 
 from config import *
 
@@ -81,7 +82,7 @@ class PessulusMainDialog:
         COLUMN_PAGENUMBER
     ) = range (3)
 
-    def __init__ (self, applier, quit_on_close = True, gnome_program = None):
+    def __init__ (self, applier, quit_on_close = True):
         globalvar.applier = applier
         globalvar.tooltips = gtk.Tooltips ()
 
@@ -92,11 +93,6 @@ class PessulusMainDialog:
 
         self.glade_file = os.path.join (GLADEDIR, "pessulus.glade")
         self.xml = gtk.glade.XML (self.glade_file, "dialogEditor", PACKAGE)
-
-        if gnome_program:
-            self.gnome_program = gnome_program
-        else:
-            self.xml.get_widget ("helpbutton").hide ()
 
         self.window = self.xml.get_widget ("dialogEditor")
         self.window.connect ("response", self.__on_dialog_response)
@@ -214,12 +210,32 @@ class PessulusMainDialog:
         iter = model.get_iter (selector.get_cursor ()[0])
         notebook.set_current_page (model[iter][self.COLUMN_PAGENUMBER])
 
+    def __error_dialog (self, primary, secondary = None):
+        def __on_response (dialog, response_id):
+            dialog.destroy ()
+
+        dialog = gtk.MessageDialog (parent = self.window,
+                                    flags = gtk.DIALOG_MODAL|gtk.DIALOG_DESTROY_WITH_PARENT,
+                                    type = gtk.MESSAGE_ERROR,
+                                    buttons = gtk.BUTTONS_CLOSE,
+                                    message_format = primary)
+        if secondary:
+            dialog.format_secondary_text (secondary)
+
+        dialog.connect ("response", __on_response)
+        dialog.show ()
+
     def __on_dialog_response (self, dialog, response_id):
         if dialog == self.window and response_id == gtk.RESPONSE_HELP:
-            gnome.help_display_desktop (self.gnome_program,
-                                        "system-admin-guide",
-                                        "system-admin-guide",
-                                        "lockdown")
+            doc_id = "system-admin-guide"
+            uri = "ghelp:%s#lockdown" % doc_id
+
+            try:
+                gtk.show_uri (self.window.get_screen(), uri,
+                              gtk.get_current_event_time())
+            except gobject.GError, e:
+                primary = _("Could not display help document '%s'") % escape_pango (doc_id)
+                self.__error_dialog (primary, str (e))
             return
         
         dialog.hide ()
