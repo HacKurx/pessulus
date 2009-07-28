@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-01 12:51+0100\n"
-"PO-Revision-Date: 2009-02-01 12:52+0100\n"
+"POT-Creation-Date: 2009-07-28 20:58+0200\n"
+"PO-Revision-Date: 2009-07-28 20:59+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -48,103 +48,108 @@ msgstr "Klicka för att göra denna inställning inte obligatorisk"
 msgid "Click to make this setting mandatory"
 msgstr "Klicka för att göra denna inställning obligatorisk"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:42
 msgid "General"
 msgstr "Allmänt"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:43
 msgid "Panel"
 msgstr "Panel"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:44
 msgid "Epiphany Web Browser"
 msgstr "Webbläsaren Epiphany"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:45
 msgid "GNOME Screensaver"
 msgstr "GNOME-skärmsläckaren"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _command line"
 msgstr "Inaktivera _kommandorad"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:56
 msgid "Disable _printing"
 msgstr "Inaktivera _utskrifter"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:57
 msgid "Disable print _setup"
 msgstr "Inaktivera utskrifts_konfiguration"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:58
 msgid "Disable save to _disk"
 msgstr "Inaktivera sparande till _disk"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:60
 msgid "_Lock down the panels"
 msgstr "_Lås ned panelerna"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:61
 msgid "Disable force _quit"
 msgstr "Inaktivera tvingande _avslut"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:62
 msgid "Disable lock _screen"
 msgstr "Inaktivera lås _skärmen"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:63
 msgid "Disable log _out"
 msgstr "Inaktivera logga _ut"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _quit"
 msgstr "Inaktivera _avslut"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _arbitrary URL"
 msgstr "Inaktivera _godtycklig URL"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _bookmark editing"
 msgstr "Inaktivera _bokmärkesredigering"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _history"
 msgstr "Inaktivera _historik"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _javascript chrome"
 msgstr "Inaktivera _javascript-krom"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:70
 msgid "Disable _toolbar editing"
 msgstr "Inaktivera _verktygsradsredigering"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:71
 msgid "Force _fullscreen mode"
 msgstr "Tvinga _helskärmsläge"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:72
 msgid "Hide _menubar"
 msgstr "Dölj _menyrad"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:73
 msgid "_Lock on activation"
 msgstr "_Lås vid aktivering"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:74
 msgid "Allow log _out"
 msgstr "Tillåt logga _ut"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:75
 msgid "Allow user _switching"
 msgstr "Tillåt _byte av användare"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/maindialog.py:237
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Kunde inte visa hjälpdokumentet \"%s\""
+
+#: ../Pessulus/main.py:51
 msgid "Cannot contact the GConf server"
 msgstr "Kan inte kontakta GConf-servern"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:52
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su -'.\n"
 "If this is not the case, you can look at the output of the application to get more details."
