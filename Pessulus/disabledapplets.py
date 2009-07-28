@@ -114,32 +114,25 @@ class PessulusDisabledApplets:
         COLUMN_IID,
         COLUMN_NAME,
         COLUMN_ICON_NAME,
-        COLUMN_ICON,
         COLUMN_DISABLED
-    ) = range (5)
+    ) = range (4)
 
     def __init__ (self, treeview, lockdownbutton):
         self.notify_id = None
         self.key = "/apps/panel/global/disabled_applets"
         self.disabled_applets = None
 
-        self.liststore = gtk.ListStore (str, str, str, gtk.gdk.Pixbuf, bool)
+        self.liststore = gtk.ListStore (str, str, str, bool)
         self.liststore.set_sort_column_id (self.COLUMN_NAME, gtk.SORT_ASCENDING)
 
         self.treeview = treeview
         self.treeview.get_selection ().set_mode (gtk.SELECTION_SINGLE)
         self.treeview.set_model (self.liststore)
-        self.treeview.connect ("screen-changed", self.__on_screen_changed)
         self.treeview.connect ("destroy", self.__on_destroyed)
 
         self.lockdownbutton = lockdownbutton
         self.lockdownbutton.connect ("toggled",
                                      self.__on_lockdownbutton_toggled)
-
-        screen = self.treeview.get_screen ()
-        self.icon_theme = gtk.icon_theme_get_for_screen (screen)
-
-        self.icon_theme.connect ("changed", self.__on_icontheme_changed)
 
         self.__fill_liststore ()
         self.__create_columns ()
@@ -151,17 +144,6 @@ class PessulusDisabledApplets:
         self.lockdownbutton.set (mandatory)
         self.notify_id = globalvar.applier.notify_add (self.key,
                                                        self.__on_notified)
-
-    def __on_screen_changed (self, widget, screen):
-        self.icon_theme = gtk.icon_theme_get_for_screen (screen)
-        self.__on_icontheme_changed (self.icon_theme)
-
-    def __on_icontheme_changed (self, icontheme):
-        def update_icon (model, path, iter, data):
-            if model[iter][self.COLUMN_ICON_NAME] != "":
-                model[iter][self.COLUMN_ICON] = icons.load_icon (self.icon_theme, model[iter][self.COLUMN_ICON_NAME])
-
-        self.liststore.foreach (update_icon, self)
 
     def __fill_liststore (self):
         applets = bonobo.activation.query ("has_all (repo_ids, ['IDL:Bonobo/Control:1.0', 'IDL:GNOME/Vertigo/PanelAppletShell:1.0'])")
@@ -181,7 +163,7 @@ class PessulusDisabledApplets:
                 elif prop.name == "name" and bestname == -1:
                     name = prop.v.value_string
                 elif prop.name == "panel:icon":
-                    icon = prop.v.value_string
+                    icon = icons.fix_icon_name(prop.v.value_string)
 
             if name == None:
                 name = applet.iid
@@ -193,8 +175,7 @@ class PessulusDisabledApplets:
             self.liststore.set (iter,
                                 self.COLUMN_IID, applet.iid,
                                 self.COLUMN_NAME, name,
-                                self.COLUMN_ICON_NAME, icon,
-                                self.COLUMN_ICON, icons.load_icon (self.icon_theme, icon))
+                                self.COLUMN_ICON_NAME, icon)
 
     def __create_columns (self):
         column = gtk.TreeViewColumn ()
@@ -211,7 +192,7 @@ class PessulusDisabledApplets:
 
         cell = gtk.CellRendererPixbuf ()
         column.pack_start (cell, False)
-        column.set_attributes (cell, pixbuf = self.COLUMN_ICON)
+        column.set_attributes (cell, icon_name = self.COLUMN_ICON_NAME)
 
         cell = gtk.CellRendererText ()
         column.pack_start (cell, True)

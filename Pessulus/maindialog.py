@@ -30,7 +30,6 @@ from xml.sax.saxutils import escape as escape_pango
 from config import *
 
 import disabledapplets
-import icons
 import lockdownbutton
 import lockdowncheckbutton
 import globalvar
@@ -147,14 +146,11 @@ class PessulusMainDialog:
         self.__on_unsafeprotocols_toggled (checkbutton, hbox)
 
     def __init_pageselector (self):
-        #FIXME: need to update icons on icon theme change/screen change
-        icon_theme = gtk.icon_theme_get_for_screen (self.window.get_screen ())
-
         use_tree = False
         if use_tree:
-            store = gtk.TreeStore (str, gtk.gdk.Pixbuf, int)
+            store = gtk.TreeStore (str, str, int)
         else:
-            store = gtk.ListStore (str, gtk.gdk.Pixbuf, int)
+            store = gtk.ListStore (str, str, int)
 
         notebook = self.xml.get_widget ("notebook2")
         children = notebook.get_children ()
@@ -177,7 +173,7 @@ class PessulusMainDialog:
                 iter = store.append ()
 
             store.set (iter,
-                       self.COLUMN_ICON, icons.load_icon (icon_theme, icon),
+                       self.COLUMN_ICON, icon,
                        self.COLUMN_NAME, name,
                        self.COLUMN_PAGENUMBER, i)
 
@@ -189,7 +185,7 @@ class PessulusMainDialog:
 
         cell = gtk.CellRendererPixbuf ()
         col.pack_start (cell, True)
-        col.add_attribute (cell, 'pixbuf', self.COLUMN_ICON)
+        col.add_attribute (cell, 'icon_name', self.COLUMN_ICON)
 
         cell = gtk.CellRendererText ()
         col.pack_start (cell, True)
