@@ -19,4 +19,6 @@ which gnome-autogen.sh || {
     exit 1
 }
 
+test -d $srcdir/m4 || mkdir $srcdir/m4
+
 . gnome-autogen.sh
