@@ -84,7 +84,6 @@ class PessulusMainDialog:
 
     def __init__ (self, applier, quit_on_close = True):
         globalvar.applier = applier
-        globalvar.tooltips = gtk.Tooltips ()
 
         self.quit_on_close = quit_on_close
 

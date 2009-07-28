@@ -98,7 +98,7 @@ class PessulusLockdownButton (gobject.GObject):
         else:
             tooltip = _("Click to make this setting mandatory")
 
-        globalvar.tooltips.set_tip (self.button, tooltip)
+        self.button.set_tooltip_text (tooltip)
 
     def __set_button_icon (self):
         if self.locked:

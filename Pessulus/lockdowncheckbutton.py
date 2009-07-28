@@ -90,8 +90,8 @@ class PessulusLockdownCheckbutton:
         try:
             schema = globalvar.applier.get_schema ("/schemas" + self.key)
             if schema:
-                globalvar.tooltips.set_tip (self.checkbutton,
-                                            " ".join (schema.get_long_desc ().split ()))
+                tooltip = " ".join (schema.get_long_desc ().split ())
+                self.checkbutton.set_tooltip_text (tooltip)
         except gobject.GError:
             print >> sys.stderr, "Warning: Could not get schema for %s" % self.key
 
