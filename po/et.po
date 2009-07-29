@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-01-31 07:36+0000\n"
-"PO-Revision-Date: 2009-03-15 10:31+0200\n"
+"POT-Creation-Date: 2009-07-28 15:43+0000\n"
+"PO-Revision-Date: 2009-07-29 11:57+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -108,6 +108,10 @@ msgstr "_Väljalogimine lubatud"
 
 msgid "Allow user _switching"
 msgstr "Kasutajate vahel _lülitumine lubatud"
+
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Abidokumenti '%s' pole võimalik kuvada"
 
 msgid "Cannot contact the GConf server"
 msgstr "GConf-serveriga pole võimalik ühenduda"
