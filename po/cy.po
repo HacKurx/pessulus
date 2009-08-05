@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-volume-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-24 21:59+0100\n"
-"PO-Revision-Date: 2009-07-24 22:07+0100\n"
+"POT-Creation-Date: 2009-08-05 01:13+0100\n"
+"PO-Revision-Date: 2009-08-05 01:13+0100\n"
 "Last-Translator: Iestyn Pryce <dylunio@gmail.com>\n"
 "Language-Team: Welsh <gnome-cy@lists.linux.org.uk>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Cyflunio'r polisi cloi i lawr"
 
 #: ../data/pessulus.desktop.in.in.h:2
 #: ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:59
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "Golygydd Cloi"
 
@@ -138,16 +138,20 @@ msgstr "Caniatáu _allgofnodi"
 msgid "Allow user _switching"
 msgstr "Caniatáu _newid defnyddwyr"
 
-#: ../Pessulus/main.py:54
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Methu arddangos y dogfen cymorth '%s'"
+
+#: ../Pessulus/main.py:51
 msgid "Cannot contact the GConf server"
 msgstr "Methu cysylltu gyda'r gweinydd GConf"
 
-#: ../Pessulus/main.py:55
+#: ../Pessulus/main.py:52
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su -'.\n"
 "If this is not the case, you can look at the output of the application to get more details."
 msgstr ""
 "Mae hyn fel arfer yn digwydd pan yn rhedeg y rhaglen hon gyda 'su' yn lle 'su -'.\n"
 "Os nad yw hyn y sefyllfa, gallwch edrych ar allbwn y rhaglen er mwyn cael rhagor o fanylion."
-
 
