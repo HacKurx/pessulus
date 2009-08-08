@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD.ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-11 00:56+0300\n"
-"PO-Revision-Date: 2009-07-11 01:00+0300\n"
+"POT-Creation-Date: 2009-08-08 21:11+0300\n"
+"PO-Revision-Date: 2009-08-08 21:12+0300\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.4.0-beta1\n"
+"X-Generator: Virtaal 0.4.0\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "إعداد سياسة القفل"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:59
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "محرر القفل"
 
@@ -140,11 +140,16 @@ msgstr "اسمح بتسجيل ال_خروج"
 msgid "Allow user _switching"
 msgstr "اسمح ب_تبديل المستخدم"
 
-#: ../Pessulus/main.py:54
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "لا يمكن فتح مستند المساعدة '%s'"
+
+#: ../Pessulus/main.py:51
 msgid "Cannot contact the GConf server"
 msgstr "تعذّر الاتصال بخادوم GConf"
 
-#: ../Pessulus/main.py:55
+#: ../Pessulus/main.py:52
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
