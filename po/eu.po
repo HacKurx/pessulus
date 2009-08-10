@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-10 13:39+0100\n"
-"PO-Revision-Date: 2009-02-10 13:42+0100\n"
+"POT-Creation-Date: 2009-08-10 13:18+0200\n"
+"PO-Revision-Date: 2009-08-10 13:19+0200\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
@@ -30,7 +30,7 @@ msgstr "Blokeatu editorea"
 
 #: ../data/pessulus.glade.h:1
 msgid "<b>Disabled Applets</b>"
-msgstr "<b>Desgaitutako applet-ak</b>"
+msgstr "<b>Desgaitutako miniaplikazioak</b>"
 
 #: ../data/pessulus.glade.h:2
 msgid "<b>Safe Protocols</b>"
@@ -140,18 +140,24 @@ msgstr "Baimendu saioa _amaitzea"
 msgid "Allow user _switching"
 msgstr "Baimendu erabiltzaile-al_daketa"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Ezin izan da '%s' laguntzako dokumentua bistaratu"
+
+#: ../Pessulus/main.py:51
 msgid "Cannot contact the GConf server"
 msgstr "Ezin da GConf zerbitzuarekin konektatu"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:52
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
 "If this is not the case, you can look at the output of the application to "
 "get more details."
 msgstr ""
-"Hau normalean aplikazioa 'su'-rekin exekutatzean gertatzen da, 'su -' komandoarekin "
-"exekutatu beharrean.\n"
-"Kasu hori ez bada, aplikazioaren irteera begiratu dezakezu xehetasun gehiago edukitzeko."
+"Hau normalean aplikazioa 'su'-rekin exekutatzean gertatzen da, 'su -' "
+"komandoarekin exekutatu beharrean.\n"
+"Kasu hori ez bada, aplikazioaren irteera begiratu dezakezu xehetasun gehiago "
+"edukitzeko."
 
