@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-08 03:49+0100\n"
+"POT-Creation-Date: 2009-08-11 18:06+0200\n"
 "PO-Revision-Date: 2009-03-08 03:48+0100\n"
 "Last-Translator: Petr Kovar <pknbe@volny.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -24,128 +24,133 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Konfigurace omezení práv"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:59
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "Editor pro omezení práv uživatele"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>Zakázat applety</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>Bezpečné protokoly</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "Zakázat _nebezpečné protokoly"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Zakázat applety"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Bezpečné protokoly"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "Klikněte pro vytvoření nepovinného nastavení"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "Klikněte pro vytvoření povinného nastavení"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "Obecné"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "Panel"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "Webový prohlížeč Epiphany"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "GNOME spořič obrazovky"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "Zakázat přístup k _příkazové řádce"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "Zakázat _tisknout"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "Zakázat _nastavení tisku"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "Zakázat ukládat na _disk"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "Uzamčení _panelů"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "Zakázat vynucení _ukončení aplikace"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:60
 msgid "Disable lock _screen"
 msgstr "Zakázat uzamčení _obrazovky"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "Zakázat _odhlásit se"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _quit"
 msgstr "Zakázat jeho _ukončení"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _arbitrary URL"
 msgstr "Zakázat _vepsání URL"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _bookmark editing"
 msgstr "Zakázat úpravu _záložek"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _history"
 msgstr "Zakázat jakoukoliv _historii"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _javascript chrome"
 msgstr "Zakázat _javascript chrome"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _toolbar editing"
 msgstr "Zakázat editaci _lišty nástrojů"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Force _fullscreen mode"
 msgstr "_Přimět k režimu přes celou obrazovku"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:70
 msgid "Hide _menubar"
 msgstr "Skrýt panel _nabídky"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:71
 msgid "_Lock on activation"
 msgstr "_Zamknout po spuštění spořiče"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:72
 msgid "Allow log _out"
 msgstr "Povolit _odhlášení z systému"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:73
 msgid "Allow user _switching"
 msgstr "Po_volit přepnutí na jiného uživatele"
 
-#: ../Pessulus/main.py:54
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr ""
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "Nelze kontaktovat server GConf"
 
-#: ../Pessulus/main.py:55
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
