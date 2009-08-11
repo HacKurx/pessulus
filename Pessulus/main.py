@@ -28,7 +28,6 @@ def main (args):
     import pygtk; pygtk.require('2.0');
     
     import gtk
-    import gtk.glade
 
     import maindialog
     import lockdownappliergconf
@@ -39,7 +38,6 @@ def main (args):
     except locale.Error:
         print >> sys.stderr, "Warning: unsupported locale"
     gettext.install (config.PACKAGE, config.LOCALEDIR)
-    gtk.glade.bindtextdomain (config.PACKAGE, config.LOCALEDIR)
 
     gtk.window_set_default_icon_name ("pessulus")
 

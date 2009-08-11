@@ -1,5 +1,5 @@
-gladedir   = $(pkgdatadir)/glade
-glade_DATA = pessulus.glade
+uidir   = $(pkgdatadir)/ui
+ui_DATA = pessulus.ui
 
 desktopdir = $(datadir)/applications
 desktop_in_files = pessulus.desktop.in 
@@ -9,7 +9,7 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 EXTRA_DIST =			\
 	$(desktop_in_files)	\
-	$(glade_DATA) \
+	$(ui_DATA) \
 	pessulus-16.png pessulus-22.png \
 	pessulus-24.png pessulus-32.png \
 	pessulus-48.png pessulus.svg

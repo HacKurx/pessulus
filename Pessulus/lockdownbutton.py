@@ -58,7 +58,10 @@ class PessulusLockdownButton (gobject.GObject):
         lockdownbutton = PessulusLockdownButton ()
 
         lockdownbutton.button = button
-        button.remove (button.get_child ())
+        child = button.get_child ()
+
+        if child is not None:
+            button.remove (child)
 
         lockdownbutton.__connect_and_update ()
         return lockdownbutton

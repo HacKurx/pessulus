@@ -23,7 +23,6 @@ import gconf
 import gettext
 import gobject
 import gtk
-import gtk.glade
 
 from xml.sax.saxutils import escape as escape_pango
 
@@ -89,10 +88,11 @@ class PessulusMainDialog:
         for gconfdir in gconfdirs:
             globalvar.applier.add_dir (gconfdir, gconf.CLIENT_PRELOAD_NONE)
 
-        self.glade_file = os.path.join (GLADEDIR, "pessulus.glade")
-        self.xml = gtk.glade.XML (self.glade_file, "dialogEditor", PACKAGE)
+        self.builder = gtk.Builder()
+        self.builder.set_translation_domain(PACKAGE)
+        self.builder.add_from_file(os.path.join (BUILDERDIR, "pessulus.ui"))
 
-        self.window = self.xml.get_widget ("dialogEditor")
+        self.window = self.builder.get_object ("dialogEditor")
         self.window.connect ("response", self.__on_dialog_response)
 
         if self.quit_on_close:
@@ -111,30 +111,30 @@ class PessulusMainDialog:
         for (key, string, box_str) in lockdownbuttons:
             button = lockdowncheckbutton.PessulusLockdownCheckbutton.new (key,
                                                                           string)
-            box = self.xml.get_widget (box_str)
+            box = self.builder.get_object (box_str)
             box.pack_start (button.get_widget (), False)
 
     def __init_disabledapplets (self):
-        treeview = self.xml.get_widget ("treeviewDisabledApplets")
-        button = self.xml.get_widget ("buttonDisabledApplets")
+        treeview = self.builder.get_object ("treeviewDisabledApplets")
+        button = self.builder.get_object ("buttonDisabledApplets")
         ldbutton = lockdownbutton.PessulusLockdownButton.new_with_widget (button)
         self.disabledapplets = disabledapplets.PessulusDisabledApplets (treeview,
                                                                         ldbutton)
 
     def __init_safeprotocols (self):
-        button = self.xml.get_widget ("buttonDisableUnsafeProtocols")
-        checkbutton = self.xml.get_widget ("checkbuttonDisableUnsafeProtocols")
+        button = self.builder.get_object ("buttonDisableUnsafeProtocols")
+        checkbutton = self.builder.get_object ("checkbuttonDisableUnsafeProtocols")
 
         lockdown = lockdowncheckbutton.PessulusLockdownCheckbutton.new_with_widgets (
                     "/apps/epiphany/lockdown/disable_unsafe_protocols",
                     button, checkbutton)
 
-        hbox = self.xml.get_widget ("hboxSafeProtocols")
+        hbox = self.builder.get_object ("hboxSafeProtocols")
 
-        treeview = self.xml.get_widget ("treeviewSafeProtocols")
-        addbutton = self.xml.get_widget ("buttonSafeProtocolAdd")
-        editbutton = self.xml.get_widget ("buttonSafeProtocolEdit")
-        removebutton = self.xml.get_widget ("buttonSafeProtocolRemove")
+        treeview = self.builder.get_object ("treeviewSafeProtocols")
+        addbutton = self.builder.get_object ("buttonSafeProtocolAdd")
+        editbutton = self.builder.get_object ("buttonSafeProtocolEdit")
+        removebutton = self.builder.get_object ("buttonSafeProtocolRemove")
 
         self.safeprotocols = safeprotocols.PessulusSafeProtocols (lockdown.get_lockdownbutton (),
                                                                   treeview,
@@ -152,14 +152,14 @@ class PessulusMainDialog:
         else:
             store = gtk.ListStore (str, str, int)
 
-        notebook = self.xml.get_widget ("notebook2")
+        notebook = self.builder.get_object ("notebook2")
         children = notebook.get_children ()
 
         for (name, icon, widgetname) in pages:
             i = 0
             found = False
             for child in children:
-                if child == self.xml.get_widget (widgetname):
+                if child == self.builder.get_object (widgetname):
                     found = True
                     break
                 i += 1
@@ -177,7 +177,7 @@ class PessulusMainDialog:
                        self.COLUMN_NAME, name,
                        self.COLUMN_PAGENUMBER, i)
 
-        pageselector = self.xml.get_widget ("pageselector")
+        pageselector = self.builder.get_object ("pageselector")
         pageselector.set_model (store)
 
         col = gtk.TreeViewColumn ()
