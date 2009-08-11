@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this list in alphabetic order.
 data/pessulus.desktop.in.in
-data/pessulus.glade
+[type: gettext/glade]data/pessulus.ui
 Pessulus/disabledapplets.py
 Pessulus/globalvar.py
 Pessulus/icons.py
