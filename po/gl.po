@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-06 18:52+0200\n"
-"PO-Revision-Date: 2009-08-04 14:53+0200\n"
+"POT-Creation-Date: 2009-08-17 14:25+0200\n"
+"PO-Revision-Date: 2009-08-17 13:12+0200\n"
 "Last-Translator: Antón Méixome <meixome@mancomun.org>\n"
 "Language-Team: Galician <gnome@mancomun.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,110 +25,110 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Configurar a política de bloqueos"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "Editor de bloqueos"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>Miniaplicacións desactivadas</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>Protocolos seguros</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "Desactivar protocolos _non seguros"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Miniaplicativos desactivados"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Protocolos seguros"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "Premer para facer esta configuración non obrigatoria"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "Premer para facer esta configuración obrigatoria"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "Xeral"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "Panel"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "Navegador web Epiphany"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "Protector de pantalla do Gnome"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "Desactivar a liña de _comandos"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "Desactivar a _impresión"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "Desactivar a _configuración de impresora"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "Desactivar gardar no _disco"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "_Bloquear os paneis"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "Desactivar a saída _forzada"
 
-#: ../Pessulus/maindialog.py:61
-msgid "Disable lock _screen"
-msgstr "Desactivar o bloqueo de pan_talla"
-
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable log _out"
 msgstr "Desactivar a _saída de sesión"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "Desactivar a s_aída"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "Desactivar o URL a_rbitrario"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "Desactivar a edición de _marcadores"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "Desactivar o _historial"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "Desactivar chrome _javascript"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "Desactivar a edición de _barra de ferramentas"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "Forzar o modo pantalla _completa"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "Ocultar a barra de m_enú"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "Desactivar o bloqueo de pan_talla"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -142,23 +142,23 @@ msgstr "Permitir a _saída de sesión"
 msgid "Allow user _switching"
 msgstr "Permitir cam_biar de usuario"
 
-#: ../Pessulus/maindialog.py:232
+#: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
 msgstr "Non se pode mostrar o documento de axuda '%s'"
 
-#: ../Pessulus/main.py:51
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "Non é posíbel contactar co servidor Gconf"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
 "If this is not the case, you can look at the output of the application to "
 "get more details."
 msgstr ""
-"Isto normalmente ocorre cando se executa esta aplicación con 'su' en vez de "
+"Isto normalmente ocorre cando se executa este aplicativo con 'su' en vez de "
 "'su -'.\n"
-"Se este non é o caso pode ver a saída da aplicación para obter máis "
+"Se non é este o caso, pode ver a saída do aplicativo para obter máis "
 "información."
