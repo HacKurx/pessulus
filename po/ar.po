@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD.ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-08 21:11+0300\n"
-"PO-Revision-Date: 2009-08-08 21:12+0300\n"
+"POT-Creation-Date: 2009-08-21 19:54+0300\n"
+"PO-Revision-Date: 2009-08-21 19:55+0300\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -23,110 +23,110 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "إعداد سياسة القفل"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "محرر القفل"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>بريمجات معطلة</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>بروتوكولات آمنة</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "عطّل البروتوكولات _غير الآمنة"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "البريمجات المعطلة"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "البروتوكولات الآمنة"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "اضغط لجعل هذا الإعداد غير إلزامي"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "اضغط لجعل هذا الإعداد إلزامي"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "عام"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "اللوحة"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "متصفح الوب إبِفني"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "حافظة شاشة جنوم"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "عطّل _سطر الأوامر"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "عطّل ال_طباعة"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "عطّل إ_عداد الطباعة"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "عطّل الحف_ظ على لقرص"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "ا_قفل شريط المهام"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "عطّل _إجبار الإنهاء"
 
-#: ../Pessulus/maindialog.py:61
-msgid "Disable lock _screen"
-msgstr "عطّل قف_ل الشاشة"
-
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable log _out"
 msgstr "عطّل تسجيل ال_خروج"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "عطّل الإن_هاء"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "عطّل عناو_ين الإنترنت التّعسّفيّة"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "عطّل تحرير علامة المو_قع"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "عطّل ال_تاريخ"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "عطّل _كروم جافا سكريبت"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "عطّل تحرير شريط الأدوات"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "افرض نمط ملأ الشاشة"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "أخفِ شريط ال_قوائم"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "عطّل قف_ل الشاشة"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -140,16 +140,16 @@ msgstr "اسمح بتسجيل ال_خروج"
 msgid "Allow user _switching"
 msgstr "اسمح ب_تبديل المستخدم"
 
-#: ../Pessulus/maindialog.py:232
+#: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
 msgstr "لا يمكن فتح مستند المساعدة '%s'"
 
-#: ../Pessulus/main.py:51
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "تعذّر الاتصال بخادوم GConf"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
