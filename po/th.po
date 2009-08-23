@@ -7,9 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus 0.3\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-05 22:44+0700\n"
-"PO-Revision-Date: 2009-02-05 22:51+0700\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-08-23 16:11+0700\n"
+"PO-Revision-Date: 2009-08-23 16:12+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,110 +21,110 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "ตั้งค่านโยบายการจำกัดการใช้งาน"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "เครื่องมือแก้ไขการจำกัดการใช้งาน"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>แอพเพล็ตห้ามใช้</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>โพรโทคอลที่ปลอดภัย</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "ห้ามใช้โพรโทคอลที่ไม่ป_ลอดภัย"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "แอพเพล็ตห้ามใช้"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "โพรโทคอลที่ปลอดภัย"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "คลิกเพื่อให้ค่าตั้งนี้ไม่เป็นค่าบังคับ"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "คลิกเพื่อให้ค่าตั้งนี้เป็นค่าบังคับ"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "ทั่วไป"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "พาเนล"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "เว็บเบราว์เซอร์ Epiphany"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "โปรแกรมรักษาหน้าจอของ GNOME"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "ห้ามใช้บรรทัดคำ_สั่ง"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "ห้าม_พิมพ์"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "ห้าม_ตั้งค่าการพิมพ์"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "ห้าม_บันทึกลงดิสก์"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "_ล็อคพาเนล"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "ห้าม_บังคับออก"
 
-#: ../Pessulus/maindialog.py:61
-msgid "Disable lock _screen"
-msgstr "ห้ามล็อคหน้า_จอ"
-
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable log _out"
 msgstr "ห้าม_ออกจากระบบ"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "_ห้ามออก"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "ห้ามป้อน URL อิ_สระ"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "ห้ามแก้ไข_ที่คั่นหน้า"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "ห้ามใช้_ประวัติการท่องเว็บ"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "ห้าม_จาวาสคริปต์ดัดแปลงหน้าตาโปรแกรม"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "ห้ามแก้ไขแถบเ_ครื่องมือ"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "บังคับใช้โหมดเ_ต็มจอ"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "ซ่อนแถบเ_มนู"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "ห้ามล็อคหน้า_จอ"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -137,11 +138,16 @@ msgstr "ให้_ออกจากระบบได้"
 msgid "Allow user _switching"
 msgstr "ให้_สลับผู้ใช้ได้"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "ไม่สามารถแสดงเอกสารวิธีใช้ '%s'"
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "ไม่สามารถติดต่อเซิร์ฟเวอร์ GConf ได้"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
