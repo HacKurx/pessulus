@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-01-31 07:36+0000\n"
-"PO-Revision-Date: 2009-02-05 16:24+0530\n"
+"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"PO-Revision-Date: 2009-08-24 18:49+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -18,133 +18,141 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
 "\n"
+"\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "ଲୁକ-ଡାଉନ ନୀତିକୁ ବିନ୍ଯାସ କରନ୍ତୁ"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "ଲୁକ-ଡାଉନ ସମ୍ପାଦକ"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>ନିଷ୍କ୍ରିୟ ଆପ୍ଲେଟ</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>ସୁରକ୍ଷିତ ପ୍ରୋଟୋକଲ</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "ଅସୁରକ୍ଷିତ ପ୍ରୋଟୋକଲକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_u)"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+#| msgid "<b>Disabled Applets</b>"
+msgid "Disabled Applets"
+msgstr "ନିଷ୍କ୍ରିୟ ଆପ୍ଲେଟଗୁଡ଼ିକ"
+
+#: ../data/pessulus.ui.h:4
+#| msgid "<b>Safe Protocols</b>"
+msgid "Safe Protocols"
+msgstr "ସୁରକ୍ଷିତ ପ୍ରୋଟୋକଲ"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "ଏହି ବିନ୍ଯାସକୁ ବାଧ୍ଯତାମୂଳକ ନ କରିବା ପାଇଁ ଦବାନ୍ତୁ"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "ଏହି ବିନ୍ଯାସକୁ ବାଧ୍ଯତାମୂଳକ କରିବା ପାଇଁ ଦବାନ୍ତୁ"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "ସାଧାରଣ"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "ଫଳକ"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "ଏପିଫାନୀ ଓ୍ବେବ-ବ୍ରାଉଜର"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "ନୋମ ପରଦା ସଂରକ୍ଷକ"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "ପାଠ୍ଯ ନିର୍ଦ୍ଦେଶକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_c)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "ପ୍ରୁଷ୍ଠା ମୂଦ୍ରଣ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_p)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "ମୂଦ୍ରଣ ବ୍ଯବସ୍ଥାପନକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_s)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "ଡିସ୍କରେ ସଂରକ୍ଷଣ କରୁଥିବା ପ୍ରକ୍ରିୟାକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_d)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "ଫଳକକୁ ଉପେକ୍ଷା କରନ୍ତୁ (_L)"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "ବଳପୂର୍ବକ ପ୍ରସ୍ଥାନକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_q)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:60
 msgid "Disable lock _screen"
 msgstr "ପରଦାରେ ତାଳକନକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_s)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "ଲଗ-ଆଉଟକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_o)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _quit"
 msgstr "ପ୍ରସ୍ଥାନକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_q)"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _arbitrary URL"
 msgstr "ମନମୂଖୀ ୟୁ.ଆର.ଏଲ. କୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_a)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _bookmark editing"
 msgstr "ବୁକ ମାର୍କ ସମ୍ପାଦନକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_b)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _history"
 msgstr "ପୁରୁଣା ତଥ୍ଯକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_h)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _javascript chrome"
 msgstr "ଜାଭା-ସ୍କ୍ରିପ୍ଟ କ୍ରୋମକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_j)"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _toolbar editing"
 msgstr "ସାଧନ ପଟି ସମ୍ପାଦନକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ (_t)"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Force _fullscreen mode"
 msgstr "ପୂର୍ଣ୍ଣ ପରଦା ଧାରା ପାଇଁ ବଳ ପ୍ରୟୋଗ କରନ୍ତୁ (_f)"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:70
 msgid "Hide _menubar"
 msgstr "ମେନୁ ପଟିକୁ ଲୁଚାନ୍ତୁ (_m)"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:71
 msgid "_Lock on activation"
 msgstr "ସକ୍ରିୟକରଣ ଉପରେ ତାଲା ପକାନ୍ତୁ (_L)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:72
 msgid "Allow log _out"
 msgstr "ଲଗଆଉଟ କରିବା ପାଇଁ ଅନୁମତି ପ୍ରଦାନ କରନ୍ତୁ (_o)"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:73
 msgid "Allow user _switching"
 msgstr "ଚାଳକ ପରିବର୍ତ୍ତନର ଅନୁମତି ପ୍ରଦାନ କରନ୍ତୁ (_s)"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "ସହାୟତା ଦଲିଲ '%s' କୁ ଦର୍ଶାଇପାରିଲା ନାହିଁ"
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "GConf ସର୍ଭର ସହିତ ଯୋଗାଯୋଗ କରିହେବ ନାହିଁ"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
