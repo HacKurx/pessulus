@@ -1,4 +1,4 @@
-# translation of pessulus.HEAD.kn.po to Kannada
+# translation of pessulus.master.kn.po to Kannada
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -6,13 +6,12 @@
 # Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.HEAD.kn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-03-16 10:00+0000\n"
-"PO-Revision-Date: 2009-03-16 15:27+0530\n"
+"Project-Id-Version: pessulus.master.kn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"PO-Revision-Date: 2009-08-24 12:46+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
-"Language-Team: Swatantra Kannada <debian-10n-kannada@lists.debian.org>\n"
+"Language-Team: Kannada <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,128 +22,135 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "ಲಾಕ್‍ಡೌನ್ ಪಾಲಿಸಿಯನ್ನು ರೂಪಿಸಿ"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:59
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "ಸಂಪಾದಕವನ್ನು ಲಾಕ್‍ಡೌನ್ ಮಾಡು"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>ಅಶಕ್ತಗೊಳಿಸಲಾದ ಉಪಅನ್ವಯಗಳು</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>ಸುರಕ್ಷಿತ ಪ್ರೋಟೋಕಾಲ್‍ಗಳು</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "ಸುರಕ್ಷಿತವಲ್ಲದ ಪ್ರೋಟೋಕಾಲ್‍ಗಳನ್ನು ದುರ್ಬಲಗೊಳಿಸು(_u)"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+#| msgid "<b>Disabled Applets</b>"
+msgid "Disabled Applets"
+msgstr "ಅಶಕ್ತಗೊಳಿಸಲಾದ ಉಪಅನ್ವಯಗಳು"
+
+#: ../data/pessulus.ui.h:4
+#| msgid "<b>Safe Protocols</b>"
+msgid "Safe Protocols"
+msgstr "ಸುರಕ್ಷಿತ ಪ್ರೋಟೋಕಾಲ್‍ಗಳು"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "ಈ ಸಂಯೋಜನೆಯನ್ನು ಕಡ್ಡಾಯಗೊಳಿಸದೆ ಇರಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "ಈ ಸಂಯೋಜನೆಯನ್ನು ಕಡ್ಡಾಯಗೊಳಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "ಸಾಮಾನ್ಯ"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "ಫಲಕ"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "Epiphany ಅಂತರ್ಜಾಲ ವೀಕ್ಷಕ"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "GNOME Screensaver"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "ಆಜ್ಞಾ ಸಾಲನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_c)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "ಮುದ್ರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_p)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "ಮುದ್ರಕದ ಸಂಯೋಜನೆಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_s)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "ಡಿಸ್ಕ್‍ಗೆ ಉಳಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_d)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "ಫಲಕಗಳನ್ನು ಲಾಕ್ ಡೌನ್ ಮಾಡು(_L)"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "ಬಲವಂತವಾಗಿ ಮುಚ್ಚುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_Q)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:60
 msgid "Disable lock _screen"
 msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_s)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "ಹೊರ ತೆರಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_o)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _quit"
 msgstr "ನಿರ್ಗಮಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_q)"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _arbitrary URL"
 msgstr "ಇಚ್ಛಾನುಸಾರಿ URL ಅನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_a)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _bookmark editing"
 msgstr "ಬುಕ್‍ಮಾರ್ಕ್ ಸಂಪಾದಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_b)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _history"
 msgstr "ಚರಿತ್ರೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸುವುದನ್ನು(_h)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _javascript chrome"
 msgstr "_javascript ಅನ್ನು ಶಕ್ತಗೊಳಿಸು"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _toolbar editing"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿಯನ್ನು ಸಂಪಾದಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_T)"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Force _fullscreen mode"
 msgstr "ಪೂರ್ಣತೆರೆ ವಿಧಾನಕ್ಕಾಗಿ ಒತ್ತಾಯಿಸು(_F)"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:70
 msgid "Hide _menubar"
 msgstr "ಅಂಶ ಪಟ್ಟಿಯನ್ನು ಅಡಗಿಸು(_m)"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:71
 msgid "_Lock on activation"
 msgstr "ಸಕ್ರಿಯಗೊಂಡಾಗ ಲಾಕ್ ಮಾಡು(_L)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:72
 msgid "Allow log _out"
 msgstr "ಹೊರ ತೆರಳುವುದನ್ನು ಅನುಮತಿಸು(_o)"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:73
 msgid "Allow user _switching"
 msgstr "ಬಳಕೆದಾರರ ಬದಲಾವಣೆಯನ್ನು ಅನುಮತಿಸು(_s)"
 
-#: ../Pessulus/main.py:54
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "ನೆರವಿನ ದಸ್ತಾವೇಜು ಆದ '%s' ಅನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "GConf ಪರಿಚಾರಕದೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲಾಗಲಿಲ್ಲ"
 
-#: ../Pessulus/main.py:55
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
@@ -155,3 +161,4 @@ msgstr ""
 "ಸಂಭವಿಸುತ್ತದೆ.\n"
 "ಹಾಗಾಗಿರದ ಸಂದರ್ಭದಲ್ಲಿ, ನೀವು ಈ ಅನ್ವಯದ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೋಡುವ ಮೂಲಕ ಹೆಚ್ಚಿನ ಮಾಹಿತಿನ್ನು "
 "ಪಡೆಯಬಹುದಾಗಿದೆ."
+
