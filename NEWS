@@ -1,3 +1,44 @@
+===============
+Version 2.27.91
+===============
+
+  Fixes
+
+	* Stop using deprecated GtkTooltips API (Vincent)
+	* Use icon-name attribute for gtk.CellRendererPixbuf (Vincent)
+	* Port to GtkBuilder (Vincent)
+	* Update to use the right key for disable_lock_screen (Vincent)
+	* Remove deprecated Encoding key from desktop file (Frédéric Péters)
+
+  Translators
+
+	* Khaled Hosny (ar)
+	* Mikel González (ast)
+	* Alexander Shopov (bg)
+	* josep (ca)
+	* Petr Kovar (cs)
+	* Iestyn Pryce (cy)
+	* Jorge González (es)
+	* Ivar Smolin (et)
+	* Iñaki Larrañaga Murgoitio (eu)
+	* Tommi Vainikainen (fi)
+	* Claude Paroz (fr)
+	* Antón Méixome (gl)
+	* Sweta Kothari (gu)
+	* Shankar Prasad (kn)
+	* Kjartan Maraas (nb)
+	* Manoj Kumar Giri (or)
+	* Duarte Loreto (pt)
+	* Fabrício Godoy (pt_BR)
+	* Laurent Dhima (sq)
+	* Daniel Nylander (sv)
+	* I. Felix (ta)
+	* Theppitak Karoonboonyanan (th)
+	* Baris Cicek (tr)
+	* fujianwzh (zh_CN)
+	* Chao-Hsiung Liao (zh_HK)
+	* Chao-Hsiung Liao (zh_TW)
+
 pessulus 2.27.5
 ===============
 
