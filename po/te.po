@@ -1,4 +1,4 @@
-# translation of pessulus.HEAD.te.po to Telugu
+# translation of pessulus.master.te.po to Telugu
 # Telugu translation of pessulus.
 # Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>.
 # This file is distributed under the same license as the pessulus package.
@@ -9,10 +9,10 @@
 # Krishna Babu K <kkrothap@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.HEAD.te\n"
+"Project-Id-Version: pessulus.master.te\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-01-31 07:36+0000\n"
-"PO-Revision-Date: 2009-04-09 20:15+0530\n"
+"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"PO-Revision-Date: 2009-08-31 19:53+0530\n"
 "Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,141 +20,147 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr " తాళం వేయు విధానాన్ని  రూపకరణ చేయు"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "తాళం వేయు విధానాన్ని సరిచూచునది"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b> క్రియాహీనమైన యాప్లెట్లు</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "సరైన ప్రోటోకాల్"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
-msgstr "సరికాని ప్రోటోకాల్‌ను క్రియాహీనం చేయు (_u)"
+msgstr "సరికాని నిభందనను క్రియాహీనం చేయు (_u)"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+#| msgid "<b>Disabled Applets</b>"
+msgid "Disabled Applets"
+msgstr "క్రియాహీనమైన యాప్లెట్లు"
+
+#: ../data/pessulus.ui.h:4
+#| msgid "<b>Safe Protocols</b>"
+msgid "Safe Protocols"
+msgstr "సురక్షిత నిభందనలు"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "ఈ అమరికను తప్పనిసరిగా కాకుండా చేయుటకు మీటను నొక్కుము"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "ఈ అమరికను తప్పనిసరిగా చేయుటకు నొక్కుము"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "సాధారణ"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "ప్యానెల్"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "ఎపిఫని మహాతల అన్వేషి"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "గ్నోము తెర కాపరి"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "ఆదేశ విధానాన్ని క్రియాహీనం చేయు (_c)"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "ముద్రణా సౌకర్యాన్ని క్రియాహీనం చేయి (_p)"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "ముద్రణ అమరికను క్రియాహీనం చేయు (_s)"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "ఖని లో దాయుటను క్రియాహీనం చేయు (_d)"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "ప్యానెల్స్ కు తాళం వేయుము (_L)"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "వత్తిడితో త్యజించడాన్ని క్రియాహీనం చేయుము (_q)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:60
 msgid "Disable lock _screen"
 msgstr "తెరకు తాళం వేయు విధానాన్ని క్రియాహీనం చేయు (_s)"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "నిష్క్రమణను క్రియాహీనం చేయు (_o)"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _quit"
 msgstr "త్యజించడాన్ని క్రియాహీనంచేయు (_q)"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _arbitrary URL"
 msgstr "యదేచ్ఛమైన యూఆఅర్‌ఎల్ ను నెస్తేజంచేయి (_a)"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _bookmark editing"
 msgstr "గుర్తులను సరిచేయు సౌలభ్యాన్ని నిస్తేజపరుచు (_b)"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _history"
 msgstr "చరిత్రను క్రియాహీనం చేయు (_h)"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _javascript chrome"
 msgstr "జావాస్క్రిప్టు క్రోమును నిస్తేజ పరుచు (_j)"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _toolbar editing"
 msgstr "పనిముట్ల జాబితాను సరిచేయుదాన్ని క్రియాహీనం చేయు (_t)"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Force _fullscreen mode"
 msgstr "నిండుతెర సంవిధానం లో  ఉండుటకు వత్తిడి చేయు (_f)"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:70
 msgid "Hide _menubar"
 msgstr "జాబితాపట్టా ని దాయుము (_m)"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:71
 msgid "_Lock on activation"
 msgstr "మేలుకోగానె తాళం వేయుము (_L)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:72
 msgid "Allow log _out"
 msgstr "నిష్క్రమణ అనుమతించు (_o)"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:73
 msgid "Allow user _switching"
 msgstr "వినియోగదారుని మార్పుకు అనుమతించు (_s)"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "సహాయ పత్రము '%s'ను ప్రదర్శించలేక పోయింది"
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "GConf సేవికను సంప్రదించలేక పోయింది"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
 "If this is not the case, you can look at the output of the application to "
 "get more details."
 msgstr ""
-"సాదారణముగా అనువర్తనమును 'su -'కు బదులుగా 'su'తో నడుపుతుంటే యిది "
-"సంభవిస్తుంది.\n"
-"ఒకవేళ యిదే కనుక కాకపోతే, మరింత సమాచారము కొరకు మీరు అనువర్తనము "
-"అవుట్పుట్‌ను చూడవచ్చు."
+"సాదారణముగా అనువర్తనమును 'su -'కు బదులుగా 'su'తో నడుపుతుంటే యిది సంభవిస్తుంది.\n"
+"ఒకవేళ యిదే కనుక కాకపోతే, మరింత సమాచారము కొరకు మీరు అనువర్తనము అవుట్పుట్‌ను చూడవచ్చు."
 
