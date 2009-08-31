@@ -1,0 +1,154 @@
+# Breton translation for Pessulus
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Pessulus package.
+# Denis <denisarnuad@yahoo.fr>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pessulus\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-08-26 09:39+0000\n"
+"PO-Revision-Date: 2009-08-28 15:52+0100\n"
+"Last-Translator: denis <denisarnuad@yahoo.fr>\n"
+"Language-Team: Brenux <Brenux@free.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Kefluniañ ar reolenn prennañ"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr "Prennañ an embannner"
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "Diweredekaat an c'homenadoù arvar_us"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Diweredekaat an arloadigoù "
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Komenadoù sur"
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr ""
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "Hollek"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "Panell"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "Merdeer kenrouedad Epiphany"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "Skramm-kousk GNOME"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "Diweredekaat "
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "Diweredekaat ar _moullañ"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "Diweredekaat a_rventenoù ar moullañ"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "Diweredekaat an enrolla_dur war ur gantenn"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "_Prennañ ar panelloù"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr "Diweredekaat ar c'huitaat dre ret"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "Diweredekaat an dil_ugañ"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "Diweredekaat ar c'huitaat"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr "Diweredekaat URLoù tidel"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr "Diweredekaat embann ar _sinedoù"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "Diweredekaat ar roll istor"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr "Diweredekaat chrome _javascript"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr "Diweredekaat embann ar varrenn ostihloù"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "Bountañ war ar "
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "Kuzhat barenn al lañserioù"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "Diweredekaat prennañ ar skramm"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "_Prennañ en ur enaouiñ"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "Aotreñ an dilugañ"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "Aotreañ kemmañ arveriaded"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "N'eus ket tu da ziskouez an teul skoazell '%s'"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "N'hall ket mont e darempred an dafariad GConf"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su -'.\n"
+"If this is not the case, you can look at the output of the application to get more details."
+msgstr ""
+
