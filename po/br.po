@@ -1,5 +1,5 @@
 # Breton translation for Pessulus
-# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Pessulus package.
 # Denis <denisarnuad@yahoo.fr>, 2009.
 #
