@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.14\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-03-03 18:22+0000\n"
-"PO-Revision-Date: 2009-03-07 15:48+0200\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"PO-Revision-Date: 2009-09-02 01:34+0200\n"
+"Last-Translator: Mark Krapivner <mark125@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,134 +19,140 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "הגדר את מדיניות הנעילות"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "עורך הנעילות"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>יישומונים מנוטרלים</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>פרוטוקולים בטוחים</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "נטרל _פרוטוקולים לא בטוחים"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+#| msgid "<b>Disabled Applets</b>"
+msgid "Disabled Applets"
+msgstr "יישומונים מנוטרלים"
+
+#: ../data/pessulus.ui.h:4
+#| msgid "<b>Safe Protocols</b>"
+msgid "Safe Protocols"
+msgstr "פרוטוקולים בטוחים"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "לחץ כדי להפוך את הגדרות אלו ללא הכרחיות"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "לחץ כדי להפוך את הגדרות אלו להכרחיות"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "כללי"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "לוח"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "דפדפן האינטרנט Epiphany"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "שומר המסך של GNOME"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "נטרל _שורת פקודה"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "נטרל ה_דפסה"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "נטרל ה_גדרות הדפסה"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "בטל _שמירה בדיסק"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "_נעל את הלוחות"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "נטרל ה_כרח יציאה"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:60
 msgid "Disable lock _screen"
 msgstr "נטרל נעילת _מסך"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "_נטרל התנתקות"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _quit"
 msgstr "נטרל _יציאה"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _arbitrary URL"
 msgstr "נטרל _הקשת כתובות אינטרנט"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _bookmark editing"
 msgstr "נטרל_ עריכת סימניות"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _history"
 msgstr "נטרל הי_סטוריה"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _javascript chrome"
 msgstr "נטרל את השליטה של JavaScript על צבע החלון"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _toolbar editing"
 msgstr "נטרל עריכת _סרגל הכלים"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Force _fullscreen mode"
 msgstr "הכרח _מצב מסך מלא "
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:70
 msgid "Hide _menubar"
 msgstr "הסתר _תפריט"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:71
 msgid "_Lock on activation"
 msgstr "_נעל בהפעלה"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:72
 msgid "Allow log _out"
 msgstr "אפשר ה_תנתקות"
 
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:73
 msgid "Allow user _switching"
 msgstr "אפשר ה_חלפת משתמש"
 
-#: ../Pessulus/main.py:52
-msgid "Cannot contact the GConf server"
-msgstr ""
-"לא ניתן ליצור קשר עם שרת ה־GConf"
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "לא ניתן להציג את מסמך העזרה '%s'"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "לא ניתן ליצור קשר עם שרת ה־GConf"
+
+#: ../Pessulus/main.py:50
 msgid ""
-"This usually happens when running this application with 'su' instead of 'su "
-"-'.\n"
-"If this is not the case, you can look at the output of the application to "
-"get more details."
+"This usually happens when running this application with 'su' instead of 'su -'.\n"
+"If this is not the case, you can look at the output of the application to get more details."
 msgstr ""
 "מצב זה קורה בדרך כלל בעת הרצת יישומים עם 'su' במקום '- su'‏\n"
 "אם זהו אינו המצב, ניתן להביט בפלט היישום כדי לקבל פרטים נוספים."
+
