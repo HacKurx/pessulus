@@ -2,7 +2,7 @@ AC_PREREQ(2.53)
 AC_INIT([pessulus], [2.28.0],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus])
 AC_CONFIG_SRCDIR(pessulus.in)
-AM_INIT_AUTOMAKE([1.7])
+AM_INIT_AUTOMAKE([1.9 foreign no-dist-gzip dist-bzip2])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AC_CONFIG_MACRO_DIR([m4])
 
