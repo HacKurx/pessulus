@@ -1,5 +1,5 @@
 AC_PREREQ(2.53)
-AC_INIT([pessulus], [2.27.92],
+AC_INIT([pessulus], [2.28.0],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus])
 AC_CONFIG_SRCDIR(pessulus.in)
 AM_INIT_AUTOMAKE([1.7])
