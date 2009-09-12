@@ -1,16 +1,18 @@
-# translation of pessulus.HEAD.po to Bangla
+# Bengali translation for pessulus
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Mahay Alam Khan (মাহে আলম খান) <makl10n@yahoo.com>, 2006.
+# Saad M Niamatullah <saadmniamatullah@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-25 19:18+0600\n"
-"PO-Revision-Date: 2006-08-25 19:17+0600\n"
-"Last-Translator: Khandakar Mujahidul Islam <suzan@bengalinux.org>\n"
-"Language-Team: Bangla <core@bengalinux.org>\n"
+"Project-Id-Version: bn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-09-11 04:09+0000\n"
+"PO-Revision-Date: 2009-09-12 13:21+0600\n"
+"Last-Translator: Saad M Niamatullah <saadmniamatullah@gmail.com>\n"
+"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,142 +27,163 @@ msgstr "লক-ডাউনের নিয়মনীতি কনফিগার
 # it sort of provides an interface to manipulate the restriction of resource usage
 # better to just transliterate it
 # http://www.gnomejournal.org/article/27/gnome-deployment-pangea -- just brief overview here to understand the concept
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
-msgstr "লকডাউন এডিটর"
+msgstr "লকডাউন সম্পাদক"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>নিষ্ক্রিয় অ্যাপলেট</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>নিরাপদ প্রোটোকল</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "অনিরাপদ প্রোটোকল নিস্ক্রিয় করো (_u)"
 
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "নিষ্ক্রিয় করা অ্যাপলেট"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "নিরাপদ প্রোটোকল"
+
 # Fix Me - mak
 # [suggested rephrase] চিহ্নিত বৈশিষ্ট্য আবশ্যকরূপে প্রয়োগ না করার জন্য ক্লিক করুন
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "চিহ্নিত বৈশিষ্ট্য আবশ্যকরূপে প্রয়োগ না করার জন্য ক্লিক করুন"
 
 # Fix Me - mak
 # [suggested rephrase] চিহ্নিত বৈশিষ্ট্য আবশ্যকরূপে প্রয়োগ করার জন্য ক্লিক করুন
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "চিহ্নিত বৈশিষ্ট্য আবশ্যকরূপে প্রয়োগ করার জন্য ক্লিক করুন"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "সাধারণ"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "প্যানেল"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "এপিফেনি ওয়েব ব্রাউজার"
 
 # GNOME has been translated into a variety of bn spellings. this is a new one. pls use the appropriate one after consulting progga or someone else or use the en form, which i normally do.
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "GNOME স্ক্রীনসেভার"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
-msgstr "কমান্ড লাইন নিষ্ক্রিয় করুন (_c)"
+msgstr "কমান্ড লাইন নিষ্ক্রিয় করো (_c)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
-msgstr "মুদ্রণ নিষ্ক্রিয় করুন (_p)"
+msgstr "মুদ্রণ নিষ্ক্রিয় করো (_p)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
-msgstr "মুদ্রণ ব্যবস্থাপনা নিষ্ক্রিয় করুন (_s)"
+msgstr "মুদ্রণ ব্যবস্থাপনা নিষ্ক্রিয় করো (_s)"
 
 # [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
-msgstr "ডিস্কে সংরক্ষণ নিষ্ক্রিয় করুন (_d)"
+msgstr "ডিস্কে সংরক্ষণ নিষ্ক্রিয় করো (_d)"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
-msgstr "প্যানেল লক ডাউন করুন (_L)"
+msgstr "প্যানেল লক ডাউন করো (_L)"
 
 # Fix Me - mak
 # [spelling] আবশ্যিক?
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
-msgstr "আবশ্যক প্রস্থান বন্ধ করুন (_q)"
+msgstr "আবশ্যক প্রস্থান বন্ধ করো (_q)"
 
-# [spelling] স্ক্রিন / পর্দা
+# [spelling] নিষ্ক্রিয়
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "লগ আউট নিষ্ক্রিয় করো (_o)"
+
+# [suggestion] প্রস্থান
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "প্রস্থান নিষ্ক্রিয় করো (_q)"
+
+# Fix Me - mak
 # [spelling] নিষ্ক্রিয়
 #: ../Pessulus/maindialog.py:63
-msgid "Disable lock _screen"
-msgstr "স্ক্রিন লক নিষ্ক্রিয় করুন (_s)"
+msgid "Disable _arbitrary URL"
+msgstr "আরবিটরেরি URL নিষ্ক্রিয় করো (_a)"
 
 # [spelling] নিষ্ক্রিয়
 #: ../Pessulus/maindialog.py:64
-msgid "Disable log _out"
-msgstr "লগ আউট নিষ্ক্রিয় করুন (_o)"
+msgid "Disable _bookmark editing"
+msgstr "বুকমার্ক সম্পাদনা নিষ্ক্রিয় করো (_b)"
 
-# [suggestion] প্রস্থান
+# [spelling] নিষ্ক্রিয়
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "ব্রাউজের ইতিহাস নিষ্ক্রিয় করো (_h)"
+
+# [spelling] নিষ্ক্রিয়
 #: ../Pessulus/maindialog.py:66
-msgid "Disable _quit"
-msgstr "প্রস্থান নিষ্ক্রিয় করুন (_q)"
+msgid "Disable _javascript chrome"
+msgstr "জাভাস্ক্রিপ্ট ক্রোম নিষ্ক্রিয় করো (_j)"
 
-# Fix Me - mak
 # [spelling] নিষ্ক্রিয়
 #: ../Pessulus/maindialog.py:67
-msgid "Disable _arbitrary URL"
-msgstr "আরবিটরেরি ইউ.আর.এল. নিষ্ক্রিয় করুন (_a)"
-
-# [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:68
-msgid "Disable _bookmark editing"
-msgstr "বুকমার্ক সম্পাদনা নিষ্ক্রিয় করুন (_b)"
-
-# [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:69
-msgid "Disable _history"
-msgstr "ব্রাউজের ইতিহাস নিষ্ক্রিয় করুন (_h)"
-
-# [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:70
-msgid "Disable _javascript chrome"
-msgstr "জাভাস্ক্রিপ্ট ক্রোম নিষ্ক্রিয় করুন (_j)"
-
-# [spelling] নিষ্ক্রিয়
-#: ../Pessulus/maindialog.py:71
 msgid "Disable _toolbar editing"
-msgstr "টুলবার সম্পাদনা নিষ্ক্রিয় করুন (_t)"
+msgstr "টুলবার সম্পাদনা নিষ্ক্রিয় করো (_t)"
 
 # Fix Me - mak
 # [suggestion] full screen= সম্পূর্ণ পর্দা জুড়ে প্রদর্শন
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
-msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন, প্রয়োগ করুন (_f)"
+msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন, প্রয়োগ করো (_f)"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "মেনুবার লুকোও (_m)"
 
+# [spelling] স্ক্রিন / পর্দা
+# [spelling] নিষ্ক্রিয়
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "স্ক্রিন লক নিষ্ক্রিয় করো (_s)"
+
 # Fix Me - mak
 # [suggested rephrase] সক্রিয় করা হলে লক করা হবে
-#: ../Pessulus/maindialog.py:74
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
-msgstr "সক্রিয় করা হলে লক করা হবে (_L)"
+msgstr "সক্রিয় করা হলে লক করো (_L)"
 
-#: ../Pessulus/maindialog.py:75
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
-msgstr "লগ আউট অনুমোদন করুন (_o)"
+msgstr "লগ আউট অনুমোদন করো (_o)"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
-msgstr "ব্যবহারকারী পরিবর্তন অনুমোদন করুন (_s)"
+msgstr "ব্যবহারকারী পরিবর্তন অনুমোদন করো (_s)"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "সহায়তা নথি '%s'  প্রদর্শন করতে ব্যর্থ"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "GConf সার্ভার যোগাযোগ করা যাচ্ছে না"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"অ্যাপ্লিকেশন কে 'su -' ব্যবহার না করে 'su' ব্যবহার করলে এটি সাধারণত হয়।\n"
+"আপনি যদি 'su -' ব্যবহার করে থাকেন তাহলে বিস্তারিত তথ্যর জন্য অ্যাপ্লিকেশনটির "
+"আউটপুট দেখুন।"
