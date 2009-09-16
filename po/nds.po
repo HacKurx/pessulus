@@ -1,0 +1,157 @@
+# Low German translation for pessulus.
+# Copyright (C) 2009 pessulus's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
+# NILS-CHRISTOPH FIEDLER <LINUX@MEDIENKOMPANIE.DE>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-09-13 08:33+0000\n"
+"PO-Revision-Date: 2009-09-15 16:22+0100\n"
+"Last-Translator: Nils-Christoph Fiedler <linux@medienkompanie.de>\n"
+"Language-Team: Low German <nds-lowgerman@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Dat Grote un Ganze vu'm Avsluten instellen"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr "Avslutbewarker"
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "_Unseker Protokollens utschalten"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Lütje Programme utschalten"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Seker Protokollens"
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr "Dropklicken, um ut düsse Instellens keene Order to maken"
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr "Dropklicken, um ut düsse Instellens eene Order to maken"
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "Allgemeen"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "Balken"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Netkieker"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "GNOME Billschirmschoner"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "_Kommandoreeg utschalten"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "_Drucken utschalten"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "Druck_instellens utschalten"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "Op _Disk spiekern utschalten"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "All _Balkens avsluten"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr "Beennigungs_twang utschalten"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "Av_mellen utschalten"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "_Avbreken utschalten"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr "_Frie URL utschalten"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr "_Leseteken ännern nich tolaten"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "_Historie utschalten"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr "_javascript chrome utschalten"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr "Ännern vun _Waarktüügbalken nich tolaten"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "_Vullansichtentwang"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "_Menüleiste verbergen"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "Billschirm_avslut utschalten"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "_Avsluten bi Aktivierung"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "Av_mellen tolaten"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "Bruker_wessel tolaten"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Künn dat Hölpdokument '%s' nich opwiesen"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "Künn de GConf-Server nich kontakteeren"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Dat passiert jümmers, wenn düsses Programm statt mit 'su -' mit 'su' lööpt.\n"
+"Wenn dat hier anners is, kiek di mol an, wat bi'm Programm rutkümmt."
