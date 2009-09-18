@@ -1,21 +1,23 @@
-# translation of pessulus.master.po to Maithili
+# translation of mai.po to Hindi
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.master\n"
+"Project-Id-Version: mai\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
 "POT-Creation-Date: 2009-09-11 04:09+0000\n"
-"PO-Revision-Date: 2009-09-11 20:52+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
-"Language-Team: Maithili <maithili.sf.net>\n"
+"PO-Revision-Date: 2009-09-18 14:02+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Hindi <hindi.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
@@ -32,7 +34,7 @@ msgstr "असुरक्षित प्रोटोकाल निष्क�
 
 #: ../data/pessulus.ui.h:2
 msgid "Disabled Applets"
-msgstr ""
+msgstr "निष्क्रिय कएल एप्लेट"
 
 #: ../data/pessulus.ui.h:4
 msgid "Safe Protocols"
