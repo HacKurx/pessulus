@@ -1,0 +1,157 @@
+# translation of pessulus.master.po to Maithili
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-09-11 04:09+0000\n"
+"PO-Revision-Date: 2009-09-11 20:52+0530\n"
+"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "लाकडाउन नीति बिन्यस्त करू"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr "संपादक लाकडाउन करू"
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "असुरक्षित प्रोटोकाल निष्क्रिय करू (_u)"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr ""
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr ""
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr "एहि सेटिंग केँ अऩिवार्य नहि बनाबै क'लेल क्लिक करू"
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr "एहि सेटिंग केँ अऩिवार्य बनाबै क'लेल क्लिक करू"
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "सामान्य"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "पटल"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "एपीफेनी वेब ब्राउसर"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "गनोम स्क्रीनसेवर"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "कमांड लाइन निष्क्रिय करू (_c)"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "छपाइमे अक्षम (_p)"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "प्रिंट सेटअप निष्क्रिय करू (_s)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "डिस्कमे सहेजनाइ निष्क्रिय करू (_d)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "पैनल बन्न करू (_L)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr "जबरदस्ती निष्क्रियकरण छोड़ू (_q)"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "लागआउट निष्क्रिय करू (_o)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "छोड़नाइ निष्क्रिय करू (_q)"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr "क्रमहीन यूआरएल निष्क्रिय करू (_a)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr "पुस्तकचिह्न संपादन निष्क्रिय करू (_b)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "इतिहास निष्क्रिय करू (_h)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr "जावास्क्रिप्ट क्रोम निष्क्रिय करू (_j)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr "टूलबार निष्क्रिय करू (_t)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "सौँसें स्क्रीन मोड क'लेल दबाव दिअ"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "मेनू बार नुकाबू (_m)"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "लाक स्क्रीन निष्क्रिय करू (_s)"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "एकटा सक्रियकरण लाक करू (_L)"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "लाग आउटक अनुमति दिअ (_o)"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "प्रयोक्ता बदलावक अनुमति दिअ (_s)"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr ""
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr ""
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+
