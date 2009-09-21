@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-09-16 16:20+0000\n"
-"PO-Revision-Date: 2009-18-09 00:21+0100\n"
+"POT-Creation-Date: 2009-09-21 12:39+0000\n"
+"PO-Revision-Date: 2009-21-09 15:00+0100\n"
 "Last-Translator: Lucas Lommer <llommer@svn.gnome.org>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "Webový prohlížeč Epiphany"
 
 #: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
-msgstr "GNOME spořič obrazovky"
+msgstr "Šetřič obrazovky pro GNOME"
 
 #: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
