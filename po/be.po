@@ -7,9 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-04 23:00+0300\n"
 "PO-Revision-Date: 2009-08-27 23:46+0300\n"
 "Last-Translator: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
@@ -31,12 +30,10 @@ msgid "Disable _unsafe protocols"
 msgstr "Адключыць _небясьпечныя пратаколы"
 
 #: ../data/pessulus.ui.h:2
-#| msgid "<b>Disabled Applets</b>"
 msgid "Disabled Applets"
 msgstr "Адключаныя аплеты"
 
 #: ../data/pessulus.ui.h:4
-#| msgid "<b>Safe Protocols</b>"
 msgid "Safe Protocols"
 msgstr "Бясьпечныя пратаколы"
 
@@ -89,58 +86,58 @@ msgid "Disable force _quit"
 msgstr "Адключыць _прымусовае выйсьце"
 
 #: ../Pessulus/maindialog.py:60
-msgid "Disable lock _screen"
-msgstr "Адключыць _блякаваньне экрану"
-
-#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "Адключыць _сканчэньне сэансу"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "Адключыць _выйсьце"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "Адключыць _адвольныя спасылкі"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "Адключыць _рэдагаваньне закладак"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "Адключыць _гісторыю"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "Адключыць _Javascript"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "Адключыць _рэдагаваньне панэлі інструмэнтаў"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "Прымусіць _ужываньне поўнаэкраннага рэжыму"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "Схаваць _мэню"
 
 #: ../Pessulus/maindialog.py:71
-msgid "_Lock on activation"
-msgstr "За_мнкуць у час актывацыі"
+msgid "Disable lock _screen"
+msgstr "Адключыць _блякаваньне экрану"
 
 #: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "За_блякаваць пры актывацыі"
+
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Дазволіць _сканчэньне сэансу"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Дазволіць _пераключэньне карыстальнікаў"
 
-#: ../Pessulus/maindialog.py:232
+#: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
 msgstr "Немагчыма адлюстраваць дакумэнт даведкі \"%s\""
