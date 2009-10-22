@@ -5,11 +5,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-03-15 07:05-0500\n"
-"PO-Revision-Date: 2009-03-15 07:58-0500\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-21 23:03-0500\n"
+"PO-Revision-Date: 2009-10-21 23:05-0500\n"
 "Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
-"Language-Team: Qırımtatarca (Qırım Türkçesi) <tilde-birlik-tercime@lists.sourceforge.net>\n"
+"Language-Team: Qırımtatarca (Qırım Türkçesi) <tilde-birlik-tercime@lists."
+"sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,110 +22,110 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Kilitleme siyasetini ayarla"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:59
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "Kilitleme Muarriri"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>Ğayrı Qabilleştirilgen Uyğulamaçıqlar</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>Emin Protokollar</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "_Emniyetsiz protokollarnı ğayrı qabilleştir"
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Ğayrı Qabilleştirilgen Uyğulamaçıqlar"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Emin Protokollar"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "Bu tesbitni ğayrı mecburiy yapmaq içün çertiñiz"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "Bu tesbitni mecburiy yapmaq içün çertiñiz"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "Umumiy"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "Panel"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "Epiphany Ağ Kezicisi"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "GNOME Ekran-Saqlayıcını"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "_Emir satrını ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "_Bastıruvnı ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "Bastıruv _tesbitini ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "_Diskke saqlavnı ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "Panellerni _kilitle"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "Çıqışnı _cebir etüv ğayrı qabilleştirilsin"
 
-#: ../Pessulus/maindialog.py:61
-msgid "Disable lock _screen"
-msgstr "Ekrannı _kilitlevni ğayrı qabilleştir"
-
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable log _out"
 msgstr "Tışarı _imzalanuvnı ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "_Terk etüv ğayrı qabilleştirilsin"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "Keyfiy _URL ğayrı qabilleştirilsin"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "_Saife-imi taririni ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "Keçmiş_ni ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "_Javascript chrome'nı ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "_Alet çubuğı taririni ğayrı qabilleştir"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "Tam ek_ran kelişini cebir et"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "_Menü çubuğını gizle"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "Ekrannı _kilitlevni ğayrı qabilleştir"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -138,17 +139,23 @@ msgstr "Tışarı imza_lanuvğa izin ber"
 msgid "Allow user _switching"
 msgstr "Qullanıcı _almaştıruvına izin ber"
 
-#: ../Pessulus/main.py:54
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Yardım vesiqası '%s' kösterilamadı"
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "GConf sunucısına temas qurulamay"
 
-#: ../Pessulus/main.py:55
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
 "If this is not the case, you can look at the output of the application to "
 "get more details."
 msgstr ""
-"Bu, ekseriyetle, bu uyğulamanı 'su -' yerine 'su' ile çaptırğanda rastkelir.\n"
-"Eger böyle bir durum söz mevzusı degil ise, daa çoq tafsilât içün uyğulamanıñ çıqtısına baqa bilirsiñiz."
-
+"Bu, ekseriyetle, bu uyğulamanı 'su -' yerine 'su' ile çaptırğanda "
+"rastkelir.\n"
+"Eger böyle bir durum söz mevzusı degil ise, daa çoq tafsilât içün "
+"uyğulamanıñ çıqtısına baqa bilirsiñiz."
