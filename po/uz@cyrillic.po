@@ -1,0 +1,157 @@
+# Uzbek translation for pessulus
+# Copyright 2006-2009, Free Software Foundation Inc.
+#
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus trunk\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-10-04 20:07+0000\n"
+"PO-Revision-Date: 2009-12-22 07:57+0500\n"
+"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr ""
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr ""
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "_Ҳисояланмаган протоколларга рухсат берилмасин"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Таъқиқланган аплетлар"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Ҳимояланган протоколлар"
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr ""
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "Умумий"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "Панел"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "Epiphany веб браузери"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "GNOME экран сақловчиси"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "_Буйруқлар сатрини таъқиқлаш"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "_Чоп этишни таъқиқлаш"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "Чоп этишни _созлашни таъқиқлаш"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "_Дискка сақлашни таъқиқлаш"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "Панелларни _қулфлаш"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr ""
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr ""
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+
