@@ -2,14 +2,15 @@
 #
 # This file is distributed under the same license as the pessulus package.
 #
-# Wouter Bolsterlee <wbolster@gnome.org>, 2005, 2009.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2005, 2010.
 # Tino Meinen <a.t.meinen@chelo.nl>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-12 23:41+0100\n"
-"PO-Revision-Date: 2009-02-12 23:41+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2010-01-04 21:17+0000\n"
+"PO-Revision-Date: 2010-01-17 14:41+0100\n"
 "Last-Translator: Wouter Bolsterlee <wbolster@gnome.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,111 +21,111 @@ msgstr ""
 msgid "Configure the lockdown policy"
 msgstr "Het lockdown-beleid configureren"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
-#: ../Pessulus/main.py:56
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "Lockdown-editor"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>Uitgeschakelde paneelobjecten</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>Veilige protocollen</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
 msgstr "_Onveilige protocollen uitschakelen "
 
-#: ../Pessulus/lockdownbutton.py:97
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Uitgeschakelde paneelobjecten"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Veilige protocollen"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
 msgstr "Klik om deze instelling niet verplicht te maken"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
 msgstr "Klik om deze instelling verplicht te maken"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "Algemeen"
 
-#: ../Pessulus/maindialog.py:42
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "Paneel"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
 msgstr "Epiphany webbrowser"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
 msgstr "GNOME schermbeveiliging"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
 msgstr "_Opdrachtregel uitschakelen"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "_Afdrukken uitschakelen"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
 msgstr "Af_drukinstellingen uitschakelen"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "Opslaan op _schijf uitschakelen"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
 msgstr "De _panelen vastzetten"
 
-#: ../Pessulus/maindialog.py:60
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
 msgstr "_Afsluiten forceren uitschakelen"
 
-#: ../Pessulus/maindialog.py:61
-msgid "Disable lock _screen"
-msgstr "_Schermvergrendeling uitschakelen"
-
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:60
 msgid "Disable log _out"
 msgstr "Af_melden uitschakelen"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "Af_sluiten uitschakelen"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "_Willekeurige URL uitschakelen"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "Bewerken van _bladwijzers uitschakelen"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "_Geschiedenis uitschakelen"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "_Javascript chrome uitschakelen"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "Bewerken van wer_kbalken uitschakelen"
 
 # volledig scherm behouden/vastzetten/forceren/opleggen
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "_Volledig scherm vastzetten"
 
-#: ../Pessulus/maindialog.py:71
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "_Menubalk verbergen"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "_Schermvergrendeling uitschakelen"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -138,11 +139,16 @@ msgstr "Af_melden toestaan"
 msgid "Allow user _switching"
 msgstr "_Wisselen van gebruiker toestaan"
 
-#: ../Pessulus/main.py:52
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Kon hulpdocument ‘%s’ niet weergeven"
+
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "Kon de GConf-server niet benaderen"
 
-#: ../Pessulus/main.py:53
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
