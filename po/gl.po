@@ -1,25 +1,27 @@
-# translation of pessulus.master.po to Galician
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Copyright (C) 2009, 2010 Leandro Regueiro.
 #
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
 # Fran Diéguez <fran.dieguez@mabishu.com>, 2009.
 # Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
 # Antón Méixome <meixome@mancomun.org>, 2009.
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2009, 2010.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en <http://trasno.net>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-17 14:25+0200\n"
-"PO-Revision-Date: 2009-08-17 13:12+0200\n"
-"Last-Translator: Antón Méixome <meixome@mancomun.org>\n"
-"Language-Team: Galician <gnome@mancomun.org>\n"
+"POT-Creation-Date: 2010-02-11 15:11+0100\n"
+"PO-Revision-Date: 2010-01-03 13:02+0100\n"
+"Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gl\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
@@ -32,7 +34,7 @@ msgstr "Editor de bloqueos"
 
 #: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
-msgstr "Desactivar protocolos _non seguros"
+msgstr "Desactivar os protocolos _non seguros"
 
 #: ../data/pessulus.ui.h:2
 msgid "Disabled Applets"
@@ -44,11 +46,11 @@ msgstr "Protocolos seguros"
 
 #: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
-msgstr "Premer para facer esta configuración non obrigatoria"
+msgstr "Premer para converter en non obrigatoria esta opción"
 
 #: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
-msgstr "Premer para facer esta configuración obrigatoria"
+msgstr "Premer para converter en obrigatoria esta opción"
 
 #: ../Pessulus/maindialog.py:40
 msgid "General"
@@ -64,7 +66,7 @@ msgstr "Navegador web Epiphany"
 
 #: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
-msgstr "Protector de pantalla do Gnome"
+msgstr "Protector de pantalla de Gnome"
 
 #: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
@@ -76,7 +78,7 @@ msgstr "Desactivar a _impresión"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
-msgstr "Desactivar a _configuración de impresora"
+msgstr "Desactivar a _configuración de impresión"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
@@ -145,11 +147,11 @@ msgstr "Permitir cam_biar de usuario"
 #: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
-msgstr "Non se pode mostrar o documento de axuda '%s'"
+msgstr "Non se puido mostrar o documento de axuda '%s'"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
-msgstr "Non é posíbel contactar co servidor Gconf"
+msgstr "Non foi posíbel contactar co servidor Gconf"
 
 #: ../Pessulus/main.py:50
 msgid ""
@@ -159,6 +161,6 @@ msgid ""
 "get more details."
 msgstr ""
 "Isto normalmente ocorre cando se executa este aplicativo con 'su' en vez de "
-"'su -'.\n"
-"Se non é este o caso, pode ver a saída do aplicativo para obter máis "
+"con 'su -'.\n"
+"Se non é este o caso, pode consultar a saída do aplicativo para obter máis "
 "información."
