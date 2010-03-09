@@ -44,3 +44,26 @@ Pessulus/Makefile
 AC_OUTPUT([
 data/pessulus.desktop.in
 ])
+
+dnl ---------------------------------------------------------------------------
+dnl - Show summary
+dnl ---------------------------------------------------------------------------
+
+echo "
+              pessulus $VERSION
+              `echo pessulus $VERSION | sed "s/./=/g"`
+
+        prefix:                             ${prefix}
+        exec_prefix:                        ${exec_prefix}
+        libdir:                             ${libdir}
+        bindir:                             ${bindir}
+        sbindir:                            ${sbindir}
+        sysconfdir:                         ${sysconfdir}
+        localstatedir:                      ${localstatedir}
+        datadir:                            ${datadir}
+        source code location:               ${srcdir}
+        Maintainer mode:                    ${USE_MAINTAINER_MODE}
+
+        GConf source for mandatory values:  ${GCONF_MANDATORY_SOURCE}
+
+"
