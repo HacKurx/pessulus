@@ -8,133 +8,157 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-05-03 07:19+0200\n"
-"PO-Revision-Date: 2006-08-15 21:18+0200\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"PO-Revision-Date: 2010-03-26 23:13+0200\n"
 "Last-Translator: Badral <badral@openmn.org>\n"
 "Language-Team: Mongolian <openmn-translation@lists.sourceforge.net>\n"
+"Language: mn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "Үндсэн дүрмийн түгжээний буулгалтыг тохируулах"
+msgstr "Хэрэглэгчийн интерфейсийг тохируулах"
 
-#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
-msgstr "Засварлагчийн түгжээг буулгах"
+msgstr "Хэрэглэгчийн интерфейс"
 
-#: ../data/pessulus.glade.h:1
-msgid "<b>Disabled Applets</b>"
-msgstr "<b>Хаагдсан апплетүүд</b>"
-
-#: ../data/pessulus.glade.h:2
-msgid "<b>Safe Protocols</b>"
-msgstr "<b>найдвартай протоколууд</b>"
-
-#: ../data/pessulus.glade.h:3
+#: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
-msgstr "Н_айдваргүй протоколуудыг хаах"
+msgstr "_Найдваргүй протоколуудыг хаах"
 
-#: ../Pessulus/lockdownbutton.py:99
+#: ../data/pessulus.ui.h:2
+#| msgid "<b>Disabled Applets</b>"
+msgid "Disabled Applets"
+msgstr "Хаагдсан апплетүүд"
+
+#: ../data/pessulus.ui.h:4
+#| msgid "<b>Safe Protocols</b>"
+msgid "Safe Protocols"
+msgstr "Найдвартай протоколууд"
+
+#: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
-msgstr "Тохиргоог идэвхигүйжүүлэхийн тулд дар"
+msgstr "Тохиргоог албадмал болгохгүйн тулд товшино уу"
 
-#: ../Pessulus/lockdownbutton.py:101
+#: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
-msgstr "Тохиргоог идэвхижүүлэхийн тулд дар"
+msgstr "Тохиргоог албадмал болгохын тулд товшино уу"
 
-#: ../Pessulus/maindialog.py:43
+#: ../Pessulus/maindialog.py:40
 msgid "General"
 msgstr "Ерөнхий"
 
-#: ../Pessulus/maindialog.py:44
+#: ../Pessulus/maindialog.py:41
 msgid "Panel"
 msgstr "Удирдах самбар"
 
-#: ../Pessulus/maindialog.py:45
+#: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
-msgstr "Epiphany Вэб хөтөч"
+msgstr "Epiphany вэб хөтөч"
 
-#: ../Pessulus/maindialog.py:46
+#: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
-msgstr "GNOME дэлгэц гамнагч"
+msgstr "GNOME дэлгэц амраагч"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
-msgstr "_Командын мөрийг хаах"
+msgstr "_Тушаалын мөрийг хаах"
 
-#: ../Pessulus/maindialog.py:57
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
 msgstr "_Хэвлэхийг хаах"
 
-#: ../Pessulus/maindialog.py:58
+#: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
-msgstr "_Хэвлэх үйл ажиллагааг хаах"
+msgstr "_Хэвлэгч суулгахыг хаах"
 
-#: ../Pessulus/maindialog.py:59
+#: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
 msgstr "_Дискэнд хадгалахыг хаах"
 
-#: ../Pessulus/maindialog.py:61
+#: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
-msgstr "_Удирдах самбарын түгжээг буулгах"
+msgstr "_Удирдах самбарыг түгжих"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
-msgstr "_Хаах боломжгүй байна"
+msgstr "Хүчээр _төгсгөхийг хаах"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:60
 msgid "Disable lock _screen"
-msgstr "_Дэлгэцийг түгжих боломжгүй байна"
+msgstr "_Дэлгэц түгжихийг хаах"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "_Гарахыг хаах"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _quit"
-msgstr "_Хаахыг идэвхигүйжүүлэх"
+msgstr "_Төгсгөхийг хаах"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _arbitrary URL"
-msgstr "_Дурын URL хаягийг хаах"
+msgstr "_Дурын URL сонгох боломжыг хаах"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _bookmark editing"
-msgstr "_Хавчуургад засвар хийхийг хаах"
+msgstr "_Хавчуурга засварлахыг хаах"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _history"
 msgstr "_Түүх бичихийг хаах"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _javascript chrome"
-msgstr "_javascript chrome хаах"
+msgstr "_javascript chrome-г хаах"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _toolbar editing"
+msgstr "_Багаж самбар засварлахыг хаах"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Force _fullscreen mode"
+msgstr "_Дүүрэн дэлгэцийн горим тулгах"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Hide _menubar"
+msgstr "_Цэснүүдийг далдлах"
 
 #: ../Pessulus/maindialog.py:71
-msgid "Disable _toolbar editing"
-msgstr "_Түүлбар засварлахыг хаах"
+msgid "_Lock on activation"
+msgstr "_Идэвхжүүлэлт дээр түгжих"
 
 #: ../Pessulus/maindialog.py:72
-msgid "Force _fullscreen mode"
-msgstr "_Дэлгэц дүүрэн горимд оруулах"
-
-#: ../Pessulus/maindialog.py:73
-msgid "Hide _menubar"
-msgstr "_Цэсийг далдлах"
-
-#: ../Pessulus/maindialog.py:74
-msgid "_Lock on activation"
-msgstr "_Идэвхижилтийг түгжих"
-
-#: ../Pessulus/maindialog.py:75
 msgid "Allow log _out"
 msgstr "_Гарахыг зөвшөөрөх"
 
-#: ../Pessulus/maindialog.py:76
+#: ../Pessulus/maindialog.py:73
 msgid "Allow user _switching"
 msgstr "Хэрэглэгч _сэлгэхийг зөвшөөрөх"
 
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "'%s' тусламж баримтын үзүүлэх боломжгүй"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "GConf сервер рүү холбогдож чадсангүй"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Энэ энэхүү програмыг 'su -'-н оронд 'su' гэж ажиллуулахад тохиолддог.\n"
+"Хэрэв ийм тохиолдол биш бол та програмын нарийвчилсан хариуг харна уу."
