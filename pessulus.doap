@@ -36,6 +36,8 @@
       <foaf:mbox rdf:resource="mailto:vuntz@gnome.org" />
       <gnome:userid>vuntz</gnome:userid>
     </foaf:Person>
+  </maintainer>
+  <maintainer>
     <foaf:Person>
       <foaf:name>Rob Bradford</foaf:name>
       <foaf:mbox rdf:resource="mailto:rob@robster.org.uk" />
