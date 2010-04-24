@@ -1,0 +1,158 @@
+# Uighur translation for pessulus.
+# Copyright (C) 2010 pessulus's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
+# Gheyret Kenji <gheyret@yahoo.com>, 2010.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2010-04-18 10:22+0000\n"
+"PO-Revision-Date: 2010-04-18 10:22+0000\n"
+"Last-Translator: Gheyret Kenji <gheyret@yahoo.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "lockdown تۈزۈمىنى سەپلەش"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr "Lockdown تەھرىرلىگۈچ"
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "بىخەتەر بولمىغان كېلىشىملەرنى چەكلەش(_U)"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "چەكلەنگەن Applet لار"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "بىخەتەر كېلىشىملەر"
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr ""
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "ئومۇمىي"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "Epiphany توركۆرگۈ"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "GNOME Screensaver"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "بۇيرۇق قۇرىنى چەكلە(_C)"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "بېسىشنى چەكلە"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "بېسىش تەڭشەكلىرىنى چەكلە(_S)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "دىسكىغا ساقلاشنى چەكلە(_D)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "panel لارنى lock down قىلىش(_L)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr "مەجبۇرىي چېكىنىشنى چەكلە(_Q)"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "چىقىپ كېتىشنى چەكلە(_O)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "چېكىنىشنى چەكلە(_Q)"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr "URL  كىرگۈزۈشنى چەكلە(_A)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr "خەتكۇچ تەھرىرلەشنى چەكلە(_B)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "ئىز قالدۇرۇشنى چەكلە(_H)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr "javascript chrome چەكلە(_J)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr "قورال تاياقچىسىنى تەھرىرلەشنى چەكلە(_T)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "تولۇق ئېكران ھالىتىگە مەجبۇرىي توغرىلا(_F)"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "menubar نى يوشۇر"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "ئېكراننى قۇلۇپلاشنى چەكلە(_S)"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr ""
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "چىقىپ كېتىشكە رۇخسەت قىل(_O)"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "ئىشلەتكۈچىنى ئۆزگەرتىشكە رۇخسەت قىل(_S)"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "'%s' دېگەن ياردەم پۈتۈكىنى كۆرسەتكىلى بولمىدى"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "GConf مۇلازىمېتىرى بىلەن ئالاقىلەشكىلى بولمىدى"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"مەزكۇر پروگراممىنى 'su - ' نىڭ بىلەن ئەمەس 'su' بىلەن ئىجرا قىلغاندا، "
+"مۇشۇنداق ئىش يۈز بېرىدۇ.\n"
+"ئەگەر بۇنداق بولمىسا، پروگرامما چىقارغان ئۇچۇرلارنى كۆرۈپ ھۆكۈم قىلىڭ."
