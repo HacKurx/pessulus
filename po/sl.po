@@ -1,133 +1,134 @@
-# This file is distributed under the same license as the package.
+# Slovenian translation for pessulus.
+# Copyright (C) 2010 notification-daemon's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
 #
-# Matej Urbančič <mateju@svn.gnome.org>, 2005 - 2009.
+# Matej Urbančič <mateju@svn.gnome.org>, 2005 - 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus\n"
+"Project-Id-Version: pessulus master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-09-08 23:56+0000\n"
-"PO-Revision-Date: 2009-09-10 17:07+0100\n"
+"POT-Creation-Date: 2009-08-02 22:11+0000\n"
+"PO-Revision-Date: 2010-04-24 08:26+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
-"Language-Team: Slovenian\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Krusader\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
 msgstr "Nastavitev pravil zaklepanja"
 
 #: ../data/pessulus.desktop.in.in.h:2
-#: ../data/pessulus.ui.h:3
-#: ../Pessulus/main.py:54
+#: ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
 msgid "Lockdown Editor"
 msgstr "Urejevalnik zaklepanja"
 
-#: ../data/pessulus.ui.h:1
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Onemogočeni vstavki</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Varni protokoli</b>"
+
+#: ../data/pessulus.glade.h:3
 msgid "Disable _unsafe protocols"
-msgstr "Onemogoči nevarne protokole"
+msgstr "Onemogoči _tvegane protokole"
 
-#: ../data/pessulus.ui.h:2
-msgid "Disabled Applets"
-msgstr "Onemogočeni vstavki"
-
-#: ../data/pessulus.ui.h:4
-msgid "Safe Protocols"
-msgstr "Varni Protokoli"
-
-#: ../Pessulus/lockdownbutton.py:100
+#: ../Pessulus/lockdownbutton.py:97
 msgid "Click to make this setting not mandatory"
-msgstr "S klikom se določi neobvezna obravnava nastavitve"
+msgstr "S klikom se nastavitev določi kot neobvezna"
 
-#: ../Pessulus/lockdownbutton.py:102
+#: ../Pessulus/lockdownbutton.py:99
 msgid "Click to make this setting mandatory"
-msgstr "S klikom se določi obvezna obravnava nastavitve"
+msgstr "S klikom se nastavitev določi kot obvezna"
 
-#: ../Pessulus/maindialog.py:40
+#: ../Pessulus/maindialog.py:41
 msgid "General"
 msgstr "Splošno"
 
-#: ../Pessulus/maindialog.py:41
+#: ../Pessulus/maindialog.py:42
 msgid "Panel"
 msgstr "Pult"
 
-#: ../Pessulus/maindialog.py:42
-msgid "Epiphany Web Browser"
-msgstr "Brskalnik Epiphany"
-
 #: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Spletni brskalnik Epiphany"
+
+#: ../Pessulus/maindialog.py:44
 msgid "GNOME Screensaver"
 msgstr "GNOME ohranjevalnik zaslona"
 
-#: ../Pessulus/maindialog.py:53
+#: ../Pessulus/maindialog.py:54
 msgid "Disable _command line"
 msgstr "Onemogoči _ukazno vrstico"
 
-#: ../Pessulus/maindialog.py:54
+#: ../Pessulus/maindialog.py:55
 msgid "Disable _printing"
 msgstr "Onemogoči _tiskanje"
 
-#: ../Pessulus/maindialog.py:55
+#: ../Pessulus/maindialog.py:56
 msgid "Disable print _setup"
 msgstr "Onemogoči _nastavitev tiskanja"
 
-#: ../Pessulus/maindialog.py:56
+#: ../Pessulus/maindialog.py:57
 msgid "Disable save to _disk"
 msgstr "Onemogoči shranjevanje na _disk"
 
-#: ../Pessulus/maindialog.py:58
-msgid "_Lock down the panels"
-msgstr "Zakleni _pulte"
-
 #: ../Pessulus/maindialog.py:59
-msgid "Disable force _quit"
-msgstr "Onemogoči _vsiljen izhod"
+msgid "_Lock down the panels"
+msgstr "_Zakleni pulte"
 
 #: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "Onemogoči _vsiljeno končanje"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "Onemogoči zaklepanje _zaslona"
+
+#: ../Pessulus/maindialog.py:62
 msgid "Disable log _out"
 msgstr "Onemogoči _odjavo"
 
-#: ../Pessulus/maindialog.py:62
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _quit"
-msgstr "Onemogoči _izhod"
+msgstr "Onemogoči _končanje"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _arbitrary URL"
 msgstr "Onemogoči _poljuben URL"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _bookmark editing"
 msgstr "Onemogoči _urejanje zaznamkov"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _history"
 msgstr "Onemogoči _zgodovino"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:68
 msgid "Disable _javascript chrome"
-msgstr "Onemogoči _javaskript barve"
+msgstr "Onemogoči _javascript barve"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:69
 msgid "Disable _toolbar editing"
 msgstr "Onemogoči urejanje _orodne vrstice"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:70
 msgid "Force _fullscreen mode"
 msgstr "Vsili _celozaslonski način"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:71
 msgid "Hide _menubar"
 msgstr "Skrij _menijsko vrstico"
-
-#: ../Pessulus/maindialog.py:71
-msgid "Disable lock _screen"
-msgstr "Onemogoči zaklepanje _zaslona"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -141,20 +142,19 @@ msgstr "Dovoli _odjavo"
 msgid "Allow user _switching"
 msgstr "Dovoli _preklop uporabnikov"
 
-#: ../Pessulus/maindialog.py:233
+#: ../Pessulus/maindialog.py:232
 #, python-format
 msgid "Could not display help document '%s'"
-msgstr "Ni mogoče prikazati pomoči '%s'"
+msgstr "Ni mogoče prikazati dokumenta pomoči '%s'"
 
-#: ../Pessulus/main.py:49
+#: ../Pessulus/main.py:51
 msgid "Cannot contact the GConf server"
 msgstr "Ni mogoče stopiti v stik s strežnikom GConf"
 
-#: ../Pessulus/main.py:50
+#: ../Pessulus/main.py:52
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su -'.\n"
 "If this is not the case, you can look at the output of the application to get more details."
 msgstr ""
 "To se običajno zgodi, kadar je program zagnan s 'su' namesto s 'su -' ukazom.\n"
-"V primeru, da to ni vzrok težavi, si oglejte odvod beleženja programa za več podrobnosti."
-
+"V primeru, da to ni vzrok težave, si za več podrobnosti, oglejte dnevniški izpis programa."
