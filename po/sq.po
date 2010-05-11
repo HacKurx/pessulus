@@ -1,14 +1,14 @@
 # Përkthimi i mesazheve të pessulus në shqip
-# Copyright (C) 2006 - 2009, Free Software Foundation, Inc.
+# Copyright (C) 2006 - 2009, 2010, Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
 #
-# Laurent Dhima <laurenti@alblinux.net>, 2006 - 2009.
+# Laurent Dhima <laurenti@alblinux.net>, 2006 - 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus.master\n"
+"Project-Id-Version: pessulus HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-11-19 11:55+0100\n"
-"PO-Revision-Date: 2009-11-19 12:00+0100\n"
+"POT-Creation-Date: 2010-05-11 18:16+0200\n"
+"PO-Revision-Date: 2010-05-11 18:21+0200\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Çaktivizo protokollët e pasig_urtë"
 
 #: ../data/pessulus.ui.h:2
 msgid "Disabled Applets"
-msgstr "Ndihmues të çaktivizuar"
+msgstr "Komponentë të çaktivizuar"
 
 #: ../data/pessulus.ui.h:4
 msgid "Safe Protocols"
@@ -144,7 +144,7 @@ msgstr "E pamundur shfaqja e dokumentit ndihmues '%s'"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
-msgstr "E pamundur vënia në kontakt me server-in GConf"
+msgstr "E pamundur lidhja me server-in GConf"
 
 #: ../Pessulus/main.py:50
 msgid ""
@@ -155,5 +155,5 @@ msgid ""
 msgstr ""
 "Zakonisht ndeshet kur ekzekutohet ky aplikativ me 'su' në vend të 'su -'.\n"
 "Nëse nuk është ky rasti juaj, mund të lexohen mesazhet e output të "
-"aplikativit për detaje më të hollësishëm."
+"aplikativit për më tepër detaje."
 
