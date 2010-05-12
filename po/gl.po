@@ -2,26 +2,26 @@
 # Copyright (C) 2009, 2010 Leandro Regueiro.
 #
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
-# Fran Diéguez <fran.dieguez@mabishu.com>, 2009.
 # Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
 # Antón Méixome <meixome@mancomun.org>, 2009.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2009, 2010.
 #
 # Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
 # colaborar connosco, podes atopar máis información en <http://trasno.net>
+# Fran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-11 15:11+0100\n"
-"PO-Revision-Date: 2010-01-03 13:02+0100\n"
-"Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
-"Language-Team: Galician <proxecto@trasno.net>\n"
+"POT-Creation-Date: 2010-05-12 11:37+0200\n"
+"PO-Revision-Date: 2010-05-12 11:37+0200\n"
+"Last-Translator: Fran Diéguez <frandieguez@ubuntu.com>\n"
+"Language-Team: Galician <gnome@g11n.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
@@ -30,11 +30,11 @@ msgstr "Configurar a política de bloqueos"
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
 #: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
-msgstr "Editor de bloqueos"
+msgstr "Editor de restricións"
 
 #: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
-msgstr "Desactivar os protocolos _non seguros"
+msgstr "Desactivar os protocolos _inseguros"
 
 #: ../data/pessulus.ui.h:2
 msgid "Disabled Applets"
@@ -46,11 +46,11 @@ msgstr "Protocolos seguros"
 
 #: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
-msgstr "Premer para converter en non obrigatoria esta opción"
+msgstr "Prema para facer esta configuración non obrigatoria"
 
 #: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
-msgstr "Premer para converter en obrigatoria esta opción"
+msgstr "Prema para facer esta configuración obrigatoria"
 
 #: ../Pessulus/maindialog.py:40
 msgid "General"
@@ -66,15 +66,15 @@ msgstr "Navegador web Epiphany"
 
 #: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
-msgstr "Protector de pantalla de Gnome"
+msgstr "Protector de pantalla de GNOME"
 
 #: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
-msgstr "Desactivar a liña de _comandos"
+msgstr "Desactivar a liña de _ordes"
 
 #: ../Pessulus/maindialog.py:54
 msgid "Disable _printing"
-msgstr "Desactivar a _impresión"
+msgstr "Desactivar _impresión"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
@@ -82,7 +82,7 @@ msgstr "Desactivar a _configuración de impresión"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
-msgstr "Desactivar gardar no _disco"
+msgstr "Desactivar gardar a _disco"
 
 #: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
@@ -118,11 +118,11 @@ msgstr "Desactivar chrome _javascript"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
-msgstr "Desactivar a edición de _barra de ferramentas"
+msgstr "Desactivar a edición da _barra de ferramentas"
 
 #: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
-msgstr "Forzar o modo pantalla _completa"
+msgstr "Forzar o modo a pantalla _completa"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
@@ -138,7 +138,7 @@ msgstr "_Bloquear ao activar"
 
 #: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
-msgstr "Permitir a _saída de sesión"
+msgstr "Permitir _saír da sesión"
 
 #: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
@@ -147,7 +147,7 @@ msgstr "Permitir cam_biar de usuario"
 #: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
-msgstr "Non se puido mostrar o documento de axuda '%s'"
+msgstr "Non foi posíbel mostrar o documento de axuda «%s»"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
@@ -160,7 +160,7 @@ msgid ""
 "If this is not the case, you can look at the output of the application to "
 "get more details."
 msgstr ""
-"Isto normalmente ocorre cando se executa este aplicativo con 'su' en vez de "
-"con 'su -'.\n"
+"Isto xeralmente ocorre cando se executa este aplicativo con «su» no lugar de "
+"con «su -».\n"
 "Se non é este o caso, pode consultar a saída do aplicativo para obter máis "
 "información."
