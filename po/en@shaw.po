@@ -4,13 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2009-11-06 19:17+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2010-05-12 09:38+0000\n"
+"PO-Revision-Date: 2010-05-12 18:37 -0400\n"
 "Last-Translator: Thomas Thurman <tthurman@gnome.org>\n"
-"Language-Team: Shavian <ubuntu-l10n-en-shaw@lists.launchpad.net>\n"
+"Language-Team: Shavian <ubuntu-l10n-en-shaw@launchpad.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
@@ -109,6 +111,16 @@ msgstr "𐑛𐑦𐑕𐑱𐑚𐑩𐑤 _·𐑡𐑭𐑝𐑩𐑕𐑒𐑮𐑦𐑐𐑑
 msgid "Disable _toolbar editing"
 msgstr "𐑛𐑦𐑕𐑱𐑚𐑩𐑤 _𐑑𐑵𐑤𐑚𐑸 𐑧𐑛𐑦𐑑𐑦𐑙"
 
+#, fuzzy
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "𐑓𐑹𐑕 _fullscreen 𐑥𐑴𐑛"
+
+#, fuzzy
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "𐑣𐑲𐑛 _menubar"
+
 #: ../Pessulus/maindialog.py:71
 msgid "Disable lock _screen"
 msgstr "𐑛𐑦𐑕𐑱𐑚𐑩𐑤 𐑤𐑪𐑒 _𐑕𐑒𐑮𐑰𐑯"
@@ -125,17 +137,22 @@ msgstr "𐑩𐑤𐑬 𐑤𐑪𐑜 _𐑬𐑑"
 msgid "Allow user _switching"
 msgstr "𐑩𐑤𐑬 𐑿𐑟𐑼 _𐑕𐑢𐑦𐑗𐑦𐑙"
 
-#: ../Pessulus/maindialog.py:233
 #, python-format
+#: ../Pessulus/maindialog.py:233
 msgid "Could not display help document '%s'"
 msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑛𐑩𐑕𐑐𐑤𐑱 𐑣𐑧𐑤𐑐 𐑛𐑪𐑒𐑿𐑥𐑩𐑯𐑑 '%s'"
 
+#, fuzzy
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "𐑒𐑨𐑯𐑪𐑑 𐑒𐑪𐑯𐑑𐑨𐑒𐑑 𐑞 GConf 𐑕𐑻𐑝𐑼"
+
 #: ../Pessulus/main.py:50
 msgid ""
-"This usually happens when running this application with 'su' instead of 'su -"
-"'.\n"
-"If this is not the case, you can look at the output of the application to "
-"get more details."
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\nIf this is not the case, you can look at the output of the application "
+"to get more details."
 msgstr ""
-"𐑞𐑦𐑕 𐑿𐑠𐑿𐑩𐑤𐑦 𐑣𐑨𐑐𐑩𐑯𐑟 𐑢𐑧𐑯 𐑮𐑳𐑯𐑦𐑙 𐑞𐑦𐑕 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑢𐑦𐑞 'su' 𐑦𐑯𐑕𐑑𐑧𐑛 𐑝 'su -'.\n"
-"𐑦𐑓 𐑞𐑦𐑕 𐑦𐑟 𐑯𐑪𐑑 𐑞 𐑒𐑱𐑕, 𐑿 𐑒𐑨𐑯 𐑤𐑫𐑒 𐑨𐑑 𐑞 𐑬𐑑𐑐𐑫𐑑 𐑝 𐑞 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑑 𐑜𐑧𐑑 𐑥𐑹 𐑛𐑰𐑑𐑱𐑤𐑟."
+"𐑞𐑦𐑕 𐑿𐑠𐑿𐑩𐑤𐑦 𐑣𐑨𐑐𐑩𐑯𐑟 𐑢𐑧𐑯 𐑮𐑳𐑯𐑦𐑙 𐑞𐑦𐑕 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑢𐑦𐑞 'su' 𐑦𐑯𐑕𐑑𐑧𐑛 𐑝 'su -'.\n𐑦𐑓 𐑞𐑦𐑕 "
+"𐑦𐑟 𐑯𐑪𐑑 𐑞 𐑒𐑱𐑕, 𐑿 𐑒𐑨𐑯 𐑤𐑫𐑒 𐑨𐑑 𐑞 𐑬𐑑𐑐𐑫𐑑 𐑝 𐑞 𐑩𐑐𐑤𐑦𐑒𐑱𐑕𐑩𐑯 𐑑 𐑜𐑧𐑑 𐑥𐑹 𐑛𐑰𐑑𐑱𐑤𐑟."
+
