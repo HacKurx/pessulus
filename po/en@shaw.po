@@ -111,15 +111,13 @@ msgstr "𐑛𐑦𐑕𐑱𐑚𐑩𐑤 _·𐑡𐑭𐑝𐑩𐑕𐑒𐑮𐑦𐑐𐑑
 msgid "Disable _toolbar editing"
 msgstr "𐑛𐑦𐑕𐑱𐑚𐑩𐑤 _𐑑𐑵𐑤𐑚𐑸 𐑧𐑛𐑦𐑑𐑦𐑙"
 
-#, fuzzy
 #: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
-msgstr "𐑓𐑹𐑕 _fullscreen 𐑥𐑴𐑛"
+msgstr "𐑓𐑹𐑕 _𐑓𐑫𐑤𐑕𐑒𐑮𐑰𐑯 𐑥𐑴𐑛"
 
-#, fuzzy
 #: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
-msgstr "𐑣𐑲𐑛 _menubar"
+msgstr "𐑣𐑲𐑛 _𐑥𐑧𐑯𐑿𐑚𐑸"
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable lock _screen"
@@ -142,7 +140,6 @@ msgstr "𐑩𐑤𐑬 𐑿𐑟𐑼 _𐑕𐑢𐑦𐑗𐑦𐑙"
 msgid "Could not display help document '%s'"
 msgstr "𐑒𐑫𐑛 𐑯𐑪𐑑 𐑛𐑩𐑕𐑐𐑤𐑱 𐑣𐑧𐑤𐑐 𐑛𐑪𐑒𐑿𐑥𐑩𐑯𐑑 '%s'"
 
-#, fuzzy
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "𐑒𐑨𐑯𐑪𐑑 𐑒𐑪𐑯𐑑𐑨𐑒𐑑 𐑞 GConf 𐑕𐑻𐑝𐑼"
