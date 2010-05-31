@@ -1,0 +1,158 @@
+# Translation of pessulus  to Armenian
+# This file is distributed under the same license as the pessulus package.
+# Copyright (C) Zhanna Sargsyan , 2010.
+# Zhanna Sargsyan <zhanna.sargsyan@yahoo.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-31 11:34+0500\n"
+"PO-Revision-Date: 2010-05-14 12:23+0400\n"
+"Last-Translator: Zhanna Sargsyan <zhanna.sargsyan@yahoo.com>\n"
+"Language-Team:  <norik@freenet.am>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Կոնֆիգուրացնել արգելափակման կանոնները"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr "Արգելափակման Խմբագրիչ"
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "Անջատել _անհուսալի պրոտոկոլները"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Ապաակտիվացրած ապլետներ"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Հուսալի պրոտոկոլներ"
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr "Կտտացնել այս պարամետրը ոչ պարտադիր դարձնելու համար"
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr "Կտտացնել այս պարամետրը պարտադիր դարձնելու համար"
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "Ընդհանուր"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "Վահանակ"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "Epiphany Վեբ Զննիչ"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "GNOME էկրանի պահապան"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "Ապաակտիվացնել  _հրամանային տողը"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "Ապաակտիվացնել _տպագրությունը"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "Ապաակտիվացնել ﻿տպելու _կարգավորումը"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "Ապաակտիվացնել պահպանումը _սկավառակի վրա"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "_Արգելափակել վահանակները"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr "Ապաակտիվացնել ստիպողական _անջատումը"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "Ապաակտիվացնել _ելքը"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "Ապաակտիվացնել _անջատումը"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr "Ապաակտիվացնել _պատահական URL"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr "Ապաակտիվացնել զննիչի _էջանշանի խմբագրումը"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "Ապաակտիվացնել _պատմությունը"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr "Ապաակտիվացնել _javascript chrome"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr "Ապաակտիվացնել _գործիքների վահանակի խմբագրումը"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "Ստիպողական _լրիվ էկրանային ռեժիմ"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "Թաքցնել _մենյուների վահանակը"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "Ապաակտիվացնել _էկրանի արգելափակումը"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "_Արգելափակել ակտիվացվացման ժամանակ"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "Թուլատրել _ելքը"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "Թուլատրել օգտագործողի _փոխանջատումը"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Չի հաջողվել ցույց տալ օգնության փաստաթուղթը '%s'"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "Չի հաջողվել կապ հաստատել GConf սերվերի հետ"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Սա սովորաբար պատահում է, երբ գործարկվում է այս աշխատածրագիրը 'su'-ով  'su -'-"
+"ի փոխարեն։\n"
+"Եթե դա այդպես չէ,  աշխատածրագրի արտածած տվյալները կարող են հուշել սխալի "
+"մասին ավելի մանրամասնորեն։"
