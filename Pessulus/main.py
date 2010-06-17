@@ -20,6 +20,38 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA
 #
 
+import gtk
+
+def __try_import__(modulename):
+    """
+    Attempt to load given module.
+    Returns True on success, else False.
+    """
+    try:
+        __import__(modulename)
+        return True
+    except:
+        return False
+
+def initial_checks():
+    if not __try_import__("bugbuddy"):
+        return (_("Could not import the bugbuddy Python bindings"),
+                _("Make sure you have the bugbuddy Python bindings installed"))
+
+def _checkDependencies():
+    missing_deps = initial_checks()
+    if missing_deps:
+        message, detail = missing_deps
+        dialog = gtk.MessageDialog(type=gtk.MESSAGE_ERROR,
+                                   buttons=gtk.BUTTONS_OK)
+        dialog.set_markup("<b>"+message+"</b>")
+        dialog.format_secondary_text(detail)
+        dialog.run()
+
+        return False
+    return True
+
+
 def main (args):
     import gettext
     import locale
@@ -27,11 +59,13 @@ def main (args):
 
     import pygtk; pygtk.require('2.0');
     
-    import gtk
-
     import maindialog
     import lockdownappliergconf
     import config
+
+    # check for dependencies
+    if not _checkDependencies():
+        return
 
     try:
         locale.setlocale (locale.LC_ALL, "")

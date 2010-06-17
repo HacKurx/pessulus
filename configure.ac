@@ -11,9 +11,14 @@ AM_MAINTAINER_MODE
 dnl make sure we keep ACLOCAL_FLAGS around for maintainer builds to work
 AC_SUBST(ACLOCAL_AMFLAGS, "$ACLOCAL_FLAGS")
 
-PKG_CHECK_MODULES(PESSULUS,
-		  pygtk-2.0 >= 2.13.0		\
-		  gnome-python-desktop-2.0 >= 2.17.2)
+PKG_CHECK_MODULES([PESSULUS], [pygtk-2.0 >= 2.13.0])
+
+dnl Note for packagers
+dnl The following requirements are run-time requirements,
+dnl make sure you don't forget them, even though you're able to
+dnl build pitivi without them.
+#
+# bugbuddy python module
 
 GETTEXT_PACKAGE=pessulus
 AC_SUBST(GETTEXT_PACKAGE)
