@@ -1,4 +1,4 @@
-# Slovenian translation for pessulus.
+# Slovenian translations for pessulus.
 # Copyright (C) 2010 notification-daemon's COPYRIGHT HOLDER
 # This file is distributed under the same license as the pessulus package.
 #
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2010-04-25 08:39+0000\n"
-"PO-Revision-Date: 2010-04-25 10:43+0100\n"
+"POT-Creation-Date: 2010-06-17 17:18+0000\n"
+"PO-Revision-Date: 2010-06-17 21:41+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Nastavitev pravil zaklepanja"
 
 #: ../data/pessulus.desktop.in.in.h:2
 #: ../data/pessulus.ui.h:3
-#: ../Pessulus/main.py:54
+#: ../Pessulus/main.py:88
 msgid "Lockdown Editor"
 msgstr "Urejevalnik zaklepanja"
 
@@ -147,11 +147,19 @@ msgstr "Dovoli _preklop uporabnikov"
 msgid "Could not display help document '%s'"
 msgstr "Ni mogoče prikazati dokumenta pomoči '%s'"
 
-#: ../Pessulus/main.py:49
+#: ../Pessulus/main.py:38
+msgid "Could not import the bugbuddy Python bindings"
+msgstr "Ni mogoče uvoziti bugbuddy Python vezav"
+
+#: ../Pessulus/main.py:39
+msgid "Make sure you have the bugbuddy Python bindings installed"
+msgstr "Prepričajte se, da imate nameščene bugbuddy Python  vezave"
+
+#: ../Pessulus/main.py:83
 msgid "Cannot contact the GConf server"
 msgstr "Ni mogoče stopiti v stik s strežnikom GConf"
 
-#: ../Pessulus/main.py:50
+#: ../Pessulus/main.py:84
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su -'.\n"
 "If this is not the case, you can look at the output of the application to get more details."
