@@ -1,14 +1,14 @@
 # Hungarian translation of pessulus.
 # This file is distributed under the same license as the pessulus package.
-# Copyright (C) 2005, 2009, Free Software Foundation, Inc.
+# Copyright (C) 2005, 2009, 2010, Free Software Foundation, Inc.
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2009.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-08-11 15:18+0000\n"
-"PO-Revision-Date: 2009-08-29 12:35+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-19 17:13+0200\n"
+"PO-Revision-Date: 2010-06-19 17:13+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "Configure the lockdown policy"
 msgstr "A zárolási irányelv beállítása"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
-#: ../Pessulus/main.py:54
+#: ../Pessulus/main.py:88
 msgid "Lockdown Editor"
 msgstr "Zárolásszerkesztő"
 
@@ -31,12 +31,10 @@ msgid "Disable _unsafe protocols"
 msgstr "Nem _biztonságos protokollok letiltása"
 
 #: ../data/pessulus.ui.h:2
-#| msgid "<b>Disabled Applets</b>"
 msgid "Disabled Applets"
 msgstr "Letiltott kisalkalmazások"
 
 #: ../data/pessulus.ui.h:4
-#| msgid "<b>Safe Protocols</b>"
 msgid "Safe Protocols"
 msgstr "Biztonságos protokollok"
 
@@ -89,67 +87,75 @@ msgid "Disable force _quit"
 msgstr "_Erőltetett kilépés letiltása"
 
 #: ../Pessulus/maindialog.py:60
-msgid "Disable lock _screen"
-msgstr "_Képernyő zárolásának letiltása"
-
-#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "Kijele_ntkezés letiltása"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "_Kilépés letiltása"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "Tetszőleges _URL letiltása"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "Köny_vjelzők szerkesztésének letiltása"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "Előz_mények letiltása"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "_Javascript chrome letiltása"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "Eszköztár szerkesztésé_nek letiltása"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "_Teljes képernyős mód kényszerítése"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "_Menüsor elrejtése"
 
 #: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "_Képernyő zárolásának letiltása"
+
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "_Zárolás aktiváláskor"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Kijele_ntkezés engedélyezése"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "_Felhasználóváltás engedélyezése"
 
-#: ../Pessulus/maindialog.py:232
+#: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
 msgstr "A súgódokumentum nem jeleníthető meg: „%s”"
 
-#: ../Pessulus/main.py:49
+#: ../Pessulus/main.py:38
+msgid "Could not import the bugbuddy Python bindings"
+msgstr "A Bug Buddy Python kötései nem importálhatók"
+
+#: ../Pessulus/main.py:39
+msgid "Make sure you have the bugbuddy Python bindings installed"
+msgstr "Győződjön meg róla, hogy a Bug Buddy Python kötései telepítve vannak"
+
+#: ../Pessulus/main.py:83
 msgid "Cannot contact the GConf server"
 msgstr "Nem érhető el a GConf kiszolgáló"
 
-#: ../Pessulus/main.py:50
+#: ../Pessulus/main.py:84
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
@@ -159,4 +165,3 @@ msgstr ""
 "Ez általában akkor történi, ha az alkalmazást a „su” és nem a „su -” "
 "paranccsal futtatják.\n"
 "Ha nem ez történt, nézze meg az alkalmazás kimenetét további részletekért."
-
