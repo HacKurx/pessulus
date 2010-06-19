@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-17 11:19+0200\n"
-"PO-Revision-Date: 2009-10-17 11:20+0200\n"
+"POT-Creation-Date: 2010-06-19 23:54+0200\n"
+"PO-Revision-Date: 2010-06-19 23:54+0200\n"
 "Last-Translator: josep <josep.puigdemont@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgid "Configure the lockdown policy"
 msgstr "Configureu la política de restriccions"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
-#: ../Pessulus/main.py:54
+#: ../Pessulus/main.py:88
 msgid "Lockdown Editor"
 msgstr "Editor de restriccions"
 
@@ -144,11 +144,20 @@ msgstr "Permet commutar d'_usuari"
 msgid "Could not display help document '%s'"
 msgstr "No s'ha pogut mostrar el document d'ajuda «%s»"
 
-#: ../Pessulus/main.py:49
+#: ../Pessulus/main.py:38
+msgid "Could not import the bugbuddy Python bindings"
+msgstr "No s'han pogut importar les vinculacions de Python del BugBuddy"
+
+#: ../Pessulus/main.py:39
+msgid "Make sure you have the bugbuddy Python bindings installed"
+msgstr ""
+"Assegureu-vos que teniu les vinculacions de Python del BugBuddy instal·lades"
+
+#: ../Pessulus/main.py:83
 msgid "Cannot contact the GConf server"
 msgstr "No es pot contactar amb el servidor GConf"
 
-#: ../Pessulus/main.py:50
+#: ../Pessulus/main.py:84
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
