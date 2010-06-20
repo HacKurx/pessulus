@@ -5,15 +5,16 @@
 # Linux Centrs <info@linux.edu.lv>, 2006.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2009.
 # Anita Reitere <nitalynx@gmail.com>, 2010.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
 "cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-08-11 15:18+0000\n"
-"PO-Revision-Date: 2010-04-06 10:34+0300\n"
-"Last-Translator: Anita Reitere <nitalynx@gmail.com>\n"
-"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2010-06-17 17:18+0000\n"
+"PO-Revision-Date: 2010-06-20 09:55+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latviešu <lata-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +27,7 @@ msgid "Configure the lockdown policy"
 msgstr "Konfigurēt noslēgšanas noteikumus"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
-#: ../Pessulus/main.py:54
+#: ../Pessulus/main.py:88
 msgid "Lockdown Editor"
 msgstr "Noslēgšanas redaktors"
 
@@ -35,12 +36,10 @@ msgid "Disable _unsafe protocols"
 msgstr "Atslēgt nedroš_us protokolus"
 
 #: ../data/pessulus.ui.h:2
-#| msgid "<b>Disabled Applets</b>"
 msgid "Disabled Applets"
 msgstr "Atslēgtie sīkrīki"
 
 #: ../data/pessulus.ui.h:4
-#| msgid "<b>Safe Protocols</b>"
 msgid "Safe Protocols"
 msgstr "Droši protokoli"
 
@@ -93,67 +92,75 @@ msgid "Disable force _quit"
 msgstr "Atslēgt piespiedu i_ziešanu"
 
 #: ../Pessulus/maindialog.py:60
-msgid "Disable lock _screen"
-msgstr "At_slēgt ekrāna noslēgšanu"
-
-#: ../Pessulus/maindialog.py:61
 msgid "Disable log _out"
 msgstr "Atslēgt izlog_ošanos"
 
-#: ../Pessulus/maindialog.py:63
+#: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
 msgstr "Atslēgt i_ziešanu"
 
-#: ../Pessulus/maindialog.py:64
+#: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
 msgstr "Atslēgt p_atvaļīgu URL"
 
-#: ../Pessulus/maindialog.py:65
+#: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
 msgstr "Atslēgt grāmatzīmju la_bošanu"
 
-#: ../Pessulus/maindialog.py:66
+#: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
 msgstr "Atslēgt _vēsturi"
 
-#: ../Pessulus/maindialog.py:67
+#: ../Pessulus/maindialog.py:66
 msgid "Disable _javascript chrome"
 msgstr "Atslēgt _javascript hromu"
 
-#: ../Pessulus/maindialog.py:68
+#: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
 msgstr "Atslēg_t rīkjoslu labošanu"
 
-#: ../Pessulus/maindialog.py:69
+#: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
 msgstr "Uzspiest pilnekrāna _režīmu"
 
-#: ../Pessulus/maindialog.py:70
+#: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
 msgstr "Noslēpt _izvēlnes joslu"
 
 #: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "At_slēgt ekrāna noslēgšanu"
+
+#: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
 msgstr "Sākumā nos_lēgts"
 
-#: ../Pessulus/maindialog.py:72
+#: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
 msgstr "Atļaut izl_ogoties"
 
-#: ../Pessulus/maindialog.py:73
+#: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
 msgstr "Atļaut _mainīt lietotājus"
 
-#: ../Pessulus/maindialog.py:232
+#: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
 msgstr "Neizdevās parādīt palīdzības dokumentu '%s'"
 
-#: ../Pessulus/main.py:49
+#: ../Pessulus/main.py:38
+msgid "Could not import the bugbuddy Python bindings"
+msgstr "Nevarēja importēt bugbuddy Python sasaistes"
+
+#: ../Pessulus/main.py:39
+msgid "Make sure you have the bugbuddy Python bindings installed"
+msgstr "Pārliecinieties, ka jums ir uzinstalēti bugbuddy Python sasaistes"
+
+#: ../Pessulus/main.py:83
 msgid "Cannot contact the GConf server"
 msgstr "Nevar sazināties ar GConf serveri"
 
-#: ../Pessulus/main.py:50
+#: ../Pessulus/main.py:84
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
