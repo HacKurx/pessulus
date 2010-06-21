@@ -1,17 +1,17 @@
 # Pessuluse eesti keele tõlge.
 # Estonian translation of Pessulus.
 #
-# Copyright (C) 2006, 2009 The Gnome Project.
+# Copyright (C) 2006, 2009, 2010 The Gnome Project.
 # This file is distributed under the same license as the pessulus package.
 #
-# Ivar Smolin <okul@linux.ee>, 2006, 2009.
+# Ivar Smolin <okul@linux.ee>, 2006, 2009, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus HEAD\n"
+"Project-Id-Version: pessulus MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pessulus&component=general\n"
-"POT-Creation-Date: 2009-08-11 15:18+0000\n"
+"POT-Creation-Date: 2010-06-17 17:18+0000\n"
 "PO-Revision-Date: 2009-08-12 08:39+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
@@ -70,9 +70,6 @@ msgstr "Paneelid on _lukus"
 msgid "Disable force _quit"
 msgstr "_Jõuga sulgemine on keelatud"
 
-msgid "Disable lock _screen"
-msgstr "_Ekraani lukustamine on keelatud"
-
 msgid "Disable log _out"
 msgstr "_Väljalogimine on keelatud"
 
@@ -100,6 +97,9 @@ msgstr "_Täisekraanivaate pealesurumine"
 msgid "Hide _menubar"
 msgstr "_Menüüriba on peidus"
 
+msgid "Disable lock _screen"
+msgstr "_Ekraani lukustamine on keelatud"
+
 msgid "_Lock on activation"
 msgstr "_Lukustatakse aktiveerimisel"
 
@@ -112,6 +112,12 @@ msgstr "Kasutajate vahel _lülitumine lubatud"
 #, python-format
 msgid "Could not display help document '%s'"
 msgstr "Abidokumenti '%s' pole võimalik kuvada"
+
+msgid "Could not import the bugbuddy Python bindings"
+msgstr "Bugbuddy Pythoni seoseid pole võimalik importida"
+
+msgid "Make sure you have the bugbuddy Python bindings installed"
+msgstr "Palun kontrolli, kas bugbuddy Pythoni seosed on paigaldatud"
 
 msgid "Cannot contact the GConf server"
 msgstr "GConf-serveriga pole võimalik ühenduda"
