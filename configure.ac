@@ -13,13 +13,6 @@ AC_SUBST(ACLOCAL_AMFLAGS, "$ACLOCAL_FLAGS")
 
 PKG_CHECK_MODULES([PESSULUS], [pygtk-2.0 >= 2.13.0])
 
-dnl Note for packagers
-dnl The following requirements are run-time requirements,
-dnl make sure you don't forget them, even though you're able to
-dnl build pitivi without them.
-#
-# bugbuddy python module
-
 GETTEXT_PACKAGE=pessulus
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
@@ -71,4 +64,6 @@ echo "
 
         GConf source for mandatory values:  ${GCONF_MANDATORY_SOURCE}
 
+Those python modules are optional runtime dependencies:
+ bugbuddy (from gnome-python-desktop)
 "

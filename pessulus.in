@@ -20,9 +20,13 @@
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #
 import sys
-import bugbuddy
 
-bugbuddy.install()
+try:
+    import bugbuddy
+    bugbuddy.install()
+except:
+    # bugbuddy is optional, so it's not an issue if it's not there
+    pass
 
 if not "@pythondir@" in sys.path:
     sys.path.insert (0, "@pythondir@")
