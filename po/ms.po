@@ -1,0 +1,156 @@
+# Malay translation for pessulus.
+# Copyright (C) 2010 pessulus's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
+# Umarzuki Bin Mochlis Moktar <umar@umarzuki.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
+"POT-Creation-Date: 2010-06-22 02:21+0000\n"
+"PO-Revision-Date: 2010-07-08 21:26+0730\n"
+"Last-Translator: Umarzuki Bin Mochlis Moktar <umar@umarzuki.com>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Konfigur polisi lockdown"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.ui.h:3
+#: ../Pessulus/main.py:54
+msgid "Lockdown Editor"
+msgstr "Pengedit Lockdown"
+
+#: ../data/pessulus.ui.h:1
+msgid "Disable _unsafe protocols"
+msgstr "L_umpuhkan protokol tak selamat"
+
+#: ../data/pessulus.ui.h:2
+msgid "Disabled Applets"
+msgstr "Aplet-aplet Dilumpuhkan"
+
+#: ../data/pessulus.ui.h:4
+msgid "Safe Protocols"
+msgstr "Protokol-protokol selamat "
+
+#: ../Pessulus/lockdownbutton.py:100
+msgid "Click to make this setting not mandatory"
+msgstr "Klik untuk menjadikan tetapan ini wajib"
+
+#: ../Pessulus/lockdownbutton.py:102
+msgid "Click to make this setting mandatory"
+msgstr "Klik untuk menjadikan tetapan ini wajib"
+
+#: ../Pessulus/maindialog.py:40
+msgid "General"
+msgstr "Umum"
+
+#: ../Pessulus/maindialog.py:41
+msgid "Panel"
+msgstr "Panel"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Epiphany Web Browser"
+msgstr "Pelungsur Web Epiphany"
+
+#: ../Pessulus/maindialog.py:43
+msgid "GNOME Screensaver"
+msgstr "Pelindung skrin GNOME"
+
+#: ../Pessulus/maindialog.py:53
+msgid "Disable _command line"
+msgstr "Lumpuhkan _baris arahan"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _printing"
+msgstr "Lumpuhkan percetakan"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable print _setup"
+msgstr "Lumpuhkan penetapan cetakan"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable save to _disk"
+msgstr "Lumpuhkan simpan ke _cakera"
+
+#: ../Pessulus/maindialog.py:58
+msgid "_Lock down the panels"
+msgstr "Kunci pane_l"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable force _quit"
+msgstr "Lumpuhkan keluar Paksa"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable log _out"
+msgstr "Lumpuhkan l_og keluar"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _quit"
+msgstr "Lumpuhkan _keluar"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _arbitrary URL"
+msgstr "Lumpuhkan URL seb_arangan"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _bookmark editing"
+msgstr "Lumpuhkan pengeditan penanda _buku"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _history"
+msgstr "Lumpuhkan sejara_h"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _javascript chrome"
+msgstr "Lumpuhkan _javascript chrome"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _toolbar editing"
+msgstr "Lunmpuhkan pengeditan bar ala_tan"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Force _fullscreen mode"
+msgstr "Paksa mod skrinpenuh"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Hide _menubar"
+msgstr "Sembunyikan bar menu"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Disable lock _screen"
+msgstr "Lumpuhkan kunci skrin"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "Kunci _waktu pengaktifan"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "Benarkan l_og keluar"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "Benarkan pert_ukaran pengguna"
+
+#: ../Pessulus/maindialog.py:233
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Tak dapat memaparkan dokumen bantuan '%s'"
+
+#: ../Pessulus/main.py:49
+msgid "Cannot contact the GConf server"
+msgstr "Tidak dapat menghubungi pelayan GConf"
+
+#: ../Pessulus/main.py:50
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su -'.\n"
+"If this is not the case, you can look at the output of the application to get more details."
+msgstr ""
+"Ini biasanya terjadi bila menjalankan aplikasi dengan 'su' berbanding 'su -'.\n"
+"Jika bukan, lihat output aplikasi untuk butiran lebih."
+
