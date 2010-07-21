@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-19 14:55+0200\n"
+"POT-Creation-Date: 2010-07-21 14:43+0200\n"
 "PO-Revision-Date: 2010-06-19 14:56+0200\n"
 "Last-Translator: Fran Diéguez <frandieguez@ubuntu.com>\n"
 "Language-Team: Galician <gnome@g11.net>\n"
@@ -28,7 +28,7 @@ msgid "Configure the lockdown policy"
 msgstr "Configurar a política de bloqueos"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
-#: ../Pessulus/main.py:88
+#: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
 msgstr "Editor de restricións"
 
@@ -149,19 +149,11 @@ msgstr "Permitir cam_biar de usuario"
 msgid "Could not display help document '%s'"
 msgstr "Non foi posíbel mostrar o documento de axuda «%s»"
 
-#: ../Pessulus/main.py:38
-msgid "Could not import the bugbuddy Python bindings"
-msgstr "Non foi posíbel importar os bindings de Python para bugbuddy"
-
-#: ../Pessulus/main.py:39
-msgid "Make sure you have the bugbuddy Python bindings installed"
-msgstr "Asegúrese que ten instalados os bindings de Python para bugbuddy"
-
-#: ../Pessulus/main.py:83
+#: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
 msgstr "Non foi posíbel contactar co servidor Gconf"
 
-#: ../Pessulus/main.py:84
+#: ../Pessulus/main.py:50
 msgid ""
 "This usually happens when running this application with 'su' instead of 'su "
 "-'.\n"
