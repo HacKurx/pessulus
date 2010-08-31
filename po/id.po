@@ -1,40 +1,45 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# translation of pessulus.master.po to Indonesian
+# Copyright (C) 2006 THE pessulus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pessulus package.
 #
+# Ahmad Riza H Nst <rizahnst@gnome.org>, 2006.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2009.
+# Dirgita <dirgitadevina@gmail.com>, 2010.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: Pessulus.gnome.2.24\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-21 15:38+0300\n"
-"PO-Revision-Date: 2009-10-13 13:12+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
-"Language-Team: Bahasa Indonesia <LL@li.org>\n"
+"Project-Id-Version: pessulus.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2010-07-21 12:44+0000\n"
+"PO-Revision-Date: 2010-08-28 22:19+0700\n"
+"Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
+"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Indonesian\n"
 "X-Poedit-Country: INDONESIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "Konfigurasi kebijakan penahanan"
+msgstr "Konfigurasi kebijakan kuncian"
 
-#: ../data/pessulus.desktop.in.in.h:2
-#: ../data/pessulus.ui.h:3
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
 #: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
-msgstr "Editor Penahanan"
+msgstr "Penyunting Kuncian"
 
 #: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
-msgstr "Nonaktifkan protokol tidak _aman"
+msgstr "_Nonaktifkan protokol tak aman"
 
 #: ../data/pessulus.ui.h:2
 msgid "Disabled Applets"
-msgstr "Aplet Dinon-aktifkan"
+msgstr "Aplet Dinonaktifkan"
 
 #: ../data/pessulus.ui.h:4
 msgid "Safe Protocols"
@@ -42,11 +47,11 @@ msgstr "Protokol Aman"
 
 #: ../Pessulus/lockdownbutton.py:100
 msgid "Click to make this setting not mandatory"
-msgstr "Klik untuk menjadikan setelan ini tidak wajib"
+msgstr "Klik untuk membuat setelan ini tidak wajib"
 
 #: ../Pessulus/lockdownbutton.py:102
 msgid "Click to make this setting mandatory"
-msgstr "Klik untuk menjadikan setelan ini wajib"
+msgstr "Klik untuk membuat setelan ini wajib"
 
 #: ../Pessulus/maindialog.py:40
 msgid "General"
@@ -58,11 +63,11 @@ msgstr "Panel"
 
 #: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
-msgstr "Peramban Web Epiphany"
+msgstr "Epiphany Peramban Web"
 
 #: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
-msgstr "Screensaver GNOME"
+msgstr "Pengaman Layar GNOME"
 
 #: ../Pessulus/maindialog.py:53
 msgid "Disable _command line"
@@ -74,23 +79,23 @@ msgstr "Nonaktifkan _pencetakan"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
-msgstr "Nonaktifkan _setelan pencetakan"
+msgstr "Nonaktifkan _setelan mencetak"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
-msgstr "Nonaktifkan simpan ke _disk"
+msgstr "Nonaktifkan simpan ke _diska"
 
 #: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
-msgstr "Tahan pane_l"
+msgstr "Kunci pane_l"
 
 #: ../Pessulus/maindialog.py:59
 msgid "Disable force _quit"
-msgstr "Nonaktifkan keluar _paksa"
+msgstr "Nonaktifkan tutup _paksa"
 
 #: ../Pessulus/maindialog.py:60
 msgid "Disable log _out"
-msgstr "Nonaktifkan _log keluar"
+msgstr "Nonaktifkan l_og keluar"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
@@ -98,11 +103,11 @@ msgstr "Nonaktifkan _keluar"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
-msgstr "Nonaktifkan sebarang _URL"
+msgstr "Non_aktifkan sebarang URL"
 
 #: ../Pessulus/maindialog.py:64
 msgid "Disable _bookmark editing"
-msgstr "Nonaktifkan pengeditan _bookmark"
+msgstr "Nonaktifkan menyunting _penanda tautan"
 
 #: ../Pessulus/maindialog.py:65
 msgid "Disable _history"
@@ -114,19 +119,19 @@ msgstr "Nonaktifkan _javascript chrome"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
-msgstr "Nonaktifkan pengeditan _toolbar"
+msgstr "Nonak_tifkan menyunting baris alat"
 
 #: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
-msgstr "Paksakan mode layar penuh"
+msgstr "Paksakan mode _layar penuh"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
-msgstr "Sembunyikan batang _menu"
+msgstr "Sembunyikan baris _menu"
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable lock _screen"
-msgstr "Nonaktifkan pengunc_ian layar"
+msgstr "Nonaktifkan _kunci layar"
 
 #: ../Pessulus/maindialog.py:72
 msgid "_Lock on activation"
@@ -143,17 +148,20 @@ msgstr "Izinkan pergantian _pengguna"
 #: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
-msgstr "Tak bisa tampilkan dokumen bantuan '%s'"
+msgstr "Tidak dapat membuka dokumen bantuan '%s'"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
-msgstr "Tak dapat menghubungi server GConf"
+msgstr "Tidak dapat menghubungi server GConf"
 
 #: ../Pessulus/main.py:50
 msgid ""
-"This usually happens when running this application with 'su' instead of 'su -'.\n"
-"If this is not the case, you can look at the output of the application to get more details."
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
 msgstr ""
-"Ini biasanya terjadi ketika menjalankan aplikasi ini dengan 'su' alih-alih 'su -'.\n"
-"Bila bukan ini masalahnya, Anda dapat melihat keluaran dari aplikasi untuk memperoleh rincian."
-
+"Ini biasanya terjadi ketika menjalankan aplikasi ini dengan perintah 'su' "
+"alih-alih 'su -'.\n"
+"Bila bukan ini masalahnya, Anda dapat melihat keluaran dari aplikasi ini "
+"untuk memperoleh gambaran yang lebih rinci."
