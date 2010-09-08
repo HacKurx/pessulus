@@ -19,9 +19,6 @@ EXTRA_DIST =			\
 CLEANFILES =		\
 	pessulus
 
-DISTCLEANFILES =		\
-	$(NULL)
-
 MAINTAINERCLEANFILES = \
 	$(srcdir)/INSTALL \
 	$(srcdir)/aclocal.m4 \
