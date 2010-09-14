@@ -1,4 +1,19 @@
 ==============
+Version 2.30.3
+==============
+
+  Misc
+
+	* Require intltool 0.40.0 (Vincent)
+	* Update information in README and other files (Vincent)
+
+  Translators
+
+	* Fran Diéguez (gl)
+	* Dirgita (id)
+	* Umarzuki Bin Mochlis Moktar (ms)
+
+==============
 Version 2.30.2
 ==============
 
