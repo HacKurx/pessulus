@@ -1,14 +1,15 @@
 # pessulus ja.po.
-# Copyright (C) 2005,2006,2009 Free Software Foundation, Inc.
+# Copyright (C) 2005,2006,2009,2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2005,2006,2009.
 # Satoru SATOH <ss@gnome.gr.jp>, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pessulus trunk\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-15 12:31+0900\n"
+"Project-Id-Version: pessulus master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2010-09-14 12:48+0000\n"
 "PO-Revision-Date: 2009-10-15 12:28+0900\n"
 "Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -115,7 +116,7 @@ msgstr "ツールバーの編集を無効にする(_T)"
 
 #: ../Pessulus/maindialog.py:68
 msgid "Force _fullscreen mode"
-msgstr "強制的にフルスクリーン・モードにする(_F)"
+msgstr "強制的にフルスクリーンモードにする(_F)"
 
 #: ../Pessulus/maindialog.py:69
 msgid "Hide _menubar"
@@ -156,4 +157,4 @@ msgstr ""
 "一般的に、この現象は Pessulus を 'su -' ではなく 'su' で起動した場合に発生し"
 "ます。\n"
 "もしこれに該当しない場合は、このアプリケーションのログから問題の詳細を調査し"
-"てみて下さい。"
+"てみてください。"
