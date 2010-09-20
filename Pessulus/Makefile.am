@@ -16,11 +16,6 @@ app_PYTHON = 			\
 
 nodist_app_PYTHON = config.py
 
-CLEANFILES = config.py
-EXTRA_DIST = config.py.in
-
-all-local: config.py
-
 config.py: config.py.in Makefile
 	$(AM_V_GEN)sed								\
 		-e s!\@LOCALEDIR\@!$(datadir)/locale!			\
@@ -30,5 +25,9 @@ config.py: config.py.in Makefile
 		-e s!\@PACKAGE_NAME\@!$(PACKAGE_NAME)!			\
 		-e s!\@PACKAGE_VERSION\@!$(PACKAGE_VERSION)!		\
 		< $< > $@
+
+EXTRA_DIST = config.py.in
+
+CLEANFILES = config.py
 
 -include $(top_srcdir)/git.mk

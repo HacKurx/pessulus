@@ -1,6 +1,4 @@
-NULL =
-
-SUBDIRS = data po Pessulus
+SUBDIRS = Pessulus data po
 
 ACLOCAL_AMFLAGS = -I m4
 
@@ -13,8 +11,7 @@ pessulus: pessulus.in Makefile
 EXTRA_DIST =			\
 	HACKING			\
 	MAINTAINERS		\
-	pessulus.in		\
-	$(NULL)
+	pessulus.in
 
 CLEANFILES =		\
 	pessulus
