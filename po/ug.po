@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the pessulus package.
 # Gheyret Kenji <gheyret@yahoo.com>, 2010.
 # Sahran <sahran.ug@gmail.com>, 2010
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2010-09-30 22:14+0000\n"
+"POT-Creation-Date: 2010-11-13 21:55+0000\n"
 "PO-Revision-Date: 2010-04-18 10:22+0000\n"
 "Last-Translator: Sahran <sahran.ug@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
