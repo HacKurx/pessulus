@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2010-11-13 21:55+0000\n"
+"POT-Creation-Date: 2010-11-20 11:58+0000\n"
 "PO-Revision-Date: 2010-04-18 10:22+0000\n"
 "Last-Translator: Sahran <sahran.ug@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -47,7 +47,7 @@ msgstr "چېكىلسە بۇ تەڭشەك مەجبۇرىي قىممەت قىلى�
 
 #: ../Pessulus/maindialog.py:40
 msgid "General"
-msgstr "ئادەتتە"
+msgstr "ئادەتتىكى"
 
 #: ../Pessulus/maindialog.py:41
 msgid "Panel"
