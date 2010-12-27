@@ -14,18 +14,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-21 14:43+0200\n"
-"PO-Revision-Date: 2010-06-19 14:56+0200\n"
+"POT-Creation-Date: 2010-10-20 13:47+0200\n"
+"PO-Revision-Date: 2010-12-27 18:12+0100\n"
 "Last-Translator: Fran Diéguez <frandieguez@ubuntu.com>\n"
-"Language-Team: Galician <gnome@g11.net>\n"
+"Language-Team: Galician <gnome-gl-list@gnome.org>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
 msgid "Configure the lockdown policy"
-msgstr "Configurar a política de bloqueos"
+msgstr "Configurar a política de restricións"
 
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
 #: ../Pessulus/main.py:54
@@ -78,7 +79,7 @@ msgstr "Desactivar _impresión"
 
 #: ../Pessulus/maindialog.py:55
 msgid "Disable print _setup"
-msgstr "Desactivar a _configuración de impresión"
+msgstr "Desactivar a _configuración de impresora"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
@@ -151,7 +152,7 @@ msgstr "Non foi posíbel mostrar o documento de axuda «%s»"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
-msgstr "Non foi posíbel contactar co servidor Gconf"
+msgstr "Non foi posíbel contactar co servidor de Gconf"
 
 #: ../Pessulus/main.py:50
 msgid ""
