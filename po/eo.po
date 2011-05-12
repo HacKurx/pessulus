@@ -1,34 +1,37 @@
 # Esperanto translation for pessulus.
-# Copyright (C) 2010 pessulus's COPYRIGHT HOLDER
+# Copyright (C) 2010 - 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the pessulus package.
-# sbrown1992 <EMAIL@ADDRESS>, 2010.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+# sbrown1992 < >, 2010.
+# Thomas Heinis < >, 2011.
+# Thomas MORONI < >, 2011.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pessulus master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pessulus&component=general\n"
-"POT-Creation-Date: 2010-05-31 06:37+0000\n"
-"PO-Revision-Date: 2010-05-31 17:02+0100\n"
-"Last-Translator: Kristjan <kristjan.schmidt@googlemail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2011-02-23 21:57+0000\n"
+"PO-Revision-Date: 2011-05-12 20:22+0200\n"
+"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Launchpad-Export-Date: 2011-05-12 18:12+0000\n"
+"X-Generator: Launchpad (build 13023)\n"
 "X-Poedit-Language: Esperanto\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../data/pessulus.desktop.in.in.h:1
-#, fuzzy
 msgid "Configure the lockdown policy"
-msgstr "Agordi la ŝlosegaĵan politikon"
+msgstr "Agordi la polikon de uzoŝlosado"
 
-#: ../data/pessulus.desktop.in.in.h:2
-#: ../data/pessulus.ui.h:3
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
 #: ../Pessulus/main.py:54
-#, fuzzy
 msgid "Lockdown Editor"
-msgstr "Ŝlosegaĵa redaktilo"
+msgstr "Uzoŝlosada redaktilo"
 
 #: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
@@ -36,7 +39,7 @@ msgstr "Malebligi _malsekurajn protokolojn"
 
 #: ../data/pessulus.ui.h:2
 msgid "Disabled Applets"
-msgstr "Malebligitaj retprogramojn"
+msgstr "Malebligitaj apletoj"
 
 #: ../data/pessulus.ui.h:4
 msgid "Safe Protocols"
@@ -60,7 +63,7 @@ msgstr "Panelo"
 
 #: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
-msgstr "Foliumilo Epiphany"
+msgstr "Retfoliumilo 'Epifanio'"
 
 #: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
@@ -80,7 +83,7 @@ msgstr "Malebligi pre_soagordon"
 
 #: ../Pessulus/maindialog.py:56
 msgid "Disable save to _disk"
-msgstr "Malebligi savon sur _disko"
+msgstr "Malebligi konservon al _disko"
 
 #: ../Pessulus/maindialog.py:58
 msgid "_Lock down the panels"
@@ -96,7 +99,7 @@ msgstr "Malebligi _elsaluton"
 
 #: ../Pessulus/maindialog.py:62
 msgid "Disable _quit"
-msgstr "Malebligi _ĉeson"
+msgstr "Malebligi ĉ_eson"
 
 #: ../Pessulus/maindialog.py:63
 msgid "Disable _arbitrary URL"
@@ -111,9 +114,8 @@ msgid "Disable _history"
 msgstr "Malebligi _historion"
 
 #: ../Pessulus/maindialog.py:66
-#, fuzzy
 msgid "Disable _javascript chrome"
-msgstr "Malebligi _ĝavoskripton Kromo"
+msgstr "Malebligi ĝa_voskript-kromon"
 
 #: ../Pessulus/maindialog.py:67
 msgid "Disable _toolbar editing"
@@ -129,12 +131,11 @@ msgstr "Kaŝi _menuobreton"
 
 #: ../Pessulus/maindialog.py:71
 msgid "Disable lock _screen"
-msgstr "Malebligi ekranoŝlosadon"
+msgstr "Malebligi _ekranoŝlosadon"
 
 #: ../Pessulus/maindialog.py:72
-#, fuzzy
 msgid "_Lock on activation"
-msgstr "_Ŝlosi dum aktivigo"
+msgstr "Ŝ_losi ĉe ŝaltado"
 
 #: ../Pessulus/maindialog.py:73
 msgid "Allow log _out"
@@ -147,17 +148,20 @@ msgstr "Permesi uzanto_ŝaltadon"
 #: ../Pessulus/maindialog.py:233
 #, python-format
 msgid "Could not display help document '%s'"
-msgstr "Ne povis montri helpdosieron '%s' "
+msgstr "Ne eblas montri helpdosieron '%s'"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
-msgstr "Ne povas kontakti la GConf-servilon"
+msgstr "Ne eblas kontakti la GConf-servilon"
 
 #: ../Pessulus/main.py:50
 msgid ""
-"This usually happens when running this application with 'su' instead of 'su -'.\n"
-"If this is not the case, you can look at the output of the application to get more details."
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
 msgstr ""
-"Tio kutime okazas se tiu aplikaĵo estas lanĉita per 'su' anstataŭ per 'su -'.\n"
-"Se tio ne estas la kazo, vi povas rigardi la eligon de la aplikaĵo por ricevi pli da detaloj."
-
+"Tio kutime okazas se tiu aplikaĵo estas lanĉita per 'su' anstataŭ per 'su "
+"-'.\n"
+"Se tio ne estas la kazo, vi povas rigardi la eligon de la aplikaĵo por "
+"ricevi pli da detaloj."
