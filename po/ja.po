@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pessulus&component=general\n"
-"POT-Creation-Date: 2010-09-14 12:48+0000\n"
-"PO-Revision-Date: 2009-10-15 12:28+0900\n"
-"Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
+"product=pessulus&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-05-12 18:24+0000\n"
+"PO-Revision-Date: 2012-01-01 19:56+0900\n"
+"Last-Translator: Jiro Matsuzawa <jmatsuzawa@src.gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "ロックダウンのポリシーを設定します"
 #: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.ui.h:3
 #: ../Pessulus/main.py:54
 msgid "Lockdown Editor"
-msgstr "ロックダウン・エディタ"
+msgstr "ロックダウン・エディター"
 
 #: ../data/pessulus.ui.h:1
 msgid "Disable _unsafe protocols"
@@ -56,7 +56,7 @@ msgstr "パネル"
 
 #: ../Pessulus/maindialog.py:42
 msgid "Epiphany Web Browser"
-msgstr "Epiphany ウェブ・ブラウザ"
+msgstr "Epiphany ウェブ・ブラウザー"
 
 #: ../Pessulus/maindialog.py:43
 msgid "GNOME Screensaver"
@@ -136,7 +136,7 @@ msgstr "ログアウトを許可する(_O)"
 
 #: ../Pessulus/maindialog.py:74
 msgid "Allow user _switching"
-msgstr "ユーザの切り替えを許可する(_S)"
+msgstr "ユーザーの切り替えを許可する(_S)"
 
 #: ../Pessulus/maindialog.py:233
 #, python-format
@@ -145,7 +145,7 @@ msgstr "'%s' のヘルプを表示できませんでした"
 
 #: ../Pessulus/main.py:49
 msgid "Cannot contact the GConf server"
-msgstr "GConf サーバに接続できませんでした"
+msgstr "GConf サーバーに接続できませんでした"
 
 #: ../Pessulus/main.py:50
 msgid ""
