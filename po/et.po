@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pessulus MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pessulus&component=general\n"
-"POT-Creation-Date: 2010-11-20 11:58+0000\n"
+"product=pessulus&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-21 07:23+0000\n"
 "PO-Revision-Date: 2009-08-12 08:39+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
@@ -20,20 +20,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Configure the lockdown policy"
-msgstr "Lukustusreeglite määramine"
-
 msgid "Lockdown Editor"
 msgstr "Lukustuste redaktor"
 
-msgid "Disable _unsafe protocols"
-msgstr "_Ohtlikud protokollid on keelatud"
+msgid "Configure the lockdown policy"
+msgstr "Lukustusreeglite määramine"
 
 msgid "Disabled Applets"
 msgstr "Keelatud rakendid"
 
 msgid "Safe Protocols"
 msgstr "Ohutud protokollid"
+
+msgid "Disable _unsafe protocols"
+msgstr "_Ohtlikud protokollid on keelatud"
 
 msgid "Click to make this setting not mandatory"
 msgstr "Selle sätte mittekohustuslikuks muutmiseks klõpsa siia"
